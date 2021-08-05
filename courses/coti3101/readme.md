@@ -12,4 +12,4 @@ used to read the file of employees.
 
 Output of the Java Program: 
 
-![alt text](https://github.com/cristian9217/cristian9217/blob/119c67e4636f5cb03e7e17032336e0ccf361e086/courses/coti3101/payrollFile.PNG)
+![alt text](https://github.com/cristian9217/cristian9217/blob/119c67e4636f5cb03e7e17032336e0ccf361e086/courses/coti3101/payrollfile.PNG)
