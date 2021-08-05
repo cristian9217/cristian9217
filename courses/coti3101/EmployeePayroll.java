@@ -1,5 +1,5 @@
 /*
- * University of Puerto Rico at BayamÛn
+ * University of Puerto Rico at Bayam√≥n
  * Department of Computer Science
  * COTI 3101 - Algorithms and Program Development I, Spring 2017, Section LR1
  * Prof. Lenis Torres-Berrios
@@ -13,7 +13,7 @@ import java.io.*; // For file I/O classes
 /**
  * This is a class reads a file and writes in file the ID, firstName, 
  * lastName, department and weekly salary of that employee.
- * @author Cristian M. Pag·n {@literal <cristian.pagan3@upr.edu>}
+ * @author Cristian M. Pag√°n {@literal <cristian.pagan3@upr.edu>}
  * @version 1.0
  * @since 16/05/2017
  */
@@ -26,7 +26,7 @@ public class EmployeePayroll
 		
 		// Declare the variables. 
 		String inFile, id, name, lastName, department, outFile = null;
-		int count = 0;
+		int count = 0, hours;
 		double salary, payRate;
 		
 		// Get the name of the filename.
@@ -52,7 +52,7 @@ public class EmployeePayroll
 			name = inputFile.next();
 			lastName = inputFile.next();
 			department = inputFile.next();
-			int hours = inputFile.nextInt();
+			hours = inputFile.nextInt();
 			payRate = inputFile.nextDouble(); 
 
 			// Calculates the weekly salary of that employee.
@@ -60,15 +60,15 @@ public class EmployeePayroll
 			
 			// Prints to the file id, name, lastName, department and salary.
 			outputFile.println(id + "\t" + name + "\t" + lastName + "\t" + 
-												department + "\t" + salary);
+							   department + "\t" + salary);
 			
 			// Counts the employee read and written in the file.
 			count++;
 		}
 		
 		// Prints how many employee's were read.
-	    System.out.printf("\nAll %d employees were read.\n", count);
-	    System.out.println("Results were written in " + outFile);
+	    	System.out.printf("\nAll %d employees were read.\n", count);
+	    	System.out.println("Results were written in " + outFile);
 		
 		// Close the file and keyboard.
 		keyboard.close();
