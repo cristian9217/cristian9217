@@ -6,3 +6,6 @@ Write a Java program (EmployeePayroll.java) that reads a file of employees (empl
 
 The 
 <a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3101/EmployeePayroll.java"> code </a>
+and 
+<a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3101/EmployeePayroll.java"> text file </a>
+used to read the file of employees. 
