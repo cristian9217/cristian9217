@@ -15,9 +15,10 @@ used to read the file of employees.
 
 Output of the Java Program: 
 
-<img src="https://github.com/cristian9217/cristian9217/blob/946565968c70180399b365a570521015a3e621e6/courses/coti3101/payrollfile.PNG" 
+<img src="https://github.com/cristian9217/cristian9217/blob/9f6e8d2a9c51b78f2a9b8fa68f827c01ac3205ae/courses/coti3101/payrollOutput.PNG" 
      width=50% height=50% style = text-align:center>
 
 Output of the File of the employees: 
-<img src="https://github.com/cristian9217/cristian9217/blob/946565968c70180399b365a570521015a3e621e6/courses/coti3101/payrollfile.PNG" 
+
+<img src="https://github.com/cristian9217/cristian9217/blob/9f6e8d2a9c51b78f2a9b8fa68f827c01ac3205ae/courses/coti3101/payrollFile.PNG" 
      width=50% height=50% style = text-align:center>
