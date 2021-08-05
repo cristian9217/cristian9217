@@ -17,3 +17,7 @@ Output of the Java Program:
 
 <img src="https://github.com/cristian9217/cristian9217/blob/946565968c70180399b365a570521015a3e621e6/courses/coti3101/payrollfile.PNG" 
      width=50% height=50% style = text-align:center>
+
+Output of the File of the employees: 
+<img src="https://github.com/cristian9217/cristian9217/blob/946565968c70180399b365a570521015a3e621e6/courses/coti3101/payrollfile.PNG" 
+     width=50% height=50% style = text-align:center>
