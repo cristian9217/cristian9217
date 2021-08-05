@@ -1,0 +1,15 @@
+1001	James Briggs	HR	43	7.25
+1002	Lester Gamble	Finance	48	8.25
+1003	Irving Hensley	Marketing	20	7.25
+1004	Milton Rosales	Finance	36	8.25
+1005	Jamison Moses	Budget	40	7.25
+1006	Jessie Moody	Finance	36	8.25
+1007	Barry Sexton	Marketing	32	7.25
+1008	Joshua Smith	Finance	28	8.0
+1009	Teresa Norman	IT	45	11.25
+1011	Joshua Smith	HR	28	7.25
+1012    Mike Santana	HR	30	7.25
+1013	Marlon Dalton	Finance	32	8.0
+1014	Edward Diaz		IT	35	9.25
+1015	Chris Tapia		Marketing	25	7.25
+1016	Jerry Nolan		Budget	30	7.25
