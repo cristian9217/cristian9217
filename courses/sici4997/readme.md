@@ -10,7 +10,7 @@ You create a database called UPRB_System has information related to each semeste
   <li>How many students are in the distance mode? </li>
   <li>How many students of the COTI3101 course are face-to-face mode? </li>
   <li>How many courses have been created from COTI3101 for semester C11? </li>
-  <li>How many courses does Juan M. Sola offer in semester C11? </li>
+  <li>How many courses does Juan M. Sola Sloan offer in semester C11? </li>
   <li>How many courses were offered on Tuesdays and Thursdays in semester C11? </li>
   <li>How many courses were offered on Wednesdays in semester C11? </li>
   <li>How many courses were offered in the summer C03? </li>
