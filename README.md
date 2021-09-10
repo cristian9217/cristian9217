@@ -4,7 +4,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently studying.
+- 🔭 I’m currently studying on Computer Science. 
 - 🌱 I’m currently learning Python, Java, HTML and PHP.
 - 📫 How to reach me: cristianmiguel10@gmail.com
 
