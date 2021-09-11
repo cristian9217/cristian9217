@@ -128,14 +128,14 @@
 	    };
 	    
 	    if(window.location.hash) {
-		    if(window.location.hash == "#es") {
+		    if(window.location.hash === "#es") {
 			    msg.textContent = language.es.welcome;
 		    }
 	    }
 	    
 	    for(i = 0; i <= dataReload.length; i++) {
 		    dataReload[i].onclick = function() {
-			    location.reload(true)
+			    location.reload(true);
 		    };
 	    }
     </script> 
