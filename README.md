@@ -9,3 +9,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: cristianmiguel10@gmail.com
 
 Web link to the page: https://cristian9217.github.io/cristian9217/welcome.html
+
+Web link to certifications: https://www.studysection.com/certification-exams
