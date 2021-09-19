@@ -22,8 +22,6 @@
 		<a class="nav-link disabled" href="#"> <b> Course </b> </a> 
 	</li>
       </ul>
-      <a href = "#eng" data-reload> English </a>
-      <a href = "#es" data-reload> Espa&ntilde;ol </a>
     </nav>
 
     <!-- Title of the Project and name of the course -->
@@ -113,32 +111,7 @@
 				<a class="text-dark" href="mailto:cristianmiguel10@gmail.com"> Send Email </a>
 			</div>
 		</footer>
-    </div>
-    
-    <script> 
-	    var dataReload = document.querySelectorAll("[data-reload]");
-	    
-	    var language = {
-		    eng: {
-			welcome: " Major-related courses"
-		    }, 
-		    es: {
-			welcome: "Cursos relacionados con la especialidad" 
-		    }
-	    };
-	    
-	    if(window.location.hash) {
-		    if(window.location.hash === "#es") {
-			    msg.textContent = language.es.welcome;
-		    }
-	    }
-	    
-	    for(i = 0; i <= dataReload.length - 1; i++) {
-		    dataReload[i].onclick = function() {
-			    location.reload(true);
-		    };
-	    }
-    </script> 
+	  </div>
 	
   </body>
 </html>
