@@ -7,15 +7,16 @@ public class Greedy {
 	public static void main(String[] args) {
 		
 		int [] arrWl = {100,200,140,600};
+		int len = 4;
 		int [] items = {50,60,70,100,50,41,25,78,90,41,600};
-		int [] arrWlcopy = Arrays.copyOf(arrWl, arrWl.length);
+		int [] arrWlcopy = Arrays.copyOf(arrWl, len);
 		int [] arrIdx = sortIdx(arrWl);
 		descendingSort(arrWl);
 		items = descendingSort(items);
 		
-		ArrayList< ArrayList<Integer> > Loading = new ArrayList< ArrayList<Integer> >(arrWl.length);
+		ArrayList< ArrayList<Integer> > Loading = new ArrayList< ArrayList<Integer> >(len);
 	
-		for(int x = 0; x < arrWl.length; x++) {
+		for(int x = 0; x < len; x++) {
 			int acum = 0;
 			ArrayList<Integer> Cargo = new ArrayList<Integer>();
 			for(int y = 0; y < items.length; y++) {
