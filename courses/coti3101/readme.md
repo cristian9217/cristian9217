@@ -10,7 +10,7 @@ fullname, departament and weekly salary.
 The 
 <a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3101/EmployeePayroll.java"> code </a>
 and 
-<a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3101/EmployeePayroll.java"> text file </a>
+<a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3101/employee.txt"> text file </a>
 used to read the file of employees. 
 
 Output of the Java Program: 
