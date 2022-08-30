@@ -111,5 +111,4 @@ public interface IntStack
 	 * @return String representation of the contents of the stack
 	 */
 	String toString();
-		
 }

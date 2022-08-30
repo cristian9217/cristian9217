@@ -50,7 +50,8 @@ public class IntLinkedQueue implements IntQueue
     public int remove() 
     {
         if (isEmpty())
-            throw new EmptyCollectionException("Empty queue");
+            throw new EmptyCollectionException("empty queue");
+        
         int elem = front.data;
         front = front.next;
         if (front == null)
@@ -77,13 +78,18 @@ public class IntLinkedQueue implements IntQueue
     /** {@inheritDoc} */
     @Override
     public int size() {
-        return size;
+    	 if (isEmpty())
+             throw new EmptyCollectionException("empty queue");
+    	return size;
     }
 
     /** {@inheritDoc} */
     @Override
     public int sum() 
     {
+    	 if (isEmpty())
+             throw new EmptyCollectionException("empty queue");
+    	 
     	int sum = 0;
 		for (Node curr = front; curr != null; curr = curr.next)
 			sum += curr.data;
@@ -93,6 +99,8 @@ public class IntLinkedQueue implements IntQueue
     /** {@inheritDoc} */
 	@Override
 	public double average() {
+		if (isEmpty())
+			throw new EmptyCollectionException("empty queue");
 		return sum() / size; // Alt. sum() / size(); 
 	}
 
@@ -100,6 +108,9 @@ public class IntLinkedQueue implements IntQueue
 	@Override
 	public int minimum() 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty queue");
+		
 		// Has the first element of the stack.
 		int min = front.data;
 		
@@ -113,6 +124,9 @@ public class IntLinkedQueue implements IntQueue
 	@Override
 	public int maximum() 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty queue");
+		
 		// Has the first element of the stack.
 		int max = front.data;
 		
@@ -125,7 +139,11 @@ public class IntLinkedQueue implements IntQueue
     
     /** {@inheritDoc} */
     @Override
-    public String toString() {
+    public String toString() 
+    {
+    	 if (isEmpty())
+             throw new EmptyCollectionException("empty queue");
+    	 
         StringBuilder str = new StringBuilder("[");
         for (Node curr = front; curr != null; curr = curr.next) {
             str.append(curr.data);
@@ -137,7 +155,11 @@ public class IntLinkedQueue implements IntQueue
 
     /** {@inheritDoc} */
 	@Override
-	public int linearSearch(int elem) {
+	public int linearSearch(int elem) 
+	{
+		 if (isEmpty())
+			 throw new EmptyCollectionException("empty queue"); 
+		
 		 int pos = 0;
 	     for (Node curr = front; curr != null; curr = curr.next)
 	    	 if (elem == curr.data)
@@ -147,9 +169,13 @@ public class IntLinkedQueue implements IntQueue
 	     return -1;
 	}
 
-	 /** {@inheritDoc} */
+	/** {@inheritDoc} */
 	@Override
-	public int sumOfSquares() {
+	public int sumOfSquares() 
+	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty queue");
+		
 		int sum = 0;
 		for (Node curr = front; curr != null; curr = curr.next)
 			sum += curr.data * curr.data;
@@ -159,6 +185,9 @@ public class IntLinkedQueue implements IntQueue
 	/** {@inheritDoc} */
 	@Override
 	public int count(int elem) {
+		 if (isEmpty())
+	            throw new EmptyCollectionException("empty queue");
+		
 		int count = 0;
 		for(Node curr = front; curr != null; curr = curr.next)
 			if(curr.data == elem)
@@ -169,6 +198,9 @@ public class IntLinkedQueue implements IntQueue
 	 /** {@inheritDoc} */
 	@Override
 	public int countEven() {
+		if (isEmpty())
+			throw new EmptyCollectionException("empty queue");
+		
 		int count = 0;
 		for(Node curr = front; curr != null; curr = curr.next)
 			if(curr.data % 2 == 0)
@@ -179,6 +211,9 @@ public class IntLinkedQueue implements IntQueue
 	/** {@inheritDoc} */
 	@Override
 	public int countOdd() {
+		if (isEmpty())
+			throw new EmptyCollectionException("empty queue");
+		
 		int count = 0;
 		for(Node curr = front; curr != null; curr = curr.next)
 			if(curr.data % 2 != 0)

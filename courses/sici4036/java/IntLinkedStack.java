@@ -66,6 +66,9 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public int sum() 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		int sum = 0;
 		for (Node curr = head; curr != null; curr = curr.next)
 			sum += curr.data;
@@ -75,6 +78,8 @@ public class IntLinkedStack implements IntStack
 	/** {@inheritDoc} */
 	@Override
 	public double average() {
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
 		return sum() / size(); // Alt. sum() / size; 
 	}
 
@@ -82,6 +87,9 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public int minimum() 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		// Has the first element of the stack.
 		int min = head.data;
 		
@@ -95,6 +103,9 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public int maximum() 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		// Has the first element of the stack.
 		int max = head.data;
 		
@@ -109,6 +120,8 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public int size() 
 	{		
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
 		return size; 
 	}
 	
@@ -123,7 +136,10 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public int linearSearch(int elem) 
 	{
-		 int pos = 0;
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
+		int pos = 0;
 	     for (Node curr = head; curr != null; curr = curr.next)
 	    	 if (elem == curr.data)
 	    		 return pos;
@@ -136,6 +152,9 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public int sumOfSquares() 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		int sum = 0;
 		for(Node curr = head; curr != null; curr = curr.next)
 			sum +=  curr.data * curr.data;
@@ -146,6 +165,9 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public int count(int elem) 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		int count = 0;
 		for(Node curr = head; curr != null; curr = curr.next)
 			if(elem == curr.data)
@@ -155,7 +177,11 @@ public class IntLinkedStack implements IntStack
 	
 	/** {@inheritDoc} */
 	@Override
-	public int countEven() {
+	public int countEven() 
+	{	
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		int countEven = 0;
 		for(Node curr = head; curr != null; curr = curr.next)
 			if(curr.data % 2 == 0)
@@ -165,7 +191,11 @@ public class IntLinkedStack implements IntStack
 
 	/** {@inheritDoc} */
 	@Override
-	public int countOdd() {
+	public int countOdd() 
+	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		int countOdd = 0;
 		for(Node curr = head; curr != null; curr = curr.next)
 			if(curr.data % 2 != 0)
@@ -177,6 +207,9 @@ public class IntLinkedStack implements IntStack
 	@Override
 	public String toString() 
 	{
+		if (isEmpty())
+			throw new EmptyCollectionException("empty stack");
+		
 		StringBuilder strBld = new StringBuilder("[");
 		for (Node trav = head; trav != null; trav = trav.next) 
 		{
@@ -184,8 +217,8 @@ public class IntLinkedStack implements IntStack
 			if (trav.next != null)
 				strBld.append(", ");
 		}
-		strBld.append("]");
-		return strBld.toString();
+		
+		return strBld.append("]").toString();
 	}
 	
 	/** Reference to the first node in the list */
