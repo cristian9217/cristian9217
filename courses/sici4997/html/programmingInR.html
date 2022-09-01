@@ -12,16 +12,16 @@
 	<style> 
 		* { font-family: Times New Roman; } 
 		p { font-size: 22px; }
-    	</style>
+    </style>
 </head>
 <body>
-	
+
 	<!-- Navgation bar -->
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      		<a class="navbar-brand" href="#"> Cristian's Page </a>
-      		<ul class="navbar-nav">
+		<a class="navbar-brand" href="#"> Cristian's Page </a>
+		<ul class="navbar-nav">
 			<li class="nav-item"> 
-				<a class="nav-link" href="../projectFinal.html">
+				<a class="nav-link" href="https://cristian9217.github.io/cristian9217/courses/sici4997/projectFinal.html">
 					Home
 				</a> 
 			</li>
@@ -29,10 +29,10 @@
 				<a class="nav-link disabled" href="#"> <b> R </b> </a> 
 			</li>
 			<li class="nav-item"> 
-				<a class="nav-link" href="../html/programmingInPython.html"> Python </a> 
+				<a class="nav-link" href="../html/programmingInPython.html"> <b> Python </b> </a> 
 			</li>
-      		</ul>
-   	</nav>
+		</ul>
+    </nav>
 	
 	<!-- Title of the Project and name of the course -->
 	<div class="jumbotron text-center" style="margin-bottom:0;margin-top:60px;">
@@ -43,29 +43,40 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3 p-4">
-			  <h3> IDE </h3>
-			  <p> Requirments </p>
-			  <ul class="nav nav-pills flex-column" style = "font-size: 22px;">
-				<li class="nav-item">
-					<a class="nav-link" href="https://cran.r-project.org/">
-					   R 4.1.1 (install first)
-					</a>
-					<a class="nav-link" href="https://www.rstudio.com/products/rstudio/download/">
-					   RStudio
-					</a>
-				</li>
-			   </ul>
-			   <hr class="d-sm-none">
+				<h3> IDE </h3>
+				<p> Requirments: </p>
+				<ul class="nav nav-pills flex-column" style = "font-size: 22px;">
+					<li class="nav-item">
+						<a class="nav-link" href="https://cran.r-project.org/">
+						   R 4.1.1 (install first)
+						</a>
+						<a class="nav-link" href="https://www.rstudio.com/products/rstudio/download/">
+						   RStudio
+						</a>
+					</li>
+				</ul>
+				<hr>
+				<h3> Files </h3>
+				<p> For the project: </p>
+				<ul class="nav nav-pills flex-column" style = "font-size: 22px;">
+					<li class="nav-item">
+						<a class="nav-link" href="../courses/sici4997/csv/uprb_database.csv">
+						   CSV
+						</a>
+						<a class="nav-link" href="../courses/sici4997/r/modalityStudent.R">
+						   RScript (modalityStudent.R)
+						</a>
+					</li>
+				</ul>
 			</div>
 			<div class="col-md-9 p-4">
 				<h2> Problem </h2>
 				<p> You create a database called UPRB_System has information related to each semester of the courses 
-				created. We have a file in <a href="https://github.com/cristian9217/cristian9217/blob/69671557b55d88
-				ab3ec4e9d2eec220f95832acf1/courses/sici4997/csv/uprb_database.csv" target = "_blank"> 
+				created. We have a file in <a href="../courses/sici4997/csv/uprb_database.csv" target = "_blank"> 
 				uprb_database.csv</a>. The information contains the teacher’s name, course code, section, name of 
 				the course, day and time it is offered, amount of credits, capacity, room and modality. The UPR 
 				Bayamon wants summarize all the information that they garther since 2017. Write a program in 
-				Python and R to answer the following questions. </p>
+				Python and R (<b>modalityStudent.R</b>) to answer the following questions. </p>
 				
 				<hr> 
 
@@ -97,139 +108,98 @@
 				
 				<!-- Question 1 --> 
 				<p style = "text-indent: 15px;"> 1. How many students are in the hybrid mode? </p>
-				<p style = "text-indent: 35px;"> a. Term: C11 </p>
+				
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					## Show the amount of data for each semester and its hybrid mode.
-				</code> </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					hybridC11 <- which(studentData[[1]] == "C11" & studentData[[11]] == "(H) - Hybrid")
+					## This function returns the amount of data for each semester and its modality.
 				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(hybridC11)
+				
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					modalityTerm = function(term, modality) { <br>
+				</code> </p> 
+				
+				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)"> 
+					  return (length(which(studentData[[1]] == term &
+										   studentData[[11]] == modality)))
 				</code> </p>	
-				<br>
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ1A.jpg"
-			 	     class="mx-auto d-block img-fluid">
 				
-				<hr> 
-				
-				<p style = "text-indent: 35px;"> b. Term: C03 </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					hybridC03 <- which(studentData[[1]] == "C03" & studentData[[11]] == "(H) - Hybrid")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(hybridC03)
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					}
 				</code> </p>	
-				<br>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ1B.jpg"
-				     class="mx-auto d-block img-fluid">
-				
 				<hr>
 				
-				<p style = "text-indent: 35px;"> c. Term: C02 </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					hybridC02 <- which(studentData[[1]] == "C02" & studentData[[11]] == "(H) - Hybrid")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(hybridC02)
-				</code> </p>	
-				<br>
+				<div class="container pt-3"></div>
 				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ1C.jpg" 
+				<p style = "text-indent: 35px;"> a. Term: C12 </p>			
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ1A.JPG"
+			 	     class="mx-auto d-block img-fluid">
+				<hr>
+				
+				<p style = "text-indent: 35px;"> b. Term: C11 </p>			
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ1B.JPG"
+			 	     class="mx-auto d-block img-fluid">
+				<hr>
+				
+				<p style = "text-indent: 35px;"> c. Term: C03 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ1C.JPG"
 				     class="mx-auto d-block img-fluid">
-				<hr> <br> 
+				<hr>
+				
+				<p style = "text-indent: 35px;"> d. Term: C02 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ1D.JPG"
+				     class="mx-auto d-block img-fluid">
+				<hr>
+				<div class="container pt-3"></div>				
 
 				<!-- Question 2 --> 
 				<p style = "text-indent: 15px;"> 2. How many students are in the face-to-face mode? </p>
-				<p style = "text-indent: 35px;"> a. Term: C11 </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					## Show the amount of data for each semester and its face-to-face modality.
-				</code> </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					presencialC11 <- which(studentData[[1]] == "C11" & studentData[[11]] == "(P) - Presencial")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(presencialC11)
-				</code> </p>	
-				<br>
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ2A.jpg" 
-				     class="mx-auto d-block img-fluid">
-				
-				<hr> 
-				
-				<p style = "text-indent: 35px;"> b. Term: C03 </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					presencialC03 <- which(studentData[[1]] == "C03" & studentData[[11]] == "(P) - Presencial")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(presencialC03)
-				</code> </p>	
-				<br>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ2B.jpg" 
-				     class="mx-auto d-block img-fluid">
-				
+				<p style = "text-indent: 35px;"> a. Term: C12 </p>			
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ2A.JPG"
+			 	     class="mx-auto d-block img-fluid">
 				<hr>
 				
-				<p style = "text-indent: 35px;"> c. Term: C02 </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					presencialC02 <- which(studentData[[1]] == "C02" & studentData[[11]] == "(P) - Presencial")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(presencialC02)
-				</code> </p>	
-				<br>
+				<p style = "text-indent: 35px;"> b. Term: C11 </p>			
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ2B.JPG"
+			 	     class="mx-auto d-block img-fluid">
+				<hr>
 				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ2C.jpg" 
+				<p style = "text-indent: 35px;"> c. Term: C03 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ2C.JPG"
 				     class="mx-auto d-block img-fluid">
-				<hr> <br>
+				<hr>
+				
+				<p style = "text-indent: 35px;"> d. Term: C02 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ2D.JPG"
+				     class="mx-auto d-block img-fluid">
+				<hr>
+				<div class="container pt-3"></div>	
 				
 				<!-- Question 3 --> 
 				<p style = "text-indent: 15px;"> 3. How many students are in the distance mode? </p>
 
-				<p style = "text-indent: 35px;"> a. Term: C11 </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					## Show the amount of data for each semester and its distance mode.
-				</code> </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					distanceC11 <- which(studentData[[1]] == "C11" & studentData[[11]] == "(D) - Distance")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(distanceC11)
-				</code> </p>	
-				<br>
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ3A.jpg" 
+				<p style = "text-indent: 35px;"> a. Term: C12 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ3A.JPG" 
 				     class="mx-auto d-block img-fluid">
 				
 				<hr> 
 				
-				<p style = "text-indent: 35px;"> b. Term: C03 </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					distanceC03 <- which(studentData[[1]] == "C03" & studentData[[11]] == "(D) - Distance")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(distanceC03)
-				</code> </p>	
-				<br>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ3B.jpg" 
+				<p style = "text-indent: 35px;"> b. Term: C11 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ3B.JPG" 
 				     class="mx-auto d-block img-fluid">
 				
 				<hr>
 				
-				<p style = "text-indent: 35px;"> c. Term: C02 </p>	
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					distanceC02 <- which(studentData[[1]] == "C02" & studentData[[11]] == "(D) - Distance")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					length(distanceC02)
-				</code> </p>	
-				<br>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ3C.jpg" 
+				<p style = "text-indent: 35px;"> c. Term: C03 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ3C.JPG" 
 				     class="mx-auto d-block img-fluid">
-				<hr> <br>
+				
+				<hr>
+				
+				<p style = "text-indent: 35px;"> d. Term: C02 </p>
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ3D.JPG" 
+				     class="mx-auto d-block img-fluid">
+				
+				<hr>
+				<div class="container pt-3"></div>	
 				
 				<!-- Pie chart for the semester C11 -->
 				<h2> How to generate Pie Chart in R? </h2> 
@@ -420,6 +390,8 @@
 				
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
 					## Show data of the courses offered in semester C02 and C11. 
+				</code> </p>
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
 					The difference of courses between two semesters.  
 				</code> </p>
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
@@ -450,6 +422,9 @@
 					
 				</p>
 				-->
+				
+				<hr>
+				<h6> Ultima actualizaci&oacute;n: 30 de agosto de 2022. </h6>
 
 			</div>
 		</div>
