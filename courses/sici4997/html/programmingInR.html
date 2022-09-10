@@ -529,6 +529,7 @@
 
 				<hr> <br>
 				
+				<!-- Question 8 -->
 				<p style = "text-indent: 15px;"> 8. How many courses were offered on 
 				Wednesdays in semester C11? </p> 
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
@@ -547,6 +548,7 @@
 
 				<hr> <br>
 				
+				<!-- Question 9 -->
 				<p style = "text-indent: 15px;"> 9. How many courses were offered in the semester? </p>
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
 					showCourseTerm = function(term) {
@@ -610,40 +612,44 @@
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
 					## Show data of the courses offered in semester C02 and C11. 
 				</code> </p>
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					totalC02 <- showCourseTerm("C02")
+				</code> </p>
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					totalC11 <- showCourseTerm("C11")
+				</code> </p>
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					sprintf("Term C02 has %d courses and Term C11 has %d courses.", totalC02, totalC11)
+				</code> </p>
+				
+				<br>
+				
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					The difference of courses between two semesters.  
+					## The difference of courses between two semesters.  
 				</code> </p>
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalC02 <- which(studentData[[1]] == "C02")
+					countCourses <- (totalC11 - totalC02)
 				</code> </p>
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalC11 <- which(studentData[[1]] == "C11")
+					sprintf("The difference between C11 and C02 is %d courses.", countCourses)
 				</code> </p>
 				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalCourseC02 <- length(totalC02)
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalCourseC11 <- length(totalC11)
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					print(totalCourseC11 -  totalCourseC02)
-				</code> </p>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ10.jpg" 
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ10.JPG" 
 				     class="mx-auto d-block img-fluid">
 				
-				<hr> <br>
+				<hr> 
 				
-				<!--
 				<h2> Conclusion </h2>
-				<p style = "font-size: 20px;margin-left: 40px"> 
-					
-				</p>
-				-->
+				<p style = "font-size: 28px;margin-left: 40px"> Use the R Studio Integrated Development Environment (IDE) to perform 
+				data mining that works efficiently on the R environment and enhances its features. The large set of data could be 
+				processed and manipulated using R environment. In R, it can be widely used in statistical analysis of data because 
+				it can handle a giant size, the user can not notice patterns or occurrence of data. It may also be able to achieve 
+				reliability and reduce user tampering to prevent fraud or incomplete and inaccurate data. It reduces the risk of the 
+				human being committing an error when manipulating a gigantic data set "Big Data" in which a human can 
+				take two to three days to detect manipulation of the data.</p>
 				
 				<hr>
-				<h6> Ultima actualizaci&oacute;n: 30 de agosto de 2022. </h6>
+				<h6> Ultima actualizaci&oacute;n: 9 de septiembre de 2022. </h6>
 
 			</div>
 		</div>
