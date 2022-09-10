@@ -541,47 +541,63 @@
 				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
 					sprintf("On Wednesday at %d courses are offered in term C11.", OneDayC11)
 				</code> </p>
-				
+								
 				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ8.JPG" 
 				     class="mx-auto d-block img-fluid">
 
 				<hr> <br>
 				
+				<p style = "text-indent: 15px;"> 9. How many courses were offered in the semester? </p>
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					showCourseTerm = function(term) {
+				</code> </p>
+				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)">
+					return (length(which(studentData[[1]] == term)))
+				</code> </p>
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					}
+				</code> </p>
+				
+				<hr> <br>
+				
 				<div class="row">
 					<div class="col-md-6">
-						<p style = "text-indent: 15px;"> 9. How many courses were offered in the semester? </p>
-						
-						<p style = "text-indent: 35px;"> a. Term: C11 </p>
+						<p style = "text-indent: 35px;"> a. Term: C12 </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							## Mostrar la cantidad de datos de cada semestre. 
+							totalC12 <- showCourseTerm("C12")
 						</code> </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							totalC11 <- which(studentData[[1]] == "C11")
-						</code> </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							length(totalC11)
+							sprintf("There are %d courses created in semester C12.", totalC12)
 						</code> </p>
 						
-						<p style = "text-indent: 35px;"> b. Term: C03 </p>	
+						<p style = "text-indent: 35px;"> b. Term: C11 </p>	
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">				
-							totalC03 <- which(studentData[[1]] == "C03")
+							totalC11 <- showCourseTerm("C11")
 						</code> </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							length(totalC03)
+							sprintf("There are %d courses created in semester C11.", totalC11)
 						</code> </p>
 
-						<p style = "text-indent: 35px;"> c. Term: C02 </p>
+						<p style = "text-indent: 35px;"> c. Term: C03 </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							totalC02 <- which(studentData[[1]] == "C02")
+							totalC03 <- showCourseTerm("C03")
 						</code> </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							length(totalC02)
+							sprintf("There are %d courses created in semester C03.", totalC03)
 						</code> </p>
-						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ9.jpg" 
+						
+						<p style = "text-indent: 35px;"> d. Term: C02 </p>
+						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
+							totalC02 <- showCourseTerm("C02")
+						</code> </p>
+						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
+							sprintf("There are %d courses created in semester C02.", totalC02)
+						</code> </p>
+						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ9.JPG" 
 						     class="mx-auto d-block img-fluid">
 					</div>
 					<div class="col-md-6">
-						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/totalCourseSemester.jpg"
+						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/totalCourseSemester.JPG"
 						     width="500" height="600" class="mx-auto d-block img-fluid">
 					</div> 
 				</div>
