@@ -7,7 +7,9 @@ app = Flask(__name__)
 
 #Cargar las configuraciones
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://cristianPagan:User1234@localhost/flask_db'
+
+# SQLALCHEMY_DATABSE_URI = 'mysql+pymysql://username:password@localhost/database_name'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://demo:pass@localhost/db'
 app.secret_key = 'devWebPage'
 
 db = SQLAlchemy(app)
