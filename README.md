@@ -8,8 +8,8 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning Python, Java, HTML and PHP.
 - 📫 How to reach me: cristianmiguel10@gmail.com
 
-Web link to the page: https://cristian9217.github.io/cristian9217/welcome.html
+Web link to the page: [Link](https://cristian9217.github.io/cristian9217/welcome.html)
 
 -------------------------------------------------------------------------------------------------------------------------
 
-Web link to certifications: https://www.studysection.com/certification-exams
+Web link to certifications: [Link](https://www.studysection.com/certification-exams)
