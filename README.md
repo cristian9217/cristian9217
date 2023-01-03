@@ -6,10 +6,12 @@ Here are some ideas to get you started:
 
 - 🔭 I’m currently studying on Computer Science. 
 - 🌱 I’m currently learning Python, Java, HTML and PHP.
-- 📫 How to reach me: cristianmiguel10@gmail.com
+- 📫 How to reach me: <cristianmiguel10@gmail.com>
 
-Web link to the page: [Link](https://cristian9217.github.io/cristian9217/welcome.html)
+Web link to the page: [Click Here](https://cristian9217.github.io/cristian9217/welcome.html)
 
 -------------------------------------------------------------------------------------------------------------------------
 
-Web link to certifications: [Link](https://www.studysection.com/certification-exams)
+Web link to courses [Click Here](https://es.coursera.org/)
+
+Web link to certifications: [Click Here](https://www.studysection.com/certification-exams)
