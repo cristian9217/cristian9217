@@ -12,6 +12,6 @@ Web link to the page: [Click Here](https://cristian9217.github.io/cristian9217/w
 
 -------------------------------------------------------------------------------------------------------------------------
 
-Web link to courses [Click Here](https://es.coursera.org/)
+Web link to courses: [Click Here](https://es.coursera.org/)
 
 Web link to certifications: [Click Here](https://www.studysection.com/certification-exams)
