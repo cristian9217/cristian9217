@@ -8,7 +8,9 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning Python, Java, HTML and PHP.
 - 📫 How to reach me: <cristianmiguel10@gmail.com>
 
-Web link to the page: [Click Here](https://cristian9217.github.io/cristian9217/welcome.html)
+Web link to the bio page: [Click Here](https://cristian9217.github.io/cristian9217/welcome.html)
+
+Web link to the LinkedIn page: [Click Here](https://www.linkedin.com/in/cristian-pagan-978623263)
 
 -------------------------------------------------------------------------------------------------------------------------
 
