@@ -12,7 +12,7 @@
 	<style> 
 		* { font-family: Times New Roman; } 
 		p { font-size: 22px; }
-		img {  width: 60%; height: auto; }
+		img {  width: 45%; height: auto; }
     </style>
 </head>
 <body>
@@ -542,86 +542,63 @@
 
 				<hr> <br>
 				
-				<!--
+				<!-- Question 9 -->
+				<p style = "text-indent: 15px;"> 9. How many courses were offered in the semester? </p>
+				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
+					def showCourseTerm(term: str):
+				</code> </p>
+				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)">
+					""" Returns the amount of data for each semester.  """
+				</code> </p>
+				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)"> 
+					return df[(df['Term'] == term)]
+				</code> </p>
+				
+				<hr> <br>
+				
 				<div class="row">
 					<div class="col-md-6">
-						<p style = "text-indent: 15px;"> 9. How many courses were offered in the semester? </p>
-						
-						<p style = "text-indent: 35px;"> a. Term: C11 </p>
+						<p style = "text-indent: 35px;"> a. Term: C12 </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							## Mostrar la cantidad de datos de cada semestre. 
+							totalC12 = len(showCourseTerm("C12"))
 						</code> </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							totalC11 <- which(studentData[[1]] == "C11")
-						</code> </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							length(totalC11)
+							print(f"There are {totalC12:d} courses created in semester C12.")
 						</code> </p>
 						
-						<p style = "text-indent: 35px;"> b. Term: C03 </p>	
+						<p style = "text-indent: 35px;"> b. Term: C11 </p>	
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">				
-							totalC03 <- which(studentData[[1]] == "C03")
+							totalC11 = len(showCourseTerm("C11"))
 						</code> </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							length(totalC03)
+							print(f"There are {totalC11:d} courses created in semester C11.")
 						</code> </p>
 
-						<p style = "text-indent: 35px;"> c. Term: C02 </p>
+						<p style = "text-indent: 35px;"> c. Term: C03 </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							totalC02 <- which(studentData[[1]] == "C02")
+							totalC03 = len(showCourseTerm("C03"))
 						</code> </p>
 						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							length(totalC02)
+							print(f"There are {totalC03:d} courses created in semester C03.")
 						</code> </p>
-						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ9.jpg" 
+						
+						<p style = "text-indent: 35px;"> d. Term: C02 </p>
+						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
+							totalC02 = len(showCourseTerm("C02"))
+						</code> </p>
+						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
+							print(f"There are {totalC02:d} courses created in semester C02.\n")
+						</code> </p>
+						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/PythonCSVFileQ9.jpg" 
 						     class="mx-auto d-block img-fluid">
 					</div>
 					<div class="col-md-6">
-						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/totalCourseSemester.jpg"
-						     width="500" height="600" class="mx-auto d-block img-fluid">
+						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/PythonTotalCourseSemester.jpg"
+							 class="mx-auto d-block img-fluid">
 					</div> 
 				</div>
 				
 				<hr> <br>
-				
-				<p style = "text-indent: 15px;"> 10. How many courses were offered in C02 and C11? 
-				How much was the difference? </p>			
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					## Show data of the courses offered in semester C02 and C11. 
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					The difference of courses between two semesters.  
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalC02 <- which(studentData[[1]] == "C02")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalC11 <- which(studentData[[1]] == "C11")
-				</code> </p>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalCourseC02 <- length(totalC02)
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					totalCourseC11 <- length(totalC11)
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					print(totalCourseC11 -  totalCourseC02)
-				</code> </p>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/csvFileQ10.jpg" 
-				     class="mx-auto d-block img-fluid">
-				
-				<hr> <br>
-				
-				
-				<h2> Conclusion </h2>
-				<p style = "font-size: 20px;margin-left: 40px"> 
-					
-				</p>
-				-->
-
 			</div>
 		</div>
 	</div>
