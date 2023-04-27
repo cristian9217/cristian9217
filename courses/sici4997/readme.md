@@ -13,7 +13,7 @@ You create a database called UPRB_System has information related to each semeste
   <li>How many courses does Juan M. Sola Sloan offer in semester C11? </li>
   <li>How many courses were offered on Tuesdays and Thursdays in semester C11? </li>
   <li>How many courses were offered on Wednesdays in semester C11? </li>
-  <li>How many courses were offered in the summer C03? </li>
+  <li>How many courses were offered in the semester? </li>
   <li>How many courses were offered in C01 and C11? How much was the difference? </li>
 </ol>
    
