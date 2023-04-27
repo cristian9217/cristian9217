@@ -19,4 +19,4 @@ You create a database called UPRB_System has information related to each semeste
 
 Language R: [Click here](https://cristian9217.github.io/cristian9217/courses/sici4997/html/programmingInR.html)
 
-Language Python: [Click Here] (https://cristian9217.github.io/cristian9217/courses/sici4997/html/programmingInPython.html)
+Language Python: [Click Here](https://cristian9217.github.io/cristian9217/courses/sici4997/html/programmingInPython.html)
