@@ -16,7 +16,7 @@ You create a database called UPRB_System has information related to each semeste
   <li>How many courses were offered in the semester? </li>
   <li>How many courses were offered in term C01 and term C11? How much was the difference? </li>
 </ol>
-   
+
 Language R: [Click Here] (https://cristian9217.github.io/cristian9217/courses/sici4997/html/programmingInR.html)
 
 Language Python: [Click Here] (https://cristian9217.github.io/cristian9217/courses/sici4997/html/programmingInPython.html)
