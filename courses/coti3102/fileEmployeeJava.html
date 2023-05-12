@@ -63,6 +63,12 @@
 				</ul>
 			</div>
 			<div class="col-md-9 p-4">
+			
+				<p> <b> Java </b> is a high-level object-oriented programming language with portable, secure, 
+					and platform-independent desktop, web, mobile, and corporate development applications. </p>
+				
+				<hr>
+				
 				<h2> Problem </h2>
 				<p> 1. In package <i>edu.uprb.company</i> place an enumerated type named <b>Department</b> with 
 					the following values and corresponding toString method: 
@@ -75,6 +81,21 @@
 					<li> INTE – for Information Technology </li>
 				</ul>
 				
+				<p> This class must have the following methods: </p>
+				<ul style = "font-size: 22px;">
+					<li> A fully parameterized constructor and a constructor that receives only 
+						 the employee ID. </li>
+					<li> Setters and getters for each field. Since the employee ID is final, 
+						 only a getter must be provided for this field. </li>
+					<li> Constructors and setters must not allow an invalid ID value or 
+						 an invalid name format by throwing an <i>IllegalArgumentException</i>
+						 with the appropriate message </li>
+					<li> A <i>weeklySalary</i> abstract method that, when implemented by an 
+						 abstract class, returns the weekly salary of the employee. </li>
+					<li> A <i>toString</i> method that returns a string representation of the 
+						 employee. Each field should have the appropriate label and format.
+				</ul>				
+				
 				<p>	2. In package <i>edu.uprb.company</i> place an abstract class named <b>Employee</b> that holds the
 					following data for a company employee:
 				</p>
@@ -85,8 +106,10 @@
 					<li> <b>lastName</b> – a string with one uppercase letter and, at most, nine more lowercase letters; 
 						 <i>default value = "Doe"</i>. </li>
 					<li> <b>department</b> – a Department; <i>default value = FINA</i>. </li>
-					<li> <b>hours</b> – hours worked during the week an integer between 0 and 60; <i>default value = 40</i>. </li>
-					<li> <b>payRate</b> – a floating-point number between 7.00 and 50.00; <i>default value = 8.25</i>. </li>
+					<li> <b>hours</b> – hours worked during the week an integer between 0 and 60; 
+						  <i>default value = 40</i>. </li>
+					<li> <b>payRate</b> – a floating-point number between 7.00 and 50.00; 
+						  <i>default value = 8.25</i>. </li>
 				</ul>
 				
 				<p> 3. Since a class diagram for the classes in package <i>edu.uprb.company</i> was not provided,
@@ -97,12 +120,7 @@
 					that reads a file of employees (<a href = "https://raw.githubusercontent.com/cristian9217/cristian9217/
 					default/courses/coti3102/employee.txt">employee.txt</a>) and create another file that writes 
 					their data with the appropriate format, including their weekly salary. </p>
-
-				<hr>
-
-				<p> <b> Java </b> is a high-level object-oriented programming language with portable, secure, 
-					and platform-independent desktop, web, mobile, and corporate development applications. </p>
-				
+					
 				<hr> 
 				
 				<h2> Solution </h2>
@@ -111,7 +129,7 @@
 				     class="mx-auto d-block img-fluid">
 				<p class = "text-center"> Figure 1 - Employee Class Diagram </p> 
 				
-				<br>
+				<div class="container pt-3"></div>
 				
 				<ol style="font-size: 22px;">
 					<li> Enumeration (<i>enum</i>) typed named <b>Department</b>: 
@@ -128,9 +146,25 @@
 					</li>
 				</ol>
 				
-				<hr> <br>
+				<div class="container pt-3"></div>
 				
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3102/employeeFile.PNG" 
+				     class="mx-auto d-block img-fluid">
+				<p class = "text-center"> Figure 2 - Employee.txt with data </p> 
+				
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3102/payrollOutput.PNG" 
+				     class="mx-auto d-block img-fluid">
+				<p class = "text-center"> Figure 3 - Output of the program <b>EmployeePayroll</b> </p> 
+				
+				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3102/payrollFile.PNG" 
+				     class="mx-auto d-block img-fluid">
+				<p class = "text-center"> Figure 4 - Payroll.txt with result data </p> 
+				
+				<hr> 
+				<div class="container pt-3"></div>
+
 				<h2> Conclusion </h2>
+				
 				<p style = "margin-left: 40px"> 
 					Finally, Java's support for abstract classes, enumerations, and I/O files flexibility the language's 
 					versatility and popularity in software development. Abstract classes allow the development of common 
