@@ -9,4 +9,4 @@ Web link to the SICI 4036 page: [Click Here](https://cristian9217.github.io/cris
 -----------------------------------------------------------------------------------------------------------------------
 
 
-Web link to the LinkedIn page: [Click Here](https://www.linkedin.com/in/cristian-pagan-978623263)
+Web link to the LinkedIn page: [Click Here](https://www.linkedin.com/in/cristian-pag%C3%A1n-978623263/)
