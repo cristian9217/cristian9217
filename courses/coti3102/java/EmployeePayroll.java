@@ -19,76 +19,101 @@ import java.io.*; // For file I/O classes
  */
 public class EmployeePayroll 
 {
-	public static void main(String[] args) throws IOException
+	public static void main(String[] args)
 	{
 		// Create a Scanner object for keyboard input.
 		Scanner keyboard = new Scanner(System.in);
 		
 		// Declare the variables. 
-		String inFile, id, name, lastName, department, outFile = null;
-		int count = 0, hours;
-		double salary, payRate;
+		String name, lastName;
+		int count = 0, hours, id; double salary, payRate;
 		
 		// Get the name of the filename.
 		System.out.print("Enter the filename: ");
-		inFile = keyboard.nextLine();
+		String inFile = keyboard.nextLine();
+		
+		inFile = setFile(inFile, "employee.txt");
 		
 		// Get the output filename.
 		System.out.print("Enter the output filename: ");
-		outFile = keyboard.nextLine();
+		String outFile = keyboard.nextLine();
 		
-		// Open the file.
-		File file = new File(inFile);
-		Scanner inputFile = new Scanner(file);
+		outFile = setFile(outFile, "payroll.txt");
 		
-		// Write the file.
-		PrintWriter outputFile = new PrintWriter(outFile);
-		
-		// Read lines from the file until no more are left.
-		while (inputFile.hasNext())
-		{
-			// Read the ID, firstName, lastName, department, hoursWorked, payRate. 
-			id = inputFile.next();
-			name = inputFile.next();
-			lastName = inputFile.next();
-			department = inputFile.next();
-			hours = inputFile.nextInt();
-			payRate = inputFile.nextDouble(); 
+		try 
+		{	
+			// Open the file.
+			File file = new File(inFile);
+			Scanner inputFile = new Scanner(file);
+			
+			// Write the file.
+			PrintWriter outputFile = new PrintWriter(outFile);
+			
+			// Read lines from the file until no more are left.
+			while (inputFile.hasNext())
+			{
+				// Read the ID, firstName, lastName, department, hoursWorked, payRate. 
+				id = inputFile.nextInt();
+				name = inputFile.next();
+				lastName = inputFile.next();
+				Department depart = getDepart(inputFile.next()); 
+				hours = inputFile.nextInt();
+				payRate = inputFile.nextDouble(); 
+				
+				Employee emp = new Employee(id, name, lastName, depart, hours, payRate);
 
-			// Calculates the weekly salary of that employee.
-			salary = weeklySalary(hours, payRate);
+				// Calculates the weekly salary of that employee.
+				salary = emp.weeklySalary();
+				
+				// Prints to the file id, name, lastName, department and salary.
+				outputFile.println(id + "\t" + name + "\t" + lastName + "\t" + 
+								   depart + "\t" + salary);
+				
+				// Counts the employee read and written in the file.
+				count++;
+			}
 			
-			// Prints to the file id, name, lastName, department and salary.
-			outputFile.println(id + "\t" + name + "\t" + lastName + "\t" + 
-							   department + "\t" + salary);
-			
-			// Counts the employee read and written in the file.
-			count++;
+			// Prints how many employee's were read.
+		    System.out.printf("\nAll %d employees were read.\n", count);
+		    System.out.println("Results were written in " + outFile);
+		    
+		    // Close the file.
+		    inputFile.close();
+			outputFile.close();
+		}
+		catch(FileNotFoundException e)
+		{
+			System.out.println("File not found: " + e.getMessage());
+		}
+		finally 
+		{
+			// Close the keyboard.
+			keyboard.close();
+		}
+	}
+	
+	
+	public static String setFile(String file, String defaultFile)
+	{
+		if(!file.matches(".*\\.txt"))
+		{
+			System.out.println("Default filename: " + defaultFile);
+			return defaultFile;
 		}
 		
-		// Prints how many employee's were read.
-	    	System.out.printf("\nAll %d employees were read.\n", count);
-	    	System.out.println("Results were written in " + outFile);
-		
-		// Close the file and keyboard.
-		keyboard.close();
-		inputFile.close();
-		outputFile.close();
+		return file;
 	}
-
-	/**
-	 * Calculates the weekly salary of the employee.
-	 * @param hours The hours worked of the employee.
-	 * @param payRate The pay rate of the employee.
-	 * @return The weekly salary of the employee.
-	 */
-	public static double weeklySalary(int hours, double payRate) 
+	
+	public static Department getDepart(String department)
 	{
-		final int REGULAR_HOURS = 40;
-		
-		if(hours <= REGULAR_HOURS)
-			return hours * payRate;
-		else 
-			return payRate * REGULAR_HOURS + ((hours - REGULAR_HOURS) * payRate * 1.5);
+		switch(department)
+		{
+			case "Finance":			return Department.FINA;
+			case "Marketing":		return Department.MKTG;
+			case "HR":				return Department.HMRS;
+			case "IT":				return Department.INTE;
+			case "Budget":			return Department.SALE;
+			default:				return Department.FINA;
+		}		
 	}
 }
