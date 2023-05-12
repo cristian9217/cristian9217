@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> File of Employees in Language Java </title>
+	<link rel="icon" href="https://i.blogs.es/8d2420/650_1000_java/1366_2000.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style> 
+		* { font-family: Times New Roman; } 
+		p { font-size: 22px; }
+		img {  width: 45%; height: auto; }
+    </style>
+</head>
+<body>
+
+	<!-- Navgation bar -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand" href="#"> Cristian's Page </a>
+		<ul class="navbar-nav">
+			<li class="nav-item"> 
+				<a class="nav-link" href="../courses/sici4997/projectFinal.html">
+					Home
+				</a> 
+			</li>
+			<li class="nav-item"> 
+				<a class="nav-link disabled" href="#"> <b> Java </b> </a> 
+			</li>
+		</ul>
+    </nav>
+	
+	<!-- Title of the Project and name of the course -->
+	<div class="jumbotron text-center" style="margin-bottom:0;margin-top:60px;">
+	  <h1>Final Homework: File of Employees </h1>
+	  <p>COTI 3102 - Algorithms and Program Development II</p> 
+	</div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 p-4">
+				<h3> IDE </h3>
+				<p> Requirments </p>
+				<ul class="nav nav-pills flex-column" style = "font-size: 22px;">
+					<li class="nav-item">
+						<a class="nav-link" href="https://eclipseide.org/">
+						   Eclipse IDE for Java Developers
+						</a>
+					</li>
+				</ul>
+				<hr>
+				<h3> Files </h3>
+				<p> For this project: </p>
+				<ul class="nav nav-pills flex-column" style = "font-size: 22px;">
+					<li class="nav-item">
+						<a class="nav-link" href="https://raw.githubusercontent.com/cristian9217/cristian9217/
+													default/courses/coti3102/employee.txt">
+						   employee.txt
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-9 p-4">
+				<h2> Problem </h2>
+				<p> 1. In package <i>edu.uprb.company</i> place an enumerated type named <b>Department</b> with 
+					the following values and corresponding toString method: 
+				</p>
+				<ul style = "font-size: 22px;">
+					<li> SALE – for Budget </li>
+					<li> MKTG – for Marketing </li>
+					<li> HMRS – for Human Resources </li>
+					<li> FINA – for Finance </li>
+					<li> INTE – for Information Technology </li>
+				</ul>
+				
+				<p>	2. In package <i>edu.uprb.company</i> place an abstract class named <b>Employee</b> that holds the
+					following data for a company employee:
+				</p>
+				<ul style = "font-size: 22px;">
+					<li> <b>id</b> – an integer between 1000 and 9999. This should be a final field. </li>
+					<li> <b>name</b> – a string with one uppercase letter and, at most, nine more lowercase letters;
+						 <i>default value = "John"</i>. </li>
+					<li> <b>lastName</b> – a string with one uppercase letter and, at most, nine more lowercase letters; 
+						 <i>default value = "Doe"</i>. </li>
+					<li> <b>department</b> – a Department; <i>default value = FINA</i>. </li>
+					<li> <b>hours</b> – hours worked during the week an integer between 0 and 60; <i>default value = 40</i>. </li>
+					<li> <b>payRate</b> – a floating-point number between 7.00 and 50.00; <i>default value = 8.25</i>. </li>
+				</ul>
+				
+				<p> 3. Since a class diagram for the classes in package <i>edu.uprb.company</i> was not provided,
+					you must generate one using the <u>ObjectAid UML Explorer for Eclipse</u>. Save this diagram as file
+					<b>EmployeeClassDiagram.jpg</b> in your project. </p>
+					
+				<p> 4. In package <i>edu.uprb.company</i> place an application <b>EmployeePayroll</b> that
+					that reads a file of employees (<a href = "https://raw.githubusercontent.com/cristian9217/cristian9217/
+					default/courses/coti3102/employee.txt">employee.txt</a>) and create another file that writes 
+					their data with the appropriate format, including their weekly salary. </p>
+
+				<hr>
+
+				<p> <b> Java </b> is a high-level object-oriented programming language with portable, secure, 
+					and platform-independent desktop, web, mobile, and corporate development applications. </p>
+				
+				<hr> 
+				
+				<h2> Solution </h2>
+				
+				<ol style="font-size: 22px;">
+					<li> Enumeration (<i>enum</i>) typed named <b>Department</b>: 
+						<a href = "../coti3102/java/Department.java"> Department.java </a>
+					</li>
+					<li> Abstract class named <b>Employee</b>: 
+						<a href = "../coti3102/java/Employee.java"> Employee.java </a>
+					</li>
+					<li> Application of Input/Output File: <b>EmployeePayroll</b>: 
+						<a href = "../coti3102/java/EmployeePayroll.java"> EmployeePayroll.java </a>
+					</li>
+				</ol>
+				
+				<hr> <br>
+				
+				<h2> Conclusion </h2>
+				<p style = "margin-left: 40px"> 
+					Finally, Java's support for abstract classes, enumerations, and I/O files flexibility the language's 
+					versatility and popularity in software development. Abstract classes allow the development of common 
+					functionality that may be utilized by several classes, allowing each classes to define unique 
+					activities while maintaining code consistency. Enumerations allow you to declare a specified set of 
+					values, making it easier to manage and validate input while also reducing code errors and problems. 
+					I/O files are a vital part of software development, and Java's extensive set of classes and methods 
+					provides developers with the tools they need to manage complex data storage and retrieval activities.
+				</p>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron text-center" style="margin-bottom:0">
+	  <p>&copy; (2021) Cristian M. Pag&aacute;n </p>
+	</div>
+</body>
