@@ -19,6 +19,6 @@ Output of the Java Program:
 
 Output of the File of the employees: 
 
-![Payroll File]("payrollFile.PNG") 
+![Payroll File](payrollFile.PNG) 
 
 This is program was given has final homework for this course of COTI 3102 - Algorithms and Program Development II.
