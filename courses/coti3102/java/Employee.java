@@ -1,5 +1,5 @@
 /*
- * University of Puerto Rico at BayamÛn
+ * University of Puerto Rico at Bayam√≥n
  * Department of Computer Science
  * COTI 3101 - Algorithms and Program Development I, Spring 2017, Section LR1
  * Prof. Lenis Torres-Berrios
@@ -10,7 +10,7 @@ package edu.uprb.company;
 /**
  * This class represent an employee the ID, firstName, 
  * lastName, department and weekly salary of that employee.
- * @author Cristian M. Pag·n {@literal <cristian.pagan3@upr.edu>}
+ * @author Cristian M. Pag√°n {@literal <cristian.pagan3@upr.edu>}
  * @version 1.0
  * @since 14/05/2017
  */
@@ -57,8 +57,8 @@ public class Employee
 		setName(name);
 		setLastName(lastName);
 		setDepartment(departament);
-		this.setHours(hours);
-		this.payRate = payRate;
+		setHours(hours);
+		setPayRate(payRate);
 	}
 	
 	/** 
@@ -204,11 +204,24 @@ public class Employee
 		if(hours <= REGULAR_HOURS)
 			return hours * payRate;
 		else 
-			return (REGULAR_HOURS * payRate) + ((hours - REGULAR_HOURS) * OVERTIME * payRate);
+			return (REGULAR_HOURS * payRate) + ((hours - REGULAR_HOURS) * 
+					OVERTIME * payRate);
+	}
+	
+	/**
+	 * Returns a toString method
+	 * @return the String information of the employee
+	 */
+	@Override
+	public String toString() 
+	{
+		return String.format("%d\t%s\t%s\t%s\t%.2f", 
+			   id, name, lastName, department, weeklySalary());
 	}
 	
 	///////////////////////////////////  Class Methods ///////////////////////////////////
 	
+
 	/**
 	 * Displays an error message
 	 * @param message Defines an error message
