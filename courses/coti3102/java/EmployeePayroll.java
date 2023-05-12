@@ -26,7 +26,8 @@ public class EmployeePayroll
 		
 		// Declare the variables. 
 		String name, lastName;
-		int count = 0, hours, id; double salary, payRate;
+		int id, hours, count = 0; 
+		double payRate;
 		
 		// Get the name of the filename.
 		System.out.print("Enter the filename: ");
@@ -60,22 +61,20 @@ public class EmployeePayroll
 				hours = inputFile.nextInt();
 				payRate = inputFile.nextDouble(); 
 				
+				// Create an employees object, using constructor to validate data.
 				Employee emp = new Employee(id, name, lastName, depart, hours, payRate);
-
-				// Calculates the weekly salary of that employee.
-				salary = emp.weeklySalary();
 				
-				// Prints to the file id, name, lastName, department and salary.
-				outputFile.println(id + "\t" + name + "\t" + lastName + "\t" + 
-								   depart + "\t" + salary);
+				// Writes in the file id, name, lastName, department and salary.
+				outputFile.println(emp);
 				
-				// Counts the employee read and written in the file.
+				// Counts the employee written in the file.
 				count++;
 			}
 			
-			// Prints how many employee's were read.
+			// Prints how many employee's were read and the name of the file written.
 		    System.out.printf("\nAll %d employees were read.\n", count);
 		    System.out.println("Results were written in " + outFile);
+		    System.out.println();
 		    
 		    // Close the file.
 		    inputFile.close();
