@@ -7,10 +7,8 @@ fullname, departament and weekly salary.
 
 ![Employee File](employeeFile.PNG)
 
-The 
-<a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3102/java/EmployeePayroll.java">code </a>
-and 
-<a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3102/employee.txt">text file</a> 
+The [code](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3102/java/EmployeePayroll.java)
+and <a href= "https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/coti3102/employee.txt">text file</a> 
 used to read the file of employees. 
 
 Output of the Java Program: 
