@@ -16,4 +16,4 @@ Web link to the LinkedIn page: [Click Here](https://www.linkedin.com/in/cristian
 
 Web link to courses: [Click Here](https://es.coursera.org/)
 
-Web link to certifications: [Click Here](https://www.studysection.com/certification-exams)
+Web link to certifications: [Click Here](https://www.hackerrank.com/skills-verification)
