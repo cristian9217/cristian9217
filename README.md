@@ -10,7 +10,7 @@ Here are some ideas to get you started:
 
 Web link to the bio page: [Click Here](https://cristian9217.github.io/cristian9217/welcome.html)
 
-Web link to the LinkedIn page: [Click Here](https://www.linkedin.com/in/cristian-pag%C3%A1n-978623263/)
+Web link to the LinkedIn page: [Click Here](https://www.linkedin.com/in/cristian-pag%C3%A1n-rios-978623263/)
 
 -------------------------------------------------------------------------------------------------------------------------
 
