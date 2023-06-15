@@ -1,113 +1,187 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Cristian's Portofolio </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style> 
-	* { font-family: Times New Roman; } 
-	    p { font-size: 22px; }
-    </style>
-  </head>
-  <body id="myPage">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <a class="navbar-brand" href="#">Cristian's Page </a>
-      <ul class="navbar-nav">
-        <li class="nav-item"> <a class="nav-link disabled" href="#"> <b> Home </b> </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="course.html">Course</a> </li>
-      </ul>
-    </nav>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<title>Cristian M. Pagán - Portfolio</title>
+		
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+	<body>
+		
+		<!-- Header Section -->
+		<header>
+			<h1>Cristian M. Pagán</h1>
+		</header>
+		
+		<!-- Navigation Bar Section -->
+		<nav>
+			<ul>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#education">Education</a>
+				</li>
+				<!-- 
+				<li>
+					<a href="#certifications">Certifications</a>
+				</li>
+				-->
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<section id="about">
+			<h2><i class="fas fa-user"></i> About Me</h2>
+			<p>A passionate and dedicated IT graduate specializing in data science 
+			   looking for an entry level position to launch a successful career. 
+			   Knowledge of Python and R for data analysis and modeling and 
+			   experience using Flask for web development. We want to apply 
+			   theoretical knowledge gained through academic research to practical 
+			   projects and contribute to a dynamic team.</p>
+		</section>
 
-    <div class="container-fluid" style="margin-top:20px"> 
-
-		<h2> Cristian M. Pag&aacute;n </h2>
-		
-		<p style = "font-family: Consolas"> Hi! Welcome... </p> 
-
-		<!-- This is a card -->
-		<h3> Education </h3>
-		<div class="card" style="width:400px">
-			<center>
-				<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/73/UPR_at_Bayamon_Seal.svg/1200px-UPR_at_Bayamon_Seal.svg.png" 
-					 style = "width:150px;height:150px;" alt="Card image">
-				<div class="card-body" style = "font-family:Times New Roman">
-					<h4 class="card-title text-center">
-						<b> Undergraduate in Computer Science </b> </h4>
-					<h6 class="card-text"> 
-						<b> University of Puerto Rico Bayam&oacute;n Campus </b> </h6>
-					<a href="course.html" class="btn btn-primary">See Courses </a>
-				</div>
-			</center>
-		</div>
-		
-	    	<div class="container pt-3"></div>
-	    	<div class="container pt-3"></div>
-		
-	    	<hr>
-		
-	    	<h3> Certifications </h3>
-	    	
-	    	<div class="row">
-		  <div class="col-sm-3">
+		<section id="projects">
+			<h2><i class="fas fa-folder-open"></i> Projects</h2>
+			
 			<div class="card">
-				 <div class="container pt-2"></div>
-				 <img class="card-img-top mx-auto d-block" 
-				      src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/img/database_icon.png" 
-				      style = "width:160px;height:160px;" alt="Card image">
-				<div class="card-body">
-				    <h4 class="card-title">SQL Basic</h4>
-				    <a href = "https://www.hackerrank.com/certificates/0f0ee29b09f8" class = "btn btn-primary text-center">
-					    See certificate
-				    </a>
-				</div>
-			</div>	
-		  </div>
-		  <div class="col-sm-3">
-		  	<div class="card">
-				<div class="container pt-2"></div>
-				<img class="card-img-top mx-auto d-block" 
-				     src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/img/database_icon.png" 
-				     style = "width:160px;height:160px;" alt="Card image">
-				<div class="card-body">
-				    <h4 class = "card-title">SQL Intermediate</h4>
-				    <a href = "https://www.hackerrank.com/certificates/da661113ef38" class = "btn btn-primary text-center">
-					    See certificate
-				    </a>
-				</div>
-			</div>	
-		  </div>
-		  <div class="col-sm-3">
+				
+				<h3> <i class="fas fa-project-diagram"></i> 
+					 UPR Bayamon Course Modality Analysis since 2017
+				</h3>
+				<p>In this project, we will analyze the UPRB_System database, 
+				   comprising information on UPR Bayamon courses, to provide 
+				   a comprehensive summary of course modalities offered since 
+				   2017. The Python program (modalityStudent.py) and R script
+				   will extract relevant data, calculate statistics such as 
+				   total courses, unique modalities, and course counts per 
+				   modality, aiding UPR Bayamon in understanding their course 
+				   offerings over the specified period. Developed with:
+				</p>
+				<ul>
+					<li>Python (Flask, Pandas, matplotlib, numpy)</li>
+					<li>R</li>
+				</ul>
+				<a href="course.html" target="_blank">
+					View Project
+				</a>
+			</div>
+    
+			<!-- Add the other project will be coming soon.
 			<div class="card">
-		  		<div class="container pt-2"></div>
-				<img class="card-img-top mx-auto d-block" 
-				     src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/img/python_icon.jpg" 
-				     style = "width:160px;height:160px;" alt="Card image">
-				<div class="card-body">
-				    <h4 class = "card-title">Python Basic</h4>
-				    <a href = "https://www.hackerrank.com/certificates/b85095b3570f" class = "btn btn-primary text-center">
-					    See certificate
-				    </a>
-				</div>
+				<h3>E-commerce Store</h3>
+				<p>A fully functional online store with product listings, 
+				   shopping cart, and payment integration. Developed with:</p>
+				<ul>
+					<li>PHP</li>
+					<li>MySQL</li>
+					<li>Bootstrap</li>
+				</ul>
+				<a href="https://www.example.com/store" target="_blank">View Project</a>
 			</div>
-		  </div>
-		  <div class="col-sm-3"></div>
-		</div>
-	    
-	    	<div class="container pt-3"></div>
-	    	<div class="container pt-3"></div>
-	    	<div class="container pt-3"></div>
-		
-	    	<!-- Footer -->
-		<footer class="bg-light text-center text-lg-start">
-			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-				&copy; 2020 
-				<a class="text-dark" href="mailto:cristianmiguel10@gmail.com"> Send Email </a>
-			</div>
-		</footer>
-
-    </div>
+			-->
+		</section>
 	
-  </body>
+		<section id="education">
+			<h2><i class="fas fa-graduation-cap"></i> Education</h2>
+			<ul class="education-list">
+				<li class="education-item">
+					<i class="fas fa-graduation-cap education-icon"></i>
+					<div class="education-content">
+						<h3 class="education-title">
+							Bachelor of Computer Science
+						</h3>
+						<p class="education-details">
+							University of Puerto Rico at Bayamon - 2017 to 2023
+						</p>
+						<p class="education-details">
+							GPA: 3.07
+						</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+		
+		<section id="certifications">
+			<h2><i class="fas fa-award"></i> Certifications</h2>
+			<ul class="certification-list">
+				<li class="certification-item">
+					<i class="fas fa-certificate certification-icon"></i>
+					<div class="certification-content">
+						<h3 class="certification-title">
+							Google IT Automation with Python
+						</h3>
+						<p class="certification-details">
+							Issued: June 2023
+						</p>
+						<p class="certification-description">
+							The Google IT Automation with Python certificate is a comprehensive
+							six-course program developed by Google, aiming to equip IT 
+							professionals with highly sought-after skills in Python 
+							programming, Git version control, and IT automation. 
+						</p>
+						<a href="https://coursera.org/share/32d04ebb2f3d8c9b54249611064de44f" 
+						   class="credential-link" target="_blank">
+						   Show Credential
+						</a>
+					</div>
+				</li>
+				<li class="certification-item">
+					<i class="fas fa-certificate certification-icon"></i>
+					<div class="certification-content">
+						<h3 class="certification-title">
+							Google Data Analytics
+						</h3>
+						<p class="certification-details">
+							Issued: June 2023
+						</p>
+						<p class="certification-description">
+							The Google Data Analytics Professional Certificate is a Google 
+							program that trains people for entry-level data analytics jobs. 
+							By completing the eight courses, participants gain competency 
+							in crucial tools and platforms including as spreadsheets, SQL 
+							and R, as well as hands-on, practice-based evaluations. They 
+							learn how to appropriately prepare, process, analyze, and 
+							exchange data so that they can take action based 
+							on data insights.
+						</p>
+						<a href="https://coursera.org/share/d0965045fff8144391824203286e536b" 
+						   class="credential-link" target="_blank">
+						   Show Credential
+						</a>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section id="contact">
+			<h2><i class="fas fa-address-book"></i> Contact</h2>
+			<p> Email: cristianmiguel10@gmail.com </p>
+		</section>
+
+		<footer>
+			<script>
+				// Get the current year
+				var yearActual = new Date().getFullYear(); 
+    
+				// Specify the target year
+				var year = 2023; 
+				
+				var msgYear = (yearActual === year) ? 
+					year : year + " - " + yearActual;
+				
+				var msg = msgYear + " Cristian M. Pagán. All rights reserved.";
+
+				document.write("<p> &copy; " + msg + "</p>"); 
+			</script>
+		</footer>
+	</body>
 </html>
