@@ -1,0 +1,180 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Education */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+	/* Education */
+   .education-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .education-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    border-left: 1px dotted;
+  }
+
+  .education-icon {
+    margin-right: 10px;
+  }
+
+  .education-title {
+    margin-bottom: 5px;
+  }
+
+  .education-details {
+    color: #777;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  
+  /* Certification */
+  .certification-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .certification-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    border-left: 1px dotted;
+  }
+
+  .certification-icon {
+    margin-right: 10px;
+  }
+
+  .certification-content {
+    margin-right: 40px;
+  }
+
+  .certification-title {
+    margin-bottom: 5px;
+  }
+
+  .certification-details {
+    color: #777;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .certification-description {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+  }
+
+  .credential-link {
+    color: #007bff;
+    text-decoration: none;
+  }
