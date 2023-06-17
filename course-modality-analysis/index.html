@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>Course Modality Analysis</title>
+		
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+	<body>
+		
+		<!-- Header Section -->
+		<header>
+			<h1>Course Modality Analysis</h1>
+		</header>
+		
+		<!-- Navigation Bar Section -->
+		<nav>
+			<ul>
+        <li> <a href="../index.html">Home</a> </li>
+        <li> <a href="#python-implementation">Python</a> </li>
+				<li> <a href="#r-implementation">R</a> </li>
+			</ul>
+		</nav>
+		
+		<!-- Table of Contents -->
+		<section id="table-of-contents">
+			<h2>Table of Contents</h2>
+			<ol>
+				<li>
+					<a href="#introduction">Introduction</a>
+				</li>
+				<li>
+					<a href="#data-description">Data Description</a>
+				</li>
+				<li>
+					<a href="#library">Libraries</a>
+					<ol>
+						<li>
+							<a href="#python-library">Python Libraries</a>
+						</li>
+						<li>
+							<a href="#r-library">R Libraries</a>
+						</li>
+					</ol>
+				</li>
+				<li>
+					<a href="#python-implementation">Python Implementation</a>
+					<ol>
+						<li>
+							<a href="#data-loading">Data Loading</a>
+						</li>
+						<li>
+							<a href="#analysis-functions">Analysis Functions</a>
+						</li>
+					</ol>
+				</li>
+				<li>
+					<a href="#r-implementation">R Implementation</a>
+					<ol>
+						<li>
+							<a href="#r-data-loading">Data Loading</a>
+						</li>
+						<li>
+							<a href="#analysis-functions">Analysis Functions</a>
+						</li>
+					</ol>
+				</li>
+				<li>
+					<a href="#results">Results</a>
+					<ol>
+						<li>
+							<a href="#python-results">Python Results</a>
+						</li>
+						<li>
+							<a href="#r-results">R Results</a>
+						</li>
+					</ol>
+				</li>
+				<li>
+					<a href="#conclusion">Conclusion</a>
+				</li>
+				<li>
+					<a href="#github-code">Github Code</a>
+				</li>
+			</ol>
+		</section>
+	
+	
+		<!-- Content Sections -->
+		<section id="introduction">
+			<h2> <i class="fas fa-lightbulb"></i> Introduction</h2>
+			<p style = "text-indent: 20px;"> 
+				In this coding project, we aim to analyze the course modality 
+				information stored in the UPRB_System database. The database 
+				contains information about each semester's courses at UPR 
+				Bayamon, including details such as teacher's name, course 
+				code, section, course name, schedule, credits, capacity, 
+				room, and modality. The objective is to summarize the gathered 
+				information since 2017 and answer several questions using Python 
+				and R programming languages. 
+			</p>
+		</section>
+		
+		<section id="data-description">
+			<h2> <i class="fas fa-table"></i> Data Description</h2>
+			<p> The UPRB_System database contains the following fields for each 
+				course entry: </p>
+			<table>
+				<tr>
+					<th>Field Name</th>
+					<th>Data Type/Format</th>
+					<th>Field Size</th>
+				</tr>
+				<tr>
+					<td>Term</td> <td>Alphanumeric</td> <td>3</td>
+				</tr>
+				<tr>
+					<td>Course</td>	<td>Alphanumeric</td> <td>8</td>
+				</tr>
+				<tr>
+					<td>Section</td> <td>Alphanumeric</td>	<td>3</td>
+				</tr>
+				<tr>
+					<td>Course Name</td> <td>Text</td>	<td>100</td>
+				</tr>
+				<tr>
+					<td>Credits</td> <td>Numeric (Integer)</td> <td>1</td>
+				</tr>
+				<tr>
+					<td>Capacity</td> <td>Numeric (Integer)</td> <td>2</td>
+				</tr>
+				<tr>
+					<td>Days</td> <td>Text</td> <td>4</td>
+				</tr>
+				<tr>
+					<td>Hours</td>	<td>Time</td> <td>25</td>
+				</tr>
+				<tr>
+					<td>Room</td> <td>Alphanumeric</td> <td>10</td>
+				</tr>
+				<tr>
+					<td>Professor</td> <td>Text</td> <td>40</td>
+				</tr>
+				<tr>
+					<td>Modality</td> <td>Text</td>	<td>15</td>
+				</tr>
+			</table>
+		</section>
+		
+		<section id="library">
+			<h2> <i class="fas fa-laptop-code"></i> Libraries</h2>
+			<p>In this section, we will discuss the libraries used for the 
+			   implementation of the analysis in both Python and R.</p>
+			
+			<section id="python-library">
+				<h3> <i class="fab fa-python"></i> Python Libraries</h3>
+				<p> Python libraries offer developers ready-made solutions, 
+					saving them time that would otherwise be spent starting 
+					from scratch. These libraries empower developers to 
+					concentrate on essential tasks such as data analysis, 
+					data visualization, machine learning, and web development.
+				</p>
+				<ul>
+					<li><strong>Pandas</strong> was employed for efficient data 
+						manipulation and analysis since it provides simple data 
+						structures and analytical capabilities.</li>
+					<li><strong>NumPy</strong> provided scientific computing 
+						capabilities as well as support for large, 
+						multi-dimensional arrays.</li>
+					<li><strong>Matplotlib</strong> was used to produce a number 
+						of graphics to examine and display the data.</li>
+					<li><strong>Pathlib</strong> a standard library module, made interacting with 
+						the file system and changing file paths easier.</li>
+				</ul>
+			</section>
+			
+			<section id="r-library">
+				<h3> <i class="fab fa-r-project"></i> R Libraries</h3>
+				<p> R libraries provide tools and functions that greatly enhance 
+				    the capabilities of the R programming language. With these 
+					libraries at their disposal, data scientists and statisticians 
+					can efficiently analyze data, create visually appealing
+					visualizations, and perform complex statistical computations. 
+					This makes R an incredibly powerful and versatile tool, 
+					empowering professionals in these fields to achieve their 
+					goals effectively.
+				</p>
+				<ul>
+					<li><strong>Base</strong> is a default library in R that 
+						provides fundamental functions and data structures. 
+						It is automatically available when you run R and 
+						contains essential functionalities for data 
+						manipulation and analysis.
+					</li>
+					<li><strong>Graphics</strong> is library is also a part of 
+						the base package in R. It is used for creating various 
+						types of graphical plots and charts, allowing you to
+						visualize data in a meaningful way.
+					</li>
+					<li><strong>Utils</strong> a part of the base package, 
+						offers utility functions that assist in various tasks. 
+						In this script, it specifically uses the sprintf() function 
+						to format and print text output with specific placeholders.
+					</li>
+				</ul>
+			</section>
+		</section>
+		
+		<section id="python-implementation">
+			<h2> <i class="fab fa-python"></i> Python Implementation</h2>
+
+			<section id="data-loading">
+				<h3> <i class="fas fa-file-csv"></i> Data Loading</h3>
+				<p>In Python, we can use the pandas library to load the
+				   data from the UPRB_System database. Here's an 
+				   example:</p>
+				<pre id="code-block"> </pre>
+			</section>
+			
+			<script>
+				// JavaScript code to be printed
+				var pythonCode = 
+				'# Import the pandas library\n' +
+				'import pandas as pd\n\n' +
+				'# Load the data from the UPRB_System database\n' +
+				'data = pd.read_csv(\'data.csv\');';
+
+				// Get the code block element
+				var codeBlock = document.getElementById('code-block');
+
+				// Print the JavaScript code using document.write()
+				codeBlock.textContent = pythonCode.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+			</script>
+			
+			<section id="analysis-functions">
+				<h3> <i class="fas fa-chart-line"></i> Analysis Functions</h3>
+				<p>Once the data is loaded, we can perform various analysis 
+				   tasks using Python. Here are a few example functions:
+				</p>
+				<pre id="code-block2"> </pre>
+			</section>
+
+			<script>
+				// JavaScript code to be printed
+				var pythonCode = 
+				'def modalityTerm(term: str, modality: str): \n' + 
+				'    # This function returns the amount of data for each semester and its modality. \n' +
+                '    return df[(df[\'Term\'] == term) & (df[\'Modality\'] == modality)]\n' +
+				'\n' + 
+                'def modalityTermCourse(term: str, modality: str, courseCode: str): \n' +
+				'    # This function returns the amount of data for each semester and its modality \n' +
+				'    # by the course code. \n' +
+				'    return df[(df[\'Term\'] == term) & (df[\'Modality\'] == modality) &\n' +
+				'              (df[\'Course\'] == courseCode)]\n' +
+				'\n' +
+				'def modalityCourse(term: str, courseCode: str):\n' +
+				'    # This function returns the amount of data for each semester\n' +
+				'    # by the course code. \n' +
+				'    return df[(df[\'Term\'] == term) & (df[\'Course\'] == courseCode)]\n' +
+				'\n' +
+				'def modalityProfesor(term: str, nameProfesor: str):\n' +
+				'    # This function returns the amount of data for each semester \n' +
+				'    # by the full name of the professor given the course. \n' +
+				'    return df[(df[\'Term\'] == term) & (df[\'Professor\'] == nameProfesor)]\n' +
+				'\n' +
+				'def modalityTermDays(term: str, days: str):\n' +
+				'    # This function returns the amount of data for each semester\n' +
+				'    # by the days given the course. \n' +
+				'    return df[(df[\'Term\'] == term) & (df[\'Days\'] == days)]\n' +
+				'\n' +
+				'def showCourseTerm(term: str):\n' +
+				'    # This function returns the amount of data for each semester. \n' +
+				'    return df[(df[\'Term\'] == term)]\n' +
+				'\n' +
+				'def pieChart(term):\n' +
+				'    # Generates a pie chart of each semester.\n' +
+				'    totalModality = []\n' +
+				'\n' +
+				'    totalModality.insert(0, len(modalityTerm(term, "(H) - Hybrid")))\n' +
+				'    totalModality.insert(1, len(modalityTerm(term, "(P) - Presencial")))\n' +
+				'    totalModality.insert(2, len(modalityTerm(term, "(D) - Distance")))\n' +
+				'\n' +
+				'    labelModality = ["Hybrid", "Presencial", "Distance"]\n' +
+				'\n' +
+				'    if sum(totalModality) < 1:\n' +
+				'        print(f"No data found for the term {term}.")\n' +
+				'    else:\n' +
+				'        plt.pie(totalModality, labels=labelModality, autopct="%.1f%%")\n' +
+				'        plt.legend()\n' +
+				'        plt.title("Modality for the semester")\n' +
+				'        plt.show()';
+
+				// Get the code block element
+				var codeBlock = document.getElementById('code-block2');
+
+				// Print the JavaScript code using document.write()
+				codeBlock.textContent = pythonCode.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+			</script>
+		</section>
+
+		<section id="r-implementation">
+			<h2> <i class="fab fa-r-project"></i> R Implementation</h2>
+			
+			<section id="r-data-loading">
+				<h3> <i class="fas fa-file-csv"></i> Data Loading</h3>
+				<p>Similarly, we will load the data from the UPRB_System 
+				   database into our RStudio program.</p>
+				<pre id="code-block3"> </pre>
+			</section>
+			
+			<script>
+				var RCode = 
+				'## Guarda los datos del archivo del csv (comma-separated values)\n' +
+				'myData <- read.csv("uprb_database.csv", header = TRUE)\n\n' +
+				'## Convierte los datos guardados en myData a un dataframe.\n' +
+				'studentData <- data.frame(myData);';
+
+				// Get the code block element
+				var codeBlock = document.getElementById('code-block3');
+
+				// Print the JavaScript code using document.write()
+				codeBlock.textContent = RCode;
+			</script>
+			
+			<section id="analysis-functions">
+				<h3> <i class="fas fa-chart-bar"></i> Analysis Functions</h3>
+				<p>Next, we will define functions to answer the questions 
+				   using the loaded data.</p>
+				<pre id="code-block4"> </pre>
+			</section>
+			
+			<script>
+				var RCode =
+				  '## This function returns the amount of data for each semester and its modality.\n' +
+				  'modalityTerm = function(term, modality) {\n' +
+				  '  return length(which(studentData[[1]] == term &\n' + 
+				  '                      studentData[[11]] == modality))\n' +
+				  '}\n\n' +
+				  
+				  '## This function returns the amount of data for each semester \n' +
+				  '## and its modality by the course code.\n' +
+				  'modalityTermCourse = function(term, modality, courseCode) {\n' +
+				  '  return length(which(studentData[[1]] == term &\n' + 
+				  '                      studentData[[11]] == modality &\n' + 
+				  '                      studentData[[2]] == courseCode))\n' +
+				  '}\n\n' +
+				  
+				  '## This function returns the amount of data for each semester\n' +
+				  '## by the course code.\n' +
+				  'modalityCourse = function(term, courseCode) {\n' +
+				  '  return length(which(studentData[[1]] == term &\n' + 
+				  '                      studentData[[2]] == courseCode))\n' +
+				  '}\n\n' +
+				  
+				  '## This function returns the amount of data for each semester\n' +
+				  '## by the full name of the professor given the course.\n' +
+				  'modalityProfesor = function(term, fullnameProfesor) {\n' +
+				  '  return length(which(studentData[[1]] == term &\n ' + 
+				  '                     studentData[[10]] == fullnameProfesor))\n' +
+				  '}\n\n' +				  
+				  
+				  '## This function returns the amount of data for each semester\n' +
+				  '## by the days given the course.\n' +
+				  'modalityTermDays = function(term, days) {\n' +
+				  '  return length(which(studentData[[1]] == term &\n' +
+				  '                      studentData[[7]] == days))\n' +
+				  '}\n\n' +
+				  
+				  '## This function returns the amount of data for each semester.\n' +
+				  'showCourseTerm = function(term) {\n' +
+				  '  return length(which(studentData[[1]] == term))\n' +
+				  '}\n\n' +
+				  
+				  'pieChart = function(term) {\n' +
+				  '  hybrid = modalityTerm(term, "(H) - Hybrid")\n' +
+				  '  presencial = modalityTerm(term, "(P) - Presencial")\n' +
+				  '  distance = modalityTerm(term, "(D) - Distance")\n\n' +
+				  
+				  '  # Create data for the pie chart graph.\n' +
+				  '  totalModality <- c(hybrid, presencial, distance)\n' +
+				  '  labels <- c("Hybrid", "Presencial", "Distance")\n' +
+				  '  piepercent <- round(100 * totalModality / sum(totalModality), 2)\n\n' +
+				  
+				  '  # Plot the pie chart graph.\n' +
+				  '  pie(totalModality, labels = paste(piepercent, "%"),\n' +
+				  '      main = paste("Modality for the semester", term),\n' +
+				  '      col = rainbow(length(totalModality)))\n' +
+				  '      legend("topright", labels, cex = 0.9,\n' +
+				  '      fill = rainbow(length(totalModality)))\n' +
+				  '}\n\n';
+				  
+				// Get the code block element
+				var codeBlock = document.getElementById('code-block4');
+
+				// Print the JavaScript code using document.write()
+				codeBlock.textContent = RCode;
+			</script>
+
+		</section>
+
+		<section id="results">
+			<h2> <i class="fas fa-file-pdf"></i> Results</h2>
+			
+			<section id="python-results">
+				<h3> <i class="fab fa-python"></i> Python Results</h3>
+				<p>Using the Python implementation, we can now answer the questions:</p>
+				<ol>
+					<li>
+						<strong>How many students are in the hybrid mode?</strong>
+						<div class="image-text">a. Term: <b>C12</b> </div>
+						<img src="" alt="Hybrid C12" id="img1">
+						<div class="image-text">b. Term: <b>C11</b> </div>
+						<img src="" alt="Hybrid C11" id="img2">
+						<div class="image-text">c. Term: <b>C03</b> </div>
+						<img src="" alt="Hybrid C03" id="img3">
+						<div class="image-text">d. Term: <b>C02</b> </div>
+						<img src="" alt="Hybrid C02" id="img4">
+					</li>
+					<li>
+						<strong>How many students are in the face-to-face mode?</strong><br>
+						<div class="image-text">a. Term: <b>C12</b> </div>
+						<img src="" alt="Presencial C12" id="img5">
+						<div class="image-text">b. Term: <b>C11</b> </div>
+						<img src="" alt="Presencial C11" id="img6">
+						<div class="image-text">c. Term: <b>C03</b> </div>
+						<img src="" alt="Presencial C03" id="img7">
+						<div class="image-text">d. Term: <b>C02</b> </div>
+						<img src="" alt="Presencial C02" id="img8">
+					</li>
+					<li>
+						<strong>How many students are in the distance mode?</strong><br>
+						<div class="image-text">a. Term: <b>C12</b> </div>
+						<img src="" alt="Distance C12" id="img9">
+						<div class="image-text">b. Term: <b>C11</b> </div>
+						<img src="" alt="Distance C11" id="img10">
+						<div class="image-text">c. Term: <b>C03</b> </div>
+						<img src="" alt="Distance C03" id="img11">
+						<div class="image-text">d. Term: <b>C02</b> </div>
+						<img src="" alt="Distance C02" id="img12">
+					</li>
+					<li>
+						<strong>How many students of the COTI3101 course 
+					    are in face-to-face mode?</strong><br>
+						<img src="" alt="Presencial COTI 3101" id="img13">
+					</li>
+					<li>
+						<strong>How many courses have been created from 
+						COTI3101 for semester C11?</strong><br>
+						<img src="" alt="Presencial Term C11 3101" id="img14">
+					</li>
+					<li>
+						<strong>How many courses does Juan M. Sola Sloan 
+						offer in semester C11?</strong><br>
+						<img src="" alt="Term C11 Professor" id="img15">
+					</li>
+					<li>
+						<strong>How many courses were offered on 
+						Tuesdays and Thursdays in semester C11?</strong><br>
+						<img src="" alt="Term C11 Days Tue Thu" id="img16">
+					</li>
+					<li>
+						<strong>How many courses were offered on 
+						Wednesdays in semester C11?</strong><br>
+						<img src="" alt="Term C11 Days Wed" id="img17"> 
+						</li>
+					<li>
+						<strong>How many courses were offered 
+						in summer C03? </strong>
+						<img src="" alt="Term C11 Days Tue Thu" id="img18">
+					</li>
+					<li><strong>How many courses were offered in 
+						C01 and C11? What is the difference? </strong>
+						<img src="" alt="Term C11 and C01" id="img19">
+					</li>
+				</ol>
+			</section>
+			
+			<script>
+				var dir = "https://raw.githubusercontent.com/cristian9217/" + 
+						  "cristian9217/default/courses/sici4997/img/";
+						  
+				document.getElementById("img1").src = dir + "PythonCSVFileQ1A.jpg";
+				document.getElementById("img2").src = dir + "PythonCSVFileQ1B.jpg";
+				document.getElementById("img3").src = dir + "PythonCSVFileQ1C.jpg";
+				document.getElementById("img4").src = dir + "PythonCSVFileQ1D.jpg";
+				
+				document.getElementById("img5").src = dir + "PythonCSVFileQ2A.jpg";
+				document.getElementById("img6").src = dir + "PythonCSVFileQ2B.jpg";
+				document.getElementById("img7").src = dir + "PythonCSVFileQ2C.jpg";
+				document.getElementById("img8").src = dir + "PythonCSVFileQ2D.jpg";
+				
+				document.getElementById("img9").src = dir + "PythonCSVFileQ3A.jpg";
+				document.getElementById("img10").src = dir + "PythonCSVFileQ3B.jpg";
+				document.getElementById("img11").src = dir + "PythonCSVFileQ3C.jpg";
+				document.getElementById("img12").src = dir + "PythonCSVFileQ3D.jpg";
+				
+				document.getElementById("img13").src = dir + "PythonCSVFileQ4.jpg";
+				
+				document.getElementById("img14").src = dir + "PythonCSVFileQ5.jpg";
+				
+				document.getElementById("img15").src = dir + "PythonCSVFileQ6.jpg";
+				
+				document.getElementById("img16").src = dir + "PythonCSVFileQ7.jpg";
+				
+				document.getElementById("img17").src = dir + "PythonCSVFileQ8.jpg";
+				
+				document.getElementById("img18").src = dir + "PythonCSVFileQ9.jpg";
+				
+				document.getElementById("img19").src = dir + "PythonCSVFileQ10.jpg";
+			</script>
+			
+			<section id="r-results">
+				<h3> <i class="fab fa-r-project"></i> R Results</h3>
+				<p>Using the R implementation, we can now answer the questions:</p>
+				<ol>
+					<li>
+						<strong>How many students are in the hybrid mode?</strong>
+						<div class="image-text">a. Term: <b>C12</b> </div>
+						<img src="" alt="Hybrid C12" id="imgR1">
+						<div class="image-text">b. Term: <b>C11</b> </div>
+						<img src="" alt="Hybrid C11" id="imgR2">
+						<div class="image-text">c. Term: <b>C03</b> </div>
+						<img src="" alt="Hybrid C03" id="imgR3">
+						<div class="image-text">d. Term: <b>C02</b> </div>
+						<img src="" alt="Hybrid C02" id="imgR4">
+					</li>
+					<li>
+						<strong>How many students are in the face-to-face mode?</strong><br>
+						<div class="image-text">a. Term: <b>C12</b> </div>
+						<img src="" alt="Presencial C12" id="imgR5">
+						<div class="image-text">b. Term: <b>C11</b> </div>
+						<img src="" alt="Presencial C11" id="imgR6">
+						<div class="image-text">c. Term: <b>C03</b> </div>
+						<img src="" alt="Presencial C03" id="imgR7">
+						<div class="image-text">d. Term: <b>C02</b> </div>
+						<img src="" alt="Presencial C02" id="imgR8">
+					</li>
+					<li>
+						<strong>How many students are in the distance mode?</strong><br>
+						<div class="image-text">a. Term: <b>C12</b> </div>
+						<img src="" alt="Distance C12" id="imgR9">
+						<div class="image-text">b. Term: <b>C11</b> </div>
+						<img src="" alt="Distance C11" id="imgR10">
+						<div class="image-text">c. Term: <b>C03</b> </div>
+						<img src="" alt="Distance C03" id="imgR11">
+						<div class="image-text">d. Term: <b>C02</b> </div>
+						<img src="" alt="Distance C02" id="imgR12">
+					</li>
+					<li>
+						<strong>How many students of the COTI3101 course 
+					    are in face-to-face mode?</strong><br>
+						<img src="" alt="Presencial COTI 3101" id="imgR13">
+					</li>
+					<li>
+						<strong>How many courses have been created from 
+						COTI3101 for semester C11?</strong><br>
+						<img src="" alt="Presencial Term C11 3101" id="imgR14">
+					</li>
+					<li>
+						<strong>How many courses does Juan M. Sola Sloan 
+						offer in semester C11?</strong><br>
+						<img src="" alt="Term C11 Professor" id="imgR15">
+					</li>
+					<li>
+						<strong>How many courses were offered on 
+						Tuesdays and Thursdays in semester C11?</strong><br>
+						<img src="" alt="Term C11 Days Tue Thu" id="imgR16">
+					</li>
+					<li>
+						<strong>How many courses were offered on 
+						Wednesdays in semester C11?</strong><br>
+						<img src="" alt="Term C11 Days Wed" id="imgR17"> 
+						</li>
+					<li>
+						<strong>How many courses were offered 
+						in summer C03? </strong>
+						<img src="" alt="Term C11 Days Tue Thu" id="imgR18">
+					</li>
+					<li><strong>How many courses were offered in 
+						C01 and C11? What is the difference? </strong>
+						<img src="" alt="Term C11 and C01" id="imgR19">
+					</li>
+				</ol>
+			</section>
+			
+			<script>
+				var dir = "https://raw.githubusercontent.com/cristian9217/" + 
+						  "cristian9217/default/courses/sici4997/img/";
+						  
+				document.getElementById("imgR1").src = dir + "langRcsvFileQ1A.JPG";
+				document.getElementById("imgR2").src = dir + "langRcsvFileQ1B.JPG";
+				document.getElementById("imgR3").src = dir + "langRcsvFileQ1C.JPG";
+				document.getElementById("imgR4").src = dir + "langRcsvFileQ1D.JPG";
+				
+				document.getElementById("imgR5").src = dir + "langRcsvFileQ2A.JPG";
+				document.getElementById("imgR6").src = dir + "langRcsvFileQ2B.JPG";
+				document.getElementById("imgR7").src = dir + "langRcsvFileQ2C.JPG";
+				document.getElementById("imgR8").src = dir + "langRcsvFileQ2D.JPG";
+				
+				document.getElementById("imgR9").src = dir + "langRcsvFileQ3A.JPG";
+				document.getElementById("imgR10").src = dir + "langRcsvFileQ3B.JPG";
+				document.getElementById("imgR11").src = dir + "langRcsvFileQ3C.JPG";
+				document.getElementById("imgR12").src = dir + "langRcsvFileQ3D.JPG";
+				
+				document.getElementById("imgR13").src = dir + "langRcsvFileQ4.JPG";
+				
+				document.getElementById("imgR14").src = dir + "langRcsvFileQ5.JPG";
+				
+				document.getElementById("imgR15").src = dir + "langRcsvFileQ6.JPG";
+				
+				document.getElementById("imgR16").src = dir + "langRcsvFileQ7.JPG";
+				
+				document.getElementById("imgR17").src = dir + "langRcsvFileQ8.JPG";
+				
+				document.getElementById("imgR18").src = dir + "langRcsvFileQ9.JPG";
+				
+				document.getElementById("imgR19").src = dir + "langRcsvFileQ10.JPG";
+			</script>
+
+		<section id="conclusion">
+			<h2> <i class="fas fa-check-circle" style = "color: green"></i> Conclusion</h2>
+			<p style = "text-indent: 20px;"> 
+				In this coding project, we utilized Python and R programming
+				languages to analyze the course modality information from 
+				the UPRB_System database. By answering various questions about 
+				student counts, course creation, teacher offerings, and schedule 
+				analysis, we provided valuable insights into the data gathered 
+				since 2017 at UPR Bayamon. The implemented functions can be further 
+				extended and modified to accommodate additional analysis requirements.
+			</p>
+		</section>
+
+		<section id="github-code">
+			<h2> <i class="fab fa-github"></i> Github Code </h2>
+			<p> The complete code for this project can be found on GitHub: </p>
+			
+			<ul>
+				<li>
+					<strong>Python code (modalityStudent.py):</strong> 
+					<a id = "python-code-link" href="#"> 
+						<i class="fab fa-python"></i>modalityStudent.py 
+					</a>
+				</li>
+				<li>
+					<strong>R code (modalityStudent.R):</strong> 
+					<a id = "r-code-link" href="#">
+						<i class="fab fa-r-project"></i>modalityStudent.R
+					</a>
+				</li>
+				<li>
+					<strong>Dataset (student.csv):</strong> 
+					<a id = "dataset-link" href="#">
+						<i class="fas fa-file-csv"></i>uprb_database.csv
+					</a>
+				</li>
+			</ul>
+		</section>
+		
+		<script>
+			var url = "https://github.com/cristian9217/cristian9217/blob/default" + 
+			"/courses/sici4997/";
+			
+			document.getElementById('python-code-link').href = url  + 'Python/modalityStudent.py';
+			document.getElementById('r-code-link').href = url + 'r/modalityStudent.R';
+			document.getElementById('dataset-link').href = url + 'csv/uprb_database.csv' ;
+		</script>
+
+		<footer>
+			<script>
+				// Get the current year
+				var yearActual = new Date().getFullYear(); 
+    
+				// Specify the target year
+				var year = 2023; 
+				
+				var msgYear = (yearActual === year) ? 
+					year : year + " - " + yearActual;
+				
+				var msg = msgYear + " Cristian M. Pagán. All rights reserved.";
+
+				document.write("<p> &copy; " + msg + "</p>"); 
+			</script>
+		</footer>
+	</body>
+</html>
