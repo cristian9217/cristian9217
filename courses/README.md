@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Web link to the course page: [Click Here](https://cristian9217.github.io/cristian9217/course.html)
+Web link to the course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
 Web link to the SICI 4997 course: [Click Here](https://cristian9217.github.io/cristian9217/courses/sici4997/projectFinal.html)
 
