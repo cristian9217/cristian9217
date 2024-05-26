@@ -1,7 +1,5 @@
 ### Hi there 👋, I am Cristian Pagan
 
-I am looking
-
 ------------------------------------------------------------------
 
 - :open_book: I studied for a Bachelor's degree in Computer Science.
