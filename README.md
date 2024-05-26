@@ -5,8 +5,8 @@
 Here are some ideas to get you started:
 
 - :open_book: I studied for a Bachelor's degree in Computer Science.
-- 🔭 I’m currently studying on Masters in Computer Science. 
-- 🌱 I’m currently learning Python, Java, HTML and PHP.
+- 🔭 I am currently studying on Masters in Computer Science. 
+- :notebook: I am currently learning Python and R.
 - 📫 How to reach me: <cristianmiguel10@gmail.com>
 
 Web link to the bio page: [Click Here](https://cristian9217.github.io/cristian9217/welcome.html)
