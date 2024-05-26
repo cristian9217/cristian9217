@@ -4,7 +4,8 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently studying on Computer Science. 
+- :open_book: I studied for a Bachelor's degree in Computer Science.
+- 🔭 I’m currently studying on Masters in Computer Science. 
 - 🌱 I’m currently learning Python, Java, HTML and PHP.
 - 📫 How to reach me: <cristianmiguel10@gmail.com>
 
