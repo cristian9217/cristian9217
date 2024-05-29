@@ -8,7 +8,14 @@ This will aid BlueBox in understanding their movie offerings over the specified 
 Developed with:
 
 Python 
-  - (Flask, Pandas, matplotlib, numpy)
+  - **Flask**: Web framework for developing web applications in Python.
+  - **Pandas**: A powerful data manipulation and analysis library for structured data.
+  - **matplotlib**: A plotting library for interactive visulizations in Python.
+  - **numpy**: A fundamental package for computing in Python, easy to handle arrays and matrices.
 
-[Python Code](movieAnalysis.py) <br> <br>
+[Python Code](movieAnalysis.py) 
+<br> <br>
 [Dataset](movie_dataset.csv)
+<br> <br>
+
+For more detail about this project visit my [webpage](https://cristian9217.pythonanywhere.com/)
