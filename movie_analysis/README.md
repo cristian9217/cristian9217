@@ -7,7 +7,8 @@ as the total number of movies, their classifications, and the count of movies pe
 This will aid BlueBox in understanding their movie offerings over the specified period. 
 Developed with:
 
-Python (Flask, Pandas, matplotlib, numpy)
+Python 
+  - (Flask, Pandas, matplotlib, numpy)
 
-[Python Code](movieAnalysis.py) <br>
+[Python Code](movieAnalysis.py) <br> <br>
 [Dataset](movie_dataset.csv)
