@@ -14,8 +14,9 @@ Python
   - **numpy**: A fundamental package for computing in Python, easy to handle arrays and matrices.
 
 [Python Code](movieAnalysis.py) 
-<br> <br>
+<br>
 [Dataset](movie_dataset.csv)
 <br> <br>
 
-For more detail about this project visit my [webpage](https://cristian9217.pythonanywhere.com/)
+For more detail about this project visit my 
+[webpage](https://cristian9217.pythonanywhere.com/)
