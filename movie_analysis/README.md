@@ -16,7 +16,7 @@ Python
 [Python Code](movieAnalysis.py) 
 <br>
 [Dataset](movie_dataset.csv)
-<br> <br>
+<br> 
 
 For more detail about this project visit my 
 [webpage](https://cristian9217.pythonanywhere.com/)
