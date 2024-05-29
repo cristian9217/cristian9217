@@ -9,5 +9,5 @@ Developed with:
 
 Python (Flask, Pandas, matplotlib, numpy)
 
-[Python Code]()
-[Dataset]()
+[Python Code](movieAnalysis.py) <br>
+[Dataset](movie_dataset.csv)
