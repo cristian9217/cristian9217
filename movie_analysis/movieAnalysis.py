@@ -155,8 +155,8 @@ plt.show()
 #########################################################
 # Question 19 - Boxplot de multiples atributos
 #########################################################
-plt.figure(figsize=(10, 6))
-movie_df.boxplot(column=['releaseYear', 'rating', 'runtime', 'budget'])
-plt.title('Boxplot de releaseYear, rating, runtime y budget')
-plt.ylabel('Valores')
+boxplot_cols = ['releaseYear', 'rating', 'runtime', 'budget']
+
+movie_df[boxplot_cols].plot(kind='box', subplots=True, layout=(2,2), figsize=(10,8))
+plt.suptitle('Boxplot de releaseYear, rating, runtime y budget')
 plt.show()
