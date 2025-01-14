@@ -82,4 +82,4 @@ which are implemented in the file **searching.py** for integer numbers.
      * After the user inputs a binar pattern, the patter is search for in the
        binary string. For instance, you can try: "00001".
 
-    7. This option you can exit the program.  
+   7. This option you can exit the program.  
