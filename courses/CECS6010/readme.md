@@ -1,5 +1,5 @@
 # CECS 6010 - ADVANCED DESIGN AND ANALYSIS OF ALGORITHM
-===============	
+---
 
 The **main.py** file provides a menu to select and explore different sorting 
 algorithms. It allows users to visualize and understand how various 
