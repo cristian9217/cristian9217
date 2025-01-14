@@ -37,9 +37,9 @@ which are implemented in the file **searching.py** for integer numbers.
    Since the inputs a, b, and d have been validate, we will apply the 
    **master theorem** which states:
 
-    * If **a < b^d**: The time complexity is *Θ(n^d)*. 
-    * If **a == b^d**: The time complexity is *Θ(n^d log n)*. 
-    * If **a > b^d**: The time complexity is *Θ(n^(log_b a))*.
+   * If **a < b^d**: The time complexity is *Θ(n^d)*. 
+   * If **a == b^d**: The time complexity is *Θ(n^d log n)*. 
+   * If **a > b^d**: The time complexity is *Θ(n^(log_b a))*.
 
    Based on the recurrence, this figures out the asymptotic behavior of 
    recursive algorithms.
