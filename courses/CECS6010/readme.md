@@ -36,7 +36,7 @@ which are implemented in the file **searching.py** for integer numbers.
    
    Since the inputs a, b, and d have been validate, we will apply the 
    **master theorem** which states:
-
+   
    * If **a < b^d**: The time complexity is *Θ(n^d)*. 
    * If **a == b^d**: The time complexity is *Θ(n^d log n)*. 
    * If **a > b^d**: The time complexity is *Θ(n^(log_b a))*.
@@ -44,7 +44,7 @@ which are implemented in the file **searching.py** for integer numbers.
    Based on the recurrence, this figures out the asymptotic behavior of 
    recursive algorithms.
 
-4. **Apply binary exponentation**: This program analyzes effective algorithm
+5. **Apply binary exponentation**: This program analyzes effective algorithm
    that uses binary representation to divide the exponentiation process into
    a number of smaller, more manageable steps in order to compute large powers
    of a number.
@@ -62,7 +62,7 @@ which are implemented in the file **searching.py** for integer numbers.
    * Right-to-left binary exponentiation: With this method, the exponentiation
    is calculated by looking at the exponent's bits from right to left.
 
-5. Apply Horspool's algorithm to search words: In the string search algorithm that
+6. Apply Horspool's algorithm to search words: In the string search algorithm that
    effectively looks for a pattern in a text by calculating how much to shift
    the pattern upon a mismatch using a shift table.
    
@@ -72,7 +72,7 @@ which are implemented in the file **searching.py** for integer numbers.
    * After the user enters a word (pattern), it is converted to uppercase
      for uniform comparison. For instance, you can try: "BARBER".
 
-  6. Apply Horspool's algorithm to search integers: To search for integers we can
+  7. Apply Horspool's algorithm to search integers: To search for integers we can
      interpret the binary pattern matching in the context of a binary string,
      where the pattern is a sequence of 1s and 0s in binary.
 
@@ -82,4 +82,4 @@ which are implemented in the file **searching.py** for integer numbers.
      * After the user inputs a binar pattern, the patter is search for in the
        binary string. For instance, you can try: "00001".
 
-   7. This option you can exit the program.  
+   8. This option you can exit the program.  
