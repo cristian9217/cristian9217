@@ -1,11 +1,11 @@
 # File of Employees
 
-Webiste: [Click here](https://cristian9217.github.io/cristian9217/courses/coti3102/fileEmployeeJava.html)
+Webiste: [Click here](https://cristian9217.github.io/cristian9217/courses/coti3102/index.html)
 
 <b>IDE</b>: Eclipse IDE for Java Developers   
 
-Write a Java program (EmployeePayroll.java) that reads a file of employees (employees.txt) and creates another file with their id, 
-fullname, departament and weekly salary. 
+Write a Java program (EmployeePayroll.java) that reads a file of employees (employees.txt) and creates another file with 
+their id, full name (first name and last name), departament and weekly salary.
 
 ![Employee File](employeeFile.PNG)
 
