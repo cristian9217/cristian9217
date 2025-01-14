@@ -30,9 +30,9 @@ which are implemented in the file **searching.py** for integer numbers.
    of growth for a given recurrence by accepting three integer inputs:
    a, b and d.
    
-   *a*: A integer number positive greather than 1.
-   *b*: A integer number positive greather than 1.
-   *d*: A integer number positive greather than 1.
+   *a*: A integer number positive greather than 1. <br>
+   *b*: A integer number positive greather than 1. <br>
+   *d*: A integer number positive greather than 1. <br>
    
    Since the inputs a, b, and d have been validate, we will apply the 
    **master theorem** which states:
@@ -41,8 +41,8 @@ which are implemented in the file **searching.py** for integer numbers.
     If **a == b^d**: The time complexity is *Θ(n^d log n)*. 
     If **a > b^d**: The time complexity is *Θ(n^(log_b a))*.
 
-  Based on the recurrence, this figures out the asymptotic behavior of 
-  recursive algorithms.
+   Based on the recurrence, this figures out the asymptotic behavior of 
+   recursive algorithms.
 
 4. **Apply binary exponentation**: This program analyzes effective algorithm
    that uses binary representation to divide the exponentiation process into
