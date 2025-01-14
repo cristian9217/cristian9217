@@ -1,6 +1,9 @@
 # CECS 6010 - ADVANCED DESIGN AND ANALYSIS OF ALGORITHM
 ---
 
+**Objective**: To understand of advanced algorithms methods, their concepts, 
+and how they are used to engaging computational issues.
+
 The **main.py** file provides a menu to select and explore different sorting 
 algorithms. It allows users to visualize and understand how various 
 sorting methods work by processing a given string.
@@ -62,7 +65,7 @@ which are implemented in the file **searching.py** for integer numbers.
    * Right-to-left binary exponentiation: With this method, the exponentiation
    is calculated by looking at the exponent's bits from right to left.
 
-6. Apply Horspool's algorithm to search words: In the string search algorithm that
+6. **Apply Horspool's algorithm to search words**: In the string search algorithm that
    effectively looks for a pattern in a text by calculating how much to shift
    the pattern upon a mismatch using a shift table.
    
@@ -72,7 +75,7 @@ which are implemented in the file **searching.py** for integer numbers.
    * After the user enters a word (pattern), it is converted to uppercase
      for uniform comparison. For instance, you can try: "BARBER".
 
-  7. Apply Horspool's algorithm to search integers: To search for integers we can
+  7. **Apply Horspool's algorithm to search integers**: To search for integers we can
      interpret the binary pattern matching in the context of a binary string,
      where the pattern is a sequence of 1s and 0s in binary.
 
@@ -82,4 +85,4 @@ which are implemented in the file **searching.py** for integer numbers.
      * After the user inputs a binar pattern, the patter is search for in the
        binary string. For instance, you can try: "00001".
 
-   8. This option you can exit the program.  
+   8. This option allows you to exit the program.
