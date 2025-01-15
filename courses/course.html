@@ -9,7 +9,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     
     <style>
-      
+      /* Custom link class for course buttons */
+      .link-course {
+        background-color: #3b82f6; /* Tailwind's bg-blue-500 */
+        color: white;
+        padding: 0.5rem 1rem; /* Tailwind's px-4 py-2 */
+        border-radius: 0.5rem; /* Tailwind's rounded-lg */
+        display: block;
+        text-align: center;
+        margin-top: 1.5rem; /* Tailwind's mt-6 */
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+
+      /* Hover effect */
+      .link-course:hover {
+        background-color: #2563eb; /* Tailwind's hover:bg-blue-600 */
+      }
     </style>
   </head>
   <body style = "font-family: Times New Roman">
@@ -69,15 +85,12 @@
           <ul class="list-disc pl-6 mt-4">
             <li><b>SICI 4036 - Data Structures</b></li>
           </ul>
-          <a
-            href="sici4036/datastructures.html"
-            class="bg-blue-500 text-white px-4 py-2 rounded-lg block text-center mt-6 hover:bg-blue-600"
-          >
+          <a href="sici4036/datastructures.html" class="link-course">
             See Code
           </a>
         </li>
 
-        <!-- Card 3 -->
+        <!-- Card 3: COTI3102 -->
         <li class="border rounded-lg p-6 shadow-lg">
           <p>
             Write a Java program (<code>EmployeePayroll.java</code>) that reads a file of employees
@@ -87,13 +100,11 @@
           <ul class="list-disc pl-6 mt-4">
             <li><b>COTI 3102 - Algorithms and Program Development II</b></li>
           </ul>
-          <a
-            href="COTI3102/"
-            class="bg-blue-500 text-white px-4 py-2 rounded-lg block text-center mt-6 hover:bg-blue-600"
-          >
+          <a href="COTI3102/" class="link-course">
             See Code
           </a>
         </li>
+        
       </ul>
     </div>
 
