@@ -30,9 +30,9 @@ which are implemented in the file **searching.py** for integer numbers.
   Binary Search and Sequential Search.
 
 3. **Determine order of growth for a given recurrence**: Determines the order
-   of growth for a given recurrence by accepting three integer inputs:
-   a, b and d.
-   
+of growth for a given recurrence by accepting three integer inputs:
+a, b and d.
+
    *a*: A integer number positive greather than 1. <br>
    *b*: A integer number positive greather than 1. <br>
    *d*: A integer number positive greather than 1. <br>
@@ -48,9 +48,9 @@ which are implemented in the file **searching.py** for integer numbers.
    recursive algorithms.
 
 5. **Apply binary exponentation**: This program analyzes effective algorithm
-   that uses binary representation to divide the exponentiation process into
-   a number of smaller, more manageable steps in order to compute large powers
-   of a number.
+that uses binary representation to divide the exponentiation process into
+a number of smaller, more manageable steps in order to compute large powers
+of a number.
 
    The file **binary_exponentiation.py** contains implementations for binary
    exponentiation algorithms.
@@ -66,8 +66,8 @@ which are implemented in the file **searching.py** for integer numbers.
    is calculated by looking at the exponent's bits from right to left.
 
 6. **Apply Horspool's algorithm to search words**: In the string search algorithm that
-   effectively looks for a pattern in a text by calculating how much to shift
-   the pattern upon a mismatch using a shift table.
+effectively looks for a pattern in a text by calculating how much to shift
+the pattern upon a mismatch using a shift table.
    
    The required input to this function:
    * After the user enters a word or phrase (text), it is converted to uppercase
@@ -75,9 +75,9 @@ which are implemented in the file **searching.py** for integer numbers.
    * After the user enters a word (pattern), it is converted to uppercase
      for uniform comparison. For instance, you can try: "BARBER".
 
-  7. **Apply Horspool's algorithm to search integers**: To search for integers we can
-     interpret the binary pattern matching in the context of a binary string,
-     where the pattern is a sequence of 1s and 0s in binary.
+7. **Apply Horspool's algorithm to search integers**: To search for integers we can
+interpret the binary pattern matching in the context of a binary string,
+where the pattern is a sequence of 1s and 0s in binary.
 
      The required input to this function:
      * After the user inputs a binary integer, the text is repeated by converting
@@ -85,7 +85,7 @@ which are implemented in the file **searching.py** for integer numbers.
      * After the user inputs a binar pattern, the patter is search for in the
        binary string. For instance, you can try: "00001".
 
-   8. **Exit**: This option allows you to exit the program.
+8. **Exit**: This option allows you to exit the program.
 
 **Solution:** This solution includes multiple Python files that implement various 
 algorithms for solving problems related to sorting, searching, and exponentiation.
