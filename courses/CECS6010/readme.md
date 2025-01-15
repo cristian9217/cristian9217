@@ -88,6 +88,8 @@ which are implemented in the file **searching.py** for integer numbers.
    8. **Exit**: This option allows you to exit the program.
 
 Solution: 
+This solution includes multiple Python files that implement various algorithms 
+for solving problems related to sorting, searching, and exponentiation.
 * [main.py](main.py)
 * [binary_exponetiation.py](binary_exponetiation.py)
 * [searching.py](searching.py)
