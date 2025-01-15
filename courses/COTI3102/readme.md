@@ -9,7 +9,7 @@ their id, full name (first name and last name), departament and weekly salary.
 
 ![Employee File](images/employeeFile.jpg)
 
-The [code](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/COTI3102/java/EmployeePayroll.java)
+The [code](./courses/COTI3102/java/EmployeePayroll.java)
 and [text file](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/COTI3102/employee.txt) 
 used to read the file of employees. 
 
