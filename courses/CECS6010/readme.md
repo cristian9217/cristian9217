@@ -1,4 +1,5 @@
-# CECS 6010 - ADVANCED DESIGN AND ANALYSIS OF ALGORITHM
+# Understanding Analysis Algorithms 
+## CECS 6010 - ADVANCED DESIGN AND ANALYSIS OF ALGORITHM
 ---
 
 **Objective**: To understand of advanced algorithms methods, their concepts, 
