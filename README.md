@@ -2,7 +2,7 @@
 
 ------------------------------------------------------------------
 
-- :open_book: I studied for a Bachelor's degree in Computer Science.
+- :open_book: I studied for a Bachelor's degree in Computer Science at UPRB.
 - 🔭 I am currently studying on Masters in Computer Science. 
 - :notebook: I am currently learning Python and R.
 - :books:	I learned HTML, CSS, JavaScript, and SQL.
