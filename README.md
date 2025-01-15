@@ -6,7 +6,7 @@
 - :open_book: I am currently pursuing a Master's degree in Computer Science, with a
   focus on Knowledge Discovery and Data Mining, and my area of interest is Big Data.
 - :notebook: I am currently learning Python and R.
-- :books:	I learned HTML, CSS, JavaScript, and SQL during bachelors.
+- :books:	I learned HTML, CSS, JavaScript, Java, and SQL during bachelors.
 - :mailbox: How to reach me: <cristianmiguel10@gmail.com>
 
 If you are interested in more details, check out my website!
