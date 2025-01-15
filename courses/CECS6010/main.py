@@ -1,3 +1,10 @@
+"""
+Module Name: main.py
+Description: The main menu for differents algorithms. 
+Author: Cristian M. Pagan
+Date: February 14, 2024
+"""
+
 from math import log
 import sorting
 import binary_exponetiation as bin
