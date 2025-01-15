@@ -4,8 +4,8 @@
 
 Course page: [Click Here](course.html)
 
-SICI 4997 course: [Click Here](sici4997/projectFinal.html)
+Course SICI 4997: [Click Here](sici4997/projectFinal.html)
 
-Web link to the SICI 4036 page: [Click Here](sici4036/datastructures.html)
+Course SICI 4036: [Click Here](sici4036/datastructures.html)
 
 ---
