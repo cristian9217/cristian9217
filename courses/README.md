@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-# Web page
+> Web page
 
 Course page: [Click Here](course.html)
 
