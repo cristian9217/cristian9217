@@ -1,6 +1,6 @@
 # File of Employees
 
-Webiste: [Click here](../COTI3102/)
+Webiste: [Click here](./COTI3102/)
 
 <b>IDE</b>: Eclipse IDE for Java Developers   
 
