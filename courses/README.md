@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+All of the coding assignments and resources from the classes I have taken over 
+the years are in this repository. You can find all the necessary code and 
+resources in each folder, which is associated with a particular course. 
+
 > Web page
 
 Course page: [Click Here](course.html)
