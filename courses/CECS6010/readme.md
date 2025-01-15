@@ -1,12 +1,6 @@
 # CECS 6010 - ADVANCED DESIGN AND ANALYSIS OF ALGORITHM
 ---
 
-[main.py](main.py)
-[binary_exponetiation.py](binary_exponetiation.py)
-[searching.py](searching.py)
-[sorting.py](sorting.py)
-
-
 **Objective**: To understand of advanced algorithms methods, their concepts, 
 and how they are used to engaging computational issues.
 
@@ -92,3 +86,9 @@ which are implemented in the file **searching.py** for integer numbers.
        binary string. For instance, you can try: "00001".
 
    8. **Exit**: This option allows you to exit the program.
+
+Solution: 
+* [main.py](main.py)
+* [binary_exponetiation.py](binary_exponetiation.py)
+* [searching.py](searching.py)
+* [sorting.py](sorting.py)
