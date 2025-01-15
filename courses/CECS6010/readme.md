@@ -89,7 +89,7 @@ which are implemented in the file **searching.py** for integer numbers.
 
 **Solution:** This solution includes multiple Python files that implement various 
 algorithms for solving problems related to sorting, searching, and exponentiation.
-* [main](main.py)
-* [binary_exponetiation](binary_exponetiation.py)
-* [searching](searching.py)
-* [sorting](sorting.py)
+* [main](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/main.py)
+* [binary_exponetiation](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/binary_exponetiation.py)
+* [searching](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/searching.py)
+* [sorting](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/sorting.py)
