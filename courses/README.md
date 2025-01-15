@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, there 👋
 
 All of the coding assignments and resources from the classes I have taken over 
 the years are in this repository. You can find all the necessary code and 
