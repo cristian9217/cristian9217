@@ -6,7 +6,7 @@ resources in each folder, which is associated with a particular course.
 
 > Web page
 
-Course page: [Click Here](course.html)
+Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
 Course SICI 4997: [Click Here](sici4997/projectFinal.html)
 
