@@ -65,7 +65,7 @@ for binary exponentiation algorithms.
    is calculated by looking at the exponent's bits from right to left.
 
 7. **Apply Horspool's algorithm**
-   * **To search words**: In the string search algorithm that effectively looks
+* **To search words**: In the string search algorithm that effectively looks
      for a pattern in a text by calculating how much to shift the pattern upon
      a mismatch using a shift table.
    
@@ -75,7 +75,7 @@ for binary exponentiation algorithms.
    * After the user enters a word (pattern), it is converted to uppercase
      for uniform comparison. For instance, you can try: "BARBER".
 
-    * **To search integers**: To search for integers we can interpret the binary
+* **To search integers**: To search for integers we can interpret the binary
       pattern matching in the context of a binary string, where the pattern is a
       sequence of 1s and 0s in binary.
 
