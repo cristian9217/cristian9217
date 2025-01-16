@@ -9,17 +9,17 @@ The **main.py** file provides a menu to select and explore different sorting
 algorithms. It allows users to visualize and understand how various 
 sorting methods work by processing a given string.
 
-1. **Analyze Sorting Algorithms**: This program analyzes sorting algorithms,
+1. __Analyze Sorting Algorithms__: This program analyzes sorting algorithms,
 which are implemented in the file **sorting.py** for string.
 
-* Sorting a word using Insertion Sort: chooses an element from the unsorted section
+* __Sorting a word using Insertion Sort__: chooses an element from the unsorted section
   iteratively and places it in the sorted section at the appropriate location.
-* Sorting a word using Merge Sort: separates the word into smaller subwords,
+* __Sorting a word using Merge Sort__: separates the word into smaller subwords,
   sorts them recursively, and then reassembles the subwords that have been sorted.
-* Sorting a word using Quick Sort: After choosing a pivot element, divides the word
+* __Sorting a word using Quick Sort__: After choosing a pivot element, divides the word
   into smaller and larger components and sorts each partition recursively.
 
-2. **Analyze Searching Algorithms**: This program analyzes searching algortihms,
+2. __Analyze Searching Algorithms__: This program analyzes searching algortihms,
 which are implemented in the file **searching.py** for integer numbers. 
 
 * Analyze Binary Search with the average-case scenario: when there is an
@@ -30,16 +30,16 @@ which are implemented in the file **searching.py** for integer numbers.
   element in a list, this compares the speed and effectiveness of
   Binary Search and Sequential Search.
 
-3. **Determine order of growth for a given recurrence**: Determines the order
+3. __Determine order of growth for a given recurrence__: Determines the order
 of growth for a given recurrence which are implemented in the file
-**recurrences.py** by accepting three integer inputs: a, b and d.
+__recurrences.py__ by accepting three integer inputs: a, b and d.
 
    *a*: A integer number positive greather than 1. <br>
    *b*: A integer number positive greather than 1. <br>
    *d*: A integer number positive greather than 1. <br>
    
    Since the inputs a, b, and d have been validate, we will apply the 
-   **master theorem** which states:
+   __master theorem__ which states:
    
    * If **a < b^d**: The time complexity is *Θ(n^d)*. 
    * If **a == b^d**: The time complexity is *Θ(n^d log n)*. 
@@ -48,24 +48,24 @@ of growth for a given recurrence which are implemented in the file
    Based on the recurrence, this figures out the asymptotic behavior of 
    recursive algorithms.
 
-5. **Apply binary exponentation**: This program analyzes effective algorithm
+5. __Apply binary exponentation__: This program analyzes effective algorithm
 that uses binary representation to divide the exponentiation process into
 a number of smaller, more manageable steps in order to compute large powers
 of a number. The file **binary_exponentiation.py** contains implementations
 for binary exponentiation algorithms.
    
-   * The **base** is set to 2 by default and must be a positive integer.
-   * The **exponent** must be a positive integer.
+   * The __base__ is set to 2 by default and must be a positive integer.
+   * The __exponent__ must be a positive integer.
 
    The program applies two (2) methods of binary exponentiation:
    
-   * Left-to-right binary exponentiation: With this method, the exponentiation
+   * __Left-to-right binary exponentiation__: With this method, the exponentiation
    is calculated by looking at the exponent's bits from left to right.
-   * Right-to-left binary exponentiation: With this method, the exponentiation
+   * __Right-to-left binary exponentiation__: With this method, the exponentiation
    is calculated by looking at the exponent's bits from right to left.
 
-7. **Apply Horspool's algorithm**
-* **To search words**: In the string search algorithm that effectively looks
+6. __Apply Horspool's algorithm__
+* __To search words__: In the string search algorithm that effectively looks
      for a pattern in a text by calculating how much to shift the pattern upon
      a mismatch using a shift table.
    
@@ -85,7 +85,7 @@ for binary exponentiation algorithms.
      * After the user inputs a binar pattern, the patter is search for in the
        binary string. For instance, you can try: "00001".
 
-8. **Exit**: This option allows you to exit the program.
+7. **Exit**: This option allows you to exit the program.
 
 **Solution:** This solution includes multiple Python files that implement various 
 algorithms for solving problems related to sorting, searching, and exponentiation.
