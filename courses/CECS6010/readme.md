@@ -48,7 +48,7 @@ __recurrences.py__ by accepting three integer inputs: a, b and d.
    Based on the recurrence, this figures out the asymptotic behavior of 
    recursive algorithms.
 
-5. __Apply binary exponentation__: This program analyzes effective algorithm
+4. __Apply binary exponentation__: This program analyzes effective algorithm
 that uses binary representation to divide the exponentiation process into
 a number of smaller, more manageable steps in order to compute large powers
 of a number. The file **binary_exponentiation.py** contains implementations
@@ -64,7 +64,7 @@ for binary exponentiation algorithms.
    * __Right-to-left binary exponentiation__: With this method, the exponentiation
    is calculated by looking at the exponent's bits from right to left.
 
-6. __Apply Horspool's algorithm__
+5. __Apply Horspool's algorithm__
 * __To search words__: In the string search algorithm that effectively looks
      for a pattern in a text by calculating how much to shift the pattern upon
      a mismatch using a shift table.
@@ -85,7 +85,7 @@ for binary exponentiation algorithms.
      * After the user inputs a binar pattern, the patter is search for in the
        binary string. For instance, you can try: "00001".
 
-7. **Exit**: This option allows you to exit the program.
+6. **Exit**: This option allows you to exit the program.
 
 **Solution:** This solution includes multiple Python files that implement various 
 algorithms for solving problems related to sorting, searching, and exponentiation.
