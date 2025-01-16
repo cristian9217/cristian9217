@@ -31,8 +31,8 @@ which are implemented in the file **searching.py** for integer numbers.
   Binary Search and Sequential Search.
 
 3. **Determine order of growth for a given recurrence**: Determines the order
-of growth for a given recurrence by accepting three integer inputs:
-a, b and d.
+of growth for a given recurrence which are implemented in the file
+**recurrences.py** by accepting three integer inputs: a, b and d.
 
    *a*: A integer number positive greather than 1. <br>
    *b*: A integer number positive greather than 1. <br>
@@ -51,10 +51,8 @@ a, b and d.
 5. **Apply binary exponentation**: This program analyzes effective algorithm
 that uses binary representation to divide the exponentiation process into
 a number of smaller, more manageable steps in order to compute large powers
-of a number.
-
-   The file **binary_exponentiation.py** contains implementations for binary
-   exponentiation algorithms.
+of a number. The file **binary_exponentiation.py** contains implementations
+for binary exponentiation algorithms.
    
    * The **base** is set to 2 by default and must be a positive integer.
    * The **exponent** must be a positive integer.
@@ -66,9 +64,10 @@ of a number.
    * Right-to-left binary exponentiation: With this method, the exponentiation
    is calculated by looking at the exponent's bits from right to left.
 
-6. **Apply Horspool's algorithm to search words**: In the string search algorithm that
-effectively looks for a pattern in a text by calculating how much to shift
-the pattern upon a mismatch using a shift table.
+7. **Apply Horspool's algorithm**
+   * **To search words**: In the string search algorithm that effectively looks
+     for a pattern in a text by calculating how much to shift the pattern upon
+     a mismatch using a shift table.
    
    The required input to this function:
    * After the user enters a word or phrase (text), it is converted to uppercase
@@ -76,9 +75,9 @@ the pattern upon a mismatch using a shift table.
    * After the user enters a word (pattern), it is converted to uppercase
      for uniform comparison. For instance, you can try: "BARBER".
 
-7. **Apply Horspool's algorithm to search integers**: To search for integers we can
-interpret the binary pattern matching in the context of a binary string,
-where the pattern is a sequence of 1s and 0s in binary.
+    * **To search integers**: To search for integers we can interpret the binary
+      pattern matching in the context of a binary string, where the pattern is a
+      sequence of 1s and 0s in binary.
 
      The required input to this function:
      * After the user inputs a binary integer, the text is repeated by converting
@@ -91,6 +90,8 @@ where the pattern is a sequence of 1s and 0s in binary.
 **Solution:** This solution includes multiple Python files that implement various 
 algorithms for solving problems related to sorting, searching, and exponentiation.
 * [main](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/main.py)
+* [sorting](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/sorting.py)
 * [binary_exponetiation](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/binary_exponetiation.py)
 * [searching](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/searching.py)
-* [sorting](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/sorting.py)
+* [horspool](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/horspool.py)
+* [recurrences](https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/CECS6010/recurrences.py)
