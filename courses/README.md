@@ -16,6 +16,6 @@ Course SICI 4036: [Click Here](sici4036/datastructures.html)
 
 Readme:
 
-Course CECS6010: [Click Here](CECS6010/)
+Course CECS6010: [Click Here](CECS6010)
 
-Course COTI3102: [Click Here](COTI3102/)
+Course COTI3102: [Click Here](COTI3102)
