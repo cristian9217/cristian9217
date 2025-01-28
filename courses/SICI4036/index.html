@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Final Homework: Data Structures</title>
+		
+		<!-- Icon -->
+		<link rel="icon" href="https://miro.medium.com/v2/resize:fit:350/1*E0BzSIgWfPpZCOu-EuyNfQ.png">
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Tailwind CSS CDN -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		
+		<!-- Internal Style CSS -->
+		<style>
+			* { font-family: 'Times New Roman', serif; }
+			.link { color: #3b82f6; text-decoration: none; }
+			.link:hover { text-decoration: underline; }
+		</style>
+	</head>
+	<body>
+		<!-- Navigation bar -->
+		<nav class="bg-gray-800 fixed top-0 w-full shadow-lg">
+			<div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+				<a href="#" class="text-white text-lg font-bold">Cristian's Page</a>
+				<ul class="flex space-x-4 text-white">
+					<li><a href="../course.html" class="hover:text-gray-400">Home</a></li>
+					<li><a href="#" class="text-gray-400 cursor-not-allowed">Java</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Title of the Project and name of the course -->
+		<div class="bg-blue-600 text-white text-center py-12 mt-12">
+			<h1 class="text-3xl font-semibold mb-4">Final Homework: Data Structures</h1>
+			<p class="text-lg">SICI 4036 - Data Structures</p>
+		</div>
+		
+		<!-- Full Content of the Page -->
+		<div class="container mx-auto py-8 gap-4 px-1">
+		
+			<!-- Breadcrumb -->
+			<ul class="flex space-x-4 text-sm text-gray-600">
+				<li>
+					<a href="../course.html" class="hover:text-blue-600">
+						Major-related courses
+					</a>
+				</li>
+				<li>
+					<span class="text-gray-600">/</span>
+				</li>
+				<li>
+					<span class="text-blue-600 font-bold">SICI 4036</span>
+				</li>
+			</ul>	
+
+			<!-- IDE -->
+			<h2 class="text-2xl font-bold mt-4">IDE</h2>
+			<p class="text-lg my-2">Requirements:</p>
+			<ul class="text-lg space-y-2 mb-4">
+				<li>
+					<a href="http://www.eclipse.org/downloads/" class="text-blue-500 hover:underline">
+						Eclipse IDE for Java Developers
+					</a>
+				</li>
+				<li>
+					<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"
+						class="text-blue-500 hover:underline">Java Development Kit (JDK)</a>
+				</li>
+			</ul>
+			<hr>
+		
+			<!-- Diagram -->
+			<h2 class="text-2xl text-center font-bold mt-4 mb-4">Diagram</h2>
+			<img src="img/diagram.jpg" class="w-full mx-auto">
+			
+			<p class="text-lg mt-3">Write a Java program using the Interface 
+				provided to create the class of <b>Stack</b>, <b>Queue</b>, 
+				and <b>Binary Search Tree (BST)</b> using a linked list 
+				for integer numbers.</p>
+			<ul class="list-disc text-lg ml-8 mb-4 space-y-2">
+				<li>Add</li>
+				<li>Remove</li>
+				<li>isEmpty</li>
+				<li>size</li>
+				<li>sum</li>
+				<li>average</li>
+				<li>minimum</li>
+				<li>maximum</li>
+				<li>linearSearch</li>
+				<li>sumOfSquares</li>
+				<li>Count odd elements</li>
+				<li>Count even elements</li>
+				<li>Count occurrences of an element</li>
+			</ul>
+			<hr>
+			
+			<!-- Solution -->
+			<h2 class="text-2xl font-bold mt-4 mb-4">Solution</h2>
+			<ol class="list-decimal text-lg space-y-3 ml-8">
+				<li>Queue Implementation: 
+					<a href="java/IntLinkedQueue.java" class="link">
+						IntLinkedQueue.java</a>, 
+					<a href="java/IntQueue.java" class="link">
+						IntQueue.java</a>
+				</li>
+				<li>Stack Implementation: 
+					<a href="java/IntLinkedStack.java" class="link">
+						IntLinkedStack.java</a>, 
+					<a href="java/IntStack.java" class="link">
+						IntStack.java
+					</a>
+				</li>
+				<li>BST Implementation: 
+					<a href="java/IntBST.java" class="link">
+						IntBST.java</a>, 
+					<a href="java/IntBinarySearchTree.java" class="link">
+						IntBinarySearchTree.java</a>
+				</li>
+				<li> Application: 
+					<a href="java/LinkedDataStructureApp.java" class="link">
+						LinkedDataStructureApp.java
+					</a>
+				</li>
+				<li> <span class="font-bold">Exception Handling:</span>
+					<a href="java/EmptyCollectionException.java" class="link">
+						EmptyCollectionException.java
+					</a>
+				</li>
+			</ol>
+        </div>
+
+		<footer class="bg-gray-800 text-white py-4 text-center mt-8">
+			<p>&copy; (2021) Cristian M. Pag&aacute;n</p>
+		</footer>
+	</body>
+</html>
