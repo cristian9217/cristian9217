@@ -30,161 +30,161 @@
 			<p class="text-lg">COTI 3102 - Algorithms and Program Development II</p>
 		</div>
 
-		<div class="container mx-auto py-8 px-1">
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+		<!-- Full Content of the Page -->
+		<div class="container mx-auto py-8 grid grid-cols-1 md:grid-cols-3 gap-4 px-2">
+
+			<!-- Left Sidebar -->
+			<aside class="space-y-5 mb-8">
+				<h3 class="text-xl font-semibold">IDE</h3>
+				<p class="mt-4 text-lg">Requirements:</p>
+				<ul class="space-y-3 text-lg">
+					<li>
+						<a href="https://eclipseide.org/" class="text-blue-600 hover:text-blue-500">
+							Eclipse IDE for Java Developers
+						</a>
+					</li>
+				</ul>
+				<hr>
+				<h3 class="text-xl font-semibold">Files</h3>
+				<p class="mt-4 text-lg">For this project:</p>
+				<ul class="space-y-2 text-lg">
+					<li>
+						<a class="text-blue-600 hover:underline" href="https://raw.githubusercontent.com/cristian9217/
+							cristian9217/default/courses/coti3102/employee.txt">employee.txt
+						</a>
+					</li>
+				</ul>
+			</aside>
+
+			<!-- Main Content -->
+			<div class="col-span-2 space-y-6">
+				<!-- Breadcrumb -->
+				<ul class="flex space-x-4 text-sm text-gray-600">
+					<li>
+						<a href="../course.html" class="hover:text-blue-600">
+							Major-related courses
+						</a>
+					</li>
+					<li>
+						<span class="text-gray-600">/</span>
+					</li>
+					<li>
+						<span class="text-blue-600 font-bold">COTI 3102</span>
+					</li>
+				</ul>
+				
+				<!-- Definition: Java -->
+				<p class="text-lg mt-4">Java is a high-level object-oriented programming language with 
+					portable, secure, and platform-independent desktop, web, mobile, and corporate 
+					development applications.</p>
+				<hr>
+
+				<!-- Problem -->
+				<h2 class="text-2xl font-bold">Problem</h2>
+				<p class="mt-4 text-lg">In package <i>edu.uprb.company</i>, place an enumerated 
+					type named <b>Department</b> with the following values:</p>
+				<ul class="list-disc pl-6 space-y-2 text-lg">
+				<li>SALE – for Budget</li>
+				<li>MKTG – for Marketing</li>
+				<li>HMRS – for Human Resources</li>
+				<li>FINA – for Finance</li>
+				<li>INTE – for Information Technology</li>
+				</ul>
+				
+				<p class="text-lg mt-4">2. In package <i>edu.uprb.company</i> place an class named 
+				<b>Employee</b> that holds the following data for a company employee:</p>
+				<ul class="list-disc pl-6 space-y-2 text-lg">
+					<li><b>id</b> – an integer between 1000 and 9999. This should be a final field.</li>
+					<li><b>name</b> – a string with one uppercase letter and, at most, nine more 
+						lowercase letters; <i>default value = "John"</i>.</li>
+					<li><b>lastName</b> – a string with one uppercase letter and, at most, nine more 
+						lowercase letters; <i>default value = "Doe"</i>.</li>
+					<li><b>department</b> – a Department; <i>default value = FINA</i>.</li>
+					<li><b>hours</b> – hours worked during the week an integer between 0 and 60; 
+						<i>default value = 40</i>.</li>
+					<li><b>payRate</b> – a floating-point number between 7.00 and 50.00;
+						<i>default value = 8.25</i>.</li>
+				</ul>
+
+				<p class="mt-4 text-lg"> This class must have the following methods: </p>
+				<ul class="list-disc pl-6 space-y-2 text-lg">
+					<li>A fully parameterized constructor and a constructor that receives 
+						only the employee ID.</li>
+					<li>Setters and getters for each field. Since the employee ID is final, 
+						only a getter must be provided for this field.</li>
+					<li>Constructors and setters must not allow an invalid ID value or an invalid 
+						name format by throwing an <i>IllegalArgumentException</i> with the 
+						appropriate message.</li>
+					<li>A <i>weeklySalary</i> method that, when implemented by an class, returns the 
+						weekly salary of the employee.</li>
+					<li>A <i>toString</i> method that returns a string representation of the 
+						employee. Each field should have the appropriate label and format.</li>
+				</ul>
+
+				<p class="mt-4 text-lg"> 3. Since a class diagram for the classes in package <i>edu.uprb.company</i> 
+					was not provided, you must generate one using the <u>ObjectAid UML Explorer for Eclipse</u>. 
+					Save this diagram as file <b>EmployeeClassDiagram.jpg</b> in your project. </p>
+					
+				<p class="mt-4 text-lg"> 4. In package <i>edu.uprb.company</i> place an application 
+					<b>EmployeePayroll</b> that reads a file of employees (<a href = "https://raw.githubusercontent.com/
+					cristian9217/cristian9217/default/courses/coti3102/employee.txt">employee.txt</a>) 
+					and create another file that writes their data with the appropriate format, including 
+					their weekly salary. </p>
+				<hr>
+
+				<!-- Solution -->
+				<h2 class="text-2xl font-bold"> Solution </h2>				
+				<ol class="list-decimal pl-6 space-y-2 text-lg">
+					<li> Enumeration (<i>enum</i>) typed named <b>Department</b>: 
+						<a href="java/Department.java" class="text-blue-600 hover:text-blue-500">
+							Department.java
+						</a>
+					</li>
+					<li> Class named <b>Employee</b>: 
+						<a href="java/Employee.java" class="text-blue-600 hover:text-blue-500">
+							Employee.java
+						</a>
+					</li>
+					<li> <b>Employee</b> Class Diagram: 
+						<a href="images/EmployeeClassDiagram.jpg" class="text-blue-600 hover:text-blue-500">
+							EmployeeClassDiagram.jpg
+						</a>
+					</li>
+					<li> Application of Input/Output File <b>EmployeePayroll</b>: 
+						<a href="java/EmployeePayroll.java" class="text-blue-600 hover:text-blue-500">
+							EmployeePayroll.java
+						</a>
+					</li>
+				</ol>
+				
+				<!-- Images -->
+				<div class="text-center mt-8">
+					<img src="images/EmployeeClassDiagram.jpg" class="mx-auto w-4/5 h-auto mt-8">
+					<p class="text-xl my-2"><b>Figure 1</b> - Employee Class Diagram</p>
 			
-				<!-- Left Sidebar -->
-				<aside class="space-y-6 mb-8">
-					<h3 class="text-xl font-semibold">IDE</h3>
-					<p>Requirements:</p>
-					<ul class="space-y-3 text-lg">
-						<li>
-							<a href="https://eclipseide.org/" class="text-blue-600 hover:text-blue-500">
-								Eclipse IDE for Java Developers
-							</a>
-						</li>
-					</ul>
-					<hr>
-					<h3 class="text-xl font-semibold">Files</h3>
-					<p>For this project:</p>
-					<ul class="space-y-2 text-lg">
-						<li>
-							<a class="text-blue-600 hover:underline" href="https://raw.githubusercontent.com/cristian9217/
-								cristian9217/default/courses/coti3102/employee.txt">employee.txt
-							</a>
-						</li>
-					</ul>
-				</aside>
-
-				<!-- Main Content -->
-				<div class="md:col-span-2 space-y-6">
-					<!-- Breadcrumb -->
-					<ul class="flex space-x-4 text-sm text-gray-600">
-						<li>
-							<a href="../course.html" class="hover:text-blue-600">
-								Major-related courses
-							</a>
-						</li>
-						<li>
-							<span class="text-gray-600">/</span>
-						</li>
-						<li>
-							<span class="text-blue-600 font-bold">COTI 3102</span>
-						</li>
-					</ul>
-					
-					<!-- Definition: Java -->
-					<p class="text-lg mt-4">Java is a high-level object-oriented programming language with 
-						portable, secure, and platform-independent desktop, web, mobile, and corporate 
-						development applications.</p>
-					<hr>
-
-					<!-- Problem -->
-					<h2 class="text-2xl font-bold">Problem</h2>
-					<p class="mt-4 text-lg">In package <i>edu.uprb.company</i>, place an enumerated 
-						type named <b>Department</b> with the following values:</p>
-					<ul class="list-disc pl-6 space-y-2 text-lg">
-					<li>SALE – for Budget</li>
-					<li>MKTG – for Marketing</li>
-					<li>HMRS – for Human Resources</li>
-					<li>FINA – for Finance</li>
-					<li>INTE – for Information Technology</li>
-					</ul>
-					
-					<p class="text-lg mt-4">2. In package <i>edu.uprb.company</i> place an class named 
-					<b>Employee</b> that holds the following data for a company employee:</p>
-					<ul class="list-disc pl-6 space-y-2 text-lg">
-						<li><b>id</b> – an integer between 1000 and 9999. This should be a final field.</li>
-						<li><b>name</b> – a string with one uppercase letter and, at most, nine more 
-							lowercase letters; <i>default value = "John"</i>.</li>
-						<li><b>lastName</b> – a string with one uppercase letter and, at most, nine more 
-							lowercase letters; <i>default value = "Doe"</i>.</li>
-						<li><b>department</b> – a Department; <i>default value = FINA</i>.</li>
-						<li><b>hours</b> – hours worked during the week an integer between 0 and 60; 
-							<i>default value = 40</i>.</li>
-						<li><b>payRate</b> – a floating-point number between 7.00 and 50.00;
-							<i>default value = 8.25</i>.</li>
-					</ul>
-
-					<p> This class must have the following methods: </p>
-					<ul class="list-disc pl-6 space-y-2 text-lg">
-						<li>A fully parameterized constructor and a constructor that receives 
-							only the employee ID.</li>
-						<li>Setters and getters for each field. Since the employee ID is final, 
-							only a getter must be provided for this field.</li>
-						<li>Constructors and setters must not allow an invalid ID value or an invalid 
-							name format by throwing an <i>IllegalArgumentException</i> with the 
-							appropriate message.</li>
-						<li>A <i>weeklySalary</i> method that, when implemented by an class, returns the 
-							weekly salary of the employee.</li>
-						<li>A <i>toString</i> method that returns a string representation of the 
-							employee. Each field should have the appropriate label and format.</li>
-					</ul>
-
-					<p> 3. Since a class diagram for the classes in package <i>edu.uprb.company</i> was not 
-						provided, you must generate one using the <u>ObjectAid UML Explorer for Eclipse</u>. 
-						Save this diagram as file <b>EmployeeClassDiagram.jpg</b> in your project. </p>
-						
-					<p> 4. In package <i>edu.uprb.company</i> place an application <b>EmployeePayroll</b> 
-						that reads a file of employees (<a href = "https://raw.githubusercontent.com/cristian9217/
-						cristian9217/default/courses/coti3102/employee.txt">employee.txt</a>) and create another 
-						file that writes their data with the appropriate format, including their weekly salary. </p>
-
-					<hr>
-
-					<!-- Solution -->
-					<h2 class="text-2xl font-bold"> Solution </h2>				
-					<ol class="list-decimal pl-6 space-y-2 text-lg">
-						<li> Enumeration (<i>enum</i>) typed named <b>Department</b>: 
-							<a href="java/Department.java" class="text-blue-600 hover:text-blue-500">
-								Department.java
-							</a>
-						</li>
-						<li> Class named <b>Employee</b>: 
-							<a href="java/Employee.java" class="text-blue-600 hover:text-blue-500">
-								Employee.java
-							</a>
-						</li>
-						<li> <b>Employee</b> Class Diagram: 
-							<a href="images/EmployeeClassDiagram.jpg" class="text-blue-600 hover:text-blue-500">
-								EmployeeClassDiagram.jpg
-							</a>
-						</li>
-						<li> Application of Input/Output File <b>EmployeePayroll</b>: 
-							<a href="java/EmployeePayroll.java" class="text-blue-600 hover:text-blue-500">
-								EmployeePayroll.java
-							</a>
-						</li>
-					</ol>
-					
-					<!-- Images -->
-					<div class="text-center mt-8">
-						<img src="images/EmployeeClassDiagram.jpg" class="mx-auto w-4/5 h-auto mt-8">
-						<p class="text-xl my-2"><b>Figure 1</b> - Employee Class Diagram</p>
-				
-						<img src="images/employeeFile.jpg" class="mx-auto w-4/5 h-auto mt-8">
-						<p class="text-xl my-2"><b>Figure 2</b> - Employee.txt with data</p>
-				
-						<img src="images/payrollOutput.jpg" class = "mx-auto w-4/5 h-auto mt-8">
-						<p class="text-xl my-2"><b>Figure 3</b> - Output of the program <b>EmployeePayroll</b></p>
-				
-						<img src="images/payrollFile.jpg" class="mx-auto w-4/5 h-auto mt-8">
-						<p class="text-xl my-2"><b>Figure 4</b> - Payroll.txt with result data</p>
-					</div>
-
-					<hr>
-
-					<!-- Conclusion -->
-					<h2 class="text-2xl font-semibold">Conclusion</h2>
-					<p class="text-lg mt-4">Finally, Java's support for class, enumerations, and I/O files 
-					enhances the language's versatility and popularity in software development. Java classes 
-					promote code reuse and modular design by encapsulating data and behavior. Enumerations 
-					define constants, improving readability and reducing invalid values. Java's I/O file handling 
-					facilitates efficient file management, making it ideal for large data applications.</p>
+					<img src="images/employeeFile.jpg" class="mx-auto w-4/5 h-auto mt-8">
+					<p class="text-xl my-2"><b>Figure 2</b> - Employee.txt with data</p>
+			
+					<img src="images/payrollOutput.jpg" class = "mx-auto w-4/5 h-auto mt-8">
+					<p class="text-xl my-2"><b>Figure 3</b> - Output of the program <b>EmployeePayroll</b></p>
+			
+					<img src="images/payrollFile.jpg" class="mx-auto w-4/5 h-auto mt-8">
+					<p class="text-xl my-2"><b>Figure 4</b> - Payroll.txt with result data</p>
 				</div>
-		    </div>
+
+				<hr>
+
+				<!-- Conclusion -->
+				<h2 class="text-2xl font-semibold">Conclusion</h2>
+				<p class="text-lg mt-4">Finally, Java's support for class, enumerations, and I/O files 
+				enhances the language's versatility and popularity in software development. Java classes 
+				promote code reuse and modular design by encapsulating data and behavior. Enumerations 
+				define constants, improving readability and reducing invalid values. Java's I/O file handling 
+				facilitates efficient file management, making it ideal for large data applications.</p>
+			</div>
 		</div>
 		
+		<!-- Footer -->
 		<footer class="bg-gray-800 text-white py-4 text-center mt-8">
 			<p>&copy; (2021) Cristian M. Pag&aacute;n</p>
 		</footer>
