@@ -197,92 +197,40 @@
 				<p class = "indent-8"> a. Term: C12 </p>
 				<p class = "indent-14">Semester C12 has 
 					<span id="distanceC12"></span> in distance mode.</p>
-				<img src="img/PythonCSVFileQ3A.jpg" alt = "Distance C12">
+				<img src="img/langRcsvFileQ3A.jpg" alt = "Distance C12">
 				<hr>
 				
 				<p class = "indent-8"> b. Term: C11 </p>	
 				<p class = "indent-14">Semester C11 has 
 					<span id="distanceC11"></span> in distance mode.</p>
-				<img src="img/PythonCSVFileQ3B.jpg" alt = "Distance C11">
+				<img src="img/langRcsvFileQ3B.jpg" alt = "Distance C11">
 				<hr>
 				
 				<p class = "indent-8"> c. Term: C03 </p>
 				<p class = "indent-14">Semester C03 has 
 					<span id="distanceC03"></span> in distance mode.</p>
-				<img src="img/PythonCSVFileQ3C.jpg" alt = "Distance C03">
+				<img src="img/langRcsvFileQ3C.jpg" alt = "Distance C03">
 				<hr>
 				
 				<p class = "indent-8"> d. Term: C02 </p>	
 				<p class = "indent-14">Semester C02 has 
 					<span id="distanceC02"></span> in distance mode.</p>
-				<img src="img/PythonCSVFileQ3D.jpg" alt = "Distance C02">
+				<img src="img/langRcsvFileQ3D.jpg" alt = "Distance C02">
 				<hr>
 				
 				<!-- Pie chart for the semester C11 -->
-				<h2> How to generate Pie Chart in R? </h2> 
+				<h2 class="text-2xl font-bold"> How to generate Pie Chart in R? </h2> 
+				<p>In R, you can create a pie chart using the pie() function. First,
+				   define a vector of values and labels, then call 
+				   <b>pie(values, labels = labels, main = "TITLE")</b>. You can 
+				   further customize the chart by adding colors with the col parameter 
+				   and enhancing the appearance with additional graphical options.</p>
 				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					pieChart = function(term) {
-				</code> </p>
-				
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					## Count of the courses offered in hybrid, presencial and distance.
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					hybrid = modalityTerm(term, "(H) - Hybrid")
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					presencial = modalityTerm(term, "(P) - Presencial")
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					distance = modalityTerm(term, "(D) - Distance")
-				</code> </p>
-				
-				<div class="container pt-3"></div>	
-					
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					# Create data for the pie chart graph.
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					totalModality <- c(hybrid, presencial, distance)
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					labels <- c("Hybrid","Presencial","Distance")
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					piepercent <- round(100* totalModality / sum(totalModality),  2)
-				</code> </p>
-				
-				<div class="container pt-3"></div>	
-
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					# Plot the pie chart graph.
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-					pie(totalModality, labels = paste(piepercent, "%"), 
-						main = paste("Modality for the semester", term), 
-						col = 
-				</code> </p>
-				<p style = "text-indent: 75px;"> <code style = "color:rgb(0, 0, 0)">
-						rainbow(length(totalModality))) 
-						legend("topright", labels, cex = 0.9, 
-						fill = rainbow(length(totalModality)))
-				</code> </p>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					}
-				</code> </p>
-				
-				<hr>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					pieChart("C11")
-				</code> </p>
-				
-				<!-- Pie chart for the semester C11 -->
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/modalitySemesterC11.JPG" 
-				     class="mx-auto d-block img-fluid">
-				
+				<!-- Image for the pie chart for the semester C11 -->
+				<div class="flex justify-center items-center">
+					<canvas id="modalityC11" style="width:30%;height:30%"></canvas>
+				</div>
+				<img src="img/modalitySemesterC11.JPG">				
 				<hr>
 				
 				<h2> Example #2: How to generate Pie Chart in R? </h2> 
