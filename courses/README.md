@@ -11,6 +11,10 @@ resources in each folder, which is associated with a particular course.
 data structures, and big data. It covers the implementation of tasks 
 like sorting and developing systems to handle large datasets.
 
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+
 Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
 ---
