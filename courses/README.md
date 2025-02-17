@@ -13,7 +13,6 @@ Course CECS6010: [Click Here](https://cristian9217.github.io/cristian9217/course
 Course COTI3102: [Click Here](https://cristian9217.github.io/cristian9217/courses/COTI3102/)
 
 <!--
-Course SICI 4997: [Click Here](sici4997/projectFinal.html)
 Course SICI 4036: [Click Here](sici4036/datastructures.html)
 -->
 
@@ -24,3 +23,5 @@ Course SICI 4036: [Click Here](sici4036/datastructures.html)
 Course CECS6010: [Click Here](CECS6010)
 
 Course COTI3102: [Click Here](COTI3102)
+
+Course SICI 4997: [Click Here](SICI4997)
