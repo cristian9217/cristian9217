@@ -249,123 +249,29 @@
 					<span id="COTIPresC11"></span> in distance mode.</p>
 				<img src="img/langRcsvFileQ4.JPG" alt = "COTI3101 Presencial">
 				<hr>
-				
+
 				<!-- Question 5 -->
-				<p style = "text-indent: 15px;"> 5. How many courses have been created 
-				from COTI3101 for semester C11? </p> 
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## This function returns the amount of data for each semester
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## by the course code. 
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">					
-					modalityCourse = function(term, courseCode) {
-				</code> </p>
-				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)">
-					  return (length(which(studentData[[1]] == term &
-										   studentData[[2]] == courseCode)))
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					}
-				</code> </p>
-				
-				<br>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## Show the amount of data which been created from COTI 3101 for semester C11
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					coti3101C11 <- modalityCourse("C11", "COTI3101")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					sprintf("Semester C11 in COTI3101 has the amount of %d.", coti3101C11)
-				</code> </p>
+				<p> 5. How many courses have been created 
+					from COTI3101 for semester C11? </p> 
+				<p class = "indent-14">Semester C11 in COTI3101 has 
+					the amount of <span id="COTI3101C11"></span> courses.</p>				
+				<img src="img/langRcsvFileQ5.JPG">
+				<hr>
 
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ5.JPG" 
-				     class="mx-auto d-block img-fluid">
-
-				<hr> <br>
-				
-				<!-- Question 6 -->
-				<p style = "text-indent: 15px;"> 6. How many courses does 
-					Juan M. Sola offer in semester C11? </p> 
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## This function returns the amount of data for each semester
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## by the full name of the profesor given the course. 
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					modalityProfesor = function(term, fullnameProfesor) {
-				</code> </p>
-				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)">
-				  return (length(which(studentData[[1]] == term &
-									   studentData[[10]] == fullnameProfesor)))
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					}
-				</code> </p>
-				
-				<br>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## Show the amount of data which has been teach by a professor for semester C11
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					profSolaC11 <- modalityProfesor("C11", "JUAN M. SOLA SLOAN") 
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					sprintf("Semester C11 has the professor Juan M. Sola is given %d courses.", profSolaC11)
-				</code> </p>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ6.JPG" 
-				     class="mx-auto d-block img-fluid">
-
-				<hr> <br>
-				
-				<!-- Question 7 -->
-				<p style = "text-indent: 15px;"> 7. How many courses were offered on 
-				Tuesdays and Thursdays in semester C11? </p>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## This function returns the amount of data for each semester
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## by the days given the course. 
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					modalityTermDays = function(term, days) {
-				</code> </p>
-				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)">
-				    return (length(which(studentData[[1]] == term & 
-										 studentData[[7]] == days)))
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					}
-				</code> </p>
-				
-				<br>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## Show the amount of data which are offered on Tuesdays and Thursdays 
-						in semester C11
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					TwoDaysC11 <- modalityTermDays("C11", "TuTh")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					sprintf("On Tuesdays and Thursdays at %d courses are offered in term C11.", 
-					TwoDaysC11)
-				</code> </p>
-							
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ7.JPG" 
-				     class="mx-auto d-block img-fluid">
-
-				<hr> <br>
+				<!-- Question 6 -->				
+				<p> 6. How many courses have been created from SICI4036 course are hybrid? </p>
+				<p class = "indent-14"> This question was added recently
+					from the dataset. </p>
+				<img src="img/langRcsvFileQ6.JPG">
+				<hr>
+			
+				<!-- Question 7 -->				
+				<p > 7. How many courses were offered on 
+					Tuesdays and Thursdays in semester C11? </p> 
+				<p class = "indent-14"> On Tuesdays and Thursdays at 
+					<span id="twoDaysC11"></span> courses are offered in term C11.</p>
+				<img src="img/langRcsvFileQ7.JPG">
+				<hr>
 				
 				<!-- Question 8 -->
 				<p style = "text-indent: 15px;"> 8. How many courses were offered on 
@@ -381,8 +287,7 @@
 					sprintf("On Wednesday at %d courses are offered in term C11.", OneDayC11)
 				</code> </p>
 								
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ8.JPG" 
-				     class="mx-auto d-block img-fluid">
+				<img src="img/langRcsvFileQ8.JPG" class="mx-auto d-block img-fluid">
 
 				<hr> <br>
 				
