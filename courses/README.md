@@ -6,14 +6,12 @@ resources in each folder, which is associated with a particular course.
 
 > Web page
 
-> [!NOTE]
 > The page highlights computer science projects focused on algorithms, 
-data structures, and big data. It covers the implementation of tasks 
-like sorting and developing systems to handle large datasets.
+> data structures, and big data. It covers the implementation of tasks 
+> like sorting and developing systems to handle large datasets.
 
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
 
+[!NOTE] This alert uses [!NOTE]
 
 Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
@@ -21,10 +19,9 @@ Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/co
 
 > Readme:
 
-> [!NOTE]
 > The README highlights the problem the project aims to solve and the 
-implemented solution. It explains the challenges and the approach 
-taken to address them. 
+> implemented solution. It explains the challenges and the approach 
+> taken to address them. 
 
 Course CECS6010: [Click Here](CECS6010)
 
