@@ -233,62 +233,22 @@
 				<img src="img/modalitySemesterC11.JPG">				
 				<hr>
 				
-				<h2> Example #2: How to generate Pie Chart in R? </h2> 
+				<!-- Pie chart for the semester C03 -->
+				<h2 class="text-2xl font-bold"> Example #2 - Pie Chart </h2>
 				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					pieChart("C03")
-				</code> </p>
-				
-				<!-- Pie chart for the semester C11 -->
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/modalitySemesterC03.JPG" 
-				     class="mx-auto d-block img-fluid">
-				
-				<hr> 
-				<div class="container pt-3"></div>	
-				
-				<!-- Question 4 -->
-				<p style = "text-indent: 15px;"> 4. How many students of the code course 
-				COTI3101 course are face-to-face mode? </p>
+				<!-- Image for the pie chart for the semester C03 -->
+				<div class="flex justify-center items-center">
+					<canvas id="modalityC03" style="width:30%;height:30%"></canvas>
+				</div>
+				<img src="img/modalitySemesterC03.JPG">
 
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## This function returns the amount of data for each semester and its modality
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## by the course code. 
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					modalityTermCourse = function(term, modality, courseCode) {
-				</code> </p> 
-				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)"> 
-					return (length(which(studentData[[1]] == term & 
-										 studentData[[11]] == modality &
-				</code> </p>
-				<p style = "text-indent: 325px;"> <code style = "color:rgb(0, 0, 0)"> 
-										 studentData[[2]] == courseCode)))
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					}
-				</code> </p> 
-				
-				<br>
-				
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## Show the amount of data for each semester, its face-to-face modality and
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## the course code is COTI3101 - Algorithms & Prog Dev I 
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					cotiPresC11 <- modalityTermCourse("C11", "(P) - Presencial", "COTI3101")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					sprintf("Semester C11 in COTI3101 has %d in presencial mode.", cotiPresC11)
-				</code> </p>
-				
-				<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ4.JPG" 
-				     class="mx-auto d-block img-fluid">
-				
-				<hr> <br>
+				<!-- Question 4 -->
+				<p> 4. How many students of the code course 
+					COTI3101 course are face-to-face mode? </p>
+				<p class = "indent-14">Semester C11 in COTI3101 has 
+					<span id="COTIPresC11"></span> in distance mode.</p>
+				<img src="img/langRcsvFileQ4.JPG" alt = "COTI3101 Presencial">
+				<hr>
 				
 				<!-- Question 5 -->
 				<p style = "text-indent: 15px;"> 5. How many courses have been created 
