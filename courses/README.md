@@ -6,11 +6,15 @@ resources in each folder, which is associated with a particular course.
 
 > Web page
 
-<div style="background-color: #007bff; color: white; padding: 10px; border-radius: 5px;">
-    OLD
-</div>
+.note {
+    background-color: #e0f7fa;
+    border-left: 4px solid #0288d1;
+    color: #0277bd;
+    padding: 10px;
+    font-weight: bold;
+}
 
-<div class="bg-blue-500 text-white p-4 rounded">
+<div class="note">
     The page highlights computer science projects focused on algorithms, 
     data structures, and big data. It covers the implementation of tasks 
     like sorting and developing systems to handle large datasets.
