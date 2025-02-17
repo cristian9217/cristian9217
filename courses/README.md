@@ -6,7 +6,7 @@ resources in each folder, which is associated with a particular course.
 
 > Web page
 
-> [!TIP]
+> [!NOTE]
 > The page highlights computer science projects focused on algorithms, 
 data structures, and big data. It covers the implementation of tasks 
 like sorting and developing systems to handle large datasets.
@@ -17,7 +17,7 @@ Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/co
 
 > Readme:
 
-> [!TIP]
+> [!NOTE]
 > The README highlights the problem the project aims to solve and the 
 implemented solution. It explains the challenges and the approach 
 taken to address them. 
