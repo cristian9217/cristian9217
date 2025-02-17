@@ -18,8 +18,8 @@ Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/co
 
 > Readme:
 
-<div style="background-color: #007bff; color: white; padding: 10px; border-radius: 5px;">
-    The README highlights the problem the project aims to solve and the 
+<div style="border-left: 4px solid #0288d1; padding: 10px;">
+    The `README` highlights the problem the project aims to solve and the 
     implemented solution. It explains the challenges and the approach 
     taken to address them. 
 </div>
