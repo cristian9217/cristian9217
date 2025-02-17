@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title> Modality of the Students of UPRB in Language R </title>
-	<link rel="icon" href="https://vectorlogoseek.com/wp-content/uploads/2020/02/rstudio-vector-logo.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<style> 
-		* { font-family: Times New Roman; } 
-		p { font-size: 22px; }
-		img {  width: 60%; height: auto; }
-    </style>
-</head>
-<body>
+	<head>
+		<title> Modality of the Students of UPRB in Language R </title>
+		
+		<link rel="icon" href="https://vectorlogoseek.com/wp-content/uploads/2020/02/rstudio-vector-logo.png">
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- PapaParse --> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+		
+		<!-- Chart JS --> 
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		
+		<script src="script.js" defer></script>
+		
+		<!-- Tailwind CSS -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		
+		<style> 
+			* { font-family: Times New Roman; } 
+			p { font-size: 1.25rem; /* 22px */ }
+			img { margin-left: auto; margin-right: auto; width: 90%;
+				height: auto; margin-top: 2rem; }
+			.link { color: #3b82f6; text-decoration: none; }
+			.link:hover { text-decoration: underline; }
+		</style>
+	</head>
+	
+	<body>
 
 	<!-- Navgation bar -->
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -36,9 +50,9 @@
     </nav>
 	
 	<!-- Title of the Project and name of the course -->
-	<div class="jumbotron text-center" style="margin-bottom:0;margin-top:60px;">
-	  <h1>Final Project: Modality of the Students of UPRB </h1>
-	  <p>SICI 4997 - Special Topics and Emerging Technologies</p> 
+	<div class="bg-blue-600 text-white text-center py-12 mt-12">
+		<h1 class="text-3xl font-semibold mb-4">Final Project: Modality of the Students of UPRB</h1>
+		<p class="text-lg">SICI 4997 - Special Topics and New Technologies</p>
 	</div>
 	
 	<div class="container-fluid">
