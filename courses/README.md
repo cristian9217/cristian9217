@@ -6,22 +6,24 @@ resources in each folder, which is associated with a particular course.
 
 > Web page
 
+The page highlights computer science projects focused on algorithms, 
+data structures, and big data. It covers the implementation of tasks 
+like sorting and developing systems to handle large datasets.
+
 Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
-
-Course CECS6010: [Click Here](https://cristian9217.github.io/cristian9217/courses/CECS6010/)
-
-Course COTI3102: [Click Here](https://cristian9217.github.io/cristian9217/courses/COTI3102/)
-
-<!--
-Course SICI 4036: [Click Here](sici4036/datastructures.html)
--->
 
 ---
 
 > Readme:
+
+The README highlights the problem the project aims to solve and the 
+implemented solution. It explains the challenges and the approach 
+taken to address them. 
 
 Course CECS6010: [Click Here](CECS6010)
 
 Course COTI3102: [Click Here](COTI3102)
 
 Course SICI 4997: [Click Here](SICI4997)
+
+Course SICI 4036: [Click Here](SICI4036/)
