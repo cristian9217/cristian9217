@@ -6,8 +6,7 @@ resources in each folder, which is associated with a particular course.
 
 > Web page
 
-<div style="background-color: #e0f7fa; border-left: 4px solid #0288d1; 
-        color: #0277bd; padding: 10px; font-weight: bold;">
+<div style="border-left: 4px solid #0288d1; padding: 10px;">
     The page highlights computer science projects focused on algorithms, 
     data structures, and big data. It covers the implementation of tasks 
     like sorting and developing systems to handle large datasets.
