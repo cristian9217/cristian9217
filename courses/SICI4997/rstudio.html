@@ -59,38 +59,62 @@
 			<p class="text-lg">SICI 4997 - Special Topics and New Technologies</p>
 		</div>
 	
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-3 p-4">
-				<h3> IDE </h3>
-				<p> Requirments: </p>
-				<ul class="nav nav-pills flex-column" style = "font-size: 22px;">
-					<li class="nav-item">
-						<a class="nav-link" href="https://cran.r-project.org/">
-						   R 4.1.1 (install first)
+		<!-- Full Content of the Page -->
+		<div class="container mx-auto py-8 grid grid-cols-1 md:grid-cols-3 gap-4 px-2">
+		
+			<!-- Left Sidebar -->
+			<aside class="space-y-5 mb-8">
+				<h3 class="text-xl font-semibold"> IDE </h3>
+				<p class="mt-4 text-lg"> Requirements: </p>
+				<ul class="space-y-3 text-lg">
+					<li>
+						<a class="link" href="https://cran.r-project.org/">
+							R 4.1.1 (install first)
 						</a>
-						<a class="nav-link" href="https://www.rstudio.com/products/rstudio/download/">
-						   RStudio
+					</li>
+					<li>
+						<a class="link" href="https://code.visualstudio.com/">
+							RStudio
+						</a>
+					</li>
+					<li>
+						<a class="link" href="https://www.rstudio.com/products/rstudio/download/">
+						   Extension: Python in Visual Studio Code
 						</a>
 					</li>
 				</ul>
+				
 				<hr>
-				<h3> Files </h3>
-				<p> For this project: </p>
-				<ul class="nav nav-pills flex-column" style = "font-size: 22px;">
-					<li class="nav-item">
-						<a class="nav-link" href="https://raw.githubusercontent.com/cristian9217/cristian9217/
-													default/courses/sici4997/csv/uprb_database.csv">
-						   CSV
-						</a>
-						<a class="nav-link" href="https://raw.githubusercontent.com/cristian9217/cristian9217/
-													default/courses/sici4997/r/modalityStudent.R">
-						   RScript (modalityStudent.R)
+				
+				<h3 class="text-xl font-semibold"> Files </h3>
+				<p class="mt-4 text-lg"> For this project: </p>
+				<ul class="space-y-3 text-lg">
+					<li>
+						<a class="link" href="csv/uprb_database.csv">
+						   uprb_database.csv
 						</a>
 					</li>
 				</ul>
-			</div>
-			<div class="col-md-9 p-4">
+			</aside>
+		
+			<!-- Main Content -->
+			<div class="col-span-2 space-y-6">
+				
+				<!-- Breadcrumb -->
+				<ul class="flex space-x-4 text-sm text-gray-600">
+					<li>
+						<a href="../course.html" class="hover:text-blue-600">
+							Major-related courses
+						</a>
+					</li>
+					<li>
+						<span class="text-gray-600">/</span>
+					</li>
+					<li>
+						<span class="text-blue-600 font-bold">SICI 4036</span>
+					</li>
+				</ul>
+			
 				<h2> Problem </h2>
 				<p> You create a database called UPRB_System has information related to each semester of the courses 
 				created. We have a file in <a href="https://raw.githubusercontent.com/cristian9217/cristian9217/
