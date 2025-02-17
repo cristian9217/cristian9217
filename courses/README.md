@@ -11,7 +11,7 @@ resources in each folder, which is associated with a particular course.
 > like sorting and developing systems to handle large datasets.
 
 
-[!NOTE] This alert uses [!NOTE]
+[!NOTE] This alert uses...
 
 Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
