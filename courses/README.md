@@ -18,9 +18,11 @@ Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/co
 
 > Readme:
 
-> The README highlights the problem the project aims to solve and the 
-> implemented solution. It explains the challenges and the approach 
-> taken to address them. 
+<div style="background-color: #007bff; color: white; padding: 10px; border-radius: 5px;">
+    The README highlights the problem the project aims to solve and the 
+    implemented solution. It explains the challenges and the approach 
+    taken to address them. 
+</div>
 
 Course CECS6010: [Click Here](CECS6010)
 
