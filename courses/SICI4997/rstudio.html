@@ -273,81 +273,25 @@
 				<img src="img/langRcsvFileQ7.JPG">
 				<hr>
 				
-				<!-- Question 8 -->
-				<p style = "text-indent: 15px;"> 8. How many courses were offered on 
-				Wednesdays in semester C11? </p> 
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					## Show the amount of data which been created are 
-					   offered on Wednesday in semester C11
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					OneDayC11 <- modalityTermDays("C11", "W")
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-					sprintf("On Wednesday at %d courses are offered in term C11.", OneDayC11)
-				</code> </p>
-								
-				<img src="img/langRcsvFileQ8.JPG" class="mx-auto d-block img-fluid">
-
-				<hr> <br>
+				<!-- Question 8 -->		
+				<p> 8. How many courses were offered on 
+					Wednesday in semester C11? </p>
+				<p class = "indent-14"> On Wednesday at <span id="oneDayC11"></span> 
+					courses are offered in term C11.</p>
+				<img src="img/langRcsvFileQ8.jpg">
+				<hr>
 				
-				<!-- Question 9 -->
-				<p style = "text-indent: 15px;"> 9. How many courses were offered in the semester? </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					showCourseTerm = function(term) {
-				</code> </p>
-				<p style = "text-indent: 100px;"> <code style = "color:rgb(0, 0, 0)">
-					return (length(which(studentData[[1]] == term)))
-				</code> </p>
-				<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)"> 
-					}
-				</code> </p>
-				
-				<hr> <br>
-				
-				<div class="row">
-					<div class="col-md-6">
-						<p style = "text-indent: 35px;"> a. Term: C12 </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							totalC12 <- showCourseTerm("C12")
-						</code> </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							sprintf("There are %d courses created in semester C12.", totalC12)
-						</code> </p>
-						
-						<p style = "text-indent: 35px;"> b. Term: C11 </p>	
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">				
-							totalC11 <- showCourseTerm("C11")
-						</code> </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							sprintf("There are %d courses created in semester C11.", totalC11)
-						</code> </p>
-
-						<p style = "text-indent: 35px;"> c. Term: C03 </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							totalC03 <- showCourseTerm("C03")
-						</code> </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							sprintf("There are %d courses created in semester C03.", totalC03)
-						</code> </p>
-						
-						<p style = "text-indent: 35px;"> d. Term: C02 </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							totalC02 <- showCourseTerm("C02")
-						</code> </p>
-						<p style = "text-indent: 50px;"> <code style = "color:rgb(0, 0, 0)">
-							sprintf("There are %d courses created in semester C02.", totalC02)
-						</code> </p>
-						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/langRcsvFileQ9.JPG" 
-						     class="mx-auto d-block img-fluid">
-					</div>
-					<div class="col-md-6">
-						<img src="https://raw.githubusercontent.com/cristian9217/cristian9217/default/courses/sici4997/img/totalCourseSemester.JPG"
-						     width="500" height="600" class="mx-auto d-block img-fluid">
-					</div> 
-				</div>
-				
-				<hr> <br>
+				<!-- Question 9 -->				
+				<p> 9. How many courses were offered in the semester? </p>
+				<p class = "indent-14"> 
+					<b>C22:</b> <span id="totalC22"></span>, 
+					<b>C12:</b> <span id="totalC12"></span>,
+					<b>C11:</b> <span id="totalC11"></span>, 
+					<b>C03:</b> <span id="totalC03"></span> y 
+					<b>C02:</b> <span id="totalC02"></span>
+				</p>
+				<canvas id="courseChart" width="300" height="225"></canvas>
+				<hr>
 				
 				<p style = "text-indent: 15px;"> 10. How many courses were offered in C02 and C11? 
 				How much was the difference? </p>			
