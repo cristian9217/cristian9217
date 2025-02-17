@@ -11,6 +11,7 @@ resources in each folder, which is associated with a particular course.
     data structures, and big data. It covers the implementation of tasks 
     like sorting and developing systems to handle large datasets.
 </div>
+<div style="margin-bottom: 10px; "></div>
 
 Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
@@ -23,6 +24,7 @@ Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/co
     implemented solution. It explains the challenges and the approach 
     taken to address them. 
 </div>
+<div style="margin-bottom: 10px; "></div>
 
 Course CECS6010: [Click Here](CECS6010)
 
