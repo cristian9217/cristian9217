@@ -26,6 +26,13 @@
       .link-course:hover {
         background-color: #2563eb; /* Tailwind's hover:bg-blue-600 */
       }
+
+      .link-page {
+        color: #3b82f6; /* Tailwind's blue-500 */
+        font-weight: 600; /* Equivalent to font-semibold */
+        text-decoration: none;
+        transition: text-decoration 0.2s ease-in-out;
+      }
     </style>
   </head>
   <body style = "font-family: Times New Roman">
@@ -48,9 +55,8 @@
 
     <!-- Main Content -->
     <div class="container mx-auto mt-10 px-4 text-lg">
-        <p class="text-lg text-gray-700">
-          On this page, you will find my resume:  
-          <a class="text-blue-500 hover:underline font-semibold" href="https://cristian9217.pythonanywhere.com/">
+        <p class = "mb-6"> On this page, you will find my resume:  
+          <a class="link-page" href="https://cristian9217.pythonanywhere.com/">
             View My Resume
           </a>
         </p>
