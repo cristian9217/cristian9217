@@ -5,7 +5,8 @@
 - 📕 I studied for a Bachelor's degree in Computer Science at UPRB.
 - 📖 I am currently pursuing a Master's degree in Computer Science, with a
   focus on Knowledge Discovery and Data Mining, and my area of interest is Big Data.
-- 📓 I am currently learning Python and R.
+- 💻 I am currently learning Artificial Intelligence (AI) and Principles of Information Security.
+- 📚 I learned Python and R during Masters.
 - 📚 I learned HTML, CSS, JavaScript, Java, and SQL during bachelors.
 - 📫 How to reach me: <cristianmiguel10@gmail.com>
 
