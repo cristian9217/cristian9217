@@ -6,11 +6,9 @@ resources in each folder, which is associated with a particular course.
 
 > Web page
 
-<div style="border-left: 4px solid #0288d1; padding: 10px; margin-bottom: 10px;">
-    The page highlights computer science projects focused on algorithms, 
-    data structures, and big data. It covers the implementation of tasks 
-    like sorting and developing systems to handle large datasets.
-</div>
+The page highlights computer science projects focused on algorithms, 
+data structures, and big data. It covers the implementation of tasks 
+like sorting and developing systems to handle large datasets.
 
 Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
