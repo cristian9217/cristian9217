@@ -6,41 +6,6 @@ import matplotlib.pyplot as plt
 movie_df = pd.read_csv('data/movie_dataset.csv')
 
 #####################################################
-# Question 1 - Las veces que se repite cada movieId #
-#####################################################
-
-def unique_movie_id(movie_df: pd.DataFrame) -> pd.DataFrame:
-    # Calcula cuántas veces se repite cada movieId
-    movieId_counts = movie_df['movieId'].value_counts()
-
-    # Conjunto para almacenar números aleatorios generados previamente
-    generated_random_numbers = set()
-
-    # Itera sobre los movieIds repetidos y asigna números aleatorios únicos
-    for movieId, count in movieId_counts.items():
-        if count > 1:
-            indices = movie_df.index[movie_df['movieId'] == movieId].tolist()
-            for idx in indices:
-                random_number = np.random.randint(10000, 99999)
-                while random_number in generated_random_numbers:
-                    random_number = np.random.randint(10000, 99999)
-                generated_random_numbers.add(random_number)
-                movie_df.at[idx, 'movieId'] = str(random_number)
-    return movie_df
-
-# Función para repetir hasta que no haya IDs duplicados
-def ensure_unique_ids(movie_df: pd.DataFrame) -> pd.DataFrame:
-    while True:
-        movie_df = unique_movie_id(movie_df)
-        # Verifica si hay algún ID duplicado después de la actualización
-        if not movie_df['movieId'].duplicated().any():
-            break
-    return movie_df
-
-movie_df = ensure_unique_ids(movie_df)
-print("Each movieID is unique!")
-
-#####################################################
 # Question 2 - Indicar la cantidad de filas         #
 #####################################################
 print(f"Amount of movies: {movie_df.shape[0]}")
@@ -160,3 +125,4 @@ boxplot_cols = ['releaseYear', 'rating', 'runtime', 'budget']
 movie_df[boxplot_cols].plot(kind='box', subplots=True, layout=(2,2), figsize=(10,8))
 plt.suptitle('Boxplot de releaseYear, rating, runtime y budget')
 plt.show()
+
