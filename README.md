@@ -10,7 +10,7 @@ Discovery and Data Mining. I have strong interest in Big Data technologies and a
 - 📚 I learned HTML, CSS, JavaScript, Java, and SQL during bachelors.
 - 📫 How to reach me: <cristianmiguel10@gmail.com>
 
-If you are interested in more details, check out my website!
+If you are interested in more details, check out my website! 👇
 
 -------------------------------------------------------------------------------------------------------------------------
 
