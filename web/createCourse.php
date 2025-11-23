@@ -1,3 +1,11 @@
+/**
+ * File: CreateCourse.php
+ * Course: COTI-4210-MR1
+ * Date: May 15, 2020
+ * Purpose: Handles the creation of courses in the system, including 
+ * validation and insertion into the database using PHP and MySQL.
+ */
+
 <?php
   // Create a connection to the database
   $conn = new mysqli($server, $user, $password, $dbname);
@@ -18,8 +26,7 @@
 	/** Format number as float with two decimal places if numeric. */
 	function setNumberFloat($input)
 	{
-               return is_numeric($input) ? 
-               number_format($input, 2, ".", ",") : $input;
+		return is_numeric($input) ? number_format($input, 2, ".", ",") : $input;
 	}
 
 	// ======== VALIDACIONES ========
@@ -94,7 +101,8 @@
 	$stmtCheckCourse->close();
 
 	// ======== INSERCIÓN ========
-	if (empty($errors)) {
+	if (empty($errors)) 
+	{
 		$sqlInsertCourse = "INSERT INTO course (id_course_pk, nombre, titulo, 
 			credito, prerrequisito) VALUES (?, ?, ?, ?, ?)";
 		$stmtInsertCourse = $conn->prepare($sqlInsertCourse);
