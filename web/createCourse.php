@@ -7,13 +7,11 @@
  */
 
 <?php
-  // Create a connection to the database
-  $conn = new mysqli($server, $user, $password, $dbname);
-  if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-  }
-
-	// ======== FUNCIONES ========
+	// Create a connection to the database
+	$conn = new mysqli($server, $user, $password, $dbname);
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
 
 	/** Sanitize user input by trimming, stripping slashes, and managing HTML entities. */
 	function setString($input, $length = null)
@@ -22,14 +20,14 @@
 		$input = stripslashes(trim($input));
 		return htmlspecialchars($input);
 	}
-
+	
 	/** Format number as float with two decimal places if numeric. */
 	function setNumberFloat($input)
 	{
 		return is_numeric($input) ? number_format($input, 2, ".", ",") : $input;
 	}
 
-	// ======== VALIDACIONES ========
+	// ======== VALIDATIONS ========
 
 	// Initialize an array to store errors
 	$errors = [];
@@ -100,7 +98,7 @@
 	}
 	$stmtCheckCourse->close();
 
-	// ======== INSERCIÓN ========
+	// ======== INSERT INTO TABLE COURSE ========
 	if (empty($errors)) 
 	{
 		$sqlInsertCourse = "INSERT INTO course (id_course_pk, nombre, titulo, 
@@ -129,7 +127,7 @@
 	} 
 	else 
 	{
-		// Mostrar errores
+		// Show errors
 		echo "<div class='alertMessage alert-error'>";
 			echo "<p class='title'>Validation Errors:</p>";
 			foreach ($errors as $error) {
