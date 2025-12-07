@@ -8,7 +8,6 @@ The objective of this analysis is to evaluate medication sales across different 
 
 **Total records:** 1,000 transactions. 
 
-**Variables:**
 | **Variable**     | Type of data |
 | ---------------- | ------------ |
 | Date	           | Text         |
