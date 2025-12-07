@@ -4,13 +4,11 @@ The objective of this analysis is to evaluate medication sales across different 
 
 Description of the data
 
-Analysis period: January 1, 2023 to November 15, 2024.
+**Analysis period:** January 1, 2023 to November 15, 2024.
+**Total records:** 1,000 transactions.
+**Variables:**
 
-Total records: 1,000 transactions.
-
-Variables:
-
-| Variable         | Type of data |
+| **Variable**     | Type of data |
 | ---------------- | ------------ |
 | Date	           | Text         |
 | Year	           | Numeric      | 
