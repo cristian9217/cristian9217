@@ -11,19 +11,20 @@ Total records: 1,000 transactions.
 Variables:
 
 | Name of the variable |	Type of data |
+| -------------------- | ------------- |
 | Date	               |  Text         |
-| Year	Numeric
-| Month_Name	Text
-| Day	Numeric
-| Season	Text
-| Location_Store	Text
-| Gender	Text
-| Age	Numeric
-| Type_Plan	Text
-| City_Client	Text
-| Name_Product	Text
-| Category	Text
-| Covered_Plan	Text
-| Unit_Price	Numeric
-| Quantity	Numeric
-| Total_Sale	Numeric
+| Year	               | Numeric  
+| Month_Name	         | Text
+| Day	                 | Numeric
+| Season	             | Text
+| Location_Store	     | Text
+| Gender	             | Text
+| Age	                 | Numeric
+| Type_Plan	           | Text
+| City_Client	         | Text
+| Name_Product	       | Text
+| Category	           | Text
+| Covered_Plan	       | Text
+| Unit_Price	         | Numeric
+| Quantity	           | Numeric
+| Total_Sale	         | Numeric
