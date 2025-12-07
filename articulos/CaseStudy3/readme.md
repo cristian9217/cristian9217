@@ -10,8 +10,8 @@ Total records: 1,000 transactions.
 
 Variables:
 
-| Name of the variable |	Type of data
-| Date	Text
+| Name of the variable |	Type of data |
+| Date	               |  Text         |
 | Year	Numeric
 | Month_Name	Text
 | Day	Numeric
