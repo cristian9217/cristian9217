@@ -5,22 +5,25 @@ The objective of this analysis is to evaluate medication sales across different 
 Description of the data
 
 Analysis period: January 1, 2023 to November 15, 2024.
+
 Total records: 1,000 transactions.
+
 Variables:
-Name of the variable	Type of data
-Date	Text
-Year	Numeric
-Month_Name	Text
-Day	Numeric
-Season	Text
-Location_Store	Text
-Gender	Text
-Age	Numeric
-Type_Plan	Text
-City_Client	Text
-Name_Product	Text
-Category	Text
-Covered_Plan	Text
-Unit_Price	Numeric
-Quantity	Numeric
-Total_Sale	Numeric
+
+| Name of the variable |	Type of data
+| Date	Text
+| Year	Numeric
+| Month_Name	Text
+| Day	Numeric
+| Season	Text
+| Location_Store	Text
+| Gender	Text
+| Age	Numeric
+| Type_Plan	Text
+| City_Client	Text
+| Name_Product	Text
+| Category	Text
+| Covered_Plan	Text
+| Unit_Price	Numeric
+| Quantity	Numeric
+| Total_Sale	Numeric
