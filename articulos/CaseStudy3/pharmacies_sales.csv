@@ -1,0 +1,1001 @@
+Date,Year,Month_Name,Month,Day,Season,Location_Store,Gender,Age,Type_Plan,City_Client,Name_Product,Category,Covered_Plan,Unit_Price,Quantity,Total_Sale
+2024-06-08,2024,June,6,8,Spring,Arecibo,M,34,MCS,San Juan,Tiras reactivas diabetes,Diabetes,Y,55.67,6,334.02
+2024-06-25,2024,June,6,25,Summer,Aguadilla,M,34,MCS,San Juan,Tiras reactivas diabetes,Diabetes,N,20.66,1,20.66
+2024-07-02,2024,July,7,2,Summer,Humacao,M,34,MCS,San Juan,Tiras reactivas diabetes,Diabetes,Y,96.65,4,386.6
+2024-07-02,2024,July,7,2,Summer,Carolina,M,34,MCS,San Juan,Vitamina D 2000UI,Suplementos,Y,82.12,5,410.6
+2024-01-05,2024,January,1,5,Winter,Caguas,F,39,MCS,Caguas,Acetaminofen 500 mg,Analgesico,Y,8.99,3,26.97
+2024-01-21,2024,January,1,21,Winter,Caguas,F,32,MCS,Caguas,Acetaminofen 500 mg,Analgesico,N,8.99,4,35.96
+2024-06-14,2024,June,6,14,Spring,Caguas,F,28,MMM,Bayamon,Bloqueador solar SPF50,Cuidado personal,Y,81.08,3,243.24
+2024-07-01,2024,July,7,1,Summer,Aguadilla,F,28,MMM,Bayamon,Bloqueador solar SPF50,Cuidado personal,N,33.14,4,132.56
+2024-01-30,2024,January,1,30,Winter,Bayamon,F,34,MCS,Bayamon,Acetaminofen 500 mg,Analgesico,Y,8.99,1,8.99
+2024-01-12,2024,January,1,12,Winter,Arecibo,F,33,MCS,Arecibo,Acetaminofen 500 mg,Analgesico,N,8.99,2,17.98
+2024-01-30,2024,January,1,30,Winter,Carolina,F,56,MMM,Carolina,Acetaminofen 500 mg,Analgesico,Y,8.99,2,17.98
+2024-01-16,2024,January,1,16,Winter,Ponce,M,60,MMM,Ponce,Acetaminofen 500 mg,Analgesico,Y,8.99,1,8.99
+2024-01-09,2024,January,1,9,Winter,Ponce,M,48,MCS,Ponce,Acetaminofen 500 mg,Analgesico,N,8.99,3,26.97
+2024-01-31,2024,January,1,31,Winter,Bayamon,M,66,MMM,Bayamon,Acetaminofen 500 mg,Analgesico,Y,8.99,1,8.99
+2024-01-08,2024,January,1,8,Winter,Arecibo,M,68,MMM,Arecibo,Acetaminofen 500 mg,Analgesico,Y,8.99,2,17.98
+2024-06-16,2024,June,6,16,Spring,Mayaguez,F,51,Triple S,Caguas,Antigripal Noche,Antigripales,Y,71.02,1,71.02
+2024-06-15,2024,June,6,15,Spring,Humacao,F,51,Triple S,Caguas,Bloqueador solar SPF50,Cuidado personal,Y,94.18,3,282.54
+2024-06-12,2024,June,6,12,Spring,Arecibo,M,37,Triple S,Carolina,Vitamina D 2000UI,Suplementos,N,39.56,2,79.12
+2024-06-16,2024,June,6,16,Spring,San Juan,M,37,Triple S,Carolina,Enjuague bucal 500ml,Cuidado personal,Y,36.19,3,108.57
+2024-01-03,2024,January,1,3,Winter,Carolina,M,53,MCS,Carolina,Acetaminofen 500 mg,Analgesico,N,8.99,1,8.99
+2024-01-30,2024,January,1,30,Winter,Humacao,F,47,MCS,Humacao,Acetaminofen 500 mg,Analgesico,Y,8.99,2,17.98
+2024-02-06,2024,February,2,6,Winter,Arecibo,M,76,MMM,Trujillo Alto,Acetaminofen 500 mg,Analgesico,Y,7.99,4,31.96
+2024-07-01,2024,July,7,1,Summer,San Juan,F,23,Medicaid,Trujillo Alto,Antigripal Noche,Antigripales,Y,25.33,4,101.32
+2024-02-15,2024,February,2,15,Winter,Mayaguez,M,66,MMM,Mayaguez,Acetaminofen 500 mg,Analgesico,Y,9.5,5,47.5
+2024-06-09,2024,June,6,9,Spring,Yauco,F,23,Medicaid,Trujillo Alto,Vitamina C 500mg,Suplementos,Y,56.4,5,282
+2024-07-01,2024,July,7,1,Summer,Ponce,M,46,MCS,Humacao,Naproxeno 220mg,Analgesico,Y,6.8,5,34
+2024-03-12,2024,March,3,12,Spring,Bayamon,M,41,MCS,Bayamon,Acetaminofen 500 mg,Analgesico,Y,9.5,6,90
+2024-06-25,2024,June,6,25,Summer,Ponce,M,46,MCS,Humacao,Vitamina C 500mg,Suplementos,Y,87.77,5,438.85
+2024-06-25,2024,June,6,25,Summer,Carolina,M,46,MCS,Humacao,Antigripal Noche,Antigripales,N,16.03,4,64.12
+2024-06-07,2024,June,6,7,Spring,Ponce,M,39,MMM,Fajardo,Antigripal Noche,Antigripales,Y,63.5,5,317.5
+2024-07-02,2024,July,7,2,Summer,Fajardo,M,39,MMM,Fajardo,Shampoo anticaspa 250ml,Cuidado personal,Y,60.15,6,360.9
+2024-04-12,2024,April,4,12,Spring,Humacao,M,52,MCS,Humacao,Acetaminofen 500 mg,Analgesico,N,8.8,3,26.4
+2024-06-11,2024,June,6,11,Spring,Bayamon,M,39,MMM,Fajardo,Enjuague bucal 500ml,Cuidado personal,N,43.71,3,131.13
+2024-04-14,2024,April,4,14,Spring,Caguas,F,71,MMM,Caguas,Acetaminofen 500 mg,Analgesico,Y,8.8,1,8.8
+2024-06-15,2024,June,6,15,Spring,Mayaguez,F,31,First Medical,Guaynabo,Vitamina C 500mg,Suplementos,Y,51.57,2,103.14
+2024-05-11,2024,May,5,11,Spring,Arecibo,M,50,MCS,Arecibo,Acetaminofen 500 mg,Analgesico,N,9.1,3,27.3
+2024-06-08,2024,June,6,8,Spring,Humacao,F,31,First Medical,Guaynabo,Pasta dental 100ml,Cuidado personal,Y,80,1,80
+2024-05-28,2024,May,5,28,Spring,Caguas,F,65,MMM,Caguas,Acetaminofen 500 mg,Analgesico,Y,9.1,4,36.4
+2023-01-08,2023,January,1,8,Winter,Mayaguez,M,66,MMM,Mayaguez,Acetaminofen 500 mg,Analgesico,Y,9.9,5,49.5
+2024-06-01,2024,June,6,1,Spring,Caguas,M,55,Triple S,Trujillo Alto,Enjuague bucal 500ml,Cuidado personal,Y,77.01,5,385.05
+2024-07-01,2024,July,7,1,Summer,Mayaguez,M,55,Triple S,Trujillo Alto,Tiras reactivas diabetes,Diabetes,N,26.9,4,107.6
+2024-06-01,2024,June,6,1,Spring,San Juan,F,29,MCS,Yauco,Vitamina C 500mg,Suplementos,N,91.14,4,364.56
+2024-06-10,2024,June,6,10,Spring,Ponce,F,29,MCS,Yauco,Vitamina D 2000UI,Suplementos,N,95.51,1,95.51
+2024-06-02,2024,June,6,2,Spring,Fajardo,F,29,MCS,Yauco,Shampoo anticaspa 250ml,Cuidado personal,Y,44.5,3,133.5
+2023-01-30,2023,January,1,30,Winter,Bayamon,M,70,MMM,Bayamon,Acetaminofen 500 mg,Analgesico,Y,9.9,6,59.4
+2024-06-10,2024,June,6,10,Spring,San Juan,M,44,MMM,San Juan,Pasta dental 100ml,Cuidado personal,N,85.9,1,85.9
+2023-01-16,2023,January,1,16,Winter,Caguas,F,78,MMM,Caguas,Acetaminofen 500 mg,Analgesico,Y,9.9,3,29.7
+2023-01-29,2023,January,1,29,Winter,Guaynabo,M,68,MMM,Guaynabo,Acetaminofen 500 mg,Analgesico,Y,9.9,5,49.5
+2023-02-08,2023,February,2,8,Winter,Mayaguez,M,66,MMM,Mayaguez,Acetaminofen 500 mg,Analgesico,Y,9.7,5,48.5
+2024-06-04,2024,June,6,4,Spring,Humacao,F,38,First Medical,Ponce,Shampoo anticaspa 250ml,Cuidado personal,Y,99.88,2,199.76
+2024-06-02,2024,June,6,2,Spring,Arecibo,F,38,First Medical,Ponce,Pasta dental 100ml,Cuidado personal,Y,79.03,1,79.03
+2024-06-07,2024,June,6,7,Spring,Bayamon,F,38,First Medical,Ponce,Vitamina D 2000UI,Suplementos,N,53.05,2,106.1
+2023-02-01,2023,February,2,1,Winter,Bayamon,M,70,MMM,Bayamon,Acetaminofen 500 mg,Analgesico,Y,9.7,6,58.2
+2023-03-06,2023,March,3,6,Spring,Bayamon,M,41,MCS,Bayamon,Acetaminofen 500 mg,Analgesico,Y,9.8,6,58.8
+2023-03-24,2023,March,3,24,Spring,Bayamon,M,60,MMM,Bayamon,Acetaminofen 500 mg,Analgesico,Y,9.8,5,49
+2024-06-06,2024,June,6,6,Spring,Arecibo,M,50,Medicaid,Caguas,Naproxeno 220mg,Analgesico,N,98.76,3,296.28
+2024-06-10,2024,June,6,10,Spring,Arecibo,M,50,Medicaid,Caguas,Jarabe para tos adultos,Antigripales,Y,52.88,7,370.16
+2024-06-15,2024,June,6,15,Spring,Guaynabo,F,41,Triple S,Carolina,Enjuague bucal 500ml,Cuidado personal,Y,22.04,3,66.12
+2023-03-01,2023,March,3,1,Spring,Guaynabo,F,55,MCS,Guaynabo,Acetaminofen 500 mg,Analgesico,N,9.8,4,39.2
+2023-04-06,2023,April,4,6,Spring,Humacao,M,52,MCS,Humacao,Acetaminofen 500 mg,Analgesico,N,9.2,3,27.6
+2024-06-04,2024,June,6,4,Spring,Fajardo,F,41,Triple S,Carolina,Ibuprofeno 200mg,Analgesico,Y,41.5,3,124.5
+2024-07-02,2024,July,7,2,Summer,Aguadilla,M,36,MCS,Trujillo Alto,Ibuprofeno 200mg,Analgesico,Y,49.61,2,99.22
+2024-06-13,2024,June,6,13,Spring,Humacao,M,36,MCS,Trujillo Alto,Naproxeno 220mg,Analgesico,N,93.42,7,653.94
+2023-04-17,2023,April,4,17,Spring,Caguas,F,71,MMM,Caguas,Acetaminofen 500 mg,Analgesico,Y,9.2,1,9.2
+2023-04-26,2023,April,4,26,Spring,Arecibo,F,77,MMM,Arecibo,Acetaminofen 500 mg,Analgesico,Y,9.2,6,55.2
+2024-06-06,2024,June,6,6,Spring,Carolina,F,47,Medicaid,Humacao,Bloqueador solar SPF50,Cuidado personal,Y,70.05,3,210.15
+2024-06-07,2024,June,6,7,Spring,Bayamon,F,47,Medicaid,Humacao,Ibuprofeno 200mg,Analgesico,Y,89.24,3,267.72
+2023-04-30,2023,April,4,30,Spring,Humacao,F,31,MCS,Humacao,Acetaminofen 500 mg,Analgesico,N,9.2,5,46
+2024-06-12,2024,June,6,12,Spring,Bayamon,F,47,Medicaid,Humacao,Shampoo anticaspa 250ml,Cuidado personal,Y,19.33,2,38.66
+2023-05-11,2023,May,5,11,Spring,Arecibo,M,50,MCS,Arecibo,Acetaminofen 500 mg,Analgesico,N,9.1,3,27.3
+2023-05-28,2023,May,5,28,Spring,Caguas,F,65,MMM,Caguas,Acetaminofen 500 mg,Analgesico,Y,9.1,4,36.4
+2024-06-11,2024,June,6,11,Spring,San Juan,M,33,MCS,Fajardo,Ibuprofeno 200mg,Analgesico,N,14.88,2,29.76
+2024-06-06,2024,June,6,6,Spring,Caguas,M,33,MCS,Fajardo,Naproxeno 220mg,Analgesico,Y,92.55,1,92.55
+2024-06-13,2024,June,6,13,Spring,Mayaguez,M,52,MMM,Guaynabo,Jarabe para tos adultos,Antigripales,N,77.49,4,309.96
+2024-06-04,2024,June,6,4,Spring,Bayamon,M,52,MMM,Guaynabo,Jarabe para tos adultos,Antigripales,N,11.21,5,56.05
+2024-06-12,2024,June,6,12,Spring,Carolina,M,52,MMM,Guaynabo,Pasta dental 100ml,Cuidado personal,N,65.3,1,65.3
+2023-06-17,2023,June,6,17,Spring,Arecibo,M,51,MCS,Arecibo,Acetaminofen 500 mg,Analgesico,N,9.1,4,36.4
+2023-07-14,2023,July,7,14,Summer,Arecibo,F,58,MCS,Arecibo,Acetaminofen 500 mg,Analgesico,N,9.1,3,27.3
+2023-07-30,2023,July,7,30,Summer,Toa Baja,F,79,MMM,Toa Baja,Acetaminofen 500 mg,Analgesico,Y,9.1,4,36.4
+2024-06-04,2024,June,6,4,Spring,San Juan,M,36,MMM,Guayama,Jarabe para tos adultos,Antigripales,Y,24.39,7,170.73
+2023-08-11,2023,August,8,11,Summer,Arecibo,M,42,MCS,Arecibo,Acetaminofen 500 mg,Analgesico,N,9.1,3,27.3
+2024-07-02,2024,July,7,2,Summer,Bayamon,F,34,Medicaid,San Juan,Hierro 30 mg,Suplementos,Y,25.5,1,25.5
+2024-07-03,2024,July,7,3,Summer,San Juan,F,34,Medicaid,San juan,Paracetamlo Generico,Analgesico,Y,48.99,2,97.98
+2024-07-04,2024,July,7,4,Summer,Bayamon,F,28,First Medical,Bayamon,Naproxeno 250mg,Analgesico,Y,15,4,60
+2024-07-05,2024,July,7,5,Summer,Ponce,F,45,MMM,Ponce,Complejo B 50 mg,Suplementos,N,70.15,3,210.45
+2024-07-06,2024,July,7,6,Summer,Carolina,F,52,MCS,Carolina,Tiras reactivas diabetes,Diabetes,N,10.3,5,51.5
+2023-08-25,2023,August,8,25,Summer,Humacao,M,48,MCS,Humacao,Acetaminofen 500 mg,Analgesico,N,9.1,4,36.4
+2024-08-05,2024,August,8,5,Summer,Caguas,F,52,MCS,Carolina,Diclofenaco Gel 1%,Analgesico,N,55.45,3,166.35
+2024-09-15,2024,September,9,15,Summer,Arecibo,F,39,MMM,Trujillo Alto,Loratadina Jarabe 5mg,Analgesico,Y,31.9,5,159.5
+2024-10-11,2024,October,10,11,Fall,Guaynabo,F,39,MMM,Trujillo alto,Magnesio 250 mg,Suplementos,Y,68.75,3,206.25
+2024-11-11,2024,November,11,11,Fall,Humacao,F,39,MMM,Trujillo Alto,Vitamina B12 1000 mcg,Suplementos,Y,12,2,24
+2024-11-15,2024,November,11,15,Fall,Toa Baja,F,39,MMM,Trujillo Alto,Tiras reactivas diabetes,Diabetes,N,26.6,3,79.8
+2023-09-16,2023,September,9,16,Fall,Caguas,F,36,MCS,Caguas,Acetaminofen 500 mg,Analgesico,N,9.1,3,27.3
+2024-07-06,2024,July,7,6,Summer,Caguas,F,22,First Medical,Hatillo,Ibuprofeno 200 mg,Antigripales,N,9.26,3,27.78
+2024-08-05,2024,August,8,5,Summer,Arecibo,F,22,First Medical,Hatillo,Crema Hidratante Facial,Cuidado personal,N,45,1,45
+2024-10-11,2024,October,10,11,Fall,San Juan,F,22,First Medical,Hatillo,Pasta dental 100ml,Cuidado personal,Y,7.59,3,22.77
+2024-11-15,2024,November,11,15,Fall,Bayamon,F,48,Triple S,Guaynabo,Diclofenaco Gel 1%,Analgesico,N,6.38,2,12.76
+2024-06-08,2024,June,6,8,Spring,Ponce,M,37,MCS,Humacao,Hierro 30 mg,Suplementos,N,2.99,5,14.95
+2024-06-16,2024,June,6,16,Spring,Carolina,M,37,MCS,Humacao,Naproxeno 220mg,Analgesico,Y,36.6,1,36.6
+2024-07-07,2024,July,7,7,Summer,Mayaguez,f,29,Medicaid,Toa Baja,Ibuprofeno 200 mg,Antigripales,N,28.97,3,86.91
+2024-01-01,2024,January,1,1,Winter,Caguas,F,68,MMM,Caguas,Insulina Pluma,Diabetes,Y,185.5,1,185.5
+2024-01-01,2024,January,1,1,Winter,Arecibo,M,45,MCS,San Juan,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2024-01-02,2024,January,1,2,Winter,Bayamon,F,33,MCS,Bayamon,Ibuprofeno 400 mg,Analgesico,N,16.75,2,33.5
+2024-01-02,2024,January,1,2,Winter,Carolina,M,58,MCS,Carolina,Vitamina C 1000 mg,Suplementos,Y,23.1,2,46.2
+2023-10-03,2023,October,10,3,Fall,Toa Baja,M,64,MMM,Toa Baja,Acetaminofen 500 mg,Analgesico,Y,9.1,4,36.4
+2023-10-27,2023,October,10,27,Fall,Guaynabo,M,55,MCS,Guaynabo,Acetaminofen 500 mg,Analgesico,N,9.1,4,36.4
+2024-01-04,2024,January,1,4,Winter,Humacao,F,65,MMM,Humacao,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2024-01-04,2024,January,1,4,Winter,Mayaguez,M,51,MCS,Mayaguez,Omeprazol 20 mg,Gastro,N,26,1,26
+2023-11-19,2023,November,11,19,Fall,Caguas,M,34,MCS,Caguas,Acetaminofen 500 mg,Analgesico,N,9.1,3,27.3
+2024-01-05,2024,January,1,5,Winter,Arecibo,M,75,MMM,Arecibo,Vitamina D 2000UI,Suplementos,Y,35.5,1,35.5
+2024-01-06,2024,January,1,6,Winter,Bayamon,F,56,MMM,Toa Baja,Tiras reactivas diabetes,Diabetes,Y,62.15,4,248.6
+2024-01-06,2024,January,1,6,Winter,Carolina,M,62,MCS,Carolina,Jarabe para la tos,Otros,N,20.5,1,20.5
+2023-12-13,2023,December,12,13,Fall,Humacao,M,66,MMM,Humacao,Acetaminofen 500 mg,Analgesico,Y,9.1,5,45.5
+2024-01-07,2024,January,1,7,Winter,Guaynabo,M,30,MCS,Guaynabo,Curitas Adhesivas,Otros,N,5.25,5,26.25
+2024-06-12,2024,June,6,12,Spring,Guaynabo,F,51,Triple S,Caguas,Acetaminofen 500mg,Analgesico,N,68.45,2,136.9
+2024-06-03,2024,June,6,3,Spring,San Juan,M,37,Triple S,Carolina,Acetaminofen 500mg,Analgesico,N,10.5,5,52.5
+2024-06-14,2024,June,6,14,Spring,Bayamon,M,36,MCS,Trujillo Alto,Acetaminofen 500mg,Analgesico,N,90.11,4,360.44
+2024-01-09,2024,January,1,9,Winter,Arecibo,M,54,MCS,Arecibo,Pastillas para la garganta,Analgesico,N,10.5,2,21
+2024-06-14,2024,June,6,14,Spring,Humacao,M,36,MMM,Guayama,Acetaminofen 500mg,Analgesico,Y,34.01,8,272.08
+2024-01-10,2024,January,1,10,Winter,Carolina,M,61,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2024-01-11,2024,January,1,11,Winter,Ponce,F,29,MCS,ponce,Cepillos de dientes,Otros,N,6.99,2,13.98
+2024-01-11,2024,January,1,11,Winter,Guaynabo,M,73,MMM,San Juan,Omeprazol 20 mg,Gastro,Y,26,1,26
+2024-01-12,2024,January,1,12,Winter,Humacao,F,44,MCS,Humacao,Melatonina 5mg,Suplementos,N,18.5,1,18.5
+2024-06-14,2024,June,6,14,Spring,Aguadilla,M,42,First Medical,Ponce,Alcohol isopropilico 70%,Primeros auxilios,Y,69.75,2,139.5
+2024-01-13,2024,January,1,13,Winter,Caguas,F,66,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,62.15,3,186.45
+2024-01-13,2024,January,1,13,Winter,Arecibo,M,31,MCS,Arecibo,Gel Antibacterial,Otros,N,7.9,3,23.7
+2024-06-11,2024,June,6,11,Spring,Carolina,F,31,First Medical,Guaynabo,Alcohol isopropilico 70%,Primeros auxilios,Y,75.25,2,150.5
+2024-01-14,2024,January,1,14,Winter,Carolina,M,74,MMM,Carolina,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2024-01-15,2024,January,1,15,Winter,Ponce,F,40,MCS,San Juan,Metformina 500 mg,Diabetes,N,19.5,3,58.5
+2024-01-15,2024,January,1,15,Winter,Guaynabo,M,68,MMM,Guaynabo,Ibuprofeno 400 mg,Analgesico,Y,16.75,1,16.75
+2024-01-16,2024,January,1,16,Winter,Humacao,F,25,MCS,Humacao,Protector Solar,Otros,N,29.5,2,59
+2024-01-16,2024,January,1,16,Winter,Mayaguez,M,56,MMM,Mayaguez,Loperamida 2 mg,Gastro,Y,11.5,1,11.5
+2024-01-17,2024,January,1,17,Winter,Caguas,F,63,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2024-01-17,2024,January,1,17,Winter,Arecibo,M,49,MCS,Arecibo,Vitamina B12 1000 mcg,Suplementos,Y,19.99,3,59.97
+2024-06-08,2024,June,6,8,Spring,Caguas,M,55,Triple S,Trujillo Alto,Alcohol isopropilico 70%,Primeros auxilios,Y,5.5,3,16.5
+2024-01-18,2024,January,1,18,Winter,Carolina,M,70,MMM,Carolina,Diclofenaco Gel 1%,Analgesico,Y,29,2,58
+2024-01-19,2024,January,1,19,Winter,Ponce,F,57,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,62.15,5,310.75
+2024-01-19,2024,January,1,19,Winter,Guaynabo,M,41,MCS,Guaynabo,Omeprazol 20 mg,Gastro,N,26,1,26
+2024-06-10,2024,June,6,10,Spring,Humacao,F,41,Triple S,Carolina,Alcohol isopropilico 70%,Primeros auxilios,Y,5.25,2,10.5
+2024-01-20,2024,January,1,20,Winter,Mayaguez,M,79,MMM,Mayaguez,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2024-01-12,2024,January,1,12,Winter,Mayaguez,M,59,MMM,Mayaguez,Analgesico Topico,Analgesico,Y,46.99,1,46.99
+2024-01-31,2024,January,1,31,Winter,Guaynabo,M,40,MCS,Guaynabo,Analgesico Topico,Analgesico,Y,46.99,1,46.99
+2024-01-22,2024,January,1,22,Winter,Bayamon,F,60,MMM,Bayamon,Vitamina D 2000UI,Suplementos,Y,35.5,1,35.5
+2024-01-25,2024,January,1,25,Winter,Humacao,M,74,MMM,Humacao,Analgesico Topico,Analgesico,Y,46.99,2,93.98
+2024-01-23,2024,January,1,23,Winter,Ponce,F,73,MMM,Ponce,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2024-01-23,2024,January,1,23,Winter,Guaynabo,M,27,MCS,San Juan,Ibuprofeno 400 mg,Analgesico,N,16.75,1,16.75
+2024-01-24,2024,January,1,24,Winter,Humacao,F,53,MCS,Humacao,Tiras reactivas diabetes,Diabetes,N,62.15,2,124.3
+2024-01-26,2024,January,1,26,Winter,Humacao,M,51,MCS,Humacao,Analgesico Topico,Analgesico,Y,46.99,1,46.99
+2024-01-25,2024,January,1,25,Winter,Caguas,F,36,MCS,Caguas,Vitamina C 1000 mg,Suplementos,Y,23.1,2,46.2
+2024-01-25,2024,January,1,25,Winter,Arecibo,M,77,MMM,Arecibo,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2024-01-26,2024,January,1,26,Winter,Bayamon,F,43,MCS,Bayamon,Loperamida 2 mg,Gastro,N,11.5,1,11.5
+2024-01-26,2024,January,1,26,Winter,Carolina,M,59,MMM,Carolina,Curitas Adhesivas,Otros,N,5.25,3,15.75
+2024-01-27,2024,January,1,27,Winter,Ponce,F,38,MCS,Ponce,Diclofenaco Gel 1%,Analgesico,Y,29,1,29
+2024-01-27,2024,January,1,27,Winter,Guaynabo,M,64,MMM,Guaynabo,Insulina Pluma,Diabetes,Y,185.5,1,185.5
+2024-01-21,2024,January,1,21,Winter,Caguas,M,37,MCS,Caguas,Analgesico Topico,Analgesico,N,46.99,1,46.99
+2024-01-09,2024,January,1,9,Winter,Carolina,F,43,MCS,Carolina,Analgesico Topico,Analgesico,N,46.99,1,46.99
+2024-01-29,2024,January,1,29,Winter,Caguas,F,47,MCS,San Juan,Protector Solar,Otros,N,29.5,2,59
+2024-01-29,2024,January,1,29,Winter,Arecibo,M,62,MMM,Arecibo,Tiras reactivas diabetes,Diabetes,Y,62.15,3,186.45
+2024-01-29,2024,January,1,29,Winter,Mayaguez,f,59,MMM,Mayaguez,Analgesico Topico,Analgesico,Y,46.99,2,93.98
+2024-01-18,2024,January,1,18,Winter,Carolina,M,74,MMM,Carolina,Analgesico Topico,Analgesico,Y,46.99,1,46.99
+2024-01-31,2024,January,1,31,Winter,Ponce,F,61,MMM,Ponce,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2024-01-13,2024,January,1,13,Winter,Guaynabo,M,44,MCS,Guaynabo,Analgesico Topico,Analgesico,Y,46.99,1,46.99
+2024-01-01,2024,January,1,1,Winter,Humacao,M,76,MMM,Humacao,Omeprazol 20 mg,Gastro,Y,26,2,52
+2024-03-17,2024,March,3,17,Spring,Mayaguez,F,48,MCS,Mayaguez,Analgesico Topico,Analgesico,N,47.9,1,47.9
+2024-01-03,2024,January,1,3,Winter,Caguas,M,56,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2024-01-04,2024,January,1,4,Winter,Arecibo,F,73,MMM,Arecibo,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2024-04-17,2024,April,4,17,Spring,Bayamon,F,38,MCS,Bayamon,Analgesico Topico,Analgesico,Y,46.5,1,46.5
+2024-01-06,2024,January,1,6,Winter,Carolina,F,30,MCS,Carolina,Ibuprofeno 400 mg,Analgesico,Y,16.75,3,50.25
+2024-01-07,2024,January,1,7,Winter,Ponce,M,65,MMM,ponce,Insulina Pluma,Diabetes,Y,185.5,1,185.5
+2024-01-08,2024,January,1,8,Winter,Guaynabo,F,55,MMM,Guaynabo,Vitamina C 1000 mg,Suplementos,Y,23.1,2,46.2
+2024-01-09,2024,January,1,9,Winter,Humacao,M,42,MCS,Humacao,Cepillos de dientes,Otros,N,6.99,4,27.96
+2024-01-10,2024,January,1,10,Winter,Mayaguez,F,60,MMM,Mayaguez,Tiras reactivas diabetes,Diabetes,Y,62.15,5,310.75
+2024-01-11,2024,January,1,11,Winter,Caguas,M,71,MMM,Caguas,Loperamida 2 mg,Gastro,Y,11.5,1,11.5
+2024-04-21,2024,April,4,21,Spring,Mayaguez,F,77,MMM,Mayaguez,Analgesico Topico,Analgesico,Y,46.5,1,46.5
+2024-05-16,2024,May,5,16,Spring,Humacao,F,71,MMM,Humacao,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2024-01-14,2024,January,1,14,Winter,Carolina,F,45,MCS,Carolina,Vitamina D 2000UI,Suplementos,N,35.5,1,35.5
+2024-01-15,2024,January,1,15,Winter,Ponce,M,78,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,59.9,6,359.4
+2024-01-16,2024,January,1,16,Winter,Guaynabo,F,39,MCS,San Juan,Gel Antibacterial,Otros,N,7.9,5,39.5
+2024-05-20,2024,May,5,20,Spring,Toa Baja,F,36,MCS,Toa Baja,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2024-01-18,2024,January,1,18,Winter,Mayaguez,F,51,MCS,Mayaguez,Metformina 500 mg,Diabetes,N,19.5,2,39
+2024-01-19,2024,January,1,19,Winter,Caguas,M,64,MMM,Caguas,Melatonina 5mg,Suplementos,Y,18.5,1,18.5
+2024-01-20,2024,January,1,20,Winter,Arecibo,F,26,MCS,Arecibo,Ibuprofeno 400 mg,Analgesico,Y,16.75,1,16.75
+2024-01-21,2024,January,1,21,Winter,Bayamon,M,70,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,62.15,4,248.6
+2024-01-22,2024,January,1,22,Winter,Carolina,F,48,MCS,Carolina,Omeprazol 20 mg,Gastro,Y,26,1,26
+2024-01-23,2024,January,1,23,Winter,Ponce,M,35,MCS,Ponce,Jarabe para la tos,Otros,N,20.5,1,20.5
+2023-01-20,2023,January,1,20,Winter,Caguas,M,71,MMM,Caguas,Analgesico Topico,Analgesico,Y,48.99,1,35.2
+2023-01-18,2023,January,1,18,Winter,Arecibo,F,33,MCS,Arecibo,Analgesico Topico,Analgesico,N,48.99,1,48.99
+2024-01-26,2024,January,1,26,Winter,Mayaguez,F,37,MCS,Mayaguez,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-02-20,2023,February,2,20,Winter,Caguas,M,71,MMM,Caguas,Analgesico Topico,Analgesico,Y,49.5,1,49.5
+2023-03-09,2023,March,3,9,Spring,Mayaguez,F,48,MCS,Mayaguez,Analgesico Topico,Analgesico,N,47.5,1,47.5
+2023-03-26,2023,March,3,26,Spring,Humacao,M,30,MCS,Humacao,Analgesico Topico,Analgesico,N,47.5,1,47.5
+2023-03-23,2023,March,3,23,Spring,Caguas,M,60,MMM,Caguas,Analgesico Topico,Analgesico,Y,47.5,1,47.5
+2024-01-31,2024,January,1,31,Winter,Ponce,M,72,MMM,Ponce,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2023-04-09,2023,April,4,9,Spring,Bayamon,F,38,MCS,Bayamon,Analgesico Topico,Analgesico,Y,46.9,1,46.9
+2024-01-02,2024,January,1,2,Winter,Humacao,M,47,MCS,Humacao,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2024-01-03,2024,January,1,3,Winter,Mayaguez,F,63,MMM,Mayaguez,Ibuprofeno 400 mg,Analgesico,Y,16.75,1,16.75
+2024-01-04,2024,January,1,4,Winter,Caguas,M,75,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,62.15,4,248.6
+2024-01-05,2024,January,1,5,Winter,Arecibo,F,40,MCS,Arecibo,Omeprazol 20 mg,Gastro,N,26,2,52
+2024-01-06,2024,January,1,6,Winter,Bayamon,M,25,MCS,Bayamon,Vitamina D 2000UI,Suplementos,Y,35.5,1,35.5
+2024-01-07,2024,January,1,7,Winter,Carolina,F,67,MMM,Carolina,Curitas Adhesivas,Otros,N,5.25,4,21
+2024-01-08,2024,January,1,8,Winter,Ponce,M,54,MCS,Ponce,Tiras reactivas diabetes,Diabetes,N,59.9,3,179.7
+2024-01-09,2024,January,1,9,Winter,Guaynabo,F,71,MMM,Guaynabo,Loperamida 2 mg,Gastro,Y,11.5,1,11.5
+2024-01-10,2024,January,1,10,Winter,Humacao,M,38,MCS,Humacao,Diclofenaco Gel 1%,Analgesico,Y,29,2,58
+2024-01-11,2024,January,1,11,Winter,Mayaguez,F,50,MCS,Mayaguez,Vitamina B12 1000 mcg,Suplementos,N,19.99,1,19.99
+2024-01-12,2024,January,1,12,Winter,Caguas,M,66,MMM,San Juan,Insulina Pluma,Diabetes,Y,185.5,2,371
+2023-04-20,2023,April,4,20,Spring,Mayaguez,F,77,MMM,Mayaguez,Analgesico Topico,Analgesico,Y,46.9,1,46.9
+2024-01-14,2024,January,1,14,Winter,Bayamon,M,43,MCS,Bayamon,Protector Solar,Otros,N,29.5,1,29.5
+2024-01-15,2024,January,1,15,Winter,Carolina,F,58,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,62.15,5,310.75
+2023-04-28,2023,April,4,28,Spring,Carolina,F,37,MCS,Carolina,Analgesico Topico,Analgesico,N,46.9,1,46.9
+2023-05-16,2023,May,5,16,Spring,Humacao,F,71,MMM,Humacao,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2023-06-05,2023,June,6,5,Spring,Mayaguez,M,36,MCS,Mayaguez,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2023-06-30,2023,June,6,30,Summer,Guaynabo,F,65,MMM,Guaynabo,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2024-01-20,2024,January,1,20,Winter,Caguas,M,55,MMM,Caguas,Jarabe para la tos,Otros,N,20.5,2,41
+2024-01-21,2024,January,1,21,Winter,Arecibo,F,62,MMM,Arecibo,Ibuprofeno 400 mg,Analgesico,Y,16.75,2,33.5
+2023-07-19,2023,July,7,19,Summer,Humacao,M,64,MMM,Humacao,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2024-01-23,2024,January,1,23,Winter,Carolina,F,46,MCS,Carolina,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2024-01-24,2024,January,1,24,Winter,Ponce,M,28,MCS,Ponce,Omeprazol 20 mg,Gastro,N,26,1,26
+2023-08-14,2023,August,8,14,Summer,Ponce,F,61,MMM,Ponce,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2023-09-02,2023,September,9,2,Summer,Ponce,F,41,MCS,Ponce,Analgesico Topico,Analgesico,N,45.99,1,45.99
+2024-01-27,2024,January,1,27,Winter,Mayaguez,F,70,MMM,Mayaguez,Vitamina C 1000 mg,Suplementos,Y,23.1,3,69.3
+2024-01-28,2024,January,1,28,Winter,Caguas,M,35,MCS,Caguas,Tiras reactivas diabetes,Diabetes,N,62.15,2,124.3
+2024-01-29,2024,January,1,29,Winter,Arecibo,F,57,MMM,Arecibo,Loperamida 2 mg,Gastro,Y,11.5,1,11.5
+2024-01-30,2024,January,1,30,Winter,Bayamon,M,64,MMM,Bayamon,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2023-10-14,2023,October,10,14,Fall,Arecibo,F,75,MMM,Arecibo,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2024-01-01,2024,January,1,1,Winter,Ponce,M,76,MMM,Ponce,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2024-01-02,2024,January,1,2,Winter,Guaynabo,F,44,MCS,Guaynabo,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2023-11-09,2023,November,11,9,Fall,Toa Baja,M,55,MCS,Toa Baja,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2024-01-04,2024,January,1,4,Winter,Mayaguez,F,61,MMM,Mayaguez,Diclofenaco Gel 1%,Analgesico,Y,29,2,58
+2024-01-05,2024,January,1,5,Winter,Caguas,M,72,MMM,Caguas,Vitamina D 2000UI,Suplementos,Y,35.5,1,35.5
+2024-01-06,2024,January,1,6,Winter,Arecibo,F,36,MCS,Arecibo,Cepillos de dientes,Otros,N,6.99,2,13.98
+2024-01-07,2024,January,1,7,Winter,Bayamon,M,59,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,62.15,3,186.45
+2023-11-29,2023,November,11,29,Fall,Arecibo,M,53,MCS,Arecibo,Analgesico Topico,Analgesico,N,45.99,1,45.99
+2023-12-24,2023,December,12,24,Winter,Toa Baja,F,75,MMM,Toa Baja,Analgesico Topico,Analgesico,Y,45.99,1,45.99
+2024-01-10,2024,January,1,10,Winter,Guaynabo,F,32,MCS,Guaynabo,Melatonina 5mg,Suplementos,Y,18.5,1,18.5
+2024-01-11,2024,January,1,11,Winter,Humacao,M,65,MMM,Humacao,Insulina Pluma,Diabetes,Y,185.5,1,185.5
+2024-01-12,2024,January,1,12,Winter,Mayaguez,F,78,MMM,Mayaguez,Gel Antibacterial,Otros,N,7.9,5,39.5
+2024-01-13,2024,January,1,13,Winter,Caguas,M,41,MCS,Caguas,Ibuprofeno 400 mg,Analgesico,Y,16.75,2,33.5
+2024-01-14,2024,January,1,14,Winter,Arecibo,F,53,MCS,San Juan,Tiras reactivas diabetes,Diabetes,N,59.9,4,239.6
+2024-06-03,2024,June,6,3,Spring,Yauco,M,37,Triple S,Carolina,Antiacido Masticable,Gastro,Y,48,3,144
+2024-01-16,2024,January,1,16,Winter,Carolina,F,29,MCS,Carolina,Omeprazol 20 mg,Gastro,N,26,1,26
+2024-06-05,2024,June,6,5,Spring,Guaynabo,F,29,MCS,Yauco,Antiacido Masticable,Gastro,Y,97.9,4,391.6
+2024-01-18,2024,January,1,18,Winter,Guaynabo,F,56,MMM,Guaynabo,Tiras reactivas diabetes,Diabetes,Y,62.15,5,310.75
+2024-01-19,2024,January,1,19,Winter,Humacao,M,45,MCS,Humacao,Loperamida 2 mg,Gastro,N,11.5,1,11.5
+2024-06-05,2024,June,6,5,Spring,Bayamon,M,33,MCS,Fajardo,Antiacido Masticable,Gastro,N,9.99,1,9.99
+2024-06-05,2024,June,6,5,Spring,Arecibo,M,36,MMM,Guayama,Antiacido Masticable,Gastro,Y,97.1,6,582.6
+2024-01-22,2024,January,1,22,Winter,Arecibo,F,73,MMM,Arecibo,Tiras reactivas diabetes,Diabetes,Y,59.9,6,359.4
+2024-01-23,2024,January,1,23,Winter,Bayamon,M,50,MCS,Bayamon,Protector Solar,Otros,N,29.5,2,59
+2024-01-24,2024,January,1,24,Winter,Carolina,F,61,MMM,Carolina,Vitamina B12 1000 mcg,Suplementos,Y,19.99,3,59.97
+2024-01-25,2024,January,1,25,Winter,Ponce,M,74,MMM,Ponce,Diclofenaco Gel 1%,Analgesico,Y,29,1,29
+2024-01-26,2024,January,1,26,Winter,Guaynabo,F,38,MCS,Guaynabo,Tiras reactivas diabetes,Diabetes,N,62.15,4,248.6
+2024-01-07,2024,January,1,7,Winter,Ponce,F,48,MCS,Ponce,Antiacido Masticable,Gastro,Y,13.9,2,27.8
+2024-01-28,2024,January,1,28,Winter,Mayaguez,f,71,MMM,Mayaguez,Vitamina C 1000 mg,Suplementos,Y,23.1,2,46.2
+2024-01-24,2024,January,1,24,Winter,Mayaguez,M,68,MMM,Mayaguez,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-17,2024,January,1,17,Winter,Humacao,M,67,MMM,Humacao,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-18,2024,January,1,18,Winter,Humacao,M,77,MMM,Humacao,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-01,2024,January,1,1,Winter,Carolina,F,34,MCS,Carolina,Condroitina y Glucosamina,Suplementos,N,81,1,81
+2024-01-02,2024,January,1,2,Winter,Ponce,M,77,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,62.15,5,310.75
+2024-01-03,2024,January,1,3,Winter,Guaynabo,F,52,MCS,San Juan,Curitas Adhesivas,Otros,N,5.25,3,15.75
+2024-01-04,2024,January,1,4,Winter,Humacao,M,40,MCS,Humacao,Ibuprofeno 400 mg,Analgesico,Y,16.75,3,50.25
+2024-01-05,2024,January,1,5,Winter,Mayaguez,F,68,MMM,Mayaguez,Omeprazol 20 mg,Gastro,Y,26,1,26
+2024-01-06,2024,January,1,6,Winter,Caguas,M,33,MCS,Caguas,Vitamina D 2000UI,Suplementos,N,35.5,1,35.5
+2024-01-08,2024,January,1,8,Winter,Carolina,F,75,MMM,Carolina,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-08,2024,January,1,8,Winter,Bayamon,M,55,MMM,Bayamon,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2024-01-27,2024,January,1,27,Winter,Humacao,M,55,MMM,Humacao,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-10,2024,January,1,10,Winter,Ponce,M,62,MMM,Ponce,Loperamida 2 mg,Gastro,Y,11.5,1,11.5
+2024-01-11,2024,January,1,11,Winter,Guaynabo,F,73,MMM,Guaynabo,Vitamina B12 1000 mcg,Suplementos,Y,19.99,2,39.98
+2024-01-12,2024,January,1,12,Winter,Humacao,M,36,MCS,Humacao,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2024-01-13,2024,January,1,13,Winter,Mayaguez,F,50,MCS,Mayaguez,Jarabe para la tos,Otros,N,20.5,1,20.5
+2024-01-14,2024,January,1,14,Winter,Caguas,M,79,MMM,Caguas,Diclofenaco Gel 1%,Analgesico,Y,29,1,29
+2024-01-16,2024,January,1,16,Winter,Bayamon,M,69,MMM,Bayamon,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-04,2024,January,1,4,Winter,Guaynabo,M,60,MMM,Guaynabo,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-17,2024,January,1,17,Winter,Carolina,F,58,MMM,Carolina,Insulina Pluma,Diabetes,Y,185.5,2,371
+2024-01-18,2024,January,1,18,Winter,Ponce,M,45,MCS,Ponce,Cepillos de dientes,Otros,N,6.99,5,34.95
+2024-01-25,2024,January,1,25,Winter,Bayamon,F,41,MCS,Bayamon,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-20,2024,January,1,20,Winter,Humacao,M,56,MMM,Humacao,Tiras reactivas diabetes,Diabetes,Y,62.15,3,186.45
+2024-01-21,2024,January,1,21,Winter,Guaynabo,M,34,MCS,Guaynabo,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-02-04,2024,February,2,4,Winter,Carolina,F,74,MMM,Carolina,Antiacido Masticable,Gastro,Y,11.99,1,11.99
+2024-01-23,2024,January,1,23,Winter,Arecibo,F,53,MCS,Arecibo,Ibuprofeno 400 mg,Analgesico,N,16.75,4,67
+2024-01-24,2024,January,1,24,Winter,Bayamon,M,76,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2024-01-25,2024,January,1,25,Winter,Carolina,F,48,MCS,Carolina,Gel Antibacterial,Otros,N,7.9,2,15.8
+2024-01-26,2024,January,1,26,Winter,Ponce,M,65,MMM,Ponce,Omeprazol 20 mg,Gastro,Y,26,1,26
+2024-01-27,2024,January,1,27,Winter,Guaynabo,F,78,MMM,Guaynabo,Vitamina C 1000 mg,Suplementos,Y,23.1,3,69.3
+2024-01-28,2024,January,1,28,Winter,Humacao,M,42,MCS,Humacao,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2024-02-27,2024,February,2,27,Winter,Ponce,F,53,MCS,Ponce,Antiacido Masticable,Gastro,y,14,1,14
+2024-01-30,2024,January,1,30,Winter,Caguas,M,66,MMM,Caguas,Loperamida 2 mg,Gastro,Y,11.5,1,11.5
+2024-01-31,2024,January,1,31,Winter,Arecibo,F,33,MCS,Arecibo,Condroitina y Glucosamina,Suplementos,N,81,1,81
+2024-01-01,2024,January,1,1,Winter,Bayamon,F,71,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,62.15,4,248.6
+2024-01-02,2024,January,1,2,Winter,Carolina,M,54,MCS,Carolina,Protector Solar,Otros,N,29.5,1,29.5
+2024-01-03,2024,January,1,3,Winter,Ponce,F,49,MCS,Ponce,Diclofenaco Gel 1%,Analgesico,Y,29,1,29
+2024-03-19,2024,March,3,19,Spring,Caguas,F,77,MMM,Caguas,Antiacido Masticable,Gastro,Y,13.5,1,13.5
+2024-01-05,2024,January,1,5,Winter,Humacao,F,75,MMM,Humacao,Vitamina D 2000UI,Suplementos,Y,35.5,2,71
+2024-01-06,2024,January,1,6,Winter,Mayaguez,M,40,MCS,Mayaguez,Tiras reactivas diabetes,Diabetes,N,59.9,3,179.7
+2024-03-30,2024,March,3,30,Spring,Bayamon,M,55,MCS,Bayamon,Antiacido Masticable,Gastro,Y,13.5,1,13.5
+2024-04-18,2024,April,4,18,Spring,Carolina,M,72,MMM,Carolina,Antiacido Masticable,Gastro,Y,14.5,1,14.5
+2024-05-17,2024,May,5,17,Spring,Mayaguez,M,56,MMM,Mayaguez,Antiacido Masticable,Gastro,Y,13.99,1,13.99
+2024-05-13,2024,May,5,13,Spring,Carolina,F,77,MMM,Carolina,Antiacido Masticable,Gastro,Y,13.99,1,13.99
+2023-01-19,2023,January,1,19,Winter,Ponce,F,53,MCS,Ponce,Antiacido Masticable,Gastro,Y,14.5,1,14.5
+2024-01-12,2024,January,1,12,Winter,Guaynabo,M,47,MCS,Guaynabo,Curitas Adhesivas,Otros,N,5.25,4,21
+2024-01-13,2024,January,1,13,Winter,Humacao,F,77,MMM,Humacao,Ibuprofeno 400 mg,Analgesico,Y,16.75,1,16.75
+2024-01-14,2024,January,1,14,Winter,Mayaguez,M,51,MCS,Mayaguez,Omeprazol 20 mg,Gastro,Y,26,1,26
+2024-01-15,2024,January,1,15,Winter,Caguas,F,65,MMM,Caguas,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2023-01-03,2023,January,1,3,Winter,Humacao,M,52,MCS,Humacao,Antiacido Masticable,Gastro,Y,14.5,1,14.5
+2024-01-17,2024,January,1,17,Winter,Bayamon,F,38,MCS,Bayamon,Jarabe para la tos,Otros,N,20.5,1,20.5
+2023-02-19,2023,February,2,19,Winter,Ponce,F,53,MCS,Ponce,Antiacido Masticable,Gastro,Y,14.2,1,14.2
+2024-01-19,2024,January,1,19,Winter,Ponce,F,56,MCS,Ponce,Tiras reactivas diabetes,Diabetes,Y,62.15,4,248.6
+2024-01-20,2024,January,1,20,Winter,Guaynabo,M,44,MCS,Guaynabo,Loperamida 2 mg,Gastro,N,11.5,1,11.5
+2024-01-21,2024,January,1,21,Winter,Humacao,F,31,MCS,Humacao,Vitamina C 1000 mg,Suplementos,Y,23.1,2,46.2
+2024-01-22,2024,January,1,22,Winter,Mayaguez,M,69,MMM,Mayaguez,Insulina Pluma,Diabetes,Y,185.5,1,185.5
+2023-02-17,2023,February,2,17,Winter,Humacao,M,52,MCS,Humacao,Antiacido Masticable,Gastro,Y,14.2,1,14.2
+2024-01-24,2024,January,1,24,Winter,Arecibo,M,58,MMM,Arecibo,Diclofenaco Gel 1%,Analgesico,Y,29,3,87
+2023-03-10,2023,March,3,10,Spring,Caguas,F,77,MMM,Caguas,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-26,2024,January,1,26,Winter,Carolina,M,67,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2024-01-27,2024,January,1,27,Winter,Ponce,F,75,MMM,Ponce,Cepillos de dientes,Otros,N,6.99,4,27.96
+2024-01-28,2024,January,1,28,Winter,Guaynabo,M,34,MCS,Guaynabo,Melatonina 5mg,Suplementos,Y,18.5,1,18.5
+2024-01-29,2024,January,1,29,Winter,Humacao,F,52,MCS,Humacao,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2024-01-30,2024,January,1,30,Winter,Mayaguez,M,70,MMM,Mayaguez,Ibuprofeno 400 mg,Analgesico,N,16.75,2,33.5
+2023-03-19,2023,March,3,19,Spring,Arecibo,M,55,MCS,Arecibo,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-01,2024,January,1,1,Winter,Arecibo,M,61,MMM,Arecibo,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2023-03-27,2023,March,3,27,Spring,Mayaguez,F,70,MMM,Mayaguez,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2023-03-11,2023,March,3,11,Spring,Mayaguez,F,38,MCS,Mayaguez,Antiacido Masticable,Gastro,Y,13.9,1,13.9
+2024-01-04,2024,January,1,4,Winter,Ponce,F,70,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,62.15,4,248.6
+2024-01-05,2024,January,1,5,Winter,Guaynabo,M,62,MMM,Guaynabo,Protector Solar,Otros,N,29.5,3,88.5
+2024-01-06,2024,January,1,6,Winter,Humacao,F,47,MCS,Humacao,Omeprazol 20 mg,Gastro,Y,26,1,26
+2024-01-07,2024,January,1,7,Winter,Mayaguez,M,77,MMM,Mayaguez,Vitamina D 2000UI,Suplementos,Y,35.5,1,35.5
+2023-04-09,2023,April,4,9,Spring,Carolina,M,72,MMM,Carolina,Antiacido Masticable,Gastro,Y,14.9,1,14.9
+2024-01-09,2024,January,1,9,Winter,Arecibo,M,39,MCS,Arecibo,Curitas Adhesivas,Otros,N,5.25,5,26.25
+2024-01-10,2024,January,1,10,Winter,Bayamon,F,65,MMM,Bayamon,Ibuprofeno 400 mg,Analgesico,Y,16.75,1,16.75
+2024-01-11,2024,January,1,11,Winter,Carolina,M,74,MMM,Carolina,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2024-01-12,2024,January,1,12,Winter,Ponce,F,56,MCS,Ponce,Gel Antibacterial,Otros,N,7.9,2,15.8
+2023-04-24,2023,April,4,24,Spring,Guaynabo,M,68,MMM,Guaynabo,Antiacido Masticable,Gastro,Y,14.9,1,14.9
+2024-01-14,2024,January,1,14,Winter,Humacao,F,31,MCS,Humacao,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2023-04-18,2023,April,4,18,Spring,Arecibo,F,41,MCS,Arecibo,Antiacido Masticable,Gastro,Y,14.9,1,14.9
+2024-01-16,2024,January,1,16,Winter,Caguas,F,73,MMM,San Juan,Vitamina C 1000 mg,Suplementos,Y,23.1,3,69.3
+2024-01-17,2024,January,1,17,Winter,Arecibo,M,58,MMM,Arecibo,Ibuprofeno 400 mg,Analgesico,Y,16.75,2,33.5
+2024-01-18,2024,January,1,18,Winter,Bayamon,F,41,MCS,Bayamon,Loperamida 2 mg,Gastro,N,11.5,1,11.5
+2024-01-19,2024,January,1,19,Winter,Carolina,M,67,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,62.15,4,248.6
+2024-01-20,2024,January,1,20,Winter,Ponce,F,75,MMM,Ponce,Diclofenaco Gel 1%,Analgesico,Y,29,1,29
+2023-05-17,2023,May,5,17,Spring,Mayaguez,M,56,MMM,Mayaguez,Antiacido Masticable,Gastro,Y,13.99,1,13.99
+2024-01-22,2024,January,1,22,Winter,Humacao,F,52,MCS,Humacao,Melatonina 5mg,Suplementos,Y,18.5,1,18.5
+2024-01-23,2024,January,1,23,Winter,Mayaguez,M,70,MMM,Mayaguez,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2024-01-24,2024,January,1,24,Winter,Caguas,F,46,MCS,Caguas,Ibuprofeno 400 mg,Analgesico,N,16.75,2,33.5
+2024-01-25,2024,January,1,25,Winter,Arecibo,M,61,MMM,Arecibo,Omeprazol 20 mg,Gastro,Y,26,1,26
+2024-01-26,2024,January,1,26,Winter,Bayamon,F,78,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2023-06-09,2023,June,6,9,Spring,Bayamon,M,77,MMM,Bayamon,Antiacido Masticable,Gastro,Y,13.99,1,13.99
+2024-01-28,2024,January,1,28,Winter,Ponce,F,70,MMM,Ponce,Vitamina D 2000UI,Suplementos,Y,35.5,1,35.5
+2024-01-29,2024,January,1,29,Winter,Guaynabo,M,62,MMM,Guaynabo,Insulina Pluma,Diabetes,Y,185.5,1,185.5
+2023-07-01,2023,July,7,1,Summer,Humacao,M,50,MCS,Humacao,Antiacido Masticable,Gastro,N,13.99,1,13.99
+2023-07-20,2023,July,7,20,Summer,Mayaguez,F,78,MMM,Mayaguez,Antiacido Masticable,Gastro,Y,13.99,1,13.99
+2024-02-01,2024,February,2,1,Winter,Ponce,F,64,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,61.2,4,244.8
+2024-02-02,2024,February,2,2,Winter,Humacao,M,71,MMM,Humacao,Insulina Pluma,Diabetes,Y,188.75,1,188.75
+2024-02-02,2024,February,2,2,Winter,Caguas,F,45,MCS,San Juan,Ibuprofeno 400 mg,Analgesico,N,14.5,3,43.5
+2024-02-02,2024,February,2,2,Winter,Ponce,F,65,MMM,Ponce,Condroitina y Glucosamina,Suplementos,Y,83.2,1,83.2
+2023-08-15,2023,August,8,15,Summer,Guaynabo,M,34,MCS,Guaynabo,Antiacido Masticable,Gastro,N,13.99,1,13.99
+2024-02-03,2024,February,2,3,Winter,Caguas,M,39,MCS,Caguas,Ibuprofeno 400 mg,Analgesico,N,17.5,2,35
+2024-02-04,2024,February,2,4,Winter,Bayamon,M,58,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.5,5,297.5
+2023-09-03,2023,September,9,3,Summer,Guaynabo,M,68,MMM,Guaynabo,Antiacido Masticable,Gastro,Y,13.99,1,13.99
+2024-02-04,2024,February,2,4,Winter,Guaynabo,M,42,MCS,Guaynabo,Protector Solar,Otros,N,29.9,1,29.9
+2024-02-04,2024,February,2,4,Winter,Mayaguez,F,33,MCS,Mayaguez,Vitamina C 1000 mg,Suplementos,N,24.15,2,48.3
+2023-09-26,2023,September,9,26,Fall,Arecibo,F,61,MMM,Arecibo,Antiacido masticable,Gastro,Y,13.99,1,13.99
+2024-02-06,2024,February,2,6,Winter,Caguas,M,69,MMM,Caguas,Metformina 500 mg,Diabetes,Y,18.25,6,109.5
+2024-02-06,2024,February,2,6,Winter,Ponce,F,51,MCS,San Juan,Loperamida 2 mg,Gastro,Y,13,1,13
+2023-10-15,2023,October,10,15,Fall,Bayamon,M,48,MCS,Bayamon,Antiacido Masticable,Gastro,N,13.99,1,13.99
+2023-11-10,2023,November,11,10,Fall,Caguas,F,36,MCS,Caguas,Antiacido Masticable,Gastro,N,13.99,1,13.99
+2023-12-01,2023,December,12,1,Fall,Carolina,M,37,MCS,Carolina,Antiacido Masticable,Gastro,N,13.99,1,13.99
+2024-02-11,2024,February,2,11,Winter,Guaynabo,M,78,MMM,Guaynabo,Insulina Pluma,Diabetes,Y,189.99,1,189.99
+2024-02-13,2024,February,2,13,Winter,Humacao,F,31,MCS,Humacao,Vitamina D 2000UI,Suplementos,N,38,1,38
+2023-12-25,2023,December,12,25,Winter,Caguas,M,46,MCS,Caguas,Antiacido Masticable,Gastro,N,13.99,1,13.99
+2024-06-03,2024,June,6,3,Spring,Humacao,M,46,MCS,Humacao,Antigripal Dia,Antigripales,Y,42.66,4,170.64
+2024-06-17,2024,June,6,17,Spring,Ponce,M,39,MMM,Fajardo,Antigripal Dia,Antigripales,Y,17.55,7,122.85
+2024-02-18,2024,February,2,18,Winter,Ponce,M,42,MCS,Fajardo,Omeprazol 20 mg,Gastro,N,24.5,1,24.5
+2024-02-19,2024,February,2,19,Winter,Caguas,F,75,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,61.2,6,367.2
+2024-02-20,2024,February,2,20,Winter,Bayamon,M,29,MCS,Trujillo Alto,Curitas Adhesivas,Otros,N,6.75,4,27
+2024-06-17,2024,June,6,17,Spring,Yauco,M,55,Triple S,Trujillo Alto,Antigripal Dia,Antigripales,Y,12.35,5,61.75
+2024-02-22,2024,February,2,22,Winter,Carolina,M,68,MMM,Carolina,Loperamida 2 mg,Gastro,Y,10.99,1,10.99
+2024-02-23,2024,February,2,23,Winter,Guaynabo,F,35,MCS,San Juan,Diclofenaco Gel 1%,Analgesico,N,32,1,32
+2024-02-24,2024,February,2,24,Winter,Humacao,M,70,MMM,Humacao,Vitamina B12 1000 mcg,Suplementos,Y,15,3,45
+2024-06-16,2024,June,6,16,Spring,Caguas,M,44,MMM,San Juan,Antigripal Dia,Antigripales,N,74.05,1,74.05
+2024-02-26,2024,February,2,26,Winter,Toa Baja,M,47,MCS,Toa Baja,Metformina 500 mg,Diabetes,Y,20.5,5,102.5
+2024-01-18,2024,January,1,18,Winter,Bayamon,F,35,MCS,San Juan,Crema para picazon,Otros,N,10.25,1,10.25
+2024-03-01,2024,March,3,1,Spring,Arecibo,F,70,MMM,Arecibo,Tiras reactivas diabetes,Diabetes,Y,60.95,5,304.75
+2024-03-02,2024,March,3,2,Spring,Caguas,M,45,MCS,San Juan,Ibuprofeno 400 mg,Analgesico,N,16.5,2,33
+2024-03-03,2024,March,3,3,Spring,Bayamon,F,62,MMM,Bayamon,Omeprazol 20 mg,Gastro,Y,25.5,1,25.5
+2024-03-04,2024,March,3,4,Spring,Carolina,M,33,MCS,Carolina,Vitamina D 2000UI,Suplementos,N,37,1,37
+2024-01-08,2024,January,1,8,Winter,Humacao,F,69,MMM,Humacao,Glucometro Digital,Diabetes,Y,128,1,128
+2024-03-06,2024,March,3,6,Spring,Guaynabo,M,51,MCS,Guaynabo,Diclofenaco Gel 1%,Analgesico,Y,28,1,28
+2024-01-29,2024,January,1,29,Winter,Bayamon,M,44,MCS,Bayamon,Glucometro Digital,Diabetes,N,128,1,128
+2024-03-08,2024,March,3,8,Spring,Mayaguez,M,68,MMM,Mayaguez,Insulina Pluma,Diabetes,Y,185,1,185
+2024-03-09,2024,March,3,9,Spring,Toa Baja,F,30,MCS,San Juan,Curitas Adhesivas,Otros,n,6.5,5,32.5
+2024-01-19,2024,January,1,19,Winter,Mayaguez,F,49,MCS,Mayaguez,Glucometro Digital,Diabetes,Y,128,1,128
+2024-01-29,2024,January,1,29,Winter,Caguas,M,42,MCS,Caguas,Glucometro Digital,Diabetes,Y,128,1,128
+2024-01-11,2024,January,1,11,Winter,Ponce,F,62,MMM,Ponce,Glucometro Digital,Diabetes,Y,128,1,128
+2024-03-13,2024,March,3,13,Spring,Carolina,F,69,MMM,Carolina,Loperamida 2 mg,Gastro,Y,11.5,1,11.5
+2024-01-08,2024,January,1,8,Winter,Caguas,F,51,MCS,Caguas,Glucometro Digital,Diabetes,Y,128,1,128
+2024-03-15,2024,March,3,15,Spring,Guaynabo,F,73,MMM,Guaynabo,Metformina 500 mg,Diabetes,Y,19.99,5,99.95
+2024-02-07,2024,February,2,7,Winter,Arecibo,M,55,MCS,Arecibo,Glucometro Digital,Diabetes,Y,119.5,1,119.5
+2024-02-14,2024,February,2,14,Winter,Toa Baja,M,73,MMM,Trujillo Alto,Glucometro Digital,Diabetes,Y,125,1,125
+2024-03-18,2024,March,3,18,Spring,Toa Baja,M,61,MMM,Toa baja,Tiras reactivas diabetes,Diabetes,Y,60.95,4,243.8
+2024-03-10,2024,March,3,10,Spring,Caguas,M,75,MMM,Caguas,Glucometro Digital,Diabetes,Y,129.99,1,129.99
+2024-03-20,2024,March,3,20,Spring,Arecibo,M,38,MCS,Arecibo,Protector Solar,Otros,N,28.99,3,86.97
+2024-03-21,2024,March,3,21,Spring,Bayamon,F,65,MMM,San juan,Condroitina y Glucosamina,Suplementos,Y,80.5,1,80.5
+2024-03-22,2024,March,3,22,Spring,Carolina,M,54,MCS,Carolina,Ibuprofeno 400 mg,Analgesico,y,16.5,2,33
+2024-03-23,2024,March,3,23,Spring,Ponce,F,71,MMM,Ponce,Metformina 500 mg,Diabetes,Y,19.99,6,119.94
+2024-03-24,2024,March,3,24,Spring,Guaynabo,M,29,MCS,Guaynabo,Gel Antibacterial,Otros,N,8.5,1,8.5
+2024-03-25,2024,March,3,25,Spring,Humacao,F,57,MMM,Humacao,Vitamina C 1000 mg,Suplementos,Y,22.99,3,68.97
+2024-03-26,2024,March,3,26,Spring,Mayaguez,M,79,MMM,Mayaguez,Tiras reactivas diabetes,Diabetes,Y,60.95,5,304.75
+2024-03-27,2024,March,3,27,Spring,Toa Baja,F,40,MCS,Toa Baja,Omeprazol 20 mg,Gastro,N,25.5,1,25.5
+2024-03-28,2024,March,3,28,Spring,Caguas,M,66,MMM,Caguas,Loratadina Jarabe 5mg,Analgesico,Y,30.5,1,30.5
+2024-03-30,2024,March,3,30,Spring,Bayamon,M,72,MMM,Bayamon,Glucometro Digital,Diabetes,Y,129.99,1,129.99
+2024-04-20,2024,April,4,20,Spring,Guaynabo,M,77,MMM,Guaynabo,Glucometro Digital,Diabetes,Y,128.99,1,128.99
+2024-05-09,2024,May,5,9,Spring,Toa Baja,M,34,MCS,Toa Baja,Glucometro Digital,Diabetes,Y,127,1,127
+2024-05-26,2024,May,5,26,Spring,Mayaguez,F,74,MMM,Mayaguez,Glucometro Digital,Diabetes,Y,127,1,127
+2024-03-10,2024,March,3,10,Spring,Humacao,F,50,MCS,Humacao,Tiras reactivas diabetes,Diabetes,Y,60.95,4,243.8
+2023-01-04,2023,January,1,4,Winter,Arecibo,M,55,MCS,Arecibo,Glucometro Digital,Diabetes,Y,118.99,1,118.99
+2024-03-20,2024,March,3,20,Spring,Toa Baja,F,76,MMM,Toa Baja,Ibuprofeno 400 mg,Analgesico,Y,16.5,1,16.5
+2024-03-25,2024,March,3,25,Spring,Caguas,M,60,MMM,Caguas,Metformina 500 mg,Diabetes,Y,19.99,5,99.95
+2024-03-28,2024,March,3,28,Spring,Arecibo,F,37,MCS,Arecibo,Cepillos de dientes,Otros,N,6.99,6,41.94
+2023-01-08,2023,January,1,8,Winter,Bayamon,F,64,MMM,Bayamon,Glucometro Digital,Diabetes,Y,118.99,1,118.99
+2024-03-18,2024,March,3,18,Spring,Carolina,F,74,MMM,Carolina,Condroitina y Glucosamina,Suplementos,Y,80.5,1,80.5
+2024-03-23,2024,March,3,23,Spring,Ponce,M,49,MCS,Ponce,Loratadina Jarabe 5mg,Analgesico,Y,30.5,2,61
+2024-04-01,2024,April,4,1,Spring,Ponce,F,65,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,60.15,4,240.6
+2024-04-02,2024,April,4,2,Spring,Guaynabo,M,42,MCS,San Juan,Diclofenaco Gel 1%,Analgesico,N,27.5,2,55
+2024-04-03,2024,April,4,3,Spring,Humacao,F,71,MMM,Humacao,Omeprazol 20 mg,Gastro,Y,26.2,1,26.2
+2024-04-04,2024,April,4,4,Spring,Mayaguez,M,55,MCS,Mayaguez,Vitamina D 2000UI,Suplementos,Y,38.5,1,38.5
+2023-02-04,2023,February,2,4,Winter,Arecibo,M,55,MCS,Arecibo,Glucometro Digital,Diabetes,Y,119.5,1,119.5
+2024-04-06,2024,April,4,6,Spring,Caguas,M,68,MMM,Caguas,Insulina Pluma,Diabetes,Y,186.5,1,186.5
+2024-04-07,2024,April,4,7,Spring,Arecibo,F,79,MMM,Arecibo,Ibuprofeno 400 mg,Analgesico,Y,15.99,5,79.95
+2023-02-10,2023,February,2,10,Winter,Bayamon,F,64,MMM,Bayamon,Glucometro Digital,Diabetes,Y,119.5,1,119.5
+2023-03-05,2023,March,3,5,Spring,Caguas,M,75,MMM,Caguas,Glucometro Digital,Diabetes,Y,128.5,1,128.5
+2024-04-10,2024,April,4,10,Spring,Ponce,M,39,MCS,Ponce,Curitas Adhesivas,Otros,Y,7.1,4,28.4
+2024-04-11,2024,April,4,11,Spring,Guaynabo,F,75,MMM,Guaynabo,Metformina 500 mg,Diabetes,y,19.5,6,117
+2023-03-15,2023,March,3,15,Spring,Bayamon,M,72,MMM,Bayamon,Glucometro Digital,Diabetes,Y,128.5,1,128.5
+2024-04-13,2024,April,4,13,Spring,Mayaguez,F,63,MMM,Mayaguez,Loperamida 2 mg,Gastro,Y,12.5,1,12.5
+2023-03-21,2023,March,3,21,Spring,Ponce,F,67,MMM,Ponce,Glucometro Digital,Diabetes,Y,128.5,1,128.5
+2024-04-15,2024,April,4,15,Spring,Caguas,F,44,MCS,Caguas,Tiras reactivas diabetes,Diabetes,Y,60.15,3,180.45
+2023-03-30,2023,March,3,30,Spring,Ponce,F,62,MMM,Ponce,Glucometro Digital,Diabetes,Y,128.5,1,128.5
+2023-03-03,2023,March,3,3,Spring,Ponce,M,59,MCS,Ponce,Glucometro Digital,Diabetes,Y,128.5,1,128.5
+2023-04-10,2023,April,4,10,Spring,Guaynabo,M,77,MMM,Guaynabo,Glucometro Digital,Diabetes,Y,127.99,1,127.99
+2024-04-19,2024,April,4,19,Spring,Ponce,F,51,MCS,Ponce,Protector Solar,Otros,N,29.5,2,59
+2023-04-23,2023,April,4,23,Spring,carolina,M,76,MMM,Carolina,Glucometro Digital,Diabetes,Y,127.99,1,127.99
+2024-04-21,2024,April,4,21,Spring,Humacao,F,64,MMM,Humacao,Condroitina y Glucosamina,Suplementos,Y,82,1,82
+2024-04-22,2024,April,4,22,Spring,Mayaguez,M,36,MCS,Mayaguez,Diclofenaco Gel 1%,Analgesico,N,27.5,1,27.5
+2024-04-23,2024,April,4,23,Spring,Toa Baja,F,58,MMM,Toa baja,Omeprazol 20 mg,Gastro,Y,26.2,1,26.2
+2024-04-24,2024,April,4,24,Spring,Caguas,M,74,MMM,Caguas,Gel Antibacterial,Otros,N,7.99,3,23.97
+2024-04-25,2024,April,4,25,Spring,Arecibo,F,49,MCS,Arecibo,Vitamina B12 1000 mcg,Suplementos,Y,16.5,2,33
+2024-04-26,2024,April,4,26,Spring,Bayamon,M,61,MMM,Bayamon,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2023-04-13,2023,April,4,13,Spring,Caguas,M,75,MMM,Caguas,Glucometro Digital,Diabetes,Y,127.99,1,127.99
+2024-04-28,2024,April,4,28,Spring,Ponce,M,70,MMM,Ponce,Ibuprofeno 400 mg,Analgesico,Y,15.99,4,63.96
+2023-05-09,2023,May,5,9,Spring,Toa Baja,M,34,MCS,Toa Baja,Glucometro Digital,Diabetes,Y,127,1,127
+2024-04-30,2024,April,4,30,Spring,Humacao,M,50,MCS,Humacao,Tiras reactivas diabetes,Diabetes,y,60.15,3,180.45
+2024-04-04,2024,April,4,4,Spring,Mayaguez,F,65,MMM,Mayaguez,Loperamida 2 mg,Gastro,Y,12.5,1,12.5
+2024-04-09,2024,April,4,9,Spring,Toa Baja,M,34,MCS,San Juan,Vitamina C 1000 mg,Suplementos,Y,24.5,3,73.5
+2023-05-26,2023,May,5,26,Spring,Mayaguez,F,74,MMM,Mayaguez,Glucometro Digital,Diabetes,Y,127,1,127
+2024-04-19,2024,April,4,19,Spring,Arecibo,M,57,MMM,Arecibo,Curitas Adhesivas,Otros,N,7.1,5,35.5
+2024-04-24,2024,April,4,24,Spring,Bayamon,F,69,MMM,Bayamon,Insulina Pluma,Diabetes,Y,186.5,1,186.5
+2023-06-11,2023,June,6,11,Spring,Ponce,M,68,MMM,Ponce,Glucometro Digital,Diabetes,Y,127,1,127
+2024-04-06,2024,April,4,6,Spring,Ponce,M,75,MMM,Ponce,Omeprazol 20 mg,Gastro,y,26.2,1,26.2
+2024-04-11,2024,April,4,11,Spring,Guaynabo,F,32,MCS,Guaynabo,Jarabe para la tos,Otros,Y,22,1,22
+2024-04-16,2024,April,4,16,Spring,Humacao,M,54,MCS,Humacao,Tiras reactivas diabetes,Diabetes,N,60.15,2,120.3
+2023-07-13,2023,July,7,13,Summer,Caguas,M,77,MMM,Caguas,Glucometro Digital,Diabetes,Y,127,1,127
+2024-05-01,2024,May,5,1,Spring,Arecibo,M,68,MMM,Arecibo,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2024-05-02,2024,May,5,2,Spring,Caguas,F,45,MCS,San Juan,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2024-05-03,2024,May,5,3,Spring,Bayamon,M,72,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.8,4,239.2
+2024-05-04,2024,May,5,4,Spring,Carolina,F,30,MCS,Carolina,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2024-05-05,2024,May,5,5,Spring,Ponce,M,55,MCS,Ponce,Vitamina D 2000UI,Suplementos,N,35.9,1,35.9
+2023-07-28,2023,July,7,28,Summer,Humacao,F,63,MMM,Humacao,Glucometro Digital,Diabetes,Y,127,1,127
+2023-08-10,2023,August,8,10,Summer,Caguas,F,75,MMM,Caguas,Glucometro Digital,Diabetes,Y,127,1,127
+2024-05-08,2024,May,5,8,Spring,Mayaguez,F,61,MMM,Mayaguez,Diclofenaco Gel 1%,Analgesico,Y,29.5,1,29.5
+2023-08-29,2023,August,8,29,Summer,Arecibo,M,30,MCS,Arecibo,Glucometro Digital,Diabetes,Y,127,1,127
+2023-09-20,2023,September,9,20,Fall,Ponce,F,74,MMM,Ponce,Glucometro Digital,Diabetes,Y,127,1,127
+2023-10-08,2023,October,10,8,Fall,Ponce,F,70,MMM,Ponce,Glucometro Digital,Diabetes,Y,127,1,127
+2024-05-12,2024,May,5,12,Spring,Bayamon,F,75,MMM,Bayamon,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2023-10-24,2023,October,10,24,Fall,Bayamon,F,51,MCS,Bayamon,Glucometro Digital,Diabetes,Y,127,1,127
+2024-05-14,2024,May,5,14,Spring,Ponce,F,63,MMM,Ponce,Insulina Pluma,Diabetes,y,188,1,188
+2023-11-18,2023,November,11,18,Fall,Toa Baja,F,50,MCS,San Juan,Glucometro Digital,Diabetes,Y,127,1,127
+2023-12-11,2023,December,12,11,Fall,Ponce,M,50,MCS,Ponce,Glucometro Digital,Diabetes,Y,127,1,127
+2024-06-09,2024,June,6,9,Spring,Caguas,F,23,Medicaid,Trujillo alto,Jabon liquido antibacterial,Cuidado personal,N,28.11,7,196.77
+2024-05-18,2024,May,5,18,Spring,Toa Baja,F,44,MCS,San Juan,Protector Solar,Otros,N,30.5,4,122
+2024-05-19,2024,May,5,19,Spring,Caguas,M,77,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,59.8,5,299
+2024-05-20,2024,May,5,20,spring,Arecibo,F,37,MCS,Arecibo,Condroitina y Glucosamina,Suplementos,Y,84,1,84
+2024-05-21,2024,May,5,21,Spring,Bayamon,M,64,MMM,Bayamon,Ibuprofeno 400 mg,Analgesico,y,15.5,2,31
+2024-05-22,2024,May,5,22,Spring,Carolina,F,51,MCS,Carolina,Metformina 500 mg,Diabetes,N,18.99,6,113.94
+2024-05-23,2024,May,5,23,Spring,Ponce,M,70,MMM,Ponce,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2024-05-24,2024,May,5,24,Spring,Guaynabo,F,32,MCS,Guaynabo,Jarabe para la tos,Otros,n,21.5,1,21.5
+2024-05-25,2024,May,5,25,Spring,Humacao,M,58,MMM,Humacao,Vitamina C 1000 mg,Suplementos,Y,23.5,3,70.5
+2024-06-13,2024,June,6,13,Spring,Mayaguez,F,23,Medicaid,Trujillo alto,Jabon liquido antibacterial,Cuidado personal,Y,83.2,4,332.8
+2024-06-06,2024,June,6,6,Spring,Yauco,F,41,Triple S,Carolina,Jabon liquido antibacterial,Cuidado personal,Y,31.78,5,158.9
+2024-06-02,2024,June,6,2,Spring,San Juan,M,52,MMM,Guaynabo,Jabon liquido antibacterial,Cuidado personal,Y,23.49,3,70.47
+2024-07-04,2024,July,7,4,Summer,San Juan,M,31,MCS,Caguas,Jabon liquido antibacterial,Cuidado personal,Y,4.5,5,22.5
+2024-06-25,2024,June,6,25,Summer,Fajardo,F,28,MMM,Bayamon,Leche de bebe etapa 1,Bebes,Y,45.72,3,137.16
+2024-05-31,2024,May,5,31,Spring,Carolina,M,60,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,59.8,3,179.4
+2024-05-05,2024,May,5,5,Spring,Guaynabo,M,47,MCS,San Juan,Diclofenaco Gel 1%,Analgesico,N,29.5,1,29.5
+2024-05-10,2024,May,5,10,Spring,Humacao,F,73,MMM,Humacao,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2024-05-15,2024,May,5,15,Spring,Mayaguez,M,59,MMM,Mayaguez,Curitas Adhesivas,Otros,N,7.1,5,35.5
+2024-06-07,2024,June,6,7,Spring,Ponce,M,36,MCS,Trujillo Alto,Leche de bebe etapa 1,Bebes,Y,58,2,116
+2024-05-25,2024,May,5,25,Spring,Caguas,M,71,MMM,caguas,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2024-05-30,2024,May,5,30,Spring,Arecibo,F,44,MCS,Arecibo,Vitamina D 2000UI,Suplementos,N,35.9,2,71.8
+2024-05-08,2024,May,5,8,Spring,Bayamon,M,66,MMM,Bayamon,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2024-06-08,2024,June,6,8,Spring,Guaynabo,F,47,Medicaid,Humacao,Leche de bebe etapa 1,Bebes,Y,61.99,2,123.98
+2024-05-18,2024,May,5,18,Spring,Ponce,M,50,MCS,Ponce,Protector Solar,Otros,N,30.5,3,91.5
+2023-01-01,2023,January,1,1,Winter,Ponce,F,65,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,58.5,5,292.5
+2023-01-02,2023,January,1,2,Winter,Caguas,M,40,MCS,San Juan,Ibuprofeno 400 mg,Analgesico,N,16.9,2,33.8
+2024-06-01,2024,June,6,1,Spring,Ponce,M,33,MCS,Fajardo,Leche de bebe etapa 1,Bebes,N,57.99,1,57.99
+2024-06-05,2024,June,6,5,Spring,Caguas,M,42,First Medical,Ponce,Multivitaminico diario,Suplementos,Y,29.8,2,59.6
+2024-06-03,2024,June,6,3,Spring,Caguas,F,51,Triple S,Caguas,Multivitaminico diario,Suplementos,Y,5.09,3,15.27
+2023-01-06,2023,January,1,6,Winter,Guaynabo,M,78,MMM,Guaynabo,Insulina Pluma,Diabetes,Y,192,1,192
+2023-01-07,2023,January,1,7,Winter,Humacao,F,31,MCS,Humacao,Vitamina D 2000UI,Suplementos,N,39.5,1,39.5
+2024-06-17,2024,June,6,17,Spring,Mayaguez,f,38,First Medical,Ponce,Multivitaminico diario,Suplementos,Y,67.2,2,134.4
+2024-06-17,2024,June,6,17,Spring,Carolina,M,50,Medicaid,Caguas,Multivitaminico diario,Suplementos,N,15,6,90
+2023-01-10,2023,January,1,10,Winter,Ponce,M,42,MCS,Fajardo,Omeprazol 20 mg,Gastro,N,24.9,1,24.9
+2023-01-11,2023,January,1,11,Winter,Caguas,F,75,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,58.5,6,351
+2023-01-12,2023,January,1,12,Winter,Bayamon,M,29,MCS,Trujillo Alto,Curitas Adhesivas,Otros,N,6.5,4,26
+2024-01-09,2024,January,1,9,Winter,Caguas,F,78,MMM,Caguas,Multivitaminico Senior,Suplementos,Y,46.5,1,46.5
+2023-01-14,2023,January,1,14,Winter,Carolina,M,68,MMM,Carolina,Loperamida 2 mg,Gastro,Y,10.5,1,10.5
+2023-01-15,2023,January,1,15,Winter,Guaynabo,F,35,MCS,San Juan,Diclofenaco Gel 1%,Analgesico,N,31.5,1,31.5
+2023-01-16,2023,January,1,16,Winter,Humacao,M,70,MMM,Humacao,Vitamina B12 1000 mcg,Suplementos,Y,14.5,3,43.5
+2024-01-28,2024,January,1,28,Winter,Humacao,F,50,MCS,Humacao,Multivitaminico Senior,Suplementos,N,46.5,1,46.5
+2023-01-18,2023,January,1,18,Winter,Toa Baja,M,47,MCS,Toa Baja,Metformina 500 mg,Diabetes,Y,20.9,5,104.5
+2024-01-28,2024,January,1,28,Winter,Arecibo,F,69,MMM,San Juan,Multivitaminico Senior,Suplementos,Y,46.5,1,46.5
+2024-01-22,2024,January,1,22,Winter,Bayamon,M,73,MMM,Bayamon,Multivitaminico Senior,Suplementos,Y,46.5,1,46.5
+2023-01-21,2023,January,1,21,Winter,Bayamon,F,65,MMM,Bayamon,Condroitina y Glucosamina,Suplementos,Y,79.5,1,79.5
+2023-01-22,2023,January,1,22,Winter,Arecibo,M,39,MCS,Arecibo,Protector Solar,Otros,N,29.9,3,89.7
+2023-01-23,2023,January,1,23,Winter,Carolina,F,74,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,58.5,4,234
+2023-01-24,2023,January,1,24,Winter,Guaynabo,M,60,MMM,Guaynabo,Ibuprofeno 400 mg,Analgesico,Y,16.9,2,33.8
+2023-01-25,2023,January,1,25,Winter,Humacao,F,56,MCS,Humacao,Omeprazol 20 mg,Gastro,N,24.9,1,24.9
+2024-01-20,2024,January,1,20,Winter,Mayaguez,F,64,MMM,Mayaguez,Multivitaminico Senior,Suplementos,Y,46.5,1,46.5
+2024-01-19,2024,January,1,19,Winter,Guaynabo,F,72,MMM,Guaynabo,Multivitaminico Senior,Suplementos,Y,46.5,1,46.5
+2023-01-28,2023,January,1,28,Winter,Ponce,M,67,MMM,Ponce,Insulina Pluma,Diabetes,Y,192,1,192
+2023-01-29,2023,January,1,29,Winter,Caguas,F,41,MCS,Caguas,Vitamina D 2000UI,Suplementos,N,39.5,2,79
+2024-01-16,2024,January,1,16,Winter,Arecibo,M,42,MCS,San Juan,Multivitaminico Senior,Suplementos,N,46.5,1,46.5
+2023-01-31,2023,January,1,31,Winter,Arecibo,F,58,MCS,Arecibo,Loperamida 2 mg,Gastro,Y,10.5,1,10.5
+2023-01-01,2023,January,1,1,Winter,Carolina,M,44,MCS,Carolina,Diclofenaco Gel 1%,Analgesico,N,31.5,2,63
+2023-01-02,2023,January,1,2,Winter,Guaynabo,F,76,MMM,Guaynabo,Tiras reactivas diabetes,Diabetes,Y,58.5,3,175.5
+2024-02-05,2024,February,2,5,Winter,Bayamon,F,72,MMM,Bayamon,Multivitaminico Senior,Suplementos,Y,48.99,1,48.99
+2023-01-04,2023,January,1,4,Winter,Mayaguez,F,37,MCS,Mayaguez,Protector Solar,Otros,N,29.9,2,59.8
+2023-01-05,2023,January,1,5,Winter,Toa Baja,M,69,MMM,Toa Baja,Metformina 500 mg,Diabetes,Y,20.9,4,83.6
+2024-03-11,2024,March,3,11,Spring,Arecibo,F,56,MMM,Arecibo,Multivitaminico Senior,Suplementos,Y,45.2,2,90.4
+2023-01-07,2023,January,1,7,Winter,Caguas,M,73,MMM,Caguas,Curitas Adhesivas,Otros,N,6.5,5,32.5
+2024-04-09,2024,April,4,9,Spring,Carolina,F,60,MMM,Carolina,Multivitaminico Senior,Suplementos,Y,47.9,2,95.8
+2024-04-29,2024,April,4,29,Spring,Carolina,M,40,MCS,Carolina,Multivitaminico Senior,Suplementos,N,47.9,1,47.9
+2023-01-10,2023,January,1,10,Winter,Carolina,F,77,MMM,Carolina,Condroitina y Glucosamina,Suplementos,Y,79.5,1,79.5
+2023-01-11,2023,January,1,11,Winter,Guaynabo,M,53,MCS,Guaynabo,Omeprazol 20 mg,Gastro,Y,24.9,1,24.9
+2023-01-12,2023,January,1,12,Winter,Humacao,F,36,MCS,Humacao,Ibuprofeno 400 mg,Analgesico,N,16.9,1,16.9
+2024-05-10,2024,May,5,10,Spring,Caguas,F,69,MMM,Caguas,Multivitaminico Senior,Suplementos,Y,46.99,2,93.98
+2023-01-14,2023,January,1,14,Winter,Toa Baja,F,61,MMM,Toa Baja,Tiras reactivas diabetes,Diabetes,Y,58.5,5,292.5
+2023-01-15,2023,January,1,15,Winter,Ponce,M,45,MCS,Ponce,Vitamina D 2000UI,Suplementos,N,39.5,1,39.5
+2024-05-30,2024,May,5,30,Spring,Bayamon,F,53,MCS,Bayamon,Multivitaminico Senior,Suplementos,N,46.99,1,46.99
+2023-01-03,2023,January,1,3,Winter,Bayamon,F,72,MMM,Bayamon,Multivitaminico Senior,Suplementos,Y,49.5,1,49.5
+2023-01-26,2023,January,1,26,Winter,Mayaguez,M,73,MMM,Mayaguez,Multivitaminico Senior,Suplementos,Y,49.5,1,49.5
+2023-01-19,2023,January,1,19,Winter,Carolina,M,65,MMM,Carolina,Insulina Pluma,Diabetes,Y,192,1,192
+2023-01-20,2023,January,1,20,Winter,Guaynabo,F,71,MMM,Guaynabo,Loperamida 2 mg,Gastro,y,10.5,1,10.5
+2023-01-21,2023,January,1,21,Winter,Humacao,M,49,MCS,Humacao,Multivitaminico Senior,Suplementos,Y,49.5,1,49.5
+2023-01-22,2023,January,1,22,Winter,Mayaguez,F,60,MMM,Mayaguez,Curitas Adhesivas,Otros,N,6.5,6,39
+2023-01-23,2023,January,1,23,Winter,Toa Baja,M,75,MMM,Toa Baja,Metformina 500 mg,Diabetes,Y,20.9,5,104.5
+2023-01-24,2023,January,1,24,Winter,Ponce,F,38,MCS,Ponce,Diclofenaco Gel 1%,Analgesico,N,31.5,1,31.5
+2023-01-25,2023,January,1,25,Winter,Caguas,M,62,MMM,Caguas,Vitamina B12 1000 mcg,Suplementos,Y,14.5,2,29
+2023-01-26,2023,January,1,26,Winter,Bayamon,F,79,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,58.5,4,234
+2023-02-03,2023,February,2,3,Winter,Bayamon,F,72,MMM,Bayamon,Multivitaminico Senior,Suplementos,Y,48.9,1,48.9
+2023-01-28,2023,January,1,28,Winter,Carolina,F,40,MCS,Carolina,Omeprazol 20 mg,Gastro,N,24.9,1,24.9
+2023-02-26,2023,February,2,26,Winter,Mayaguez,M,73,MMM,Mayaguez,Multivitaminico Senior,Suplementos,Y,48.9,1,48.9
+2023-02-01,2023,February,2,1,Winter,Ponce,F,64,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,59,4,6.5
+2023-02-02,2023,February,2,2,Winter,Caguas,M,39,MCS,Caguas,Ibuprofeno 400 mg,Analgesico,N,17.2,2,34.4
+2023-03-06,2023,March,3,6,Spring,Arecibo,F,56,MMM,Arecibo,Multivitaminico Senior,Suplementos,Y,45.99,2,91.98
+2023-03-31,2023,March,3,31,Spring,Humacao,F,74,MMM,Humacao,Multivitaminico Senior,Suplementos,Y,45.99,1,45.99
+2023-03-09,2023,March,3,9,Spring,Carolina,M,70,MMM,Carolina,Multivitaminico Senior,Suplementos,Y,45.99,1,45.99
+2023-02-06,2023,February,2,6,Winter,Guaynabo,M,78,MMM,Guaynabo,Insulina Pluma,Diabetes,Y,191.5,1,191.5
+2023-02-07,2023,February,2,7,Winter,Humacao,F,31,MCS,Humacao,Vitamina D 2000UI,Suplementos,N,38.99,1,38.99
+2023-04-05,2023,April,4,5,Spring,Carolina,F,60,MMM,Carolina,Multivitaminico Senior,Suplementos,Y,47.5,2,95
+2023-04-18,2023,April,4,18,Spring,Carolina,M,40,MCS,Carolina,Multivitaminico Senior,Suplementos,N,47.5,1,47.5
+2023-02-10,2023,February,2,10,Winter,Ponce,M,42,MCS,Fajardo,Omeprazol 20 mg,Gastro,N,24.6,1,24.6
+2023-02-11,2023,February,2,11,Winter,Caguas,F,75,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,59,6,354
+2023-02-12,2023,February,2,12,Winter,Bayamon,M,29,MCS,Trujillo alto,Curitas Adhesivas,Otros,N,6.8,4,27.2
+2023-04-30,2023,April,4,30,Spring,Toa Baja,m,51,MCS,Toa Baja,Multivitaminico Senior,Suplementos,Y,47.5,2,95
+2023-02-14,2023,February,2,14,Winter,Carolina,M,68,MMM,Carolina,Loperamida 2 mg,Gastro,Y,10.9,1,10.9
+2023-02-15,2023,February,2,15,Winter,Guaynabo,F,35,MCS,San Juan,Diclofenaco Gel 1%,Analgesico,N,31.8,1,31.8
+2023-02-16,2023,February,2,16,Winter,Humacao,M,70,MMM,Humacao,Vitamina B12 1000 mcg,Suplementos,Y,14.8,3,44.4
+2023-05-10,2023,May,5,10,Spring,Caguas,F,69,MMM,Caguas,Multivitaminico Senior,Suplementos,Y,46.99,2,93.98
+2023-02-18,2023,February,2,18,Winter,Toa Baja,M,47,MCS,Toa Baja,Metformina 500 mg,Diabetes,Y,20.75,5,103.75
+2023-05-30,2023,May,5,30,Spring,Bayamon,F,53,MCS,Bayamon,Multivitaminico Senior,Suplementos,N,46.99,1,46.99
+2023-06-14,2023,June,6,14,Spring,Mayaguez,F,42,MCS,Mayaguez,Multivitaminico Senior,Suplementos,Y,46.99,1,46.99
+2023-02-21,2023,February,2,21,Winter,Bayamon,F,65,MMM,Bayamon,Condroitina y Glucosamina,Suplementos,Y,80.5,1,80.5
+2023-02-22,2023,February,2,22,Winter,Arecibo,M,39,MCS,Arecibo,Protector Solar,Otros,N,29.5,3,88.5
+2023-02-23,2023,February,2,23,Winter,Carolina,F,74,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,59,4,236
+2023-02-24,2023,February,2,24,Winter,Guaynabo,M,60,MMM,Guaynabo,Ibuprofeno 400 mg,Analgesico,Y,17.2,2,34.4
+2023-02-25,2023,February,2,25,Winter,Humacao,F,56,MCS,Humacao,Omeprazol 20 mg,Gastro,N,24.6,1,24.6
+2023-07-12,2023,July,7,12,Summer,Toa Baja,F,44,MCS,Toa Baja,Multivitaminico Senior,Suplementos,Y,46.99,2,93.98
+2023-08-02,2023,August,8,2,Summer,Arecibo,F,39,MCS,Arecibo,Multivitaminico Senior,Suplementos,N,46.99,1,46.99
+2023-02-28,2023,February,2,28,Winter,Ponce,M,67,MMM,Ponce,Insulina Pluma,Diabetes,Y,191.5,1,191.5
+2023-08-28,2023,August,8,28,Summer,Caguas,F,53,MCS,Caguas,Multivitaminico Senior,Suplementos,N,46.99,1,46.99
+2023-02-05,2023,February,2,5,Winter,Arecibo,F,51,MCS,Arecibo,Loperamida 2 mg,Gastro,Y,10.9,1,10.9
+2023-02-09,2023,February,2,9,Winter,Carolina,M,44,MCS,Carolina,Diclofenaco Gel 1%,Analgesico,N,31.8,2,63.6
+2023-02-13,2023,February,2,13,Winter,Guaynabo,F,76,MMM,Guaynabo,Tiras reactivas diabetes,Diabetes,Y,59,3,177
+2023-09-19,2023,September,9,19,Fall,Carolina,M,48,MCS,Carolina,Multivitaminico Senior,Suplementos,Y,46.99,1,46.99
+2023-02-21,2023,February,2,21,Winter,Mayaguez,F,37,MCS,Mayaguez,Protector Solar,Otros,N,29.5,2,59
+2023-02-25,2023,February,2,25,Winter,Toa Baja,M,69,MMM,Toa Baja,Metformina 500 mg,Diabetes,Y,20.75,4,83
+2023-10-07,2023,October,10,7,Fall,Carolina,M,53,MCS,Carolina,Multivitaminico Senior,Suplementos,Y,46.99,1,46.99
+2023-02-06,2023,February,2,6,Winter,Caguas,M,73,MMM,Caguas,Curitas Adhesivas,Otros,N,6.8,5,34
+2023-11-17,2023,November,11,17,Fall,Mayaguez,M,76,MMM,Mayaguez,Multivitaminico Senior,Suplementos,Y,46.99,1,46.99
+2023-12-14,2023,December,12,14,Fall,Mayaguez,F,79,MMM,Mayaguez,Multivitaminico Senior,Suplementos,Y,46.99,1,46.99
+2023-02-18,2023,February,2,18,Winter,Carolina,F,77,MMM,Carolina,Condroitina y Glucosamina,Suplementos,Y,80.5,1,80.5
+2023-03-01,2023,March,3,1,Spring,Arecibo,F,70,MMM,Arecibo,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2023-03-01,2023,March,3,1,Spring,Caguas,M,45,MCS,San Juan,Ibuprofeno 400 mg,Analgesico,N,16.2,2,32.4
+2023-03-02,2023,March,3,2,Spring,Bayamon,F,62,MMM,Bayamon,Omeprazol 20 mg,Gastro,Y,25.8,1,25.8
+2023-03-02,2023,March,3,2,Spring,Carolina,M,33,MCS,Carolina,Vitamina D 2000UI,Suplementos,N,37.5,1,37.5
+2024-01-03,2024,January,1,3,Winter,Ponce,F,72,MMM,Ponce,Panales para adultos,Otros,Y,36.25,4,145
+2023-03-03,2023,March,3,3,Spring,Guaynabo,M,51,MCS,Guaynabo,Diclofenaco Gel 1%,Analgesico,Y,28.5,1,28.5
+2024-01-22,2024,January,1,22,Winter,Carolina,M,46,MCS,Carolina,Panales para adultos,Otros,Y,36.25,2,72.5
+2023-03-04,2023,March,3,4,Spring,Mayaguez,M,68,MMM,Mayaguez,Insulina Pluma,Diabetes,Y,188.5,1,188.5
+2023-03-05,2023,March,3,5,Spring,Toa Baja,F,30,MCS,San Juan,Curitas Adhesivas,Otros,N,6.9,5,34.5
+2024-01-13,2024,January,1,13,Winter,Bayamon,M,58,MMM,Bayamon,Panales para adultos,Otros,Y,36.25,3,108.75
+2024-01-01,2024,January,1,1,Winter,Guaynabo,F,31,MCS,Guaynabo,Panales para adultos,Otros,N,36.25,3,108.75
+2024-01-25,2024,January,1,25,Winter,Guaynabo,F,68,MMM,San Juan,Panales para adultos,Otros,Y,36.25,2,72.5
+2023-03-07,2023,March,3,7,Spring,Carolina,F,69,MMM,Carolina,Loperamida 2 mg,Gastro,Y,11.2,1,11.2
+2024-01-17,2024,January,1,17,Winter,Ponce,M,70,MMM,Ponce,Panales para adultos,Otros,Y,36.25,3,108.75
+2023-03-08,2023,March,3,8,Spring,Guaynabo,F,73,MMM,Guaynabo,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2024-01-07,2024,January,1,7,Winter,Arecibo,F,70,MMM,Arecibo,Panales para adultos,Otros,Y,36.25,2,72.5
+2024-01-07,2024,January,1,7,Winter,Caguas,F,35,MCS,Caguas,Panales para adultos,Otros,Y,36.25,3,108.75
+2023-03-09,2023,March,3,9,Spring,Toa Baja,M,61,MMM,Toa Baja,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2024-01-02,2024,January,1,2,Winter,Bayamon,F,78,MMM,San Juan,Panales para adultos,Otros,Y,36.25,2,72.5
+2023-03-10,2023,March,3,10,Spring,Arecibo,M,38,MCS,Arecibo,Protector Solar,Otros,N,29.5,3,88.5
+2023-03-11,2023,March,3,11,Spring,Bayamon,F,65,MMM,San Juan,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2023-03-11,2023,March,3,11,Spring,Carolina,M,54,MCS,Carolina,Ibuprofeno 400 mg,Analgesico,Y,16.2,2,32.4
+2023-03-12,2023,March,3,12,Spring,Ponce,F,71,MMM,Ponce,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2023-03-12,2023,March,3,12,Spring,Guaynabo,M,29,MCS,Guaynabo,Gel Antibacterial,Otros,N,8.9,1,8.9
+2023-03-13,2023,March,3,13,Spring,Humacao,F,57,MMM,Humacao,Vitamina C 1000 mg,Suplementos,Y,23.9,3,71.7
+2023-03-13,2023,March,3,13,Spring,Mayaguez,M,79,MMM,Mayaguez,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2023-03-14,2023,March,3,14,Spring,Toa Baja,F,40,MCS,Toa Baja,Omeprazol 20 mg,Gastro,N,25.8,1,25.8
+2023-03-14,2023,March,3,14,Spring,Caguas,M,66,MMM,Caguas,Loratadina Jarabe 5mg,Analgesico,Y,30.9,1,30.9
+2024-01-27,2024,January,1,27,Winter,Carolina,M,53,MCS,Carolina,Panales para adultos,Otros,N,36.25,3,108.75
+2024-02-02,2024,February,2,2,Winter,Arecibo,M,30,MCS,Arecibo,Panales para adultos,Otros,N,37.99,2,75.98
+2024-02-17,2024,February,2,17,Winter,Toa Baja,F,59,MMM,San Juan,Panales para adultos,Otros,Y,34.99,2,69.98
+2024-03-05,2024,March,3,5,Spring,Ponce,F,78,MMM,Ponce,Panales para adultos,Otros,Y,35.8,3,107.4
+2023-03-17,2023,March,3,17,Spring,Guaynabo,F,50,MCS,Guaynabo,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2024-03-29,2024,March,3,29,Spring,Arecibo,F,53,MCS,Arecibo,Panales para adultos,Otros,Y,35.8,2,71.6
+2023-03-18,2023,March,3,18,Spring,Mayaguez,F,76,MMM,Mayaguez,Ibuprofeno 400 mg,Analgesico,Y,16.2,1,16.2
+2023-03-18,2023,March,3,18,Spring,Toa baja,M,60,MMM,Toa baja,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2023-03-19,2023,March,3,19,Spring,Caguas,F,37,MCS,Caguas,Cepillos de dientes,Otros,N,7.5,6,45
+2024-04-05,2024,April,4,5,Spring,Toa Baja,F,33,MCS,Toa Baja,Panales para adultos,Otros,N,36.9,3,110.7
+2023-03-20,2023,March,3,20,Spring,Bayamon,F,74,MMM,Bayamon,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2023-03-20,2023,March,3,20,Spring,Carolina,M,49,MCS,Ponce,Loratadina Jarabe 5mg,Analgesico,Y,30.9,2,61.8
+2024-04-29,2024,April,4,29,Spring,Guaynabo,F,76,MMM,Guaynabo,Panales para adultos,Otros,Y,36.9,2,73.8
+2023-03-21,2023,March,3,21,Spring,Guaynabo,M,34,MCS,Guaynabo,Omeprazol 20 mg,Gastro,N,25.8,1,25.8
+2024-05-06,2024,May,5,6,Spring,Guaynabo,F,78,MMM,Guaynabo,Panales para adultos,Otros,Y,37.5,3,112.5
+2023-03-22,2023,March,3,22,Spring,Mayaguez,M,53,MCS,Mayaguez,Vitamina D 2000UI,Suplementos,N,37.5,1,37.5
+2023-03-23,2023,March,3,23,Spring,Toa Baja,F,64,MMM,Toa Baja,Insulina Pluma,Diabetes,Y,188.5,1,188.5
+2023-03-23,2023,March,3,23,Spring,Caguas,M,41,MCS,Caguas,Diclofenaco Gel 1%,Analgesico,Y,28.5,1,28.5
+2023-03-24,2023,March,3,24,Spring,Arecibo,F,75,MMM,Arecibo,Loperamida 2 mg,Gastro,Y,11.2,1,11.2
+2024-05-29,2024,May,5,29,Spring,Arecibo,M,79,MMM,Arecibo,Panales para adultos,Otros,Y,37.5,2,75
+2023-01-09,2023,January,1,9,Winter,Toa Baja,F,59,MMM,San Juan,Panales para adultos,Otros,Y,35.5,2,71
+2023-03-25,2023,March,3,25,Spring,Ponce,M,73,MMM,Ponce,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2023-01-27,2023,January,1,27,Winter,Toa Baja,F,33,MCS,Toa Baja,Panales para adultos,Otros,Y,35.5,1,35.5
+2023-01-13,2023,January,1,13,Winter,Mayaguez,M,70,MMM,Mayaguez,Panales para adultos,Otros,Y,35.5,2,71
+2023-01-27,2023,January,1,27,Winter,Arecibo,M,54,MCS,Arecibo,Panales para adultos,Otros,Y,35.5,3,106.5
+2023-03-27,2023,March,3,27,Spring,Toa baja,M,44,MCS,San Juan,Protector Solar,Otros,N,29.5,2,59
+2023-03-28,2023,March,3,28,Spring,Caguas,F,69,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2023-03-28,2023,March,3,28,Spring,Arecibo,M,51,MCS,Arecibo,Condroitina y Glucosamina,Suplementos,N,81,1,81
+2023-03-29,2023,March,3,29,Spring,Bayamon,F,35,MCS,Bayamon,Ibuprofeno 400 mg,Analgesico,Y,16.2,3,48.6
+2023-03-29,2023,March,3,29,Spring,Carolina,M,77,MMM,Carolina,Omeprazol 20 mg,Gastro,Y,25.8,1,25.8
+2023-02-09,2023,February,2,9,Winter,Toa Baja,F,59,MMM,San Juan,Panales para adultos,Otros,Y,34.9,2,69.8
+2023-02-27,2023,February,2,27,Winter,Toa Baja,F,33,MCS,Toa Baja,Panales para adultos,Otros,Y,34.9,1,34.9
+2023-03-03,2023,March,3,3,Spring,Ponce,F,78,MMM,Ponce,Panales para adultos,Otros,Y,35.5,3,106.5
+2023-03-15,2023,March,3,15,Spring,Arecibo,F,53,MCS,Arecibo,Panales para adultos,Otros,Y,35.5,2,71
+2023-03-22,2023,March,3,22,Spring,Humacao,F,79,MMM,Humacao,Panales para adultos,Otros,Y,35.5,2,71
+2023-03-07,2023,March,3,7,Spring,Caguas,M,63,MMM,Caguas,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2023-03-12,2023,March,3,12,Spring,Arecibo,F,39,MCS,Arecibo,Vitamina C 1000 mg,Suplementos,N,23.9,2,47.8
+2023-03-17,2023,March,3,17,Spring,Bayamon,M,76,MMM,Bayamon,Insulina Pluma,Diabetes,Y,188.5,1,188.5
+2023-03-22,2023,March,3,22,Spring,Carolina,F,43,MCS,Carolina,Diclofenaco Gel 1%,Analgesico,Y,28.5,1,28.5
+2023-03-27,2023,March,3,27,Spring,Ponce,M,69,MMM,Ponce,Loperamida 2 mg,Gastro,Y,11.2,1,11.2
+2023-03-31,2023,March,3,31,Spring,Mayaguez,M,56,MMM,Mayaguez,Panales para adultos,Otros,Y,35.5,3,106.5
+2023-03-06,2023,March,3,6,Spring,Humacao,M,72,MMM,Humacao,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-03-13,2023,March,3,13,Spring,Mayaguez,M,57,MMM,Mayaguez,Panales para adultos,Otros,Y,35.5,2,71
+2023-03-16,2023,March,3,16,Spring,Toa Baja,M,61,MMM,Toa Baja,Curitas Adhesivas,Otros,N,6.9,5,34.5
+2023-03-21,2023,March,3,21,Spring,Caguas,F,78,MMM,Caguas,Condroitina y Glucosamina,Suplementos,Y,81,1,81
+2023-03-26,2023,March,3,26,Spring,Arecibo,M,50,MCS,Arecibo,Protector Solar,Otros,N,29.5,3,88.5
+2023-03-31,2023,March,3,31,Spring,Bayamon,F,66,MMM,Bayamon,Metformina 500 mg,Diabetes,Y,19.5,5,97.5
+2023-03-03,2023,March,3,3,Spring,Guaynabo,M,46,MCS,Guaynabo,Ibuprofeno 400 mg,Analgesico,N,16.2,2,32.4
+2023-03-08,2023,March,3,8,Spring,Humacao,F,71,MMM,Humacao,Omeprazol 20 mg,Gastro,Y,25.8,1,25.8
+2023-04-03,2023,April,4,3,Spring,Toa Baja,F,33,MCS,Toa Baja,Panales para adultos,Otros,N,36.5,3,109.5
+2023-03-18,2023,March,3,18,Spring,Toa Baja,F,34,MCS,Toa Baja,Vitamina D 2000UI,Suplementos,N,37.5,1,37.5
+2023-04-15,2023,April,4,15,Spring,Guaynabo,F,76,MMM,Guaynabo,Panales para adultos,Otros,Y,36.5,2,73
+2023-03-28,2023,March,3,28,Spring,Arecibo,F,73,MMM,Arecibo,Loperamida 2 mg,Gastro,Y,11.2,1,11.2
+2023-04-25,2023,April,4,25,Spring,Mayaguez,M,30,MCS,Mayaguez,Panales para adultos,Otros,N,36.5,4,146
+2023-04-15,2023,April,4,15,Spring,Carolina,M,49,MCS,Carolina,Panales para adultos,Otros,N,36.5,3,109.5
+2023-05-06,2023,May,5,6,Spring,Guaynabo,F,78,MMM,Guaynabo,Panales para adultos,Otros,Y,37.5,3,112.5
+2023-03-14,2023,March,3,14,Spring,Ponce,F,65,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2023-05-29,2023,May,5,29,Spring,Arecibo,M,79,MMM,Arecibo,Panales para adultos,Otros,Y,37.5,2,75
+2023-03-24,2023,March,3,24,Spring,Humacao,F,76,MMM,Humacao,Metformina 500 mg,Diabetes,Y,19.5,6,117
+2023-06-13,2023,June,6,13,Spring,Humacao,M,70,MMM,Humacao,Panales para adultos,Otros,Y,37.5,2,75
+2023-04-01,2023,April,4,1,Spring,Ponce,F,65,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,59.5,4,238
+2023-04-01,2023,April,4,1,Spring,Guaynabo,M,42,MCS,San Juan,Diclofenaco Gel 1%,Analgesico,N,27.9,2,55.8
+2023-04-02,2023,April,4,2,Spring,Humacao,F,71,MMM,Humacao,Omeprazol 20 mg,Gastro,Y,25.99,1,25.99
+2023-04-02,2023,April,4,2,Spring,Mayaguez,M,55,MCS,Mayaguez,Vitamina D 2000UI,Suplementos,Y,38.99,1,38.99
+2023-06-28,2023,June,6,28,Summer,Carolina,F,53,MCS,Carolina,Panales para adultos,Otros,Y,37.5,1,37.5
+2023-04-03,2023,April,4,3,Spring,Caguas,M,68,MMM,Caguas,Insulina Pluma,Diabetes,Y,187.99,1,187.99
+2023-04-04,2023,April,4,4,Spring,Arecibo,F,79,MMM,Arecibo,Ibuprofeno 400 mg,Analgesico,Y,16.5,5,82.5
+2023-07-08,2023,July,7,8,Summer,Ponce,F,38,MCS,Ponce,Panales para adultos,Otros,N,37.5,3,112.5
+2023-08-01,2023,August,8,1,Summer,Caguas,M,56,MMM,Caguas,Panales para adultos,Otros,Y,37.5,2,75
+2023-04-05,2023,April,4,5,Spring,Ponce,M,39,MCS,Ponce,Curitas Adhesivas,Otros,Y,6.99,4,27.96
+2023-04-06,2023,April,4,6,Spring,Guaynabo,F,75,MMM,Guaynabo,Metformina 500 mg,Diabetes,Y,19.9,6,119.4
+2023-08-22,2023,August,8,22,Summer,Carolina,F,32,MCS,Carolina,Panales para adultos,Otros,N,37.5,3,112.5
+2023-04-07,2023,April,4,7,Spring,Mayaguez,F,63,MMM,Mayaguez,Loperamida 2 mg,Gastro,Y,12.99,1,12.99
+2023-09-04,2023,September,9,4,Summer,Humacao,F,55,MCS,Humacao,Panales para adultos,Otros,N,37.5,3,112.5
+2023-04-08,2023,April,4,8,Spring,Caguas,F,44,MCS,Caguas,Tiras reactivas diabetes,Diabetes,Y,59.5,3,178.5
+2023-09-14,2023,September,9,14,Summer,Mayaguez,F,77,MMM,Mayaguez,Panales para adultos,Otros,Y,37.5,2,75
+2023-10-02,2023,October,10,2,Fall,Mayaguez,F,34,MCS,Mayaguez,Panales para adultos,Otros,N,37.5,2,75
+2023-10-12,2023,October,10,12,Fall,Toa Baja,F,37,MCS,Toa Baja,Panales para adultos,Otros,Y,37.5,3,112.5
+2023-04-10,2023,April,4,10,Spring,Ponce,F,51,MCS,Ponce,Protector Solar,Otros,N,29.99,2,59.98
+2023-10-23,2023,October,10,23,Fall,Arecibo,M,76,MMM,Arecibo,Panales para adultos,Otros,Y,37.5,2,75
+2023-04-11,2023,April,4,11,Spring,Humacao,F,64,MMM,Humacao,Condroitina y Glucosamina,Suplementos,Y,81.5,1,81.5
+2023-04-11,2023,April,4,11,Spring,Mayaguez,M,36,MCS,Mayaguez,Diclofenaco Gel 1%,Analgesico,N,27.9,1,27.9
+2023-04-12,2023,April,4,12,Spring,Toa Baja,F,58,MMM,Toa Baja,Omeprazol 20 mg,Gastro,Y,25.99,1,25.99
+2023-04-12,2023,April,4,12,Spring,Caguas,M,74,MMM,Caguas,Gel Antibacterial,Otros,N,8.5,3,25.5
+2023-04-13,2023,April,4,13,Spring,Arecibo,F,49,MCS,Arecibo,Vitamina B12 1000 mcg,Suplementos,Y,16.99,2,33.98
+2023-04-13,2023,April,4,13,Spring,Bayamon,M,61,MMM,Bayamon,Metformina 500 mg,Diabetes,Y,19.9,5,99.5
+2023-11-07,2023,November,11,7,Fall,Humacao,M,68,MMM,Humacao,Panales para adultos,Otros,Y,37.5,3,112.5
+2023-04-14,2023,April,4,14,Spring,Ponce,M,70,MMM,Ponce,Ibuprofeno 400 mg,Analgesico,Y,16.5,4,66
+2023-11-23,2023,November,11,23,Fall,Ponce,M,31,MCS,Ponce,Panales para adultos,Otros,Y,37.5,1,37.5
+2023-04-15,2023,April,4,15,Spring,Humacao,M,50,MCS,Humacao,Tiras reactivas diabetes,Diabetes,Y,59.5,3,178.5
+2023-04-16,2023,April,4,16,Spring,Mayaguez,F,65,MMM,Mayaguez,Loperamida 2 mg,Gastro,Y,12.99,1,12.99
+2023-04-16,2023,April,4,16,Spring,Toa Baja,M,34,MCS,San Juan,Vitamina C 1000 mg,Suplementos,Y,24.99,3,74.97
+2023-12-08,2023,December,12,8,Fall,Arecibo,F,69,MMM,Arecibo,Panales para adultos,Otros,Y,37.5,3,112.5
+2023-04-17,2023,April,4,17,Spring,Arecibo,M,57,MMM,Arecibo,Curitas Adhesivas,Otros,N,6.99,5,34.95
+2023-04-18,2023,April,4,18,Spring,Bayamon,F,69,MMM,Bayamon,Insulina Pluma,Diabetes,Y,187.99,1,187.99
+2023-12-22,2023,December,12,22,Winter,Humacao,F,41,MCS,Humacao,Panales para adultos,Otros,N,37.5,2,75
+2023-04-19,2023,April,4,19,Spring,Ponce,M,75,MMM,Ponce,Omeprazol 20 mg,Gastro,Y,25.99,1,25.99
+2023-04-19,2023,April,4,19,Spring,Guaynabo,F,32,MCS,Guaynabo,Jarabe para la tos,Otros,Y,22.5,1,22.5
+2023-04-20,2023,April,4,20,Spring,Humacao,M,54,MCS,Humacao,Tiras reactivas diabetes,Diabetes,N,59.5,2,119
+2024-01-20,2024,January,1,20,winter,Humacao,F,66,MMM,Humacao,Probioticos,Suplementos,Y,40.5,2,81
+2023-04-21,2023,April,4,21,Spring,Toa Baja,M,63,MMM,Toa Baja,Condroitina y Glucosamina,Suplementos,Y,81.5,1,81.5
+2023-04-21,2023,April,4,21,Spring,caguas,F,39,MCS,Caguas,Ibuprofeno 400 mg,Analgesico,N,16.5,2,33
+2023-04-22,2023,April,4,22,Spring,Arecibo,M,70,MMM,Arecibo,Metformina 500 mg,Diabetes,Y,19.9,5,99.5
+2024-01-30,2024,January,1,30,Winter,Carolina,M,53,MCS,Carolina,Probioticos,Suplementos,N,40.5,1,40.5
+2024-01-24,2024,January,1,24,Winter,Guaynabo,F,61,MMM,Guaynabo,Probioticos,Suplementos,Y,40.5,1,40.5
+2024-01-17,2024,January,1,17,Winter,Guaynabo,F,34,MCS,Guaynabo,Probioticos,Suplementos,N,40.5,3,121.5
+2024-01-15,2024,January,1,15,Winter,Bayamon,M,67,MMM,Bayamon,Probioticos,Suplementos,Y,40.5,2,81
+2024-01-15,2024,January,1,15,Winter,Arecibo,F,41,MCS,Arecibo,Probioticos,Suplementos,N,40.5,1,40.5
+2024-01-10,2024,January,1,10,Winter,Carolina,M,70,MMM,Carolina,Probioticos,Suplementos,Y,40.5,1,40.5
+2023-04-25,2023,April,4,25,Spring,Toa Baja,F,73,MMM,Toa Baja,Insulina Pluma,Diabetes,Y,187.99,1,187.99
+2023-04-26,2023,April,4,26,Spring,Caguas,M,52,MCS,Caguas,Vitamina D 2000UI,Suplementos,N,38.99,1,38.99
+2024-02-21,2024,February,2,21,Winter,Arecibo,F,51,MCS,Arecibo,Probioticos,Suplementos,Y,41.25,2,82.5
+2023-04-27,2023,April,4,27,Spring,Bayamon,m,36,MCS,Bayamon,Loperamida 2 mg,Gastro,Y,12.99,1,12.99
+2023-04-27,2023,April,4,27,Spring,Carolina,F,69,MMM,Carolina,Curitas Adhesivas,Otros,N,6.99,5,34.95
+2023-04-28,2023,April,4,28,Spring,Ponce,m,58,MCS,Ponce,Metformina 500 mg,Diabetes,Y,19.9,4,79.6
+2023-04-28,2023,April,4,28,Spring,Guaynabo,F,71,MMM,Guaynabo,Tiras reactivas diabetes,Diabetes,Y,59.5,3,178.5
+2023-04-29,2023,April,4,29,Spring,Humacao,m,43,MCS,Humacao,Diclofenaco Gel 1%,Analgesico,N,27.9,1,27.9
+2023-04-29,2023,April,4,29,Spring,Mayaguez,F,78,MMM,Mayaguez,Omeprazol 20 mg,Gastro,Y,25.99,1,25.99
+2024-03-16,2024,March,3,16,Spring,Humacao,M,59,MMM,Humacao,Probioticos,Suplementos,Y,41.5,1,41.5
+2023-04-30,2023,April,4,30,Spring,Caguas,F,66,MMM,Caguas,Protector Solar,Otros,N,29.99,3,89.97
+2023-04-05,2023,April,4,5,Spring,Arecibo,m,38,MCS,Arecibo,Ibuprofeno 400 mg,Analgesico,Y,16.5,2,33
+2024-03-15,2024,March,3,15,Spring,Mayaguez,M,42,MCS,Mayaguez,Probioticos,Suplementos,N,41.5,1,41.5
+2024-04-16,2024,April,4,16,Spring,Arecibo,M,66,MMM,Arecibo,Probioticos,Suplementos,Y,40.8,1,40.8
+2023-04-20,2023,April,4,20,Spring,Ponce,F,60,MMM,Ponce,Insulina Pluma,Diabetes,Y,187.99,1,187.99
+2023-04-25,2023,April,4,25,Spring,Guaynabo,M,72,MMM,Guaynabo,Vitamina D 2000UI,Suplementos,Y,38.99,1,38.99
+2024-05-15,2024,May,5,15,Spring,Guaynabo,M,39,MCS,Guaynabo,Probioticos,Suplementos,Y,42.15,1,42.15
+2023-04-03,2023,April,4,3,Spring,Mayaguez,M,67,MMM,Mayaguez,Loperamida 2 mg,Gastro,Y,12.99,1,12.99
+2023-01-13,2023,January,1,13,Winter,Arecibo,F,51,MCS,Arecibo,Probioticos,Suplementos,Y,41.99,2,66.25
+2023-01-06,2023,January,1,6,Winter,Ponce,F,50,MCS,Ponce,Probioticos,Suplementos,Y,41.99,1,41.99
+2023-02-13,2023,February,2,13,Winter,Arecibo,F,51,MCS,Arecibo,Probioticos,Suplementos,Y,41.5,2,83
+2023-02-02,2023,February,2,2,Winter,Ponce,F,50,MCS,Ponce,Probioticos,Suplementos,Y,41.5,1,41.5
+2023-03-08,2023,March,3,8,Spring,Humacao,M,59,MMM,Humacao,Probioticos,Suplementos,Y,42.5,1,42.5
+2023-04-04,2023,April,4,4,Spring,Ponce,M,79,MMM,Ponce,Metformina 500 mg,Diabetes,Y,19.9,6,119.4
+2023-04-09,2023,April,4,9,Spring,Guaynabo,F,53,MCS,Guaynabo,Tiras reactivas diabetes,Diabetes,Y,59.5,4,238
+2023-04-14,2023,April,4,14,Spring,Humacao,m,30,MCS,Humacao,Curitas Adhesivas,Otros,N,6.99,3,20.97
+2023-04-19,2023,April,4,19,Spring,Mayaguez,F,70,MMM,Mayaguez,Omeprazol 20 mg,Gastro,Y,25.99,1,25.99
+2023-04-24,2023,April,4,24,Spring,Toa Baja,M,46,MCS,Toa Baja,Diclofenaco Gel 1%,Analgesico,N,27.9,1,27.9
+2023-05-01,2023,May,5,1,Spring,Arecibo,M,68,MMM,Arecibo,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2023-05-02,2023,May,5,2,Spring,Caguas,F,45,MCS,San Juan,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2023-05-03,2023,May,5,3,Spring,Bayamon,M,72,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.8,4,239.2
+2023-05-04,2023,May,5,4,Spring,Carolina,F,30,MCS,Carolina,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-05-05,2023,May,5,5,Spring,Ponce,M,55,MCS,Ponce,Vitamina D 2000UI,Suplementos,N,35.9,1,35.9
+2023-03-17,2023,March,3,17,Spring,Humacao,M,42,MCS,Humacao,Probioticos,Suplementos,N,42.5,1,42.5
+2023-03-26,2023,March,3,26,Spring,Guaynabo,F,58,MCS,Guaynabo,Probioticos,Suplementos,Y,42.5,2,85
+2023-05-08,2023,May,5,8,Spring,Mayaguez,F,61,MMM,Mayaguez,Diclofenaco Gel 1%,Analgesico,Y,29.5,1,29.5
+2023-03-29,2023,March,3,29,Spring,Mayaguez,M,54,MCS,Mayaguez,Probioticos,Suplementos,Y,42.5,2,85
+2023-04-08,2023,April,4,8,Spring,Arecibo,M,66,MMM,Arecibo,Probioticos,Suplementos,Y,41.5,1,41.5
+2023-04-24,2023,April,4,24,Spring,Humacao,F,57,MMM,Humacao,Probioticos,Suplementos,Y,41.5,1,41.5
+2023-05-12,2023,May,5,12,Spring,Bayamon,F,75,MMM,Bayamon,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2023-04-23,2023,April,4,23,Spring,Bayamon,M,64,MMM,Bayamon,Probioticos,Suplementos,Y,41.5,1,41.5
+2023-05-14,2023,May,5,14,Spring,Ponce,F,63,MMM,Ponce,Insulina Pluma,Diabetes,Y,188,1,188
+2023-05-15,2023,May,5,15,Spring,Guaynabo,M,39,MCS,Guaynabo,Probioticos,Suplementos,Y,42.15,1,42.15
+2023-06-29,2023,June,6,29,Summer,Ponce,M,78,MMM,Ponce,Probioticos,Suplementos,Y,42.15,2,84.3
+2023-07-18,2023,July,7,18,Summer,Guaynabo,F,41,MCS,Guaynabo,Probioticos,Suplementos,Y,42.15,1,42.15
+2023-05-18,2023,May,5,18,Spring,Toa Baja,F,44,MCS,San Juan,Protector Solar,Otros,N,30.5,4,122
+2023-05-19,2023,May,5,19,Spring,Caguas,M,77,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,59.8,5,299
+2023-05-20,2023,May,5,20,Spring,Arecibo,f,37,MCS,Arecibo,Condroitina y Glucosamina,Suplementos,Y,84,1,84
+2023-05-21,2023,May,5,21,Spring,Bayamon,M,64,MMM,Bayamon,Ibuprofeno 400 mg,Analgesico,Y,15.5,2,31
+2023-05-22,2023,May,5,22,Spring,Carolina,F,51,MCS,Carolina,Metformina 500 mg,Diabetes,N,18.99,6,113.94
+2023-05-23,2023,May,5,23,Spring,Ponce,M,70,MMM,Ponce,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-05-24,2023,May,5,24,Spring,Guaynabo,F,32,MCS,Guaynabo,Jarabe para la tos,Otros,N,21.5,1,21.5
+2023-05-25,2023,May,5,25,Spring,Humacao,M,58,MMM,Humacao,Vitamina C 1000 mg,Suplementos,Y,23.5,3,70.5
+2023-08-30,2023,August,8,30,Summer,Bayamon,F,65,MMM,Bayamon,Probioticos,Suplementos,Y,42.15,2,84.3
+2023-09-24,2023,September,9,24,Fall,Toa Baja,F,75,MMM,Toa Baja,Probioticos,Suplementos,Y,42.15,2,84.3
+2023-10-30,2023,October,10,30,Fall,Toa Baja,F,49,MCS,Toa Baja,Probioticos,Suplementos,Y,42.15,1,42.15
+2023-11-27,2023,November,11,27,Fall,Toa Baja,M,78,MMM,Toa Baja,Probioticos,Suplementos,Y,42.15,2,84.3
+2023-12-20,2023,December,12,20,Winter,Ponce,F,54,MCS,Ponce,Probioticos,Suplementos,Y,42.15,1,42.15
+2023-06-01,2023,June,6,1,Spring,Carolina,M,60,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-06-02,2023,June,6,2,Spring,Ponce,F,47,MCS,San Juan,Diclofenaco Gel 1%,Analgesico,N,29.5,1,29.5
+2023-06-03,2023,June,6,3,Spring,Guaynabo,M,73,MMM,Guaynabo,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2023-06-04,2023,June,6,4,Spring,Humacao,F,59,MMM,Humacao,Curitas Adhesivas,Otros,N,7.1,5,35.5
+2024-07-04,2024,July,7,4,Summer,Carolina,M,34,MCS,San Juan,Sales de rehidratacion oral,Gastro,Y,31.58,1,31.58
+2023-06-06,2023,June,6,6,Spring,Toa Baja,F,71,MMM,Toa Baja,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-06-07,2023,June,6,7,Spring,Caguas,M,54,MCS,Caguas,Vitamina D 2000UI,Suplementos,N,35.9,2,71.8
+2023-06-08,2023,June,6,8,Spring,Arecibo,F,65,MMM,Arecibo,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2024-06-13,2024,June,6,13,Spring,Ponce,F,28,MMM,Bayamon,Sales de rehidratacion oral,Gastro,N,35.8,4,143.2
+2023-06-10,2023,June,6,10,Spring,Carolina,F,50,MCS,Carolina,Protector Solar,Otros,N,30.5,3,91.5
+2024-06-09,2024,June,6,9,Spring,Carolina,M,42,First Medical,Ponce,Sales de rehidratacion oral,Gastro,Y,47.9,3,143.7
+2023-06-12,2023,June,6,12,Spring,Guaynabo,F,35,MCS,Guaynabo,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2024-06-15,2024,June,6,15,Spring,Arecibo,F,31,First Medical,Guaynabo,Sales de rehidratacion oral,Gastro,N,38.03,3,114.09
+2024-06-02,2024,June,6,2,Spring,Mayaguez,M,50,Medicaid,Caguas,Sales de rehidratacion oral,Gastro,Y,88.33,3,264.99
+2023-06-15,2023,June,6,15,Spring,Toa Baja,M,64,MMM,Toa Baja,Insulina Pluma,Diabetes,Y,188,1,188
+2024-07-07,2024,July,7,7,Summer,Mayaguez,f,52,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,99.8,1,99.8
+2024-01-03,2024,January,1,3,Winter,Guaynabo,M,29,MCS,San Juan,Sales de rehidratacion oral,Gastro,N,11.99,1,11.99
+2023-06-18,2023,June,6,18,Spring,Bayamon,F,33,MCS,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-06-19,2023,June,6,19,Spring,Carolina,M,75,MMM,Carolina,Condroitina y Glucosamina,Suplementos,Y,84,1,84
+2023-06-20,2023,June,6,20,Spring,Ponce,F,61,MMM,Ponce,Diclofenaco Gel 1%,Analgesico,Y,29.5,1,29.5
+2023-06-21,2023,June,6,21,Spring,Guaynabo,M,48,MCS,Guaynabo,Loperamida 2 mg,Gastro,N,11.99,1,11.99
+2024-01-10,2024,January,1,10,Winter,Bayamon,F,37,MCS,Bayamon,Sales de rehidratacion oral,Gastro,Y,11.99,3,35.97
+2023-06-23,2023,June,6,23,Spring,Mayaguez,M,56,MMM,Mayaguez,Metformina 500 mg,Diabetes,Y,18.99,6,113.94
+2023-06-24,2023,June,6,24,Spring,Toa Baja,F,37,MCS,Toa Baja,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-06-25,2023,June,6,25,Summer,Caguas,M,71,MMM,Caguas,Vitamina C 1000 mg,Suplementos,Y,23.5,3,70.5
+2023-06-26,2023,June,6,26,Summer,Arecibo,F,69,MMM,Arecibo,Tiras reactivas diabetes,Diabetes,Y,59.9,5,299.5
+2023-06-27,2023,June,6,27,Summer,Bayamon,M,44,MCS,Bayamon,Ibuprofeno 400 mg,Analgesico,N,15.5,1,15.5
+2024-01-14,2024,January,1,14,Winter,Bayamon,F,52,MMM,Bayamon,Sales de rehidratacion oral,Gastro,Y,11.99,2,23.98
+2024-01-21,2024,January,1,21,Winter,Arecibo,M,55,MCS,Arecibo,Sales de rehidratacion oral,Gastro,Y,11.99,1,11.99
+2024-01-28,2024,January,1,28,Winter,Mayaguez,M,75,MMM,Mayaguez,Sales de rehidratacion oral,Gastro,Y,11.99,2,23.98
+2024-01-05,2024,January,1,5,Winter,Bayamon,M,49,MCS,San Juan,Sales de rehidratacion oral,Gastro,N,11.99,1,11.99
+2023-07-02,2023,July,7,2,Summer,Mayaguez,F,32,MCS,Mayaguez,Protector Solar,Otros,N,30.5,4,122
+2023-07-03,2023,July,7,3,Summer,Toa Baja,M,76,MMM,Toa Baja,Tiras reactivas diabetes,Diabetes,Y,59.8,4,239.2
+2023-07-04,2023,July,7,4,Summer,Caguas,F,63,MMM,Caguas,Condroitina y Glucosamina,Suplementos,Y,84,1,84
+2023-07-05,2023,July,7,5,Summer,Arecibo,M,40,MCS,Arecibo,Diclofenaco Gel 1%,Analgesico,N,29.5,2,59
+2023-07-06,2023,July,7,6,Summer,Bayamon,F,71,MMM,Bayamon,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-07-07,2023,July,7,7,Summer,Carolina,M,55,MCS,Carolina,Vitamina D 2000UI,Suplementos,Y,35.9,1,35.9
+2024-01-27,2024,January,1,27,Winter,Caguas,M,53,MCS,Caguas,Sales de rehidratacion oral,Gastro,N,11.99,1,11.99
+2023-07-09,2023,July,7,9,Summer,Guaynabo,M,69,MMM,Guaynabo,Insulina Pluma,Diabetes,Y,188,1,188
+2024-01-13,2024,January,1,13,Winter,Arecibo,F,79,MMM,Arecibo,Sales de rehidratacion oral,Gastro,Y,11.99,1,11.99
+2023-07-11,2023,July,7,11,Summer,Mayaguez,M,74,MMM,Mayaguez,Ibuprofeno 400 mg,Analgesico,Y,15.5,5,77.5
+2024-01-03,2024,January,1,3,Winter,Humacao,M,30,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,11.99,1,11.99
+2024-01-30,2024,January,1,30,Winter,Arecibo,F,59,MMM,Arecibo,Sales de rehidratacion oral,Gastro,Y,11.99,2,23.98
+2024-01-21,2024,January,1,21,Winter,Mayaguez,F,64,MMM,San Juan,Sales de rehidratacion oral,Gastro,Y,11.99,1,11.99
+2023-07-15,2023,July,7,15,Summer,Bayamon,M,35,MCS,Bayamon,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2024-01-09,2024,January,1,9,Winter,Bayamon,F,53,MCS,Bayamon,Sales de rehidratacion oral,Gastro,N,11.99,1,11.99
+2023-07-17,2023,July,7,17,Summer,Ponce,M,72,MMM,Ponce,Metformina 500 mg,Diabetes,Y,18.99,6,113.94
+2024-01-31,2024,January,1,31,Winter,Caguas,F,46,MCS,Caguas,Sales de rehidratacion oral,Gastro,Y,11.99,1,11.99
+2024-01-15,2024,January,1,15,Winter,Mayaguez,M,69,MMM,Mayaguez,Sales de rehidratacion oral,Gastro,Y,11.99,1,11.99
+2024-01-31,2024,January,1,31,Winter,Mayaguez,M,77,MMM,Mayaguez,Sales de rehidratacion oral,Gastro,Y,11.99,2,23.98
+2023-07-21,2023,July,7,21,Summer,Toa Baja,M,47,MCS,San Juan,Protector Solar,Otros,N,30.5,4,122
+2023-07-22,2023,July,7,22,Summer,Caguas,F,60,MMM,Caguas,Tiras reactivas diabetes,Diabetes,Y,59.8,5,299
+2023-07-23,2023,July,7,23,Summer,Arecibo,M,53,MCS,Arecibo,Condroitina y Glucosamina,Suplementos,Y,84,1,84
+2023-07-24,2023,July,7,24,Summer,Bayamon,F,36,MCS,Bayamon,Diclofenaco Gel 1%,Analgesico,N,29.5,1,29.5
+2023-07-25,2023,July,7,25,Summer,Carolina,M,70,MMM,Carolina,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-07-26,2023,July,7,26,Summer,Ponce,F,51,MCS,Ponce,Jarabe para la tos,Otros,N,21.5,1,21.5
+2023-07-27,2023,July,7,27,Summer,Guaynabo,M,75,MMM,Guaynabo,Vitamina C 1000 mg,Suplementos,Y,23.5,3,70.5
+2024-02-09,2024,February,2,9,Winter,Carolina,F,48,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,12.5,3,37.5
+2024-03-07,2024,March,3,7,Spring,Humacao,F,44,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,12.5,4,50
+2024-03-31,2024,March,3,31,Spring,Carolina,F,36,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,12.5,3,37.5
+2024-04-08,2024,April,4,8,Spring,Bayamon,M,48,MCS,Bayamon,Sales de rehidratacion oral,Gastro,N,11.9,1,11.9
+2024-04-27,2024,April,4,27,Spring,Carolina,F,35,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,11.9,2,23.8
+2023-08-03,2023,August,8,3,Summer,Bayamon,M,77,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-08-04,2023,August,8,4,Summer,Carolina,F,62,MMM,Carolina,Ibuprofeno 400 mg,Analgesico,Y,15.5,2,31
+2023-08-05,2023,August,8,5,Summer,Ponce,M,44,MCS,Ponce,Loperamida 2 mg,Gastro,N,11.99,1,11.99
+2024-05-07,2024,May,5,7,Spring,Humacao,M,42,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,12.1,5,60.5
+2023-08-07,2023,August,8,7,Summer,Humacao,M,51,MCS,Humacao,Metformina 500 mg,Diabetes,Y,18.99,6,113.94
+2023-08-08,2023,August,8,8,Summer,Mayaguez,F,35,MCS,Mayaguez,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-08-09,2023,August,8,9,Summer,Toa Baja,M,69,MMM,Toa Baja,Vitamina C 1000 mg,Suplementos,Y,23.5,3,70.5
+2024-05-27,2024,May,5,27,Spring,Toa Baja,M,40,MCS,Toa Baja,Sales de rehidratacion oral,Gastro,N,12.1,1,12.1
+2023-01-05,2023,January,1,5,Winter,Carolina,F,48,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,12,3,36
+2023-08-12,2023,August,8,12,Summer,Bayamon,F,58,MCS,Bayamon,Curitas Adhesivas,Otros,Y,7.1,5,35.5
+2023-08-13,2023,August,8,13,Summer,Carolina,M,73,MMM,Carolina,Insulina Pluma,Diabetes,Y,188,1,188
+2023-01-17,2023,January,1,17,Winter,Bayamon,M,57,MCS,Bayamon,Sales de rehidratacion oral,Gastro,Y,12,4,48
+2023-02-05,2023,February,2,5,Winter,Carolina,F,48,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,12.3,3,36.9
+2023-08-16,2023,August,8,16,Summer,Humacao,F,78,MMM,Humacao,Condroitina y Glucosamina,Suplementos,Y,84,1,84
+2023-08-17,2023,August,8,17,Summer,Mayaguez,M,50,MCS,Mayaguez,Protector Solar,Otros,N,30.5,4,122
+2023-08-18,2023,August,8,18,Summer,Toa Baja,F,64,MMM,San Juan,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2023-08-19,2023,August,8,19,Summer,Caguas,M,37,MCS,Caguas,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2023-08-20,2023,August,8,20,Summer,Arecibo,F,71,MMM,Arecibo,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-08-21,2023,August,8,21,Summer,Bayamon,M,55,MCS,Bayamon,Vitamina D 2000UI,Suplementos,Y,35.9,1,35.9
+2023-03-04,2023,March,3,4,Spring,Humacao,F,44,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,12.8,4,51.2
+2023-08-23,2023,August,8,23,Summer,Ponce,M,68,MMM,Ponce,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2023-03-16,2023,March,3,16,Spring,Carolina,F,36,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,12.8,3,38.4
+2023-03-30,2023,March,3,30,Spring,Guaynabo,M,48,MCS,Guaynabo,Sales de rehidratacion oral,Gastro,N,12.8,2,25.6
+2023-08-26,2023,August,8,26,Summer,Mayaguez,F,60,MMM,Mayaguez,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2023-08-27,2023,August,8,27,Summer,Toa Baja,M,74,MMM,Toa Baja,Curitas Adhesivas,Otros,N,7.1,2,14.2
+2023-03-06,2023,March,3,6,Spring,Bayamon,F,49,MCS,Bayamon,Sales de rehidratacion oral,Gastro,N,12.8,4,51.2
+2023-04-04,2023,April,4,4,Spring,Bayamon,M,48,MCS,Bayamon,Sales de rehidratacion oral,Gastro,N,12.5,1,12.5
+2023-04-14,2023,April,4,14,Spring,Carolina,F,35,MCS,Carolina,Sales de rehidratacion oral,Gastro,N,12.5,2,25
+2023-09-01,2023,September,9,1,Summer,Carolina,M,70,MMM,Carolina,Insulina Pluma,Diabetes,Y,188,1,188
+2023-04-22,2023,April,4,22,Spring,Bayamon,F,50,MCS,Bayamon,Sales de rehidratacion oral,Gastro,N,12.5,1,12.5
+2023-04-10,2023,April,4,10,Spring,Bayamon,F,74,MMM,Bayamon,Sales de rehidratacion oral,Gastro,Y,12.5,1,12.5
+2023-05-07,2023,May,5,7,Spring,Humacao,M,42,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,12.1,5,60.5
+2023-09-05,2023,September,9,5,Summer,Mayaguez,M,76,MMM,Mayaguez,Tiras reactivas diabetes,Diabetes,Y,59.8,5,299
+2023-09-06,2023,September,9,6,Summer,Toa Baja,F,39,MCS,Toa Baja,Condroitina y Glucosamina,Suplementos,Y,84,1,84
+2023-09-07,2023,September,9,7,Summer,Caguas,M,63,MMM,Caguas,Diclofenaco Gel 1%,Analgesico,Y,29.5,1,29.5
+2023-09-08,2023,September,9,8,Summer,Arecibo,F,71,MMM,Arecibo,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-09-09,2023,September,9,9,Summer,Bayamon,M,50,MCS,Bayamon,Protector Solar,Otros,N,30.5,4,122
+2023-09-10,2023,September,9,10,Summer,Carolina,F,33,MCS,Carolina,Metformina 500 mg,Diabetes,Y,18.99,6,113.94
+2023-09-11,2023,September,9,11,Summer,Ponce,M,78,MMM,Ponce,Ibuprofeno 400 mg,Analgesico,Y,15.5,2,31
+2023-05-27,2023,May,5,27,Spring,Toa Baja,M,40,MCS,Toa Baja,Sales de rehidratacion oral,Gastro,N,12.1,1,12.1
+2023-09-13,2023,September,9,13,Summer,Humacao,M,44,MCS,Humacao,Vitamina D 2000UI,Suplementos,N,35.9,1,35.9
+2023-06-16,2023,June,6,16,Spring,Caguas,F,79,MMM,Caguas,Sales de rehidratacion oral,Gastro,Y,12.1,1,12.1
+2023-09-15,2023,September,9,15,Summer,Toa Baja,M,58,MCS,Toa Baja,Tiras reactivas diabetes,Diabetes,Y,59.8,4,239.2
+2023-07-10,2023,July,7,10,Summer,Humacao,F,52,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,12.1,1,12.1
+2023-09-17,2023,September,9,17,Fall,Arecibo,M,72,MMM,Arecibo,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2023-09-18,2023,September,9,18,Fall,Bayamon,F,65,MMM,Bayamon,Curitas Adhesivas,Otros,N,7.1,5,35.5
+2023-07-29,2023,July,7,29,Summer,Mayaguez,M,48,MCS,Mayaguez,Sales de rehidratacion oral,Gastro,N,12.1,1,12.1
+2023-08-24,2023,August,8,24,Summer,Guaynabo,F,75,MMM,Guaynabo,Sales de rehidratacion oral,Gastro,Y,12.1,1,12.1
+2023-09-21,2023,September,9,21,Fall,Guaynabo,M,53,MCS,Guaynabo,Diclofenaco Gel 1%,Analgesico,N,29.5,1,29.5
+2023-09-22,2023,September,9,22,Fall,Humacao,F,30,MCS,Humacao,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-09-23,2023,September,9,23,Fall,Mayaguez,M,69,MMM,Mayaguez,Insulina Pluma,Diabetes,Y,188,1,188
+2023-09-12,2023,September,9,12,Summer,Guaynabo,F,60,MMM,Guaynabo,Sales de rehidratacion oral,Gastro,Y,12.1,1,12.1
+2023-09-25,2023,September,9,25,Fall,Caguas,M,42,MCS,Caguas,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2023-10-01,2023,October,10,1,Fall,Humacao,M,50,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,12.1,1,12.1
+2023-09-27,2023,September,9,27,Fall,Bayamon,M,78,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-09-28,2023,September,9,28,Fall,Carolina,F,56,MCS,Carolina,Condroitina y Glucosamina,Otros,y,84,1,
+2023-09-29,2023,September,9,29,Fall,Ponce,M,37,MCS,Ponce,Protector Solar,Otros,N,30.5,3,91.5
+2023-09-30,2023,September,9,30,Fall,Guaynabo,F,71,MMM,Guaynabo,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2023-10-26,2023,October,10,26,Fall,Ponce,F,73,MMM,Ponce,Sales de rehidratacion oral,Gastro,Y,12.1,1,12.1
+2023-11-16,2023,November,11,16,Fall,Humacao,F,39,MCS,Humacao,Sales de rehidratacion oral,Gastro,N,12.1,1,12.1
+2023-12-12,2023,December,12,12,Fall,Guaynabo,F,35,MCS,Guaynabo,Sales de rehidratacion oral,Gastro,N,12.1,2,24.2
+2023-10-04,2023,October,10,4,Fall,Caguas,F,77,MMM,Caguas,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2024-06-16,2024,June,6,16,Spring,Bayamon,M,42,First Medical,Ponce,Toallitas humedas 80und,Bebes,N,18.42,2,36.84
+2023-10-06,2023,October,10,6,Fall,Bayamon,F,69,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.8,4,239.2
+2024-06-11,2024,June,6,11,Spring,Mayaguez,M,44,MMM,San Juan,Toallitas humedas 80und,Bebes,N,73.81,2,147.62
+2024-06-09,2024,June,6,9,Spring,Carolina,M,44,MMM,San Juan,Toallitas humedas 80und,Bebes,N,59.41,4,237.64
+2023-10-09,2023,October,10,9,Fall,Guaynabo,M,36,MCS,Guaynabo,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2023-10-10,2023,October,10,10,Fall,Humacao,F,74,MMM,Humacao,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-10-11,2023,October,10,11,Fall,Mayaguez,M,58,MCS,Mayaguez,Vitamina D 2000UI,Suplementos,N,35.9,1,35.9
+2024-06-01,2024,June,6,1,Spring,Arecibo,M,36,MMM,Guayama,Toallitas humedas 80und,Bebes,Y,84.11,3,252.33
+2023-10-13,2023,October,10,13,Fall,Caguas,M,61,MMM,Caguas,Insulina Pluma,Diabetes,Y,188,1,188
+2024-01-08,2024,January,1,8,Winter,Mayaguez,M,45,MCS,San juan,Venda Elastica,Otros,Y,11.2,1,11.2
+2024-01-02,2024,January,1,2,Winter,Mayaguez,F,29,MCS,Mayaguez,Venda Elastica,Otros,N,11.2,2,22.4
+2023-10-16,2023,October,10,16,Fall,Carolina,F,68,MMM,Carolina,Condroitina y Glucosamina,Otros,n,84,1,
+2023-10-17,2023,October,10,17,Fall,Ponce,M,71,MMM,Ponce,Metformina 500 mg,Diabetes,Y,18.99,6,113.94
+2023-10-18,2023,October,10,18,Fall,Guaynabo,F,50,MCS,Guaynabo,Protector Solar,Otros,N,30.5,4,122
+2023-10-19,2023,October,10,19,Fall,Humacao,M,33,MCS,Humacao,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-10-20,2023,October,10,20,Fall,Mayaguez,F,79,MMM,Mayaguez,Ibuprofeno 400 mg,Analgesico,Y,15.5,2,31
+2023-10-21,2023,October,10,21,Fall,Toa Baja,M,60,MMM,San Juan,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-10-22,2023,October,10,22,Fall,Caguas,F,42,MCS,Caguas,Vitamina C 1000 mg,Suplementos,N,23.5,3,70.5
+2024-01-31,2024,January,1,31,Winter,Carolina,F,39,MCS,Carolina,Venda Elastica,Otros,N,11.2,1,11.2
+2024-01-22,2024,January,1,22,Winter,Caguas,M,37,MCS,Caguas,Venda Elastica,Otros,N,11.2,1,11.2
+2023-10-25,2023,October,10,25,Fall,Carolina,M,35,MCS,Carolina,Diclofenaco Gel 1%,Analgesico,N,29.5,1,29.5
+2024-01-23,2024,January,1,23,Winter,Caguas,F,73,MMM,Caguas,Venda Elastica,Otros,N,11.2,2,22.4
+2024-02-25,2024,February,2,25,Winter,Mayaguez,F,62,MMM,Mayaguez,Venda Elastica,Otros,N,12.5,2,25
+2023-10-28,2023,October,10,28,Fall,Humacao,F,62,MMM,Humacao,Curitas Adhesivas,Otros,N,7.1,5,35.5
+2023-10-29,2023,October,10,29,Fall,Mayaguez,M,70,MMM,Mayaguez,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2024-03-14,2024,March,3,14,Spring,Ponce,M,35,MCS,Ponce,Venda Elastica,Otros,N,10.99,2,21.98
+2023-11-01,2023,November,11,1,Fall,Caguas,M,38,MCS,Caguas,Loperamida 2 mg,Gastro,N,11.99,1,11.99
+2024-03-05,2024,March,3,5,Spring,Guaynabo,M,68,MMM,San Juan,Venda Elastica,Otros,N,10.99,4,43.96
+2023-11-03,2023,November,11,3,Fall,Bayamon,M,65,MMM,Bayamon,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-11-04,2023,November,11,4,Fall,Carolina,F,52,MCS,Carolina,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2023-11-05,2023,November,11,5,Fall,Ponce,M,70,MMM,Ponce,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-11-06,2023,November,11,6,Fall,Guaynabo,F,43,MCS,Guaynabo,Vitamina D 2000UI,Suplementos,Y,35.9,1,35.9
+2024-04-14,2024,April,4,14,Spring,Toa Baja,M,70,MMM,San Juan,Venda Elastica,Otros,N,11.5,1,11.5
+2023-11-08,2023,November,11,8,Fall,Mayaguez,F,74,MMM,Mayaguez,Insulina Pluma,Diabetes,Y,188,1,188
+2024-05-13,2024,May,5,13,Spring,Carolina,M,48,MCS,Carolina,Venda Elastica,Otros,N,11.45,2,22.9
+2023-01-17,2023,January,1,17,Winter,Mayaguez,F,62,MMM,Mayaguez,Venda Elastica,Otros,N,12.99,2,25.98
+2023-11-11,2023,November,11,11,Fall,Arecibo,M,79,MMM,Arecibo,Condroitina y Glucosamina,Otros,N,39.99,1,
+2023-11-12,2023,November,11,12,Fall,Bayamon,F,60,MMM,Bayamon,Protector Solar,Otros,N,30.5,4,122
+2023-11-13,2023,November,11,13,Fall,Carolina,M,47,MCS,Carolina,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2023-11-14,2023,November,11,14,Fall,Ponce,F,71,MMM,Ponce,Tiras reactivas diabetes,Diabetes,Y,59.9,4,239.6
+2023-11-15,2023,November,11,15,Fall,Guaynabo,M,58,MCS,Guaynabo,Ibuprofeno 400 mg,Analgesico,N,15.5,2,31
+2023-01-09,2023,January,1,9,Winter,Arecibo,M,30,MCS,Arecibo,Venda Elastica,Otros,N,12.99,3,38.97
+2023-02-17,2023,February,2,17,Winter,Mayaguez,F,62,MMM,Mayaguez,Venda Elastica,Otros,N,12.5,2,25
+2023-02-14,2023,February,2,14,Winter,Arecibo,M,30,MCS,Arecibo,Venda Elastica,Otros,N,12.5,3,37.5
+2023-03-07,2023,March,3,7,Spring,Ponce,M,35,MCS,Ponce,Venda Elastica,Otros,N,11.25,2,22.5
+2023-11-20,2023,November,11,20,Fall,Arecibo,F,62,MMM,Arecibo,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2023-03-16,2023,March,3,16,Spring,Ponce,M,68,MMM,San Juan,Venda Elastica,Otros,N,11.25,4,45
+2023-11-22,2023,November,11,22,Fall,Carolina,F,54,MCS,Carolina,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-03-25,2023,March,3,25,Spring,Carolina,F,38,MCS,Carolina,Venda Elastica,Otros,N,11.25,3,33.75
+2023-11-24,2023,November,11,24,Fall,Guaynabo,F,75,MMM,Guaynabo,Vitamina C 1000 mg,Suplementos,Y,23.5,3,70.5
+2023-11-25,2023,November,11,25,Fall,Humacao,M,66,MMM,Humacao,Diclofenaco Gel 1%,Analgesico,Y,29.5,1,29.5
+2023-11-26,2023,November,11,26,Fall,Mayaguez,F,49,MCS,Mayaguez,Tiras reactivas diabetes,Diabetes,N,59.9,2,119.8
+2023-03-02,2023,March,3,2,Spring,Toa baja,F,52,MCS,Toa Baja,Venda Elastica,Otros,N,11.25,1,11.25
+2023-11-28,2023,November,11,28,Fall,Caguas,F,61,MMM,Caguas,Insulina Pluma,Diabetes,Y,188,1,188
+2023-03-19,2023,March,3,19,Spring,Guaynabo,M,42,MCS,Guaynabo,Venda Elastica,Otros,N,11.25,2,22.5
+2023-11-30,2023,November,11,30,Fall,Bayamon,F,70,MMM,Bayamon,Curitas Adhesivas,Otros,N,7.1,5,35.5
+2023-04-07,2023,April,4,7,Spring,Toa Baja,M,70,MMM,San Juan,Venda Elastica,Otros,N,11.9,1,11.9
+2023-12-02,2023,December,12,2,Fall,Ponce,F,64,MMM,Ponce,Condroitina y Glucosamina,Otros,N,29.99,1,
+2023-12-03,2023,December,12,3,Fall,Guaynabo,M,72,MMM,Guaynabo,Metformina 500 mg,Diabetes,Y,18.99,6,113.94
+2023-12-04,2023,December,12,4,Fall,Humacao,F,51,MCS,Humacao,Protector Solar,Otros,N,30.5,4,122
+2023-12-05,2023,December,12,5,Fall,Mayaguez,M,34,MCS,Mayaguez,Ibuprofeno 400 mg,Analgesico,Y,15.5,2,31
+2023-12-06,2023,December,12,6,Fall,Toa Baja,F,76,MMM,Toa Baja,Omeprazol 20 mg,Gastro,Y,24.99,1,
+2023-12-07,2023,December,12,7,Fall,Caguas,M,55,MCS,Caguas,Vitamina D 2000UI,Suplementos,N,35.9,1,35.9
+2023-04-23,2023,April,4,23,Spring,Ponce,F,44,MCS,Ponce,Venda Elastica,Otros,N,11.9,2,23.8
+2023-12-09,2023,December,12,9,Fall,Bayamon,M,42,MCS,Bayamon,Tiras reactivas diabetes,Diabetes,N,59.9,4,239.6
+2023-12-10,2023,December,12,10,Fall,Carolina,F,74,MMM,Carolina,Loperamida 2 mg,Gastro,Y,11.99,1,11.99
+2023-04-08,2023,April,4,8,Spring,Toa Baja,F,56,MCS,Toa Baja,Venda Elastica,Otros,N,11.9,2,23.8
+2023-05-13,2023,May,5,13,Spring,Carolina,M,48,MCS,Carolina,Venda Elastica,Otros,N,11.45,2,22.9
+2023-06-22,2023,June,6,22,Spring,Humacao,F,72,MMM,Humacao,Venda Elastica,Otros,N,11.45,2,22.9
+2023-07-16,2023,July,7,16,Summer,Carolina,F,66,MMM,Carolina,Venda Elastica,Otros,N,11.45,2,22.9
+2023-12-15,2023,December,12,15,Fall,Toa Baja,M,48,MCS,Toa Baja,Insulina Pluma,Diabetes,Y,188,1,188
+2023-12-16,2023,December,12,16,Winter,Caguas,F,60,MMM,Caguas,Diclofenaco Gel 1%,Analgesico,Y,29.5,1,29.5
+2023-12-17,2023,December,12,17,Winter,Arecibo,M,77,MMM,Arecibo,Omeprazol 20 mg,Gastro,Y,24.99,1,24.99
+2023-12-18,2023,December,12,18,Winter,Bayamon,F,39,MCS,Bayamon,Curitas Adhesivas,Otros,N,7.1,5,35.5
+2023-12-19,2023,December,12,19,Winter,Carolina,M,68,MMM,Carolina,Tiras reactivas diabetes,Diabetes,Y,59.9,3,179.7
+2023-08-06,2023,August,8,6,Summer,Guaynabo,F,70,MMM,Guaynabo,Venda Elastica,Otros,N,11.45,2,22.9
+2023-12-21,2023,December,12,21,Winter,Guaynabo,M,70,MMM,Guaynabo,Ibuprofeno 400 mg,Analgesico,Y,15.5,2,31
+2023-10-05,2023,October,10,5,Fall,Arecibo,M,45,MCS,Arecibo,Venda Elastica,Otros,N,11.45,3,34.35
+2023-12-23,2023,December,12,23,Winter,Mayaguez,M,63,MMM,Mayaguez,Metformina 500 mg,Diabetes,Y,18.99,5,94.95
+2023-11-02,2023,November,11,2,Fall,Arecibo,F,77,MMM,Arecibo,Venda Elastica,Otros,N,11.45,2,22.9
+2023-11-21,2023,November,11,21,Fall,Bayamon,M,73,MMM,Bayamon,Venda Elastica,Otros,N,11.45,2,22.9
+2023-10-06,2023,October,10,6,Fall,Guaynabo,F,75,MMM,Guaynabo,Vitamina C 1000 mg,Suplementos,Y,23.5,1,23.5
