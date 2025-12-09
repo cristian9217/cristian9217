@@ -4,7 +4,8 @@
 
 - 📕 I studied for a Bachelor's degree in Computer Science at UPRB.
 - 📖 I earned a Master's degree in Computer Science, specializing in Knowledge
-Discovery and Data Mining. I have strong interest in Big Data technologies and applications.
+Discovery and Data Mining. I am interested in Big Data within the field of data mining,
+especially in extracting useful insights from large datasets
 - 💻 I studied Artificial Intelligence (AI) and Principles of Information Security.
 - 📚 I learned Python and R during Masters.
 - 📚 I learned HTML, CSS, JavaScript, Java, and SQL during bachelors.
