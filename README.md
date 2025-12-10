@@ -28,3 +28,7 @@ Web link to Readme of Courses: [Click Here](courses/)
 -------------------------------------------------------------------------------------------------------------------------
 
 Web link to courses for the certifications: [Click Here](https://es.coursera.org/)
+
+-------------------------------------------------------------------------------------------------------------------------
+
+New Page: [Click here](https://cristian9217.github.io/insurance-page/index.html)
