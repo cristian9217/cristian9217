@@ -6,8 +6,9 @@ facilitating decision-making and planning more effective educational strategies.
 
 ## Description of the data
 
-Collection date: January 12 to 16, 2026.
-Total records: 500 respondents.
+**Collection date:** January 12 to 16, 2026.
+
+**Total records:** 500 respondents.
 
 | **Variable**     | Type of data |
 | ---------------- | ------------ |
