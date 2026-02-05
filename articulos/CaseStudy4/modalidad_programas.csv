@@ -1,0 +1,501 @@
+ID,Edad,Municipio,Nivel Educativo,Programa,Modalidad
+001,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+002,19,Toa Baja,Bachillerato,Ciencias de Computadoras,Híbrido
+003,17,Guaynabo,Bachillerato,Biología General,Presencial
+004,24,San Juan,Maestría,Administración de Empresas,Online
+005,21,Cataño,Bachillerato,Educación Física Especial,Presencial
+006,20,Dorado,Bachillerato,Gerencia de Materiales,Híbrido
+007,18,Vega Alta,Bachillerato,Sistemas de Oficina,Presencial
+008,22,Naranjito,Grado Asociado,Tecnología de Ing. Electrónica,Presencial
+009,26,Corozal,Certificado Esp.,Administración de Empresas,Online
+010,19,Toa Alta,Bachillerato,Educación Pre-Escolar,Híbrido
+011,20,Bayamón,Bachillerato,Ciencias de Computadoras,Presencial
+012,18,San Juan,Bachillerato,Biología Enfoque Humano,Presencial
+013,21,Guaynabo,Bachillerato,Biología General,Híbrido
+014,30,Toa Baja,Doctorado,Administración de Empresas,Online
+015,19,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+016,23,Cataño,Bachillerato,Gerencia de Materiales,Híbrido
+017,17,Dorado,Bachillerato,Educación Física Especial,Presencial
+018,20,Vega Baja,Bachillerato,Sistemas de Oficina,Online
+019,21,Toa Alta,Bachillerato,Biología Enfoque Humano,Presencial
+020,18,Bayamón,Bachillerato,Ciencias de Computadoras,Híbrido
+021,25,San Juan,Maestría,Biología General,Online
+022,19,Naranjito,Bachillerato,Educación Pre-Escolar,Presencial
+023,22,Toa Baja,Grado Asociado,Tecnología de Ing. Electrónica,Presencial
+024,18,Corozal,Bachillerato,Administración de Empresas,Híbrido
+025,20,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+026,27,Guaynabo,Certificado Esp.,Gerencia de Materiales,Online
+027,21,San Juan,Bachillerato,Sistemas de Oficina,Presencial
+028,19,Cataño,Bachillerato,Ciencias de Computadoras,Híbrido
+029,18,Dorado,Bachillerato,Educación Física Especial,Presencial
+030,20,Toa Alta,Bachillerato,Biología General,Presencial
+031,17,Bayamón,Bachillerato,Educación Pre-Escolar,Híbrido
+032,22,Toa Baja,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+033,24,San Juan,Maestría,Gerencia de Materiales,Online
+034,21,Vega Alta,Bachillerato,Administración de Empresas,Presencial
+035,18,Bayamón,Bachillerato,Ciencias de Computadoras,Híbrido
+036,19,Guaynabo,Bachillerato,Biología Enfoque Humano,Presencial
+037,20,Naranjito,Bachillerato,Sistemas de Oficina,Online
+038,18,Toa Alta,Bachillerato,Educación Física Especial,Presencial
+039,23,Cataño,Bachillerato,Biología General,Híbrido
+040,21,Corozal,Bachillerato,Educación Pre-Escolar,Presencial
+041,19,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Online
+042,30,San Juan,Doctorado,Administración de Empresas,Híbrido
+043,18,Toa Baja,Bachillerato,Ciencias de Computadoras,Presencial
+044,20,Dorado,Bachillerato,Biología Enfoque Humano,Presencial
+045,22,Vega Baja,Grado Asociado,Gerencia de Materiales,Online
+046,17,Bayamón,Bachillerato,Biología General,Presencial
+047,19,Guaynabo,Bachillerato,Sistemas de Oficina,Híbrido
+048,21,Toa Alta,Bachillerato,Educación Física Especial,Presencial
+049,24,San Juan,Certificado Esp.,Tecnología de Ing. Electrónica,Online
+050,18,Cataño,Bachillerato,Educación Pre-Escolar,Presencial
+051,20,Naranjito,Bachillerato,Ciencias de Computadoras,Híbrido
+052,21,Toa Baja,Bachillerato,Biología Enfoque Humano,Presencial
+053,19,Bayamón,Bachillerato,Administración de Empresas,Presencial
+054,18,Corozal,Bachillerato,Biología General,Híbrido
+055,25,San Juan,Maestría,Sistemas de Oficina,Online
+056,20,Dorado,Bachillerato,Gerencia de Materiales,Presencial
+057,19,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+058,17,Bayamón,Bachillerato,Educación Física Especial,Presencial
+059,22,Guaynabo,Bachillerato,Ciencias de Computadoras,Online
+060,21,Toa Baja,Bachillerato,Biología Enfoque Humano,Presencial
+061,18,Naranjito,Bachillerato,Educación Pre-Escolar,Híbrido
+062,23,Cataño,Bachillerato,Administración de Empresas,Presencial
+063,20,San Juan,Bachillerato,Biología General,Presencial
+064,19,Bayamón,Bachillerato,Sistemas de Oficina,Online
+065,28,Vega Alta,Doctorado,Gerencia de Materiales,Híbrido
+066,21,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+067,18,Dorado,Bachillerato,Ciencias de Computadoras,Presencial
+068,20,Guaynabo,Bachillerato,Biología Enfoque Humano,Híbrido
+069,19,Bayamón,Bachillerato,Educación Física Especial,Online
+070,22,Toa Baja,Grado Asociado,Administración de Empresas,Presencial
+071,17,San Juan,Bachillerato,Biología General,Presencial
+072,20,Cataño,Bachillerato,Educación Pre-Escolar,Híbrido
+073,21,Naranjito,Bachillerato,Sistemas de Oficina,Presencial
+074,18,Corozal,Bachillerato,Ciencias de Computadoras,Online
+075,19,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+076,24,Guaynabo,Maestría,Gerencia de Materiales,Híbrido
+077,21,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+078,18,San Juan,Bachillerato,Administración de Empresas,Presencial
+079,20,Bayamón,Bachillerato,Biología General,Online
+080,19,Toa Baja,Bachillerato,Educación Física Especial,Híbrido
+081,17,Dorado,Bachillerato,Educación Pre-Escolar,Presencial
+082,22,Cataño,Bachillerato,Sistemas de Oficina,Presencial
+083,25,San Juan,Certificado Esp.,Ciencias de Computadoras,Online
+084,19,Bayamón,Bachillerato,Biología Enfoque Humano,Híbrido
+085,21,Guaynabo,Bachillerato,Administración de Empresas,Presencial
+086,18,Naranjito,Bachillerato,Gerencia de Materiales,Presencial
+087,20,Toa Baja,Bachillerato,Tecnología de Ing. Electrónica,Online
+088,19,Bayamón,Bachillerato,Biología General,Híbrido
+089,23,San Juan,Bachillerato,Educación Física Especial,Presencial
+090,18,Dorado,Bachillerato,Ciencias de Computadoras,Presencial
+091,21,Toa Alta,Bachillerato,Educación Pre-Escolar,Online
+092,20,Bayamón,Bachillerato,Biología Enfoque Humano,Híbrido
+093,17,Cataño,Bachillerato,Sistemas de Oficina,Presencial
+094,26,Guaynabo,Maestría,Administración de Empresas,Online
+095,19,Toa Baja,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+096,21,San Juan,Bachillerato,Gerencia de Materiales,Híbrido
+097,18,Naranjito,Bachillerato,Biología General,Presencial
+098,20,Bayamón,Bachillerato,Educación Física Especial,Online
+099,22,Toa Alta,Grado Asociado,Ciencias de Computadoras,Presencial
+100,19,Dorado,Bachillerato,Biología Enfoque Humano,Híbrido
+101,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+102,20,Vega Baja,Bachillerato,Ciencias de Computadoras,Online
+103,19,Toa Alta,Bachillerato,Administración de Empresas,Híbrido
+104,17,Guaynabo,Bachillerato,Educación Pre-Escolar,Presencial
+105,21,Corozal,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+106,25,San Juan,Maestría,Gerencia de Materiales,Híbrido
+107,18,Naranjito,Bachillerato,Biología General,Presencial
+108,20,Bayamón,Bachillerato,Sistemas de Oficina,Online
+109,22,Toa Baja,Grado Asociado,Educación Física Especial,Presencial
+110,19,Cataño,Bachillerato,Ciencias de Computadoras,Híbrido
+111,24,Dorado,Certificado Esp.,Administración de Empresas,Online
+112,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+113,20,San Juan,Bachillerato,Biología General,Presencial
+114,21,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+115,19,Guaynabo,Bachillerato,Sistemas de Oficina,Presencial
+116,17,Bayamón,Bachillerato,Educación Pre-Escolar,Presencial
+117,20,Toa Baja,Bachillerato,Gerencia de Materiales,Online
+118,23,Naranjito,Bachillerato,Ciencias de Computadoras,Híbrido
+119,18,Corozal,Bachillerato,Biología Enfoque Humano,Presencial
+120,21,Vega Alta,Bachillerato,Educación Física Especial,Híbrido
+121,19,Bayamón,Bachillerato,Administración de Empresas,Presencial
+122,26,San Juan,Maestría,Biología General,Online
+123,20,Dorado,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+124,18,Cataño,Bachillerato,Sistemas de Oficina,Híbrido
+125,22,Toa Baja,Grado Asociado,Ciencias de Computadoras,Presencial
+126,19,Bayamón,Bachillerato,Educación Pre-Escolar,Online
+127,21,Toa Alta,Bachillerato,Biología Enfoque Humano,Presencial
+128,30,San Juan,Doctorado,Gerencia de Materiales,Híbrido
+129,18,Guaynabo,Bachillerato,Administración de Empresas,Presencial
+130,20,Naranjito,Bachillerato,Biología General,Presencial
+131,19,Corozal,Bachillerato,Educación Física Especial,Híbrido
+132,17,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+133,21,Toa Baja,Bachillerato,Ciencias de Computadoras,Online
+134,25,Vega Baja,Certificado Esp.,Sistemas de Oficina,Presencial
+135,18,Dorado,Bachillerato,Biología Enfoque Humano,Híbrido
+136,20,Bayamón,Bachillerato,Educación Pre-Escolar,Presencial
+137,19,San Juan,Bachillerato,Administración de Empresas,Online
+138,22,Cataño,Grado Asociado,Gerencia de Materiales,Presencial
+139,18,Toa Alta,Bachillerato,Biología General,Híbrido
+140,21,Naranjito,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+141,20,Bayamón,Bachillerato,Ciencias de Computadoras,Presencial
+142,19,Guaynabo,Bachillerato,Educación Física Especial,Online
+143,18,Toa Baja,Bachillerato,Biología Enfoque Humano,Híbrido
+144,23,Corozal,Bachillerato,Sistemas de Oficina,Presencial
+145,17,Bayamón,Bachillerato,Administración de Empresas,Presencial
+146,21,San Juan,Bachillerato,Gerencia de Materiales,Híbrido
+147,19,Dorado,Bachillerato,Educación Pre-Escolar,Online
+148,20,Vega Alta,Bachillerato,Biología General,Presencial
+149,24,Bayamón,Maestría,Tecnología de Ing. Electrónica,Online
+150,18,Toa Alta,Bachillerato,Ciencias de Computadoras,Presencial
+151,19,Guaynabo,Bachillerato,Biología Enfoque Humano,Híbrido
+152,21,Toa Baja,Bachillerato,Sistemas de Oficina,Presencial
+153,20,Naranjito,Bachillerato,Educación Física Especial,Online
+154,18,Bayamón,Bachillerato,Administración de Empresas,Presencial
+155,22,San Juan,Grado Asociado,Gerencia de Materiales,Híbrido
+156,19,Cataño,Bachillerato,Biología General,Presencial
+157,17,Corozal,Bachillerato,Educación Pre-Escolar,Presencial
+158,20,Dorado,Bachillerato,Tecnología de Ing. Electrónica,Online
+159,21,Toa Alta,Bachillerato,Ciencias de Computadoras,Híbrido
+160,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+161,25,San Juan,Certificado Esp.,Sistemas de Oficina,Online
+162,19,Guaynabo,Bachillerato,Administración de Empresas,Presencial
+163,20,Toa Baja,Bachillerato,Biología General,Híbrido
+164,18,Bayamón,Bachillerato,Gerencia de Materiales,Presencial
+165,23,Naranjito,Bachillerato,Tecnología de Ing. Electrónica,Online
+166,19,Dorado,Bachillerato,Educación Física Especial,Presencial
+167,21,Corozal,Bachillerato,Ciencias de Computadoras,Híbrido
+168,17,Vega Baja,Bachillerato,Biología Enfoque Humano,Presencial
+169,20,Bayamón,Bachillerato,Educación Pre-Escolar,Presencial
+170,22,San Juan,Maestría,Administración de Empresas,Online
+171,19,Toa Alta,Bachillerato,Sistemas de Oficina,Híbrido
+172,18,Toa Baja,Bachillerato,Biología General,Presencial
+173,21,Cataño,Bachillerato,Gerencia de Materiales,Presencial
+174,20,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Online
+175,19,Guaynabo,Bachillerato,Ciencias de Computadoras,Híbrido
+176,18,Naranjito,Bachillerato,Biología Enfoque Humano,Presencial
+177,24,San Juan,Bachillerato,Educación Física Especial,Presencial
+178,21,Dorado,Bachillerato,Administración de Empresas,Híbrido
+179,17,Bayamón,Bachillerato,Educación Pre-Escolar,Online
+180,20,Toa Alta,Bachillerato,Sistemas de Oficina,Presencial
+181,19,Toa Baja,Bachillerato,Biología General,Presencial
+182,22,Corozal,Grado Asociado,Ciencias de Computadoras,Híbrido
+183,18,Bayamón,Bachillerato,Gerencia de Materiales,Presencial
+184,20,San Juan,Bachillerato,Tecnología de Ing. Electrónica,Online
+185,19,Guaynabo,Bachillerato,Biología Enfoque Humano,Presencial
+186,21,Cataño,Bachillerato,Educación Física Especial,Híbrido
+187,18,Naranjito,Bachillerato,Administración de Empresas,Presencial
+188,20,Bayamón,Bachillerato,Sistemas de Oficina,Online
+189,28,Dorado,Doctorado,Biología General,Presencial
+190,19,Toa Alta,Bachillerato,Ciencias de Computadoras,Híbrido
+191,17,Toa Baja,Bachillerato,Educación Pre-Escolar,Presencial
+192,21,Bayamón,Bachillerato,Gerencia de Materiales,Online
+193,19,San Juan,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+194,20,Corozal,Bachillerato,Biología Enfoque Humano,Presencial
+195,18,Vega Alta,Bachillerato,Administración de Empresas,Presencial
+196,22,Guaynabo,Bachillerato,Educación Física Especial,Online
+197,19,Bayamón,Bachillerato,Biología General,Híbrido
+198,21,Toa Alta,Bachillerato,Ciencias de Computadoras,Presencial
+199,18,Cataño,Bachillerato,Sistemas de Oficina,Presencial
+200,20,San Juan,Bachillerato,Educación Pre-Escolar,Online
+201,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+202,19,Toa Baja,Bachillerato,Ciencias de Computadoras,Híbrido
+203,24,San Juan,Certificado Esp.,Gerencia de Materiales,Online
+204,17,Guaynabo,Bachillerato,Educación Pre-Escolar,Presencial
+205,21,Cataño,Bachillerato,Administración de Empresas,Presencial
+206,20,Dorado,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+207,18,Naranjito,Bachillerato,Biología General,Online
+208,22,Corozal,Grado Asociado,Sistemas de Oficina,Presencial
+209,26,Vega Baja,Maestría,Biología Enfoque Humano,Online
+210,19,Toa Alta,Bachillerato,Educación Física Especial,Presencial
+211,20,Bayamón,Bachillerato,Ciencias de Computadoras,Híbrido
+212,18,San Juan,Bachillerato,Administración de Empresas,Presencial
+213,21,Guaynabo,Bachillerato,Gerencia de Materiales,Online
+214,30,Toa Baja,Doctorado,Biología General,Híbrido
+215,19,Bayamón,Bachillerato,Sistemas de Oficina,Presencial
+216,23,Cataño,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+217,17,Dorado,Bachillerato,Educación Pre-Escolar,Presencial
+218,20,Vega Alta,Bachillerato,Ciencias de Computadoras,Online
+219,21,Toa Alta,Bachillerato,Biología Enfoque Humano,Presencial
+220,18,Bayamón,Bachillerato,Educación Física Especial,Híbrido
+221,25,San Juan,Maestría,Administración de Empresas,Online
+222,19,Naranjito,Bachillerato,Gerencia de Materiales,Presencial
+223,22,Toa Baja,Grado Asociado,Tecnología de Ing. Electrónica,Presencial
+224,18,Corozal,Bachillerato,Sistemas de Oficina,Híbrido
+225,20,Bayamón,Bachillerato,Biología General,Presencial
+226,27,Guaynabo,Certificado Esp.,Ciencias de Computadoras,Online
+227,21,San Juan,Bachillerato,Educación Pre-Escolar,Presencial
+228,19,Cataño,Bachillerato,Biología Enfoque Humano,Híbrido
+229,18,Dorado,Bachillerato,Administración de Empresas,Presencial
+230,20,Toa Alta,Bachillerato,Gerencia de Materiales,Presencial
+231,17,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+232,22,Toa Baja,Bachillerato,Sistemas de Oficina,Presencial
+233,24,San Juan,Maestría,Biología General,Online
+234,21,Vega Alta,Bachillerato,Educación Física Especial,Presencial
+235,18,Bayamón,Bachillerato,Ciencias de Computadoras,Híbrido
+236,19,Guaynabo,Bachillerato,Biología Enfoque Humano,Presencial
+237,20,Naranjito,Bachillerato,Administración de Empresas,Online
+238,18,Toa Alta,Bachillerato,Educación Pre-Escolar,Presencial
+239,23,Cataño,Bachillerato,Gerencia de Materiales,Híbrido
+240,21,Corozal,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+241,19,Bayamón,Bachillerato,Sistemas de Oficina,Online
+242,29,San Juan,Doctorado,Biología Enfoque Humano,Híbrido
+243,18,Toa Baja,Bachillerato,Biología General,Presencial
+244,20,Dorado,Bachillerato,Ciencias de Computadoras,Presencial
+245,22,Vega Baja,Grado Asociado,Educación Física Especial,Online
+246,17,Bayamón,Bachillerato,Administración de Empresas,Presencial
+247,19,Guaynabo,Bachillerato,Gerencia de Materiales,Híbrido
+248,21,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+249,24,San Juan,Certificado Esp.,Sistemas de Oficina,Online
+250,18,Cataño,Bachillerato,Biología Enfoque Humano,Presencial
+251,20,Naranjito,Bachillerato,Educación Pre-Escolar,Híbrido
+252,21,Toa Baja,Bachillerato,Biología General,Presencial
+253,19,Bayamón,Bachillerato,Ciencias de Computadoras,Presencial
+254,18,Corozal,Bachillerato,Educación Física Especial,Híbrido
+255,25,San Juan,Maestría,Gerencia de Materiales,Online
+256,20,Dorado,Bachillerato,Administración de Empresas,Presencial
+257,19,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+258,17,Bayamón,Bachillerato,Sistemas de Oficina,Presencial
+259,22,Guaynabo,Bachillerato,Biología Enfoque Humano,Online
+260,21,Toa Baja,Bachillerato,Biología General,Presencial
+261,18,Naranjito,Bachillerato,Ciencias de Computadoras,Híbrido
+262,23,Cataño,Bachillerato,Educación Pre-Escolar,Presencial
+263,20,San Juan,Bachillerato,Gerencia de Materiales,Presencial
+264,19,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Online
+265,28,Vega Alta,Doctorado,Administración de Empresas,Híbrido
+266,21,Toa Alta,Bachillerato,Sistemas de Oficina,Presencial
+267,18,Dorado,Bachillerato,Biología Enfoque Humano,Presencial
+268,20,Guaynabo,Bachillerato,Educación Física Especial,Híbrido
+269,19,Bayamón,Bachillerato,Biología General,Online
+270,22,Toa Baja,Grado Asociado,Ciencias de Computadoras,Presencial
+271,17,San Juan,Bachillerato,Gerencia de Materiales,Presencial
+272,20,Cataño,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+273,21,Naranjito,Bachillerato,Administración de Empresas,Presencial
+274,18,Corozal,Bachillerato,Sistemas de Oficina,Online
+275,19,Bayamón,Bachillerato,Educación Pre-Escolar,Presencial
+276,24,Guaynabo,Maestría,Biología Enfoque Humano,Híbrido
+277,21,Toa Alta,Bachillerato,Biología General,Presencial
+278,18,San Juan,Bachillerato,Ciencias de Computadoras,Presencial
+279,20,Bayamón,Bachillerato,Educación Física Especial,Online
+280,19,Toa Baja,Bachillerato,Gerencia de Materiales,Híbrido
+281,17,Dorado,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+282,22,Cataño,Bachillerato,Administración de Empresas,Presencial
+283,25,San Juan,Certificado Esp.,Sistemas de Oficina,Online
+284,19,Bayamón,Bachillerato,Biología Enfoque Humano,Híbrido
+285,21,Guaynabo,Bachillerato,Biología General,Presencial
+286,18,Naranjito,Bachillerato,Ciencias de Computadoras,Presencial
+287,20,Toa Baja,Bachillerato,Educación Pre-Escolar,Online
+288,19,Bayamón,Bachillerato,Gerencia de Materiales,Híbrido
+289,23,San Juan,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+290,18,Dorado,Bachillerato,Educación Física Especial,Presencial
+291,21,Toa Alta,Bachillerato,Sistemas de Oficina,Online
+292,20,Bayamón,Bachillerato,Biología Enfoque Humano,Híbrido
+293,17,Cataño,Bachillerato,Administración de Empresas,Presencial
+294,26,Guaynabo,Maestría,Gerencia de Materiales,Online
+295,19,Toa Baja,Bachillerato,Ciencias de Computadoras,Presencial
+296,21,San Juan,Bachillerato,Biología General,Híbrido
+297,18,Naranjito,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+298,20,Bayamón,Bachillerato,Educación Pre-Escolar,Online
+299,22,Toa Alta,Grado Asociado,Sistemas de Oficina,Presencial
+300,19,Dorado,Bachillerato,Ciencias de Computadoras,Híbrido
+301,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+302,19,San Juan,Bachillerato,Ciencias de Computadoras,Híbrido
+303,17,Toa Baja,Bachillerato,Administración de Empresas,Presencial
+304,24,Guaynabo,Maestría,Gerencia de Materiales,Online
+305,21,Cataño,Bachillerato,Educación Física Especial,Presencial
+306,20,Dorado,Bachillerato,Sistemas de Oficina,Híbrido
+307,18,Vega Alta,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+308,22,Naranjito,Grado Asociado,Biología General,Presencial
+309,26,Corozal,Certificado Esp.,Administración de Empresas,Online
+310,19,Toa Alta,Bachillerato,Educación Pre-Escolar,Híbrido
+311,20,Bayamón,Bachillerato,Ciencias de Computadoras,Presencial
+312,18,San Juan,Bachillerato,Biología Enfoque Humano,Presencial
+313,21,Guaynabo,Bachillerato,Biología General,Híbrido
+314,30,Toa Baja,Doctorado,Gerencia de Materiales,Online
+315,19,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+316,23,Cataño,Bachillerato,Sistemas de Oficina,Híbrido
+317,17,Dorado,Bachillerato,Educación Física Especial,Presencial
+318,20,Vega Baja,Bachillerato,Administración de Empresas,Online
+319,21,Toa Alta,Bachillerato,Biología Enfoque Humano,Presencial
+320,18,Bayamón,Bachillerato,Ciencias de Computadoras,Híbrido
+321,25,San Juan,Maestría,Educación Pre-Escolar,Online
+322,19,Naranjito,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+323,22,Toa Baja,Grado Asociado,Gerencia de Materiales,Presencial
+324,18,Corozal,Bachillerato,Biología General,Híbrido
+325,20,Bayamón,Bachillerato,Sistemas de Oficina,Presencial
+326,27,Guaynabo,Certificado Esp.,Administración de Empresas,Online
+327,21,San Juan,Bachillerato,Biología Enfoque Humano,Presencial
+328,19,Cataño,Bachillerato,Ciencias de Computadoras,Híbrido
+329,18,Dorado,Bachillerato,Educación Física Especial,Presencial
+330,20,Toa Alta,Bachillerato,Biología General,Presencial
+331,17,Bayamón,Bachillerato,Educación Pre-Escolar,Híbrido
+332,22,Toa Baja,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+333,24,San Juan,Maestría,Gerencia de Materiales,Online
+334,21,Vega Alta,Bachillerato,Administración de Empresas,Presencial
+335,18,Bayamón,Bachillerato,Ciencias de Computadoras,Híbrido
+336,19,Guaynabo,Bachillerato,Biología Enfoque Humano,Presencial
+337,20,Naranjito,Bachillerato,Sistemas de Oficina,Online
+338,18,Toa Alta,Bachillerato,Educación Física Especial,Presencial
+339,23,Cataño,Bachillerato,Biología General,Híbrido
+340,21,Corozal,Bachillerato,Educación Pre-Escolar,Presencial
+341,19,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Online
+342,30,San Juan,Doctorado,Administración de Empresas,Híbrido
+343,18,Toa Baja,Bachillerato,Ciencias de Computadoras,Presencial
+344,20,Dorado,Bachillerato,Biología Enfoque Humano,Presencial
+345,22,Vega Baja,Grado Asociado,Gerencia de Materiales,Online
+346,17,Bayamón,Bachillerato,Biología General,Presencial
+347,19,Guaynabo,Bachillerato,Sistemas de Oficina,Híbrido
+348,21,Toa Alta,Bachillerato,Educación Física Especial,Presencial
+349,24,San Juan,Certificado Esp.,Tecnología de Ing. Electrónica,Online
+350,18,Cataño,Bachillerato,Educación Pre-Escolar,Presencial
+351,20,Naranjito,Bachillerato,Ciencias de Computadoras,Híbrido
+352,21,Toa Baja,Bachillerato,Biología Enfoque Humano,Presencial
+353,19,Bayamón,Bachillerato,Administración de Empresas,Presencial
+354,18,Corozal,Bachillerato,Biología General,Híbrido
+355,25,San Juan,Maestría,Sistemas de Oficina,Online
+356,20,Dorado,Bachillerato,Gerencia de Materiales,Presencial
+357,19,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+358,17,Bayamón,Bachillerato,Educación Física Especial,Presencial
+359,22,Guaynabo,Bachillerato,Ciencias de Computadoras,Online
+360,21,Toa Baja,Bachillerato,Biología Enfoque Humano,Presencial
+361,18,Naranjito,Bachillerato,Educación Pre-Escolar,Híbrido
+362,23,Cataño,Bachillerato,Administración de Empresas,Presencial
+363,20,San Juan,Bachillerato,Biología General,Presencial
+364,19,Bayamón,Bachillerato,Sistemas de Oficina,Online
+365,28,Vega Alta,Doctorado,Gerencia de Materiales,Híbrido
+366,21,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+367,18,Dorado,Bachillerato,Ciencias de Computadoras,Presencial
+368,20,Guaynabo,Bachillerato,Biología Enfoque Humano,Híbrido
+369,19,Bayamón,Bachillerato,Educación Física Especial,Online
+370,22,Toa Baja,Grado Asociado,Administración de Empresas,Presencial
+371,17,San Juan,Bachillerato,Biología General,Presencial
+372,20,Cataño,Bachillerato,Educación Pre-Escolar,Híbrido
+373,21,Naranjito,Bachillerato,Sistemas de Oficina,Presencial
+374,18,Corozal,Bachillerato,Ciencias de Computadoras,Online
+375,19,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+376,24,Guaynabo,Maestría,Gerencia de Materiales,Híbrido
+377,21,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+378,18,San Juan,Bachillerato,Administración de Empresas,Presencial
+379,20,Bayamón,Bachillerato,Biología General,Online
+380,19,Toa Baja,Bachillerato,Educación Física Especial,Híbrido
+381,17,Dorado,Bachillerato,Educación Pre-Escolar,Presencial
+382,22,Cataño,Bachillerato,Sistemas de Oficina,Presencial
+383,25,San Juan,Certificado Esp.,Ciencias de Computadoras,Online
+384,19,Bayamón,Bachillerato,Biología Enfoque Humano,Híbrido
+385,21,Guaynabo,Bachillerato,Administración de Empresas,Presencial
+386,18,Naranjito,Bachillerato,Gerencia de Materiales,Presencial
+387,20,Toa Baja,Bachillerato,Tecnología de Ing. Electrónica,Online
+388,19,Bayamón,Bachillerato,Biología General,Híbrido
+389,23,San Juan,Bachillerato,Educación Física Especial,Presencial
+390,18,Dorado,Bachillerato,Ciencias de Computadoras,Presencial
+391,21,Toa Alta,Bachillerato,Educación Pre-Escolar,Online
+392,20,Bayamón,Bachillerato,Biología Enfoque Humano,Híbrido
+393,17,Cataño,Bachillerato,Sistemas de Oficina,Presencial
+394,26,Guaynabo,Maestría,Administración de Empresas,Online
+395,19,Toa Baja,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+396,21,San Juan,Bachillerato,Gerencia de Materiales,Híbrido
+397,18,Naranjito,Bachillerato,Biología General,Presencial
+398,20,Bayamón,Bachillerato,Educación Física Especial,Online
+399,22,Toa Alta,Grado Asociado,Ciencias de Computadoras,Presencial
+400,19,Dorado,Bachillerato,Biología Enfoque Humano,Híbrido
+401,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+402,20,San Juan,Bachillerato,Sistemas de Oficina,Híbrido
+403,19,Toa Baja,Bachillerato,Ciencias de Computadoras,Online
+404,17,Guaynabo,Bachillerato,Biología General,Presencial
+405,22,Naranjito,Grado Asociado,Gerencia de Materiales,Presencial
+406,21,Cataño,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+407,25,Corozal,Maestría,Administración de Empresas,Online
+408,18,Dorado,Bachillerato,Educación Pre-Escolar,Presencial
+409,20,Vega Alta,Bachillerato,Educación Física Especial,Presencial
+410,19,Toa Alta,Bachillerato,Ciencias de Computadoras,Híbrido
+411,18,Bayamón,Bachillerato,Biología Enfoque Humano,Online
+412,23,San Juan,Bachillerato,Gerencia de Materiales,Presencial
+413,20,Toa Baja,Bachillerato,Sistemas de Oficina,Híbrido
+414,21,Guaynabo,Bachillerato,Biología General,Presencial
+415,17,Bayamón,Bachillerato,Ciencias de Computadoras,Presencial
+416,19,Naranjito,Bachillerato,Tecnología de Ing. Electrónica,Online
+417,20,Dorado,Bachillerato,Administración de Empresas,Híbrido
+418,30,San Juan,Doctorado,Biología Enfoque Humano,Presencial
+419,18,Toa Alta,Bachillerato,Educación Pre-Escolar,Presencial
+420,22,Corozal,Grado Asociado,Educación Física Especial,Híbrido
+421,19,Bayamón,Bachillerato,Gerencia de Materiales,Online
+422,21,Cataño,Bachillerato,Biología General,Presencial
+423,24,Guaynabo,Certificado Esp.,Tecnología de Ing. Electrónica,Híbrido
+424,18,Toa Baja,Bachillerato,Sistemas de Oficina,Presencial
+425,20,San Juan,Bachillerato,Ciencias de Computadoras,Online
+426,19,Vega Baja,Bachillerato,Biología Enfoque Humano,Presencial
+427,17,Dorado,Bachillerato,Administración de Empresas,Híbrido
+428,21,Bayamón,Bachillerato,Educación Pre-Escolar,Presencial
+429,26,Toa Alta,Maestría,Biología General,Online
+430,18,Naranjito,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+431,20,San Juan,Bachillerato,Gerencia de Materiales,Híbrido
+432,19,Guaynabo,Bachillerato,Ciencias de Computadoras,Presencial
+433,22,Toa Baja,Bachillerato,Educación Física Especial,Online
+434,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+435,21,Cataño,Bachillerato,Sistemas de Oficina,Híbrido
+436,17,Corozal,Bachillerato,Biología General,Presencial
+437,20,Dorado,Bachillerato,Administración de Empresas,Online
+438,19,Toa Alta,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+439,23,San Juan,Bachillerato,Educación Pre-Escolar,Híbrido
+440,18,Bayamón,Bachillerato,Gerencia de Materiales,Presencial
+441,21,Vega Alta,Bachillerato,Ciencias de Computadoras,Online
+442,19,Guaynabo,Bachillerato,Biología Enfoque Humano,Presencial
+443,20,Toa Baja,Bachillerato,Biología General,Híbrido
+444,25,Naranjito,Certificado Esp.,Sistemas de Oficina,Presencial
+445,18,San Juan,Bachillerato,Administración de Empresas,Presencial
+446,22,Cataño,Grado Asociado,Tecnología de Ing. Electrónica,Online
+447,19,Bayamón,Bachillerato,Educación Física Especial,Híbrido
+448,17,Dorado,Bachillerato,Biología Enfoque Humano,Presencial
+449,21,Toa Alta,Bachillerato,Ciencias de Computadoras,Presencial
+450,20,Corozal,Bachillerato,Gerencia de Materiales,Online
+451,19,San Juan,Bachillerato,Sistemas de Oficina,Híbrido
+452,18,Guaynabo,Bachillerato,Biología General,Presencial
+453,24,Bayamón,Maestría,Administración de Empresas,Online
+454,21,Toa Baja,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+455,17,Naranjito,Bachillerato,Educación Pre-Escolar,Híbrido
+456,20,Dorado,Bachillerato,Biología Enfoque Humano,Presencial
+457,19,Cataño,Bachillerato,Ciencias de Computadoras,Online
+458,22,Vega Baja,Bachillerato,Gerencia de Materiales,Presencial
+459,18,San Juan,Bachillerato,Educación Física Especial,Híbrido
+460,21,Toa Alta,Bachillerato,Biología General,Presencial
+461,29,Bayamón,Doctorado,Administración de Empresas,Online
+462,19,Guaynabo,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+463,20,Toa Baja,Bachillerato,Sistemas de Oficina,Presencial
+464,18,Corozal,Bachillerato,Ciencias de Computadoras,Presencial
+465,17,San Juan,Bachillerato,Biología Enfoque Humano,Online
+466,21,Naranjito,Bachillerato,Biología General,Híbrido
+467,20,Bayamón,Bachillerato,Gerencia de Materiales,Presencial
+468,19,Dorado,Bachillerato,Educación Pre-Escolar,Presencial
+469,23,Cataño,Bachillerato,Tecnología de Ing. Electrónica,Online
+470,18,Toa Alta,Bachillerato,Administración de Empresas,Híbrido
+471,22,Guaynabo,Grado Asociado,Biología Enfoque Humano,Presencial
+472,21,San Juan,Bachillerato,Sistemas de Oficina,Presencial
+473,19,Toa Baja,Bachillerato,Ciencias de Computadoras,Online
+474,17,Bayamón,Bachillerato,Biología General,Híbrido
+475,20,Naranjito,Bachillerato,Educación Física Especial,Presencial
+476,25,Corozal,Maestría,Gerencia de Materiales,Online
+477,18,Dorado,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+478,21,San Juan,Bachillerato,Biología Enfoque Humano,Híbrido
+479,19,Toa Alta,Bachillerato,Administración de Empresas,Presencial
+480,20,Bayamón,Bachillerato,Sistemas de Oficina,Online
+481,22,Toa Baja,Bachillerato,Ciencias de Computadoras,Híbrido
+482,18,Cataño,Bachillerato,Educación Pre-Escolar,Presencial
+483,21,Guaynabo,Bachillerato,Biología General,Presencial
+484,19,Naranjito,Bachillerato,Gerencia de Materiales,Online
+485,17,Dorado,Bachillerato,Tecnología de Ing. Electrónica,Híbrido
+486,20,San Juan,Bachillerato,Educación Física Especial,Presencial
+487,18,Bayamón,Bachillerato,Biología Enfoque Humano,Presencial
+488,24,Toa Alta,Certificado Esp.,Sistemas de Oficina,Online
+489,21,Corozal,Bachillerato,Administración de Empresas,Híbrido
+490,19,Vega Alta,Bachillerato,Ciencias de Computadoras,Presencial
+491,18,Toa Baja,Bachillerato,Biología General,Online
+492,20,San Juan,Bachillerato,Gerencia de Materiales,Híbrido
+493,17,Bayamón,Bachillerato,Tecnología de Ing. Electrónica,Presencial
+494,22,Naranjito,Grado Asociado,Educación Pre-Escolar,Presencial
+495,19,Guaynabo,Bachillerato,Biología Enfoque Humano,Online
+496,21,Cataño,Bachillerato,Ciencias de Computadoras,Híbrido
+497,20,Dorado,Bachillerato,Sistemas de Oficina,Presencial
+498,18,Toa Alta,Bachillerato,Educación Física Especial,Presencial
+499,23,San Juan,Bachillerato,Administración de Empresas,Online
+500,19,Bayamón,Bachillerato,Biología General,Híbrido
