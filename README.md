@@ -1,4 +1,4 @@
-# Welcome to My GitHub! 👋
+# 👋 Welcome to My GitHub! 
 
 Hi, I am Cristian Pagan, currently seeking opportunities in Data Analyst, Software Developer and Web Developer. I am passionate about transforming data into meaningful insights and developing impactful applications.
 
