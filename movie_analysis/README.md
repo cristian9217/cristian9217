@@ -29,7 +29,8 @@ The objective is to help BlueBox better understand its catalog and historical mo
 
 ## 📂 Project Files
 
-- Python Code: [Python Code](movieAnalysis.py)  
+- Python Code: [Python Code](movieAnalysis.py)
+
 - Dataset: [Dataset](movie_dataset.csv)  
 
 ---
