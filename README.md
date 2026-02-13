@@ -6,10 +6,10 @@ Here you'll find projects ranging from data analysis and visualization to web an
 
 ## 🎓 Education
 - **Master's in Computer Science** <br>
-  Relevant Courses: Data Mining and Data Warehousing, Advanced Database Systems,
+  **Relevant Coursework**: Data Mining and Data Warehousing, Advanced Database Systems,
   Big Data Analytics Programming and Applications, Principles of Information Security 
 - **Bachelor's in Computer Science** <br>
-  Relevant Courses: Algorithms and Program Development I & II, Database Programming,
+  **Relevant Coursework**: Algorithms and Program Development I & II, Database Programming,
   Web Application Programming, Introduction to Statistics with Computers
 
 ------------------------------------------------------------------
