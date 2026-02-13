@@ -31,6 +31,6 @@ Indique el ancho del techo: 25.5
 Indique el largo del techo: 40.5
 
 Costo #1: $918.00
-Costo #2: $1,836.33
+Costo #2: $1,836.00
 Costo #3: $2,754.00
 ```
