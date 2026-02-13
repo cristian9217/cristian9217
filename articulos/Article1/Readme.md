@@ -26,10 +26,11 @@ pricing rates. It provides an easy way to quickly determine roofing expenses for
 
 ## Example
 
-```bash
+```java
 Indique el ancho del techo: 30
 Indique el largo del techo: 40
 
 Costo #1: $10,666.67
 Costo #2: $21,333.33
 Costo #3: $32,000.00
+```
