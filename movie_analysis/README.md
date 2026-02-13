@@ -3,7 +3,8 @@
 ## Overview
 
 This project analyzes the **movie_bluebox** database, which contains information about BlueBox movies watched by customers 
-since 1980. The ETL process has already been completed, so the data is ready for querying and extracting insights.
+since 1980. The Extract, Transform and Load (ETL) process has already been completed, so the data is ready for querying 
+and insights extraction.
 
 The Python script `movieAnalysis.py` extracts relevant data and generates statistical insights, including:
 
