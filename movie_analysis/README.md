@@ -1,22 +1,38 @@
-# Movie Analysis 
+# 🎬 Movie Analysis Project
 
-In this project, we will analyze the movie_bluebox database, which contains 
-information on various BlueBox movies, to provide a comprehensive summary 
-of movies watched by customers since 1980. The Python program (movieAnalysis.py) 
-will extract relevant data and calculate statistics such as the total number of 
-movies, their classifications, and the count of movies per rating. This will 
-aid BlueBox in understanding their movie offerings over the specified period. 
+## Overview
 
-Developed with:
+This project analyzes the **movie_bluebox** database, which contains information about BlueBox movies watched by customers since 1980.  
 
-Python 
-  - **Flask**: Web framework for developing web applications in Python.
-  - **Pandas**: A powerful data manipulation and analysis library for structured data.
-  - **matplotlib**: A plotting library for interactive visulizations in Python.
-  - **numpy**: A fundamental package for computing in Python, easy to handle arrays and matrices.
+The Python script `movieAnalysis.py` extracts relevant data and generates statistical insights, including:
 
-[Python Code](movieAnalysis.py)
-[Dataset](movie_dataset.csv)
+- Total number of movies
+- Movie classifications
+- Number of movies per rating
+- Statistical summaries of the dataset
 
-For more detail about this project visit my 
-[webpage](https://cristian9217.pythonanywhere.com/)
+The objective is to help BlueBox better understand its catalog and historical movie trends over time.
+
+---
+
+## 🛠 Technologies Used
+
+- **Python**
+  - **Flask** – Web framework for building the application  
+  - **Pandas** – Data manipulation and analysis  
+  - **Matplotlib** – Data visualization and plotting  
+  - **NumPy** – Numerical computing and array operations  
+
+---
+
+## 📂 Project Files
+
+- [Python Code](movieAnalysis.py)  
+- [Dataset](movie_dataset.csv)  
+
+---
+
+## 🔗 Additional Information
+
+For more details about this project, visit my  
+[Project Webpage](https://cristian9217.pythonanywhere.com/)
