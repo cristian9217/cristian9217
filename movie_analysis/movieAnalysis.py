@@ -1,128 +1,127 @@
+
+"""
+    Name: movieAnalysis.py
+    Author: Cristian M. Pagan 
+    Date: August 5, 2025
+    Purpose: Load and analyze the movie_bluebox 
+    dataset for insights extraction.
+"""
+
+# Import pandas for data manipulation and analysis
 import pandas as pd
-import numpy as np
+
+# Import matplotlib for data visualization
 import matplotlib.pyplot as plt 
 
-# Load the data from the Movie_dataset database
-movie_df = pd.read_csv('data/movie_dataset.csv')
+def main():
+    """ Main function to load the movie dataset and display information. """
+    
+    try:
+        # Load the data from the Movie Dataset database
+        movie_df = pd.read_csv('data/movie_dataset.csv')
+        movie_data = movie_df.copy()
+        print("Data loaded successfully!", "\n")
+    except Exception as e:
+        print(f"An error ocurred: {e}")
 
-#####################################################
-# Question 2 - Indicar la cantidad de filas         #
-#####################################################
-print(f"Amount of movies: {movie_df.shape[0]}")
+    # Question 1 - Show the number of rows        
+    print(f"Number of movies: {movie_data.shape[0]}", "\n")
 
-#####################################################
-# Question 3 - Mostrar un preview de los datos      # 
-#####################################################
-print("Mostrando los primeros 5 datos...")
-print(movie_df.head())
+    # Question 2 - Show a preview of the data
+    print("Showing the first 5 rows of the dataset...")
+    print(movie_data.head(), "\n")
 
-#####################################################
-# Question 4 - Mostrar los informes de atributos    # 
-#####################################################
-print("Mostrando los nombre de los atributos: ")
-print(movie_df.info())
+    # Question 3 - Displays a summary of the DataFrame
+    print("Showing the column names and dataset info: ")
+    print(movie_data.info(), "\n")
 
-######################################################
-# Question 5 - Sacar la estadisticas del presupuesto #
-######################################################
-print("Estadisticas basicas del prespuesto: ")
-print(movie_df['budget'].describe())
+    # Question 4 - Get basic statistics for the budget
+    print("Basic statistics for the budget: ")
+    print(movie_data['budget'].describe(), "\n")
 
-#########################################################
-# Question 6 - La mejor y peor calificacion del dataset #
-#########################################################
-best_movie = movie_df['rating'].max()
-worst_movie = movie_df['rating'].min()
+    # Question 5 - The highest and lowest ratings in the dataset
+    best_rating = movie_data['rating'].max()
+    worst_rating = movie_data['rating'].min()
+    range_rating = best_rating - worst_rating
 
-print(f"\nLa mejor calificacion es {best_movie}")
-print(f"La peor calificacion es {worst_movie}")
-print(f"El rango de calificacion es: {best_movie - worst_movie}")
+    print(f"The highest rating is {best_rating}")
+    print(f"The lowest rating is {worst_rating}")
+    print(f"The rating range is {range_rating}", "\n")
 
-#########################################################
-# Question 7 - Pelicula mas antingua y reciente         #
-#########################################################
-oldest_movie = movie_df['releaseYear'].min()
-newest_movie = movie_df['releaseYear'].max()
+    # Question 6 - Oldest and newest movie
+    oldest_year = movie_data['releaseYear'].min()
+    newest_year = movie_data['releaseYear'].max()
+    range_year = newest_year - oldest_year
 
-print(f"\nLa pelicula mas antigua es {oldest_movie}")
-print(f"La pelicula mas reciente es {newest_movie}")
-print(f"El rango de anos de las peliculas es {newest_movie - oldest_movie}")
+    print(f"The oldest movie was released in {oldest_year}")
+    print(f"The newest movie was released in {newest_year}")
+    print(f"The range of movie release years is {range_year}\n")
 
-#########################################################
-# Question 8 - Cantidad de peliculas por año de estreno # 
-#########################################################
-movies_by_year = movie_df['releaseYear'].value_counts().sort_index()
-print(movies_by_year)
+    # Question 7 - Number of movies per release year
+    movies_year = movie_data['releaseYear'].value_counts().sort_index()
+    print("Number of movies released each year:")
+    for year, count in movies_year.items():
+        print(f"{year}: {count}")
+    print()
 
-#################################################################
-# Question 9 - Promedio de calificacion de peliculas por genero #
-#################################################################
-average_rating_by_genre = movie_df.groupby('genre')['rating'].mean()
-print(average_rating_by_genre)
+    # Question 8 - Average movie rating by genre
+    average_rating_genre = movie_data.groupby('genre')['rating'].mean()
+    print("Average rating by genre:")
+    print(average_rating_genre, "\n")
 
-#########################################################
-# Question 10 - Idioma mas utilizado en las peliculas   #
-#########################################################
-predominant_language = movie_df['language'].mode()[0]
-print(f"El idioma más común en las películas es: {predominant_language}")
+    # Question 9 - Most common language in movies
+    predominant_language = movie_data['language'].mode()[0]
+    print(f"Most common language: {predominant_language}", "\n")
 
-#########################################################
-# Question 11 - Peliculas dirigidas por un director     #
-#########################################################
-movies_by_director = movie_df[movie_df['director'] == 'Ingmar Goldine']
-print(movies_by_director)
+    # Question 10 - Movies directed by a specific director
+    movies_director = movie_data[movie_data['director'] == 'Ingmar Goldine']
+    print("Movies directed by Ingmar Goldine:")
+    print(movies_director, "\n")
 
-########################################################
-# Question 12 - Movie title starts with the letter S.  #
-########################################################
-movies_by_letter = movie_df[movie_df['titleMovie'].str.startswith('S')]
-print(movies_by_letter)
+    # Question 11 - Movies with titles starting with 'S'
+    movies_letter = movie_data[movie_data['titleMovie'].str.startswith('S')]
+    print("Movies with titles starting with 'S':")
+    print(movies_letter, "\n")
 
-#########################################################
-# Question 13 - Peliculas mas producidas en cada decada #
-#########################################################
-movies_by_decade = movie_df.groupby(movie_df['releaseYear'] // 10 * 10).size()
-print(f"Películas producidas en cada década: {movies_by_decade}")
+    # Question 12 - Movies produced per decade
+    movie_data['decade'] = (movie_data['releaseYear'] // 10) * 10
+    movies_decade = movie_data.groupby('decade').size()
+    print(f"Películas producidas en cada década: ")
+    print(movies_decade, "\n")
 
-##############################################################
-# Question 14 - Prespupuesto medio de las peliculas por año. #
-##############################################################
-average_budget_by_year = movie_df.groupby('releaseYear')['budget'].mean()
-print(f"Presupuesto promedio por año de lanzamiento: {average_budget_by_year}")
+    # Question 13 - Average movie budget by release year
+    average_budget_year = movie_data.groupby('releaseYear')['budget'].mean()
+    print("Average budget per release year:")
+    print(average_budget_year, "\n")
 
-#########################################################
-# Question 15 - Relacion entre el presupuesto y su calificacion. 
-#########################################################
-budget_rating_relation = movie_df[['budget', 'rating']].corr().iloc[0, 1]
-print(f"Relación entre presupuesto y calificación: {budget_rating_relation}")
+    # Question 14 - Correlation between budget and rating
+    budget_rating_corr = movie_data[['budget', 'rating']].corr().iloc[0, 1]
+    print(f"Correlation between budget and rating: {budget_rating_corr}\n")
 
-#########################################################
-# Question 16 - Pelicula con el genero mas comun.
-#########################################################
-most_common_genre = movie_df['genre'].mode()[0]
-print(f"Género más común: {most_common_genre}")
+    # Question 15 - Most common movie genre
+    most_common_genre = movie_data['genre'].mode()[0]
+    print(f"Género más común: {most_common_genre}\n")
 
-#####################################################################
-# Question 17 - Pais que ha producido la mayor cantidad de peliculas
-#####################################################################
-most_productive_country = movie_df['country'].mode()[0]
-print(f"País que ha producido la mayor cantidad de películas: {most_productive_country}")
+    # Question 16 - Country that produced the most movies
+    most_productive_country = movie_data['country'].mode()[0]
+    print(f"Country with the most movies produced: {most_productive_country}\n")
 
-#########################################################
-# Question 18 - Grafica circular de classification
-#########################################################
-genre_counts = movie_df['classifaction'].value_counts()
-print(genre_counts)
-plt.pie(genre_counts, labels=genre_counts.index, autopct='%1.2f%%')
-plt.title('Proporción de la clasificación')
-plt.show()
+    # Question 17 - Pie chart of movie classification
+    # Create a pie chart to visualize the proportion of each classification
+    rating_counts = movie_data['classifaction'].value_counts()
+    plt.pie(rating_counts, labels=rating_counts.index, autopct='%1.2f%%')
+    plt.title('Proportion of Movie Classifications')
+    plt.show()
 
-#########################################################
-# Question 19 - Boxplot de multiples atributos
-#########################################################
-boxplot_cols = ['releaseYear', 'rating', 'runtime', 'budget']
+    # Question 18 - Boxplot of multiple attributes
+    # Generate boxplots for selected numerical columns
+    boxplot_cols = ['releaseYear', 'rating', 'runtime', 'budget']
+    
+    movie_data[boxplot_cols].plot(kind='box', subplots=True, 
+        layout=(2,2), figsize=(12,8))
+    plt.suptitle('Boxplot of Release Year, Rating, Runtime and Budget')
+    plt.show()
 
-movie_df[boxplot_cols].plot(kind='box', subplots=True, layout=(2,2), figsize=(10,8))
-plt.suptitle('Boxplot de releaseYear, rating, runtime y budget')
-plt.show()
-
+# Execute the main function only if this script is run directly
+if __name__ == "__main__":
+    main()
