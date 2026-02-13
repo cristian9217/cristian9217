@@ -21,13 +21,13 @@ Here you'll find projects ranging from data analysis and visualization to web an
 
 ------------------------------------------------------------------
 
-## 📫 Connect With Me 
+### 📫 Connect With Me 
 - Email: <cristianmiguel10@gmail.com>
 - LinkedIn: [Click Here](https://www.linkedin.com/in/cristian-p-978623263)
 
 ------------------------------------------------------------------
 
-## 📎 Projects & Certifications
+### 📎 Projects & Certifications
 
 - Bio Page: [Visit Here](https://cristian9217.pythonanywhere.com/)
 - GitHub Portfolio: [Visit Here](https://cristian9217.github.io/cristian9217/courses/course.html)  
