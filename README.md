@@ -24,7 +24,7 @@ Here you'll find projects ranging from data analysis and visualization to web an
 ------------------------------------------------------------------
 
 ### 📫 Connect With Me 
-- Email: <cristianmiguel10@gmail.com>
+- Email: cristianmiguel10@gmail.com
 - LinkedIn: [Click Here](https://www.linkedin.com/in/cristian-p-978623263)
 
 ------------------------------------------------------------------
