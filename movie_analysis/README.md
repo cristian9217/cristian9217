@@ -34,5 +34,4 @@ The objective is to help BlueBox better understand its catalog and historical mo
 
 ## 🔗 Additional Information
 
-For more details about this project, visit my  
-[Project Webpage](https://cristian9217.pythonanywhere.com/)
+For more details about this project, visit my [Project Webpage](https://cristian9217.pythonanywhere.com/)
