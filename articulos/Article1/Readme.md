@@ -32,3 +32,39 @@ Costo #1: $918.00
 Costo #2: $1,836.00
 Costo #3: $2,754.00
 ```
+
+# CreateCourse.php
+
+## Overview
+`CreateCourse.php` is a PHP script that handles the creation of courses in a system 
+using MySQL. It validates user input and inserts new course records into the database.
+
+## Features
+- Validates course ID, name, title, credits, and prerequisites.
+- Checks for duplicate courses before insertion.
+- Sanitizes input to prevent SQL injection and XSS.
+- Displays success or error messages for feedback.
+
+## Requirements
+- PHP 7.x or higher.
+- MySQL database connection.
+- Docker installed and configured on your system.
+
+## Usage
+1. Configure database connection variables (`$server`, `$user`, `$password`, `$dbname`) at the top of the script.
+2. Submit course data via POST request with these fields:
+   - `idCurso` (format `999-9999`)  
+   - `nombre` (alphanumeric, max 30 chars)  
+   - `titulo` (alphanumeric, max 100 chars)  
+   - `credito` (numeric, between 0.5 and 10.0)  
+   - `prerequisito` (optional, format `999-9999`)  
+3. The script validates inputs, checks prerequisites, and inserts the record if valid.
+4. Displays success or error messages.
+
+## Example POST Input
+```text
+idCurso=101-0001
+nombre=Matematicas
+titulo=Calculo I
+credito=3.0
+prerequisito=
