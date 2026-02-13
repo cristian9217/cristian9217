@@ -1,34 +1,38 @@
-### Hi there 👋, I am Cristian Pagan
+# Welcome to My GitHub! 👋
+
+Hi, I'm Cristian Pagan. I’m actively pursuing opportunities as a Data Analyst, Software Developer, and Web Developer. I’m passionate about transforming data into meaningful insights and developing impactful applications.
+
+Here you'll find projects ranging from data analysis and visualization to web and software development.
+
+## 🎓 Education
+- **Master's in Computer Science**
+  Relevant Courses: Data Mining and Data Warehousing, Advanced Database Systems,
+  Big Data Analytics Programming and Applications, Principles of Information Security 
+- **Bachelor's in Computer Science**
+  Relevant Courses: Algorithms and Program Development I & II, Database Programming,
+  Web Application Programming, Introduction to Statistics with Computers
 
 ------------------------------------------------------------------
 
-- 📕 I studied for a Bachelor's degree in Computer Science at UPRB.
-- 📖 I earned a Master's degree in Computer Science, specializing in Knowledge
-Discovery and Data Mining. I am interested in Big Data within the field of data mining,
-especially in extracting useful insights from large datasets
-- 💻 I studied Artificial Intelligence (AI) and Principles of Information Security.
-- 📚 I learned Python and R during Masters.
-- 📚 I learned HTML, CSS, JavaScript, Java, and SQL during bachelors.
-- 📫 How to reach me: <cristianmiguel10@gmail.com>
+## 🛠 Skills
+- **Programming & Data:** Python, SQL, R, JavaScript  
+- **Web Development:** HTML, CSS, PHP, MySQL
+- **Data Visualization & Analytics:** Tableau, Power BI, Pandas, Matplotlib
 
-If you are interested in more details, check out my website! 👇
+------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------------------------------
+## 📫 Connect With Me 
+- Email: <cristianmiguel10@gmail.com>
+- LinkedIn: [Click Here](https://www.linkedin.com/in/cristian-p-978623263)
 
-Web link to the bio page: [Click Here](https://cristian9217.pythonanywhere.com/)
+------------------------------------------------------------------
 
-Web link to Github page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
+## 📎 Projects & Certifications
 
-Web link to the LinkedIn page: [Click Here](https://www.linkedin.com/in/cristian-p-978623263)
+- Bio Page: [Visit Here](https://cristian9217.pythonanywhere.com/)
+- GitHub Portfolio: [Visit Here](https://cristian9217.github.io/cristian9217/courses/course.html)  
+- Courses README: [View Here](courses/)  
+- Certification Courses: [Explore Here](https://es.coursera.org/)  
+- New Project Page: [Check It Out](https://cristian9217.github.io/insurance-page/index.html)
 
--------------------------------------------------------------------------------------------------------------------------
-
-Web link to Readme of Courses: [Click Here](courses/)
-
--------------------------------------------------------------------------------------------------------------------------
-
-Web link to courses for the certifications: [Click Here](https://es.coursera.org/)
-
--------------------------------------------------------------------------------------------------------------------------
-
-New Page: [Click here](https://cristian9217.github.io/insurance-page/index.html)
+------------------------------------------------------------------
