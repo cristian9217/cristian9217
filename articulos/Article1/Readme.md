@@ -26,6 +26,7 @@ pricing rates. It provides an easy way to quickly determine roofing expenses for
 
 ## Example
 
+```bash
 Indique el ancho del techo: 30
 Indique el largo del techo: 40
 
