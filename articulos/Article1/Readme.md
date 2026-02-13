@@ -66,7 +66,7 @@ using MySQL. It validates user input and inserts new course records into the dat
 ## Example POST Input
 ```text
 idCurso=101-0001
-nombre=Matematicas
-titulo=Calculo I
+nombre=Intro. Matematicas
+titulo=Introduccion a Matematicas
 credito=3.0
 prerequisito=
