@@ -1,31 +1,29 @@
-### Hi, there 👋
+This repository contains all coding assignments and resources from the 
+computer science courses I have taken. Each folder corresponds to a 
+specific course and includes the necessary code and materials.
 
-All of the coding assignments and resources from the classes I have taken over 
-the years are in this repository. You can find all the necessary code and 
-resources in each folder, which is associated with a particular course. 
+---
 
 > Web page
 
-The page highlights computer science projects focused on algorithms, 
-data structures, and big data. It covers the implementation of tasks 
-like sorting and developing systems to handle large datasets.
-<br>
+The web page showcases computer science projects focusing on algorithms, 
+data structures and big data. It demonstrates implementations such as 
+sorting algorithms and systems for managing large datasets.
 
-Course page: [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
+**Course Page:** [Click Here](https://cristian9217.github.io/cristian9217/courses/course.html)
 
 ---
 
 > Readme:
 
-The <b>README</b> highlights the problem the project aims to solve 
-and the implemented solution. It explains the challenges and the 
-approach taken to address them. 
-<br>
+Each README explains the project’s purpose, the problem being solved 
+and the implemented solution. It also describes challenges encountered 
+and the approach taken to address them.
 
-Course CECS6010: [Click Here](CECS6010)
+- Course CECS6010: [Click Here](CECS6010)
 
-Course COTI3102: [Click Here](COTI3102)
+- Course COTI3102: [Click Here](COTI3102)
 
-Course SICI 4997: [Click Here](SICI4997)
+- Course SICI 4997: [Click Here](SICI4997)
 
-Course SICI 4036: [Click Here](SICI4036/)
+- Course SICI 4036: [Click Here](SICI4036/)
