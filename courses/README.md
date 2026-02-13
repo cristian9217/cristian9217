@@ -4,7 +4,7 @@ specific course and includes the necessary code and materials.
 
 ---
 
-> Web page
+### 🌐 Web Page
 
 The web page showcases computer science projects focusing on algorithms, 
 data structures and big data. It demonstrates implementations such as 
@@ -14,7 +14,7 @@ sorting algorithms and systems for managing large datasets.
 
 ---
 
-> Readme:
+### 📄 README Files:
 
 Each README explains the project’s purpose, the problem being solved 
 and the implemented solution. It also describes challenges encountered 
