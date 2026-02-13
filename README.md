@@ -34,7 +34,8 @@ Here you'll find projects ranging from data analysis and visualization to web an
 - Bio Page: [Visit Here](https://cristian9217.pythonanywhere.com/)
 - GitHub Portfolio: [Visit Here](https://cristian9217.github.io/cristian9217/courses/course.html)  
 - Courses README: [View Here](courses/)  
-- Certification Courses: [Explore Here](https://es.coursera.org/)  
 - New Project Page: [Check It Out](https://cristian9217.github.io/insurance-page/index.html)
+
+- Certification Courses: [Explore Here](https://es.coursera.org/)  
 
 ------------------------------------------------------------------
