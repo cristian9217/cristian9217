@@ -2,7 +2,7 @@
 
 Hi, I am Cristian Pagan, currently seeking opportunities in Data Analyst, Software Developer and Web Developer. I am passionate about transforming data into meaningful insights and developing impactful applications.
 
-Here you'll find projects ranging from data analysis and visualization to web and software development.
+Projects include data analysis, web page development (frontend and backend), and software development.
 
 ------------------------------------------------------------------
 
