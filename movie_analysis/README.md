@@ -2,7 +2,8 @@
 
 ## Overview
 
-This project analyzes the **movie_bluebox** database, which contains information about BlueBox movies watched by customers since 1980.  
+This project analyzes the **movie_bluebox** database, which contains information about BlueBox movies watched by customers since 1980. 
+The ETL process has already been completed, so the data is ready for querying and extracting insights.
 
 The Python script `movieAnalysis.py` extracts relevant data and generates statistical insights, including:
 
