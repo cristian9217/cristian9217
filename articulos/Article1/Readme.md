@@ -33,6 +33,8 @@ Costo #2: $1,836.00
 Costo #3: $2,754.00
 ```
 
+---
+
 # CreateCourse.php
 
 ## Overview
