@@ -4,7 +4,7 @@ Hi, I'm Cristian Pagan. I’m actively pursuing opportunities as a Data Analyst,
 
 Here you'll find projects ranging from data analysis and visualization to web and software development.
 
-## 🎓 Education
+### 🎓 Education
 - **Master's in Computer Science** <br>
   **Relevant Coursework**: Data Mining and Data Warehousing, Advanced Database Systems,
   Big Data Analytics Programming and Applications, Principles of Information Security 
@@ -14,7 +14,7 @@ Here you'll find projects ranging from data analysis and visualization to web an
 
 ------------------------------------------------------------------
 
-## 🛠 Skills
+### 🛠 Skills
 - **Programming & Data:** Python, SQL, R, JavaScript  
 - **Web Development:** HTML, CSS, PHP, MySQL
 - **Data Visualization & Analytics:** Tableau, Power BI, Pandas, Matplotlib
