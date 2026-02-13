@@ -7,9 +7,7 @@ pricing rates. It provides an easy way to quickly determine roofing expenses for
 
 ## Features 
 - Calculates roof area in square meters.
-
 - Estimates costs using three predefined rates.
-
 - Simple command-line interface for input and output.
 
 ## Usage 
