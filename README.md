@@ -4,6 +4,8 @@ Hi, I am Cristian Pagan, currently seeking opportunities in Data Analyst, Softwa
 
 Here you'll find projects ranging from data analysis and visualization to web and software development.
 
+------------------------------------------------------------------
+
 ### 🎓 Education
 - **Master's in Computer Science** <br>
   **Relevant Coursework**: Data Mining and Data Warehousing, Advanced Database Systems,
