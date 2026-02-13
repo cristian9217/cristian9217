@@ -1,3 +1,5 @@
+# Computer Science Projects & Course Work
+
 This repository contains all coding assignments and resources from the 
 computer science courses I have taken. Each folder corresponds to a 
 specific course and includes the necessary code and materials.
