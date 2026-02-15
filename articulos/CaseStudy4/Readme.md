@@ -18,3 +18,10 @@ facilitating decision-making and planning more effective educational strategies.
 | Nivel Educativo	 | Text         |
 | Programa	       | Text         |
 | Modalidad        | Text         |
+
+## Tools and Workflow
+
+- **Python:** Read the CSV file, clean the data, perform statistical analysis
+  and visualizations using Matplotlib.  
+- **R / RStudio:** Read the CSV file, conduct statistical analysis and create
+  visualizations to interpret the results.
