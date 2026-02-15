@@ -19,7 +19,7 @@ facilitating decision-making and planning more effective educational strategies.
 | Programa	       | Text         |
 | Modalidad        | Text         |
 
-## Tools and Workflow
+## Tools
 
 - **Python:** Read the CSV file, clean the data, perform statistical analysis
   and visualizations using Matplotlib.  
