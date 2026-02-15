@@ -3,9 +3,10 @@
 ## Introduction
 A **sample** is a smaller portion of a larger group used for analysis. Different sampling methods include:
 
-- **Systematic sample** – selecting data at regular intervals.  
-- **Stratified sample** – dividing the population into subgroups and sampling from each.  
-- **Cluster sample** – selecting entire groups; for example, studying shopping behavior only in **New York, New Jersey, and Florida**.  
+- **Systematic sample** – We select a starting point and then choose every k-th element from the population.
+- **Stratified sample** – We divide the population into subgroups so that the subjects share the same characteristics.
+- **Cluster sample** – We divide the population area into sections. For example, studying shopping behavior only
+  in New York, New Jersey, and Florida.
 
 ## Data Organization in Excel
 The sample data is organized in **Excel** and analyzed using **PivotTables**. PivotTables allow you to:
@@ -32,4 +33,5 @@ Using PivotTables, you can:
 - Filter by region, date, or category to identify trends  
 
 ## Conclusion
-Excel and PivotTables provide a powerful way to explore shopping behavior, understand profitability, and make data-driven decisions from a sample dataset.
+Excel and PivotTables provide a powerful way to explore shopping behavior, understand profitability and 
+make data-driven decisions from a sample dataset.
