@@ -23,40 +23,49 @@
             }
         </style>
     </head>
-    <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <body class="bg-gray-100 min-h-screen flex flex-col items-center">
 
-        <div class="max-w-4xl w-full px-6">
+        <!-- Navigation bar -->
+        <nav class="bg-gray-800 fixed top-0 w-full shadow-lg z-10">
+            <div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+                <a href="#" class="text-white text-lg font-bold">Cristian's Page</a>
+                <ul class="flex space-x-4 text-white">
+                    <li><a href="/courses/course.html" class="text-gray-400">Course</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="max-w-4xl w-full px-6 mt-24"> <!-- mt-24 to offset navbar -->
             <h1 class="text-3xl font-bold text-center mb-10">Mis Artículos</h1>
 
             <div class="grid gap-6">
-            
-            <!-- Case Study 2 -->
-            <a href="CaseStudy2" class="card">
-                <h2 class="text-xl font-semibold mb-2">Case Study 2 - Exploring 
-                    Shopping Behavior with Sample Data in Excel</h2>
-                <p class="text-gray-600">The sample data is stored in Excel and analyzed 
-                    using PivotTables. PivotTables summarize sales, earnings and margins, 
-                    organizing data into groups and revealing trends.</p>
-            </a>
+                <!-- Case Study 2 -->
+                <a href="CaseStudy2" class="card">
+                    <h2 class="text-xl font-semibold mb-2">Case Study 2: Exploring 
+                        Shopping Behavior with Sample Data in Excel</h2>
+                    <p class="text-gray-600">The sample data is stored in Excel and analyzed 
+                        using PivotTables. PivotTables summarize sales, earnings and margins, 
+                        organizing data into groups and revealing trends.</p>
+                </a>
 
-            <!-- Case Study 3 -->
-            <a href="CaseStudy3" class="card">
-                <h2 class="text-xl font-semibold mb-2">Case Study 3: Medication Sales 
-                    Across Pharmacies</h2>
-                <p class="text-gray-600">This analysis examines medication sales across pharmacies 
-                    to uncover trends, key performance drivers and insights, while clearly 
-                    communicating the findings.</p>
-            </a>
+                <!-- Case Study 3 -->
+                <a href="CaseStudy3" class="card">
+                    <h2 class="text-xl font-semibold mb-2">Case Study 3: Medication Sales 
+                        Across Pharmacies</h2>
+                    <p class="text-gray-600">This analysis examines medication sales across 
+                        pharmacies to uncover trends, key performance drivers and insights, 
+                        while clearly communicating the findings.</p>
+                </a>
 
-            <!-- Case Study 4 -->
-            <a href="CaseStudy4" class="card">
-                <h2 class="text-xl font-semibold mb-2">Case Study 4: Academic 
-                    Modality Preferences</h2>
-                <p class="text-gray-600">The objective is to analyze student preferences by 
-                    program and level to guide effective educational planning.</p>
-            </a>
-
+                <!-- Case Study 4 -->
+                <a href="CaseStudy4" class="card">
+                    <h2 class="text-xl font-semibold mb-2">Case Study 4: Academic 
+                        Modality Preferences</h2>
+                    <p class="text-gray-600">The objective is to analyze student preferences 
+                        by program and level to guide effective educational planning.</p>
+                </a>
             </div>
+
         </div>
 
     </body>
