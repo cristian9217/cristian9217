@@ -1,4 +1,4 @@
-# Case Study #4: Academic Modality Preferences
+# Case Study 4: Academic Modality Preferences
 
 The objective is to organize and analyze the collected information to determine 
 the preferred academic modalities of students by level and program of study, 
