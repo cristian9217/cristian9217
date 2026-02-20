@@ -2,6 +2,8 @@
 
 Este repositorio contiene tres artículos donde comparto ideas, aprendizajes y experiencias.
 
+[Click here][(https://cristian9217.github.io/cristian9217/articulos/)
+
 ---
 
 ## 📝 Case Study 2 - Exploring Shopping Behavior with Sample Data in Excel
