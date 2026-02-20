@@ -17,14 +17,14 @@ The sample data is organized in **Excel** and analyzed using **PivotTables**. Pi
 
 ## Key Attributes
 
-| **Attribute **   | **Description **                                    |
-| ---------------- | --------------------------------------------------- |
-| Item Purchased   | Name of the product bought                          |
-| Category         | Type or group of the product                        |
-| Sale Price       | Price at which the item was sold                    |
-| Cost             | Cost to acquire or produce the item                 |
-| Earnings         | Profit earned from the sale (Sale Price − Cost)     |
-| Margin           | Profit margin percentage                            |
+| Attribute       | Description                          |
+|-----------------|--------------------------------------|
+| Item Purchased  | Name of the product bought           |
+| Category        | Type or group of the product         |
+| Sale Price      | Price at which the item was sold     |
+| Cost            | Cost to acquire or produce the item  |
+| Earnings        | Profit earned (Sale Price − Cost)    |
+| Margin          | Profit margin percentage             |
 
 ## Analysis
 Using PivotTables, you can:
