@@ -1,41 +1,58 @@
+<!-- 
+    Name: index.html
+    Author: Cristian M. Pagan
+    Date: February 19, 2026
+    Purpose: Displays a list of article links.
+-->
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mis Artículos</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <head>
+        <title>Mis Artículos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
 
-  <div class="max-w-4xl w-full px-6">
-    <h1 class="text-3xl font-bold text-center mb-10">Mis Artículos</h1>
+        <style>
+            .card {
+                background-color: white;
+                padding: 1.5rem;              
+                border-radius: 1rem;         
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+                transition: all 0.3s ease;    
+                display: block;               
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100 min-h-screen flex items-center justify-center">
 
-    <div class="grid md:grid-cols-3 gap-6">
-      
-      <!-- Artículo 1 -->
-      <a href="articulo1.html" 
-         class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 block">
-        <h2 class="text-xl font-semibold mb-2">Artículo 1</h2>
-        <p class="text-gray-600">Descripción corta del primer artículo.</p>
-      </a>
+        <div class="max-w-4xl w-full px-6">
+            <h1 class="text-3xl font-bold text-center mb-10">Mis Artículos</h1>
 
-      <!-- Artículo 2 -->
-      <a href="articulo2.html" 
-         class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 block">
-        <h2 class="text-xl font-semibold mb-2">Artículo 2</h2>
-        <p class="text-gray-600">Descripción corta del segundo artículo.</p>
-      </a>
+            <div class="grid gap-6">
+            
+            <!-- Case Study 2 -->
+            <a href="articulo1.html" class="card">
+                <h2 class="text-xl font-semibold mb-2">Case Study 2 - Exploring 
+                    Shopping Behavior with Sample Data in Excel</h2>
+                <p class="text-gray-600"></p>
+            </a>
 
-      <!-- Artículo 3 -->
-      <a href="articulo3.html" 
-         class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 block">
-        <h2 class="text-xl font-semibold mb-2">Artículo 3</h2>
-        <p class="text-gray-600">Descripción corta del tercer artículo.</p>
-      </a>
+            <!-- Case Study 3 -->
+            <a href="articulo2.html" class="card">
+                <h2 class="text-xl font-semibold mb-2">Case Study 3: Medication Sales 
+                    Across Pharmacies</h2>
+                <p class="text-gray-600"></p>
+            </a>
 
-    </div>
-  </div>
+            <!-- Case Study 4 -->
+            <a href="articulo3.html" class="card">
+                <h2 class="text-xl font-semibold mb-2">Case Study 4: Academic 
+                    Modality Preferences</h2>
+                <p class="text-gray-600"></p>
+            </a>
 
-</body>
+            </div>
+        </div>
+
+    </body>
 </html>
