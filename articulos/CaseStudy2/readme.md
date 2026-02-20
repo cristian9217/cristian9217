@@ -16,8 +16,9 @@ The sample data is organized in **Excel** and analyzed using **PivotTables**. Pi
 - Analyze trends across the dataset  
 
 ## Key Attributes
-| Attribute        | Description                                         |
-|----------------- |-----------------------------------------------------|
+
+| **Attribute **   | **Description **                                    |
+| ---------------- | --------------------------------------------------- |
 | Item Purchased   | Name of the product bought                          |
 | Category         | Type or group of the product                        |
 | Sale Price       | Price at which the item was sold                    |
