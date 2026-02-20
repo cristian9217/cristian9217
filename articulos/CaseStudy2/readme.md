@@ -1,4 +1,4 @@
-# Case Study #2: Exploring Shopping Behavior with Sample Data in Excel
+# Case Study 2: Exploring Shopping Behavior with Sample Data in Excel
 
 ## Introduction
 A **sample** is a smaller portion of a larger group used for analysis. Different sampling methods include:
