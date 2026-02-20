@@ -1,4 +1,4 @@
-# Case Study: Medication Sales Across Pharmacies
+# Case Study 3: Medication Sales Across Pharmacies
 
 The objective of this analysis is to evaluate medication sales across different pharmacies to identify key patterns and trends. By understanding variations in location, customer traffic, dates and product demand, we can uncover meaningful insights. We will also focus on storytelling to clearly communicate the results and highlight the most important factors in driving performance.
 
