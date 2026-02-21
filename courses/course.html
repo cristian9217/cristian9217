@@ -1,156 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Major-related Courses</title>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
-    <style>
-      /* Custom link class for course buttons */
-      .link-course {
-        background-color: #3b82f6; /* Tailwind's bg-blue-500 */
-        color: white;
-        padding: 0.5rem 1rem; /* Tailwind's px-4 py-2 */
-        border-radius: 0.5rem; /* Tailwind's rounded-lg */
-        display: block;
-        text-align: center;
-        margin-top: 1.5rem; /* Tailwind's mt-6 */
-        text-decoration: none;
-        transition: background-color 0.3s;
-      }
-
-      /* Hover effect */
-      .link-course:hover {
-        background-color: #2563eb; /* Tailwind's hover:bg-blue-600 */
-      }
-
-      .link-page {
-        color: #3b82f6; /* Tailwind's blue-500 */
-        font-weight: 600; /* Equivalent to font-semibold */
-        text-decoration: none;
-        transition: text-decoration 0.2s ease-in-out;
-      }
-    </style>
-  </head>
-  <body style = "font-family: Times New Roman">
-    
-    <!-- Navigation bar -->
-    <nav class="bg-gray-800 fixed top-0 w-full shadow-lg">
-      <div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
-        <a href = "#" class="text-white text-lg font-bold">Cristian's Page</a>
-        <ul class="flex space-x-4 text-white">
-          <li><a href="#" class="text-gray-400 cursor-not-allowed">Course</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Jumbotron -->
-    <div class="bg-gray-100 text-center py-12 mt-12">
-      <i class = "fa-solid fa-laptop text-4xl"></i>
-      <h1 class="text-3xl font-bold">Major-related courses</h1>
-    </div>
-
-    <!-- Main Content -->
-    <div class="container mx-auto mt-10 px-4 text-xl">
-        <p class = "mb-3"> On this page, you will find my resume:  
-          <a class="link-page" href="https://cristian9217.pythonanywhere.com/">
-            View My Resume
-          </a>
-        </p>
-      
-        <p class="mb-6">I graduated in May 2025 with a master’s degree in Computer Science, 
-          specializing in Knowledge Discovery and Data Mining, with an emphasis on Big Data.</p>
-      
-         <ul class="space-y-6">
-          <!-- Card 1: CECS6010 -->
-          <li class="border rounded-lg p-6 shadow-lg">
-            <p>
-              Write a Python <i class="fa-brands fa-python"></i> program (<code>main.py</code>) 
-              analyzes various sorting algorithms, including Insertion Sort, Merge Sort and Quick 
-              Sort. It compares Binary Search with Sequential Search in terms of speed and 
-              effectiveness. It determines the order of growth for a give recurrence using the 
-              Master Theorem. Calculates large power efficiently with Binary Exponentiation. 
-              It calculates large powers efficiently using Binary Exponentiation (both 
-              left-to-right and right-to-left methods). It also uses Horspool's Algorithm for 
-              word and integer searches.
-            </p>
-            <ul class="list-disc pl-6 mt-4">
-              <li><b>CECS 6010 - Advanced Design and Analysis of Algorithms</b></li>
-            </ul>
-            <a href="CECS6010/" class="link-course"> See Code </a>
-          </li>
-        </ul>
-    </div>
-    
-    <div class="container mx-auto mt-10 px-4 text-xl">
-      <p class="mb-6">My graduation date was May 2023, when I graduated with a 
-          Bachelor's degree in Computer Science.</p>
-
-      <ul class="space-y-6">
-        <!-- Card 1: SICI4997 -->
-        <li class="border rounded-lg p-6 shadow-lg">
-          <p>
-            Convert the database that you have created into a CSV File for Data Science Study. 
-            Write a Python <i class="fa-brands fa-python"></i> (<code>ModalityStudent.py</code>) 
-            and R (<code>modalityStudent.R</code>) program that reads a CSV file and answers 
-            the following questions.
-          </p>
-          <ul class="list-disc pl-6 mt-4">
-            <li><b>SICI 4030 - Database Program Development</b></li>
-            <li><b>MATE 3026 - Introduction Statistics with Computers</b></li>
-            <li><b>SICI 4997 - Special Topics and Emerging Technologies</b></li>
-          </ul>
-          <a href="SICI4997/" class="link-course"> See Code </a>
-        </li>
-
-        <!-- Card 2: SICI4036 -->
-        <li class="border rounded-lg p-6 shadow-lg">
-          <p>
-            Write a Java <i class="fa-brands fa-java"></i> program for the class of a <b>Stack</b> 
-            and <b>Queue</b> using the implementation of linked lists that handles integers. 
-            Also a <b>binary search tree</b> class that handles integers. There will be an interface 
-            class for each class that implements the following methods: <i>add, remove, isEmpty, 
-            size, sum, average, minimum, maximum, linearSearch, sumOfSquares, count odd or even 
-            numbers, and count the number of times the element appears in the list</i>.
-          </p>
-          <ul class="list-disc pl-6 mt-4">
-            <li><b>SICI 4036 - Data Structures</b></li>
-          </ul>
-          <a href="SICI4036/" class="link-course"> See Code </a>
-        </li>
-
-        <!-- Card 3: COTI3102 -->
-        <li class="border rounded-lg p-6 shadow-lg">
-          <p>
-            Write a Java <i class="fa-brands fa-java"></i> program (<code>EmployeePayroll.java</code>) 
-            that reads a file of employees (<code>employees.txt</code>) and creates another file with 
-            their ID, full name, department, and weekly salary.
-          </p>
-          <ul class="list-disc pl-6 mt-4">
-            <li><b>COTI 3102 - Algorithms and Program Development II</b></li>
-          </ul>
-          <a href="COTI3102/" class="link-course"> See Code </a>
-        </li>
+    <head>
+        <title>Major-related Courses</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
-      </ul>
-    </div>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        
+        <style>
+            .link-course {
+                background-color: #3b82f6;
+                color: white;
+                padding: 0.5rem 1rem;
+                border-radius: 0.5rem;
+                display: block;
+                text-align: center;
+                margin-top: 1.5rem;
+                text-decoration: none;
+                transition: background-color 0.3s;
+            }
+            .link-course:hover { background-color: #2563eb; }
+            .link-page {
+                color: #3b82f6;
+                font-weight: 600;
+                text-decoration: none;
+                transition: text-decoration 0.2s ease-in-out;
+            }
+        </style>
+    </head>
+    <body style="font-family: Times New Roman">
 
-    <!-- Footer -->
-    <footer class="bg-gray-100 text-center py-6 mt-10 border-t border-gray-300">
-        <div class="text-gray-700 space-y-2">
-            <p>&copy; <script>document.write(new Date().getFullYear());</script> Cristian Pagan</p>
-            <p>Master’s in Computer Science | Data Analyst | Web Developer</p>
-            <p>
-              <a class="text-blue-600 hover:underline" href="mailto:cristianmiguel10@gmail.com">Email Me</a> | 
-              <a class="text-blue-600 hover:underline" href="https://www.linkedin.com/in/cristian-p-978623263/" target="_blank">LinkedIn</a>
-            </p>
-      </div>
-    </footer>
-    <!-- End of the Footer -->
-    
-  </body>
+        <!-- Navbar -->
+        <nav class="bg-gray-800 fixed top-0 w-full shadow-lg z-50">
+            <div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+                <a href="#" class="text-white text-lg font-bold">Cristian's Page</a>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <div class="bg-gray-100 text-center py-12 mt-12">
+            <i class="fa-solid fa-laptop text-4xl"></i>
+            <h1 class="text-3xl font-bold">Major-related courses</h1>
+        </div>
+
+        <!-- Main content -->
+        <main class="max-w-screen-xl mx-auto px-6 pb-6 mt-6">
+
+            <!-- Quick Links -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-semibold mb-4">Quick Links</h2>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="https://cristian9217.pythonanywhere.com/" class="link-page">View Resume</a>
+                    </li>
+                    <li>
+                        <a href="#masters" class="link-page">Master`s Courses</a>
+                    </li>
+                    <li>
+                        <a href="#bachelors" class="link-page">Bachelor`s Courses</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Case Study Section -->
+            <section id="case-study" class="mb-12">
+                <h2 class="text-2xl font-semibold mb-4">Case Study</h2>
+                <div class="border rounded-lg p-6 shadow-lg">
+                    <p class = "mb-3">
+                        Explore a detailed case study demonstrating practical applications of the 
+                        concepts and algorithms learned in my courses. Includes Python, Java and R 
+                        implementations along with data analysis examples.
+                    </p>
+                    <a href="../articulos" class="link-course">Go to Case Study</a>
+                </div>
+            </section>
+
+            <!-- Masters -->
+            <section id="masters" class="mb-12">
+                <p class="mb-6">I graduated in May 2025 with a master`s degree in Computer Science, 
+                    specializing in Knowledge Discovery and Data Mining, with an emphasis on Big Data.</p>
+                <ul class="space-y-6">
+                    <li class="border rounded-lg p-6 shadow-lg">
+                        <p>
+                            Write a Python <i class="fa-brands fa-python"></i> program (<code>main.py</code>) 
+                            that analyzes various sorting algorithms, including Insertion Sort, Merge Sort and 
+                            Quick Sort. It compares Binary Search with Sequential Search in terms of speed and 
+                            effectiveness. Determines the order of growth for a given recurrence using the 
+                            Master Theorem. Calculates large powers efficiently using Binary Exponentiation. 
+                            It also uses Horspool's Algorithm for word and integer searches.
+                        </p>
+                        <ul class="list-disc pl-6 mt-4">
+                            <li><b>CECS 6010 - Advanced Design and Analysis of Algorithms</b></li>
+                        </ul>
+                        <a href="CECS6010/" class="link-course">See Code</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Bachelors -->
+            <section id="bachelors" class="mb-12">
+                <p class="mb-6">My graduation date was May 2023, when I graduated with a Bachelor's 
+                    degree in Computer Science.</p>
+                <ul class="space-y-6">
+                    <li class="border rounded-lg p-6 shadow-lg">
+                        <p>
+                            Convert the database that you have created into a CSV file for Data Science 
+                            Study. Write a Python <i class="fa-brands fa-python"></i> 
+                            (<code>ModalityStudent.py</code>) and R (<code>modalityStudent.R</code>) 
+                            program that reads a CSV file and answers the following questions.
+                        </p>
+                        <ul class="list-disc pl-6 mt-4">
+                            <li>
+                                <b>SICI 4030 - Database Program Development</b>
+                            </li>
+                            <li>
+                                <b>MATE 3026 - Introduction Statistics with Computers</b>
+                            </li>
+                            <li>
+                                <b>SICI 4997 - Special Topics and Emerging Technologies</b>
+                            </li>
+                        </ul>
+                        <a href="SICI4997/" class="link-course">See Code</a>
+                    </li>
+
+                    <li class="border rounded-lg p-6 shadow-lg">
+                        <p>
+                            Write a Java <i class="fa-brands fa-java"></i> program for the class of
+                            a <b>Stack</b> and <b>Queue</b> using linked lists that handle integers. 
+                            Also a <b>binary search tree</b> class that handles integers. Each class 
+                            has an interface implementing methods: <i>add, remove, isEmpty, size, 
+                            sum, average, minimum, maximum, linearSearch, sumOfSquares, count odd or 
+                            even numbers, and count the number of times an element appears</i>.
+                        </p>
+                        <ul class="list-disc pl-6 mt-4">
+                            <li>
+                                <b>SICI 4036 - Data Structures</b>
+                            </li>
+                        </ul>
+                        <a href="SICI4036/" class="link-course">See Code</a>
+                    </li>
+
+                    <li class="border rounded-lg p-6 shadow-lg">
+                        <p>
+                            Write a Java <i class="fa-brands fa-java"></i> program 
+                            (<code>EmployeePayroll.java</code>) that reads a file of employees 
+                            (<code>employees.txt</code>) and creates another file with their ID, 
+                            full name, department and weekly salary.
+                        </p>
+                        <ul class="list-disc pl-6 mt-4">
+                            <li>
+                                <b>COTI 3102 - Algorithms and Program Development II</b>
+                            </li>
+                        </ul>
+                        <a href="COTI3102/" class="link-course">See Code</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-100 text-center py-6 mt-10 border-t border-gray-300">
+            <div class="text-gray-700 space-y-2">
+                <p>&copy; <script>document.write(new Date().getFullYear());</script> Cristian Pagan</p>
+                <p>Master’s in Computer Science | Data Analyst | Web Developer</p>
+                <p class="text-blue-600">
+                    <a href="mailto:cristianmiguel10@gmail.com">Email Me</a> | 
+                    <a href="https://www.linkedin.com/in/cristian-p-978623263/" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </footer>
+
+    </body>
 </html>
