@@ -1,192 +1,201 @@
+<!-- 
+    File: index.html
+    Author: Cristian M. Pagan
+    Date: February 19, 2026
+    Purpose: This project uses an enum Department and an 
+    Employee class to process payroll data from a file 
+    and write the results to another file.
+-->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title> File of Employees in Language Java </title>
-		
-		<!-- Icon -->
-		<link rel="icon" href="https://i.blogs.es/8d2420/650_1000_java/1366_2000.png">
-		
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <!-- Page title that appears in the browser tab -->
+        <title> File of Employees in Language Java </title>
+        <meta charset="utf-8">
 
-		<!-- Tailwind CSS CDN -->
- 		<script src="https://cdn.tailwindcss.com"></script>
-	</head>
-	<body>
-		<!-- Navigation bar -->
-		<nav class="bg-gray-800 fixed top-0 w-full shadow-lg">
-			<div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
-				<a href="#" class="text-white text-lg font-bold">Cristian's Page</a>
-				<ul class="flex space-x-4 text-white">
-					<li><a href="../course.html" class="hover:text-gray-400">Home</a></li>
-					<li><a href="#" class="text-gray-400 cursor-not-allowed">Java</a></li>
-				</ul>
-			</div>
-		</nav>
+        <!-- Favicon that appears in the browser tab and bookmarks -->
+        <link rel="icon" href="https://i.blogs.es/8d2420/650_1000_java/1366_2000.png">
 
-		<!-- Title of the Project and name of the course -->
-		<div class="bg-blue-600 text-white text-center py-12 mt-12">
-			<h1 class="text-3xl font-semibold mb-4">Final Homework: File of Employees</h1>
-			<p class="text-lg">COTI 3102 - Algorithms and Program Development II</p>
-		</div>
+        <!-- Viewport settings for responsive design -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Tailwind CSS framework included via CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body style="font-family: Times New Roman;">
+        <!-- Navigation bar -->
+        <nav class="bg-gray-800 fixed top-0 w-full shadow-lg">
+            <div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+                <a href="#" class="text-white text-lg font-bold">Cristian's Page</a>
+                <ul class="flex space-x-4 text-white">
+                    <li><a href="../course.html" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#" class="text-gray-400 cursor-not-allowed">Java</a></li>
+                </ul>
+            </div>
+        </nav>
 
-		<!-- Full Content of the Page -->
-		<div class="container mx-auto py-8 grid grid-cols-1 md:grid-cols-3 gap-4 px-2">
+        <!-- Title -->
+        <header class="bg-blue-600 text-white text-center py-12 mt-12">
+            <h1 class="text-4xl font-bold mb-4">File of Employees Using Java</h1>
+            <p class="text-md">COTI 3102 - Algorithms and Program Development II</p>
+        </header>
 
-			<!-- Left Sidebar -->
-			<aside class="space-y-5 mb-8">
-				<h3 class="text-xl font-semibold">IDE</h3>
-				<p class="mt-4 text-lg">Requirements:</p>
-				<ul class="space-y-3 text-lg">
-					<li>
-						<a href="https://eclipseide.org/" class="text-blue-600 hover:text-blue-500">
-							Eclipse IDE for Java Developers
-						</a>
-					</li>
-				</ul>
-				<hr>
-				<h3 class="text-xl font-semibold">Files</h3>
-				<p class="mt-4 text-lg">For this project:</p>
-				<ul class="space-y-2 text-lg">
-					<li>
-						<a class="text-blue-600 hover:underline" href="https://raw.githubusercontent.com/cristian9217/
-							cristian9217/default/courses/coti3102/employee.txt">employee.txt
-						</a>
-					</li>
-				</ul>
-			</aside>
+        <!-- Main Article Container -->
+        <main class="max-w-4xl mx-auto px-3 py-12 space-y-6">
+            
+            <!-- Breadcrumb -->
+            <nav class="bg-gray-200 px-4 py-3 rounded-md">
+                <ul class="flex space-x-2 text-sm text-gray-700">
+                    <li>
+                        <a href="../course.html" class="text-blue-600">
+                            Major-related courses
+                        </a>
+                    </li>
+                    <li>/</li>
+                    <li class="text-gray-700 font-semibold">
+                        COTI 3102
+                    </li>
+                </ul>
+            </nav>
 
-			<!-- Main Content -->
-			<div class="col-span-2 space-y-6">
-				<!-- Breadcrumb -->
-				<ul class="flex space-x-4 text-sm text-gray-600">
-					<li>
-						<a href="../course.html" class="hover:text-blue-600">
-							Major-related courses
-						</a>
-					</li>
-					<li>
-						<span class="text-gray-600">/</span>
-					</li>
-					<li>
-						<span class="text-blue-600 font-bold">COTI 3102</span>
-					</li>
-				</ul>
-				
-				<!-- Definition: Java -->
-				<p class="text-lg mt-4">Java is a high-level object-oriented programming language with 
-					portable, secure, and platform-independent desktop, web, mobile, and corporate 
-					development applications.</p>
-				<hr>
+            <!-- Introduction -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">Introduction</h2>
+                <p>
+                    Java is a high-level and object-oriented programming language widely 
+                    used in academia and industry. This project applies Java concepts 
+                    such as classes, enumerations, encapsulation and file handling 
+                    to simulate a company's payroll system.
+                </p>
+            </section>
+            
+            <!-- Abstract -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">Abstract</h2>
+                <p> 
+                    This project demonstrates the implementation of an employee payroll 
+                    system using Java. It employs enumerations, object-oriented principles, 
+                    file input/output operations and validation techniques. Employee data 
+                    is read from a text file, weekly salaries are computed and a formatted 
+                    payroll output file is generated.</p>
+            </section>
 
-				<!-- Problem -->
-				<h2 class="text-2xl font-bold">Problem</h2>
-				<p class="mt-4 text-lg">In package <i>edu.uprb.company</i>, place an enumerated 
-					type named <b>Department</b> with the following values:</p>
-				<ul class="list-disc pl-6 space-y-2 text-lg">
-				<li>SALE – for Budget</li>
-				<li>MKTG – for Marketing</li>
-				<li>HMRS – for Human Resources</li>
-				<li>FINA – for Finance</li>
-				<li>INTE – for Information Technology</li>
-				</ul>
-				
-				<p class="text-lg mt-4">2. In package <i>edu.uprb.company</i> place an class named 
-				<b>Employee</b> that holds the following data for a company employee:</p>
-				<ul class="list-disc pl-6 space-y-2 text-lg">
-					<li><b>id</b> – an integer between 1000 and 9999. This should be a final field.</li>
-					<li><b>name</b> – a string with one uppercase letter and, at most, nine more 
-						lowercase letters; <i>default value = "John"</i>.</li>
-					<li><b>lastName</b> – a string with one uppercase letter and, at most, nine more 
-						lowercase letters; <i>default value = "Doe"</i>.</li>
-					<li><b>department</b> – a Department; <i>default value = FINA</i>.</li>
-					<li><b>hours</b> – hours worked during the week an integer between 0 and 60; 
-						<i>default value = 40</i>.</li>
-					<li><b>payRate</b> – a floating-point number between 7.00 and 50.00;
-						<i>default value = 8.25</i>.</li>
-				</ul>
+            <!-- Methodology -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">Methodology</h2>
+                <p>
+                    Imagine a mid-sized company that needs to manage employee payroll 
+                    efficiently. The HR department receives weekly work reports from 
+                    all employees and must calculate salaries accurately. 
+                </p>
 
-				<p class="mt-4 text-lg"> This class must have the following methods: </p>
-				<ul class="list-disc pl-6 space-y-2 text-lg">
-					<li>A fully parameterized constructor and a constructor that receives 
-						only the employee ID.</li>
-					<li>Setters and getters for each field. Since the employee ID is final, 
-						only a getter must be provided for this field.</li>
-					<li>Constructors and setters must not allow an invalid ID value or an invalid 
-						name format by throwing an <i>IllegalArgumentException</i> with the 
-						appropriate message.</li>
-					<li>A <i>weeklySalary</i> method that, when implemented by an class, returns the 
-						weekly salary of the employee.</li>
-					<li>A <i>toString</i> method that returns a string representation of the 
-						employee. Each field should have the appropriate label and format.</li>
-				</ul>
+                <h3 class="text-xl font-semibold mt-6 mb-2">Department Enumeration</h3>
+                <p> An enumeration named <b>Department</b> defines constant values 
+                    representing company departments:</p>
+                <ul class="list-disc pl-6 mt-2 space-y-1">
+                    <li>SALE - Budget</li>
+                    <li>MKTG - Marketing</li>
+                    <li>HMRS - Human Resources</li>
+                    <li>FINA - Finance</li>
+                    <li>INTE - Information Technology</li>
+                </ul>
 
-				<p class="mt-4 text-lg"> 3. Since a class diagram for the classes in package <i>edu.uprb.company</i> 
-					was not provided, you must generate one using the <u>ObjectAid UML Explorer for Eclipse</u>. 
-					Save this diagram as file <b>EmployeeClassDiagram.jpg</b> in your project. </p>
-					
-				<p class="mt-4 text-lg"> 4. In package <i>edu.uprb.company</i> place an application 
-					<b>EmployeePayroll</b> that reads a file of employees (<a href = "https://raw.githubusercontent.com/
-					cristian9217/cristian9217/default/courses/coti3102/employee.txt">employee.txt</a>) 
-					and create another file that writes their data with the appropriate format, including 
-					their weekly salary. </p>
-				<hr>
+                <h3 class="text-xl font-semibold mt-6 mb-2">Employee Class</h3>
+                <p>
+                    The Employee class encapsulates employee attributes: ID, name, 
+                    last name, department, hours worked and pay rate. Constructors 
+                    and setters include validation rules, throwing 
+                    <i>IllegalArgumentException</i> for invalid inputs.
+                </p>
 
-				<!-- Solution -->
-				<h2 class="text-2xl font-bold"> Solution </h2>				
-				<ol class="list-decimal pl-6 space-y-2 text-lg">
-					<li> Enumeration (<i>enum</i>) typed named <b>Department</b>: 
-						<a href="java/Department.java" class="text-blue-600 hover:text-blue-500">
-							Department.java
-						</a>
-					</li>
-					<li> Class named <b>Employee</b>: 
-						<a href="java/Employee.java" class="text-blue-600 hover:text-blue-500">
-							Employee.java
-						</a>
-					</li>
-					<li> <b>Employee</b> Class Diagram: 
-						<a href="images/EmployeeClassDiagram.jpg" class="text-blue-600 hover:text-blue-500">
-							EmployeeClassDiagram.jpg
-						</a>
-					</li>
-					<li> Application of Input/Output File <b>EmployeePayroll</b>: 
-						<a href="java/EmployeePayroll.java" class="text-blue-600 hover:text-blue-500">
-							EmployeePayroll.java
-						</a>
-					</li>
-				</ol>
-				
-				<!-- Images -->
-				<div class="text-center mt-8">
-					<img src="images/EmployeeClassDiagram.jpg" class="mx-auto w-4/5 h-auto mt-8">
-					<p class="text-xl my-2"><b>Figure 1</b> - Employee Class Diagram</p>
-			
-					<img src="images/employeeFile.jpg" class="mx-auto w-4/5 h-auto mt-8">
-					<p class="text-xl my-2"><b>Figure 2</b> - Employee.txt with data</p>
-			
-					<img src="images/payrollOutput.jpg" class = "mx-auto w-4/5 h-auto mt-8">
-					<p class="text-xl my-2"><b>Figure 3</b> - Output of the program <b>EmployeePayroll</b></p>
-			
-					<img src="images/payrollFile.jpg" class="mx-auto w-4/5 h-auto mt-8">
-					<p class="text-xl my-2"><b>Figure 4</b> - Payroll.txt with result data</p>
-				</div>
+                <h3 class="text-xl font-semibold mt-6 mb-2">File Processing</h3>
+                <p>
+                    The EmployeePayroll application reads employee data from an 
+                    external file and generates a payroll output file with computed 
+                    weekly salaries. The input file <b>employee.txt</b> can be accessed 
+                    <a href="employee.txt" class="text-blue-600" target="_blank">here</a>.
+                </p>
+            </section>
 
-				<hr>
+            <!-- Results -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">Results</h2>
+                <p>
+                    The application successfully validates employee data, calculates weekly 
+                    salaries and produces a formatted output file. UML diagrams illustrate 
+                    class structure and relationships.
+                </p>
 
-				<!-- Conclusion -->
-				<h2 class="text-2xl font-semibold">Conclusion</h2>
-				<p class="text-lg mt-4">Finally, Java's support for class, enumerations, and I/O files 
-				enhances the language's versatility and popularity in software development. Java classes 
-				promote code reuse and modular design by encapsulating data and behavior. Enumerations 
-				define constants, improving readability and reducing invalid values. Java's I/O file handling 
-				facilitates efficient file management, making it ideal for large data applications.</p>
-			</div>
-		</div>
-		
-		<!-- Footer -->
-		<footer class="bg-gray-800 text-white py-4 text-center mt-8">
-			<p>&copy; (2021) Cristian M. Pag&aacute;n</p>
-		</footer>
-	</body>
+                <ul class="list-disc pl-6 space-y-3 text-lg my-3">
+                    <li>
+                        <a href="java/Department.java" class="text-blue-600">
+                            Department.java
+                        </a>
+                    </li>
+                    <li>
+                        <a href="java/Employee.java" class="text-blue-600">
+                            Employee.java
+                        </a>
+                    </li>
+                    <li>
+                        <a href="java/EmployeePayroll.java" class="text-blue-600">
+                            EmployeePayroll.java
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/EmployeeClassDiagram.jpg" class="text-blue-600">
+                            EmployeeClassDiagram.jpg
+                        </a>
+                    </li>
+                </ul>
+
+                <img src="images/EmployeeClassDiagram.jpg" class="mx-auto w-3/4 h-auto mt-8 border">
+                <p class="text-center text-sm mt-2"><b>Figure 1.</b> Employee Class Diagram</p>
+
+                <img src="images/employeeFile.jpg" class="mx-auto w-3/4 h-auto mt-8 border">
+                <p class="text-center text-sm mt-2"><b>Figure 2.</b> Employee.txt with sample data</p>
+
+                <img src="images/payrollOutput.jpg" class="mx-auto w-3/4 h-auto mt-8 border">
+                <p class="text-center text-sm mt-2"><b>Figure 3.</b> Output of EmployeePayroll program</p>
+
+                <img src="images/payrollFile.jpg" class="mx-auto w-3/4 h-auto mt-8 border">
+                <p class="text-center text-sm mt-2"><b>Figure 4.</b> Payroll.txt with computed salaries</p>
+            </section>
+
+            <!-- Conclusion -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">Conclusion</h2>
+                <p>
+                    This project demonstrates how Java supports modular and maintainable 
+                    design through classes and enumerations. File I/O handling enables 
+                    efficient processing of large datasets. Proper validation, structured 
+                    coding and documentation are essential for reliable software development.
+                </p>
+            </section>
+
+            <!-- References -->
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">References</h2>
+                <ol class="list-none space-y-3 pl-6">
+                    <li>
+                        Oracle. Java Documentation. 
+                        <a href="https://docs.oracle.com/en/java/" class="text-blue-600">
+                            https://docs.oracle.com/en/java/
+                        </a>
+                    </li>
+                    <li>
+                        ObjectAid UML Explorer for Eclipse. 
+                        <a href="https://www.objectaid.com/" class="text-blue-600">
+                            https://www.objectaid.com/
+                        </a>
+                    </li>
+                </ol>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-4 text-center mt-8">
+            <p>&copy; 2021 Cristian M. Pag&aacute;n</p>
+        </footer>
+    </body>
 </html>
