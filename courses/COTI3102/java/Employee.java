@@ -45,8 +45,10 @@ public class Employee
 	 * @param name The name of this employee
 	 * @param lastName The last name of this employee
 	 * @param department The department of this employee
+	 * @param hours Hours worked in the week (0-60)
+	 * @param payRate Hourly pay rate (7.00 - 50.00)
 	 */
-	public Employee(int id, String name, String lastName, Department departament, 
+	public Employee(int id, String name, String lastName, Department department, 
 					int hours, double payRate) 
 	{	
 		if(id < 1000 || id > 9999)
@@ -55,7 +57,7 @@ public class Employee
 		
 		setName(name);
 		setLastName(lastName);
-		setDepartment(departament);
+		setDepartment(department);
 		setHours(hours);
 		setPayRate(payRate);
 	}
@@ -236,3 +238,4 @@ public class Employee
 		throw new IllegalArgumentException(message);
 	}
 }
+
