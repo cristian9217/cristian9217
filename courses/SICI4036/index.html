@@ -1,155 +1,236 @@
+<!-- 
+    File: index.html
+    Author: Cristian M. Pagan
+    Date: February 19, 2026
+    Purpose: Educational overview of linked data structures.
+-->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Final Homework: Data Structures</title>
-		
-		<!-- Icon -->
-		<link rel="icon" href="https://miro.medium.com/v2/resize:fit:350/1*E0BzSIgWfPpZCOu-EuyNfQ.png">
-		
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!-- Tailwind CSS CDN -->
-		<script src="https://cdn.tailwindcss.com"></script>
-		
-		<!-- Internal Style CSS -->
-		<style>
-			* { font-family: Times New Roman; }
-			.link { color: #3b82f6; text-decoration: none; }
-			.link:hover { text-decoration: underline; }
-		</style>
-	</head>
-	<body>
-		<!-- Navigation bar -->
-		<nav class="bg-gray-800 fixed top-0 w-full shadow-lg">
-			<div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
-				<a href="#" class="text-white text-lg font-bold">Cristian's Page</a>
-				<ul class="flex space-x-4 text-white">
-					<li><a href="../course.html" class="hover:text-gray-400">Home</a></li>
-					<li><a href="#" class="text-gray-400 cursor-not-allowed">Java</a></li>
-				</ul>
-			</div>
-		</nav>
+    <head>
+        <!-- Page title that appears in the browser tab -->
+        <title>Final Homework: Data Structures</title>
+        <meta charset="UTF-8">
+        
+        <!-- Favicon that appears in the browser tab and bookmarks -->
+        <link rel="icon" href="https://miro.medium.com/v2/resize:fit:350/1*E0BzSIgWfPpZCOu-EuyNfQ.png">
+        
+        <!-- Viewport settings for responsive design -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Title of the Project and name of the course -->
-		<div class="bg-blue-600 text-white text-center py-12 mt-12">
-			<h1 class="text-3xl font-semibold mb-4">Final Homework: Data Structures</h1>
-			<p class="text-lg">SICI 4036 - Data Structures</p>
-		</div>
-		
-		<!-- Full Content of the Page -->
-		<div class="container mx-auto py-8 gap-4 px-1">
-		
-			<!-- Breadcrumb -->
-			<ul class="flex space-x-4 text-sm text-gray-600">
-				<li>
-					<a href="../course.html" class="hover:text-blue-600">
-						Major-related courses
-					</a>
-				</li>
-				<li>
-					<span class="text-gray-600">/</span>
-				</li>
-				<li>
-					<span class="text-blue-600 font-bold">SICI 4036</span>
-				</li>
-			</ul>	
+        <!-- Tailwind CSS framework included via CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
 
-			<!-- IDE -->
-			<h2 class="text-2xl font-bold mt-4">IDE</h2>
-			<p class="text-lg my-2">Requirements:</p>
-			<ul class="text-lg space-y-3 mb-8">
-				<li>
-					<a href="http://www.eclipse.org/downloads/" class="text-blue-500 hover:underline">
-						Eclipse IDE for Java Developers
-					</a>
-				</li>
-				<li>
-					<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"
-						class="text-blue-500 hover:underline">Java Development Kit (JDK)</a>
-				</li>
-			</ul>
-			<hr>
-		
-			<!-- Diagram -->
-			<h2 class="text-2xl text-center font-bold mt-4">Diagram</h2>
-			<p class="text-lg my-3">The image contains a Java class diagram 
-				illustrating <b>IntLinkedStack, IntLinkedQueue and 
-				IntBinarySearchTree</b>, along with their corresponding 
-				interfaces: <b>IntStack, IntQueue and IntBST</b>.</p>
-			<img src="img/diagram.jpg" class="w-full mx-auto">
-			
-			<p class="text-lg my-2">Write a Java program using the Interface 
-				provided to create the class of <b>Stack</b>, <b>Queue</b>, 
-				and <b>Binary Search Tree (BST)</b> using a linked list 
-				for integer numbers.</p>
-			<ul class="list-disc text-lg ml-8 mb-4 space-y-2">
-				<li>Add</li>
-				<li>Remove</li>
-				<li>isEmpty</li>
-				<li>size</li>
-				<li>sum</li>
-				<li>average</li>
-				<li>minimum</li>
-				<li>maximum</li>
-				<li>linearSearch</li>
-				<li>sumOfSquares</li>
-				<li>Count odd elements</li>
-				<li>Count even elements</li>
-				<li>Count occurrences of an element</li>
-			</ul>
-			<hr>
-			
-			<!-- Solution -->
-			<h2 class="text-2xl font-bold mt-4 mb-4">Solution</h2>
-			<p> The <b>IntLinkedQueue</b> uses nodes to store integers in 
-				a linked list, following the FIFO (First-In-First-Out) 
-				principle for enqueue and dequeue operations. The 
-				<b>IntLinkedStack</b> employs nodes in a linked list, to 
-				the LIFO (Last-In-First-Out) principle for push and 
-				pop operations. The <b>IntBinarySearchTree</b> organizes 
-				nodes in a hierarchical structure, ensuring efficient 
-				insertion, deletion, and search operations using the 
-				binary search property. The app <b>LinkedDataStructure</b>
-				is a Java application that shows how linked data 
-				structures are used.</p>
-				
-			<ol class="list-decimal text-lg space-y-3 ml-8">
-				<li>Queue Implementation: 
-					<a href="java/IntLinkedQueue.java" class="link">
-						IntLinkedQueue.java</a>, 
-					<a href="java/IntQueue.java" class="link">
-						IntQueue.java</a>
-				</li>
-				<li>Stack Implementation: 
-					<a href="java/IntLinkedStack.java" class="link">
-						IntLinkedStack.java</a>, 
-					<a href="java/IntStack.java" class="link">
-						IntStack.java
-					</a>
-				</li>
-				<li>BST Implementation: 
-					<a href="java/IntBST.java" class="link">
-						IntBST.java</a>, 
-					<a href="java/IntBinarySearchTree.java" class="link">
-						IntBinarySearchTree.java</a>
-				</li>
-				<li> Application: 
-					<a href="java/LinkedDataStructureApp.java" class="link">
-						LinkedDataStructureApp.java
-					</a>
-				</li>
-				<li> <span class="font-bold">Exception Handling:</span>
-					<a href="java/EmptyCollectionException.java" class="link">
-						EmptyCollectionException.java
-					</a>
-				</li>
-			</ol>
-		</div>
+        <!-- General styles for the website -->
+        <style>
+            /* Apply Times New Roman font to all elements */
+            * {
+                font-family: 'Times New Roman';
+            }
+        </style>
+    </head>
+    <body class="text-lg">
+        <!-- Navigation bar -->
+        <nav class="bg-gray-800 fixed top-0 w-full shadow-lg">
+            <div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+                <a href="#" class="text-white text-lg font-bold">Cristian's Page</a>
+                <ul class="flex space-x-4 text-white">
+                    <li><a href="../course.html" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#" class="text-gray-400 cursor-not-allowed">Java</a></li>
+                </ul>
+            </div>
+        </nav>
 
-		<footer class="bg-gray-800 text-white py-4 text-center mt-8">
-			<p>&copy; (2021) Cristian M. Pag&aacute;n</p>
-		</footer>
-	</body>
+         <!-- Title -->
+        <header class="bg-blue-600 text-white text-center py-12 mt-12">
+            <h1 class="text-4xl font-bold mb-4">Final Homework: Data Structures</h1>
+            <p class="text-md">SICI 4036 - Data Structures</p>
+        </header>
+
+        <!-- Article Content -->
+        <main class="max-w-4xl mx-auto px-3 py-12 space-y-6">
+            
+            <!-- Breadcrumb -->
+            <nav class="bg-gray-200 px-4 py-3 rounded-md">
+                <ul class="flex space-x-2 text-gray-700">
+                    <li>
+                        <a href="../course.html" class="text-blue-600">
+                            Major-related courses
+                        </a>
+                    </li>
+                    <li>/</li>
+                    <li class="text-gray-700 font-semibold">
+                        SICI 4036
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Introduction -->
+            <section>
+                <h2 class="text-2xl font-bold mb-2">Introduction</h2>
+                <p>
+                    This article explains how to implement fundamental data structures in Java: 
+                    <b>Stacks</b>, <b>Queues</b> and <b>Binary Search Trees (BSTs)</b>. These 
+                    structures help efficiently organize, search and manipulate integer data.
+                </p>
+            </section>
+
+            <!-- IDE Section -->
+            <section>
+                <h2 class="text-2xl font-bold mb-2">IDE Requirements</h2>
+                <p class = "mb-3">To practice these data structures, you need:</p>
+                <ul class="list-disc list-inside space-y-3">
+                    <li>
+                        <a href="http://www.eclipse.org/downloads/" class="text-blue-600">
+                            Eclipse IDE for Java Developers
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" class="text-blue-600">
+                            Java Development Kit (JDK)
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Diagram Section -->
+            <section>
+                <h2 class="text-2xl font-bold mb-2">Diagram</h2>
+                <p class="mb-2">
+                    The diagram shows a Java class structure with <b>IntLinkedStack, 
+                    IntLinkedQueue, IntBinarySearchTree</b> and their interfaces: 
+                    <b>IntStack, IntQueue, IntBST</b>.
+                </p>
+                <img src="img/diagram.jpg" class="w-full mx-auto mb-2" alt="Class Diagram">
+            </section>
+
+            <!-- Assignment Details -->
+            <section>
+                <h2 class="text-2xl font-bold mb-2">Assignment Details</h2>
+                <p>
+                    These methods are commonly implemented in stacks, queues and BSTs 
+                    to manage and analyze integer data:
+                </p>
+                <ul class="list-disc pl-6 space-y-2 my-2">
+                    <li>
+                        <b>add:</b> Inserts a new integer into the structure.
+                    </li>
+                    <li>
+                        <b>remove:</b> Deletes an element of the data structure.
+                    </li>
+                    <li>
+                        <b>peek:</b> Returns the element from the data structure.
+                    </li>
+                    <li>
+                        <b>isEmpty:</b> Checks if the structure contains no elements.
+                    </li>
+                    <li>
+                        <b>size:</b> Returns the number of elements in the structure.
+                    </li>
+                    <li>
+                        <b>sum:</b> Calculates the sum of all stored integers.
+                    </li>
+                    <li>
+                        <b>average:</b> Computes the mean value of the elements.
+                    </li>
+                    <li>
+                        <b>minimum:</b> Finds the smallest integer.
+                    </li>
+                    <li>
+                        <b>maximum:</b> Finds the largest integer.
+                    </li>
+                    <li>
+                        <b>linearSearch:</b> Searches for a given integer and returns its index.
+                    </li>
+                    <li>
+                        <b>sumOfSquares:</b> Calculates the sum of the squares of all elements.
+                    </li>
+                    <li>
+                        <b>count:</b> Counts the occurrences of a specific integer.
+                    </li>
+                    <li>
+                        <b>countEven:</b> Counts how many integers are even.
+                    </li>
+                    <li>
+                        <b>countOdd:</b> Counts how many integers are odd.
+                    </li>
+                </ul>
+                <p>
+                    Understanding these methods helps you implement efficient operations, 
+                    perform calculations and traverse data structures effectively.
+                </p>
+            </section>
+
+            <!-- Data Structure Details -->
+            <section>
+                <h2 class="text-2xl font-bold mb-2">Data Structure Implementations</h2>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>
+                        <b>Queue:</b> Follows <i>FIFO</i>: first in, first out. 
+                        Useful for scheduling tasks.
+                    </li>
+                    <li>
+                        <b>Stack:</b> Follows <i>LIFO</i>: last in, first out. 
+                        Useful for undo operations and recursion.
+                    </li>
+                    <li>
+                        <b>Binary Search Tree:</b> Organizes data hierarchically 
+                        for efficient insertion, deletion and search.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Example Application -->
+            <section>
+                <h2 class="text-2xl font-bold mb-2">Example Application</h2>
+                <p class="mb-2">
+                    The <b>LinkedDataStructureApp.java</b> demonstrates the usage of linked 
+                    stacks, queues and BSTs. Try running it and observe how integers are 
+                    added, removed and processed.
+                </p>
+                <ol class="list-decimal list-inside space-y-3">
+                    <li>Queue Implementation: 
+                        <a href="java/IntLinkedQueue.java" class="text-blue-600">
+                            IntLinkedQueue.java</a>, 
+                        <a href="java/IntQueue.java" class="text-blue-600">
+                            IntQueue.java</a>
+                    </li>
+                    <li>Stack Implementation: 
+                        <a href="java/IntLinkedStack.java" class="text-blue-600">
+                            IntLinkedStack.java</a>, 
+                        <a href="java/IntStack.java" class="text-blue-600">
+                            IntStack.java</a>
+                    </li>
+                    <li>BST Implementation: 
+                        <a href="java/IntBST.java" class="text-blue-600">
+                            IntBST.java</a>, 
+                        <a href="java/IntBinarySearchTree.java" class="text-blue-600">
+                            IntBinarySearchTree.java</a>
+                    </li>
+                    <li>Application: 
+                        <a href="java/LinkedDataStructureApp.java" class="text-blue-600">
+                            LinkedDataStructureApp.java</a>
+                    </li>
+                    <li>Exception Handling: 
+                        <a href="java/EmptyCollectionException.java" class="text-blue-600">
+                            EmptyCollectionException.java</a>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Conclusion -->
+            <section>
+                <h2 class="text-2xl font-bold mb-2">Conclusion</h2>
+                <p>
+                    Mastering these linked data structures strengthens algorithmic 
+                    thinking, improves problem-solving skills and demonstrates the 
+                    power of abstraction in Java programming.
+                </p>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-4 text-center mt-8">
+            <p>&copy; 2021 Cristian M. Pagán</p>
+        </footer>
+    </body>
 </html>
-
