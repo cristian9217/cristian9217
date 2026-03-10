@@ -1,9 +1,9 @@
 """
-Module Name: binary_exponentiation.py
-Description: A Python module implementing left-to-right 
-and right-to-left binary exponentiation techniques.
-Author: Cristian M. Pagan
-Date: February 14, 2024
+    Module Name: binary_exponentiation.py
+    Description: A Python module implementing left-to-right 
+    and right-to-left binary exponentiation techniques.
+    Author: Cristian M. Pagan
+    Date: February 14, 2024
 """
 
 class BinaryExponentiation: 
@@ -65,18 +65,18 @@ def main():
         # Return to the Main Menu.
         if choice == '1':
             return
-        # Apply the left-to-right binary exponentation.
         elif choice == '2':
+            # Apply the left-to-right binary exponentation.
             try:
                 num = int(input("Enter the number n: "))
-
+                
                 binaryLeft = BinaryExponentiation(n = num)
                 print(str(binaryLeft))
                 binaryLeft.left_right_binary_exponentiation()
             except ValueError as e:
                 print(f"Invalid input! {e}")    
-        # Apply the right-to-left binary exponentation.
         elif choice == '3':
+            # Apply the right-to-left binary exponentation.
             try:
                 num = int(input("Enter the number n: "))
 
@@ -85,6 +85,5 @@ def main():
                 binaryRight.right_left_binary_exponentiation()
             except ValueError as e:
                 print(f"Invalid input! {e}")    
-        # When user do not select the right option.
         else:
             print("Invalid choice! Please enter a valid option.")
