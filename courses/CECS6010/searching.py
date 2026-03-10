@@ -1,10 +1,10 @@
 """
-Module Name: searching.py
-Description: A Python module implementing searching 
-algorithms such as Binary Search for average case, 
-worst case adn comparing linear and binary search. 
-Author: Cristian M. Pagan
-Date: February 14, 2024
+    Module Name: searching.py
+    Description: A Python module implementing searching 
+    algorithms such as Binary Search for average case, 
+    worst case adn comparing linear and binary search. 
+    Author: Cristian M. Pagan
+    Date: February 14, 2024
 """
 
 import math
@@ -169,42 +169,36 @@ class BinaryVsSequentialSearch:
         exponent (int): The exponent used to compute the size.
     """
     def __init__(self, base, exponent):
-        self.base = self.setBase(base)
-        self.exponent = self.setExponent(exponent)
+        self.setBase(base)
+        self.setExponent(exponent)
     
     def setBase(self, base):
         """ Validates and sets the base number for search calculations. 
         If the base is less than or equal to 0, it defaults to 10."""
         base = int(base)
-        if base > 0:
-            return base
-        else: 
-            return 10
+        self.base = base if base > 0 else 10
     
     def setExponent(self, exponent):
         """ Validates and sets the exponent for search calculations. 
         If the exponent is less than or equal to 0, it defaults to 5."""
         exponent = int(exponent)
-        if exponent > 0:
-            return exponent
-        else:
-            return 5
+        self.exponent = exponent if exponent > 0 else 5
         
     def getNumber(self):
         """ Computes the size of the search space using the 
-        formula `base^(exponent - 1)`. """
-        return self.base ** (self.exponent - 1)
+        formula `base^(exponent)`. """
+        return self.base ** (self.exponent)
                     
     def get_sequential_average(self):
         """ Returns the average number of comparisons 
         for Sequential Search (O(n). """
-        return self.getNumber()
+        return self.getNumber() / 2
 
     def get_binary_average(self):
         """ Returns the average number of comparisons for 
         Binary Search (O(log n)) by calculating the logarithm 
         of the base to the base 2."""
-        return math.log(self.base, 2)
+        return math.log(self.getNumber(), 2)
 
     def average(self):
         """ Computes and returns the ratio of the average number 
@@ -214,7 +208,34 @@ class BinaryVsSequentialSearch:
         results = (linear / binary)
         return round(results / 1000) * 1000
 
+
+def get_numbers_from_user():
+    """
+        Prompts the user to enter numbers separated by commas and 
+        returns them as a list of non-negative integers.
+    """
+
+    user_input = input("Enter numbers separated by commas:")
+    try:
+        numbers = [int(num.strip()) for num in user_input.split(',')]
+        if any(num < 0 for num in numbers):
+            print(f"Invalid input: {numbers} (negative numbers are not allowed)")
+            return []
+        return numbers
+    except ValueError:
+        print("Invalid input! Please enter only numbers.")
+        return []
+
 def main():
+    """ 
+        Displays a menu for selecting searching algorithm analyses.
+
+        Options:
+            2. Analyze Binary Search (average-case scenario)
+            3. Analyze Binary Search (worst-case scenario)
+            4. Compare Binary Search vs Sequential Search
+    """
+
     while True: 
         print("\nMenu of Searching Algorithms:")
         print("1. Return to the Main Menu")
@@ -230,16 +251,7 @@ def main():
             arr_num = []
             
             print("\nAverage-case scenario in successful search...")
-            user_input = input("Enter numbers separated by commas: ")
-            try:
-                numbers = [int(num.strip()) for num in user_input.split(',')]
-
-                if any(num < 0 for num in numbers):
-                    print(f"Invalid input: {numbers}")
-                else:
-                    arr_num.extend(numbers)
-            except ValueError:
-                print("Invalid input! Please enter only numbers.")
+            arr_num = get_numbers_from_user()
             
             search = ArraySearching(arr_num)
             print(f"\nThe array is: {search}")
@@ -250,16 +262,7 @@ def main():
             arr_num = []
             
             print("\nWorst-case scenario in unsuccessful search...")
-            user_input = input("Enter numbers separated by commas: ")
-            try:
-                numbers = [int(num.strip()) for num in user_input.split(',')]
-
-                if any(num < 0 for num in numbers):
-                    print(f"Invalid input: {numbers}")
-                else:
-                    arr_num.extend(numbers)
-            except ValueError:
-                print("Invalid input! Please enter only numbers.")
+            arr_num = get_numbers_from_user()
 
             search = ArraySearching(arr_num)
             print(f"\nThe array is: {search}")
