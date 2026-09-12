@@ -17,7 +17,7 @@ Projects include data analysis, web page development (frontend and backend) and 
 ------------------------------------------------------------------
 
 ### 🛠 Skills
-- **Programming & Data:** Python, SQL, R, JavaScript  
+- **Programming & Data:** C++, Python, SQL, R, JavaScript  
 - **Web Development:** HTML, CSS, PHP, MySQL
 - **Data Visualization & Analytics:** Tableau, Power BI, Pandas, Matplotlib
 
