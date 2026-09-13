@@ -1,15 +1,18 @@
-Hi, I'm Cristian Pagan
-University Instructor | Computer Science | C++ | Software Development
+# Hi, I'm Cristian Pagan
 
-I am a Computer Science Instructor at Universidad Ana G. Méndez, where I teach and mentor students in programming, computer systems, and software development.
+## University Instructor | Computer Science | C++ | Software Development
 
-My teaching focuses on developing strong programming, problem-solving, analytical, and software engineering skills through practical and theoretical learning.
+I am a **Computer Science Instructor** at Universidad Ana G. Méndez, where I teach students in 
+programming, computer systems, and software development.
 
-Courses I Teach
-- Programming Logic — C++
-- Computer Science Programming II — C++
-- Computer Organization and Architecture
-- Systems Analysis and Design
+My teaching focuses on developing strong programming, problem-solving, analytical and software 
+engineering skills through practical and theoretical learning.
 
-Technical Areas
+## Courses I Teach
+- COSC 131 - Programming Logic — C++
+- COSC 235 - Computer Organization and Architecture
+- COSC 240 - Computer Science Programming II — C++
+- COSC 340 - Systems Analysis and Design
+
+## Technical Areas
 - Programming: C++
