@@ -1,6 +1,8 @@
 # 👋 Welcome to My GitHub! 
 
-Hi, I am Cristian Pagan, currently seeking opportunities in Data Analyst, Software Developer and Web Developer. I am passionate about transforming data into meaningful insights and developing impactful applications.
+Hi, I am Cristian Pagan, currently an Instructor at Universidad Ana G. Méndez, where I teach courses in Computer Science and Programming. 
+I instruct students in C++ through Programming Logic and Computer Science Programming II, as well as Organization and Architecture of 
+Computers and Systems Analysis and Design.
 
 Projects include data analysis, web page development (frontend and backend) and software development.
 
