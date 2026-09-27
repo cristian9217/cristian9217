@@ -6,13 +6,8 @@ Los ejercicios utilizan ciclos `while`, `do-while` y `for`.
 
 ## Ejercicios
 
-### `countdown.cpp`
-
-Cuenta regresivamente del 10 al 1 utilizando un ciclo `while`.
-
-### `even_numbers.cpp`
-
-Muestra los números pares del 2 al 10 utilizando un ciclo `while`.
+- `countdown.cpp`: Cuenta regresivamente del 10 al 1 utilizando un ciclo `while`.
+- `even_numbers.cpp`: Muestra los números pares del 2 al 10 utilizando un ciclo `while`.
 
 ### `multiplication_table.cpp`
 
