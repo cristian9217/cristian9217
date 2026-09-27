@@ -10,7 +10,7 @@ practical and theoretical learning.
 ## Courses I Teach
 - [COSC 131 - Programming Logic — C++](COSC131/)
 - COSC 235 - Computer Organization and Architecture
-- COSC 240 - Computer Science Programming II — C++
+- [COSC 240 - Computer Science Programming II — C++](COSC240/)
 - COSC 340 - Systems Analysis and Design
 
 ## Technical Areas
