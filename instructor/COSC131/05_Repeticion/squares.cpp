@@ -26,7 +26,8 @@ int main()
     for (int numero = 1; numero <= limit; numero++)
     {
         // Muestra el número y su cuadrado.
-        cout << numero << "^2" << " = " << numero * numero << endl;
+        cout << numero << "^2" << " = ";
+        cout << numero * numero << endl;
     }
 
     // Indica que el programa terminó correctamente.
