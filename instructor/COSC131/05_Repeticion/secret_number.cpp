@@ -11,6 +11,7 @@
 
 using namespace std;
 
+// Inicia la ejecución del programa.
 int main() 
 {
     // Se declara el número secreto.
@@ -40,7 +41,7 @@ int main()
     } while (intento != numeroSecreto);
 
     // Se muestra el mensaje cuando el usuario adivina correctamente.
-    cout << "¡Felicidades! Has ganado." << endl;
+    cout << "Felicidades! Has ganado." << endl;
 
     // Indica que el programa terminó correctamente.
     return 0;
