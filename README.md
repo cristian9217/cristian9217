@@ -42,6 +42,8 @@ Projects include data analysis, web page development (frontend and backend) and 
 
 - Articulos README: [View Here](articulos/)
 
+- Instructor README: [View Here](instructor/)
+
 - New Project Page: [Check It Out](https://cristian9217.github.io/insurance-page/index.html)
 
 - Certification Courses: [Explore Here](https://es.coursera.org/)  
