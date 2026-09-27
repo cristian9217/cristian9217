@@ -8,5 +8,5 @@ Herramientas de Desarrollo
 - [Visual Studio Community 2026](https://visualstudio.microsoft.com/downloads/)
 
 Temas del Curso 
-- [Estructuras de Repetición](/05_Repeticion)
+- [Estructuras de Repetición](05_Repeticion/)
 
