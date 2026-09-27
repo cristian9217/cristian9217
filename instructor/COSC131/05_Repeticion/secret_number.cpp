@@ -11,6 +11,7 @@
 
 using namespace std;
 
+// Inicia la ejecución del programa.
 int main()
 {
     // Se declara una constante con el número secreto.
