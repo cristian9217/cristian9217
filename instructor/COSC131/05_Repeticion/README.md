@@ -14,26 +14,12 @@ Los ejercicios utilizan ciclos `while`, `do-while` y `for`.
 número positivo.
 - `sum_numbers.cpp`: Solicita 5 números y calcula la suma utilizando `while`.
 - `read_numbers.cpp`: Lee números desde un archivo y calcula el total utilizando `while`.
-
-### `secret_number.cpp`
-
-Permite al usuario intentar adivinar un número utilizando un ciclo `do-while`.
-
-### `odd_numbers_for_version.cpp`
-
-Muestra los números impares desde 1 hasta 19 utilizando un ciclo `for`.
-
-### `squares.cpp`
-
-Solicita un número `N` y muestra el cuadrado de cada número desde 1 hasta `N`.
-
-### `negative_numbers.cpp`
-
-Solicita 10 números enteros y determina cuántos son negativos utilizando `for`.
-
-### `analizar_datos.cpp`
-
-Lee números desde un archivo y genera un resumen con la cantidad, el número menor, el número mayor, la suma y el promedio.
+- `secret_number.cpp`: Permite al usuario intentar adivinar un número utilizando un ciclo `do-while`.
+- `odd_numbers_for_version.cpp`: Muestra los números impares desde 1 hasta 19 utilizando un ciclo `for`.
+- `squares.cpp`: Solicita un número `N` y muestra el cuadrado de cada número desde 1 hasta `N`.
+- `negative_numbers.cpp`: Solicita 10 números enteros y determina cuántos son negativos utilizando `for`.
+- `analizar_datos.cpp`: Lee números desde un archivo y genera un resumen con la cantidad,
+el número menor, el número mayor, la suma y el promedio.
 
 ## Repositorio
 
