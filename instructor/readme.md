@@ -8,7 +8,7 @@ strong programming, problem-solving, analytical and software engineering skills 
 practical and theoretical learning.
 
 ## Courses I Teach
-- [COSC 131 - Programming Logic — C++](/COSC-131)
+- [COSC 131 - Programming Logic — C++](COSC-131/)
 - COSC 235 - Computer Organization and Architecture
 - COSC 240 - Computer Science Programming II — C++
 - COSC 340 - Systems Analysis and Design
