@@ -8,5 +8,7 @@ Herramientas de Desarrollo
 - [Visual Studio Community 2026](https://visualstudio.microsoft.com/downloads/)
 
 Temas del Curso 
+- Input/Ouput en C++
+- Estructuras de Decision en C++
 - [Estructuras de Repetición](05_Repeticion/)
-
+- Funciones en C++
