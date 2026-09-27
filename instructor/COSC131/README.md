@@ -8,7 +8,12 @@ Herramientas de Desarrollo
 - [Visual Studio Community 2026](https://visualstudio.microsoft.com/downloads/)
 
 Temas del Curso 
+- Introducción a la Lógica de Programación
+- Introducción a C++
 - Input/Ouput en C++
-- Estructuras de Decision en C++
-- [Estructuras de Repetición](05_Repeticion/)
+- Estructuras de Decisiones en C++
+- [Estructuras de Repetición en C++](05_Repeticion/)
 - Funciones en C++
+- Tipo Enum y Namespaces en C++
+- Arreglos y Strings en C++
+- Structs en C++
