@@ -8,22 +8,12 @@ Los ejercicios utilizan ciclos `while`, `do-while` y `for`.
 
 - `countdown.cpp`: Cuenta regresivamente del 10 al 1 utilizando un ciclo `while`.
 - `even_numbers.cpp`: Muestra los números pares del 2 al 10 utilizando un ciclo `while`.
-
-### `multiplication_table.cpp`
-
-Solicita un número y muestra su tabla de multiplicar del 1 al 10 utilizando `while`.
-
-### `positive_number.cpp`
-
-Solicita números al usuario hasta que se introduzca un número positivo.
-
-### `sum_numbers.cpp`
-
-Solicita 5 números y calcula la suma utilizando `while`.
-
-### `read_numbers.cpp`
-
-Lee números desde un archivo y calcula el total utilizando `while`.
+- `multiplication_table.cpp`: Solicita un número y muestra su tabla de multiplicar del
+1 al 10 utilizando `while`.
+- `positive_number.cpp`: Solicita números al usuario hasta que se introduzca un
+número positivo.
+- `sum_numbers.cpp`: Solicita 5 números y calcula la suma utilizando `while`.
+- `read_numbers.cpp`: Lee números desde un archivo y calcula el total utilizando `while`.
 
 ### `secret_number.cpp`
 
