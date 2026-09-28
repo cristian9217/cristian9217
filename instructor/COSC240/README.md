@@ -11,6 +11,6 @@ Temas del Curso
 - Clases en C++
 - Herencia en C++
 - Punteros en C++
-- Manejo de Excepciones en C++
+- [Manejo de Excepciones en C++](05_Excepcion/)
 - Conceptos de Sobrecarga en C++
 - Material Complementario en C++
