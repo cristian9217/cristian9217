@@ -30,9 +30,17 @@ int main()
         cout << "Ingrese el dividendo: ";
         cin >> dividendo;
 
+        // Verifica si la entrada del dividendo es válida. 
+        if (cin.fail()) 
+            throw invalid_argument("Invalid entry, only numbers.");
+        
         // Solicita al usuario el número por el cual se dividirá.
         cout << "Ingrese el divisor: ";
         cin >> divisor;
+
+        // Verifica si la entrada del dividendo es válida. 
+        if (cin.fail()) 
+            throw invalid_argument("Invalid entry, only numbers.");
 
         // Verifica si el divisor es cero y lanza una expecion.
         if (divisor == 0)
