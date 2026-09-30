@@ -8,8 +8,11 @@ Los ejercicios utilizan ciclos `try`, `catch` y `throw`.
 
 - `AgeValidationApp.cpp`
 - `ArrayIndexApp.cpp`
+- `Employee.h`
+- `EmployeeApp.cpp`
+- `FileOpeningException.cpp`
 - `InputValidation.cpp`
-- `division_excepcion.cpp`
+- `DivisionExcepcion.cpp`
 
 ## Repositorio
 
