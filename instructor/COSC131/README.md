@@ -11,7 +11,7 @@ Computos de la Universidad Ana G. Méndez (UAGM).
 - Introducción a la Lógica de Programación
 - Introducción a C++
 - Input/Ouput en C++
-- Estructuras de Decisiones en C++
+- [Estructuras de Decisiones en C++](04_Decisiones/)
 - [Estructuras de Repetición en C++](05_Repeticion/)
 - Funciones en C++
 - Tipo Enum y Namespaces en C++
