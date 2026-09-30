@@ -6,7 +6,7 @@ Los ejercicios utilizan ciclos `if`, `else if`, `else` y `switch`.
 
 ## Ejercicios
 
-
+*To be updated*
 
 ## Repositorio
 
