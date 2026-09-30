@@ -6,7 +6,9 @@ Los ejercicios utilizan ciclos `try`, `catch` y `throw`.
 
 ## Ejercicios
 
-- `ArrayIndexApp.cpp` 
+- `AgeValidationApp.cpp`
+- `ArrayIndexApp.cpp`
+- `InputValidation.cpp`
 - `division_excepcion.cpp`
 
 ## Repositorio
