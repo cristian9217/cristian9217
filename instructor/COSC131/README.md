@@ -13,7 +13,7 @@ Computos de la Universidad Ana G. Méndez (UAGM).
 - Input/Ouput en C++
 - [Estructuras de Decisiones en C++](04_Decisiones/)
 - [Estructuras de Repetición en C++](05_Repeticion/)
-- [Funciones en C++](06_Funciones/)
+- [Funciones en C++](06_Funcion/)
 - Tipo Enum y Namespaces en C++
 - Arreglos y Strings en C++
 - Structs en C++
