@@ -1,8 +1,8 @@
-# COSC 131 - Estructuras de Decisiones
+# COSC 131 - Funciones en C++
 
-Esta carpeta contiene ejercicios de **estructuras de decisiones en C++**.
+Esta carpeta contiene ejercicios de **funciones en C++**.
 
-Los ejercicios utilizan ciclos `if`, `else if`, `else` y `switch`.
+Los ejercicios utilizan funciones `void`, funciones con valores de retorno y funciones `static`.
 
 ## Ejercicios
 
@@ -12,4 +12,4 @@ Los ejercicios utilizan ciclos `if`, `else if`, `else` y `switch`.
 
 Puedes encontrar todos los ejercicios en el repositorio de GitHub:
 
-[GitHub - COSC 131](https://github.com/cristian9217/cristian9217/tree/default/instructor/COSC131/04_Decisiones)
+[GitHub - COSC 131](https://github.com/cristian9217/cristian9217/tree/default/instructor/COSC131/05_Funciones)
