@@ -15,6 +15,7 @@
 
 using namespace std;
 
+// Inicia la ejecución del programa.
 int main()
 {
     // Declara el archivo de entrada.
