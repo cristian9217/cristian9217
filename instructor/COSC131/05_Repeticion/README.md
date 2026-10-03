@@ -12,6 +12,7 @@ Los ejercicios utilizan ciclos `while`, `do-while` y `for`.
 1 al 10 utilizando `while`.
 - `positive_number.cpp`: Solicita números al usuario hasta que se introduzca un
 número positivo.
+- `practica_sumas.cpp`: Permite al estudiante practicar sumas sencillas y verificar sus respuestas.
 - `sum_numbers.cpp`: Solicita 5 números y calcula la suma utilizando `while`.
 - `read_numbers.cpp`: Lee números desde un archivo y calcula el total utilizando `while`.
 - `secret_number.cpp`: Permite al usuario intentar adivinar un número utilizando un ciclo `do-while`.
