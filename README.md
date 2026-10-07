@@ -34,7 +34,7 @@ Projects include data analysis, web page development (frontend and backend) and 
 
 ### 📎 Projects & Certifications
 
-- Bio Page: [Visit Here](https://cristian9217.pythonanywhere.com/)
+<!-- - Bio Page: [Visit Here](https://cristian9217.pythonanywhere.com/) -->
   
 - GitHub Portfolio: [Visit Here](https://cristian9217.github.io/cristian9217/courses/course.html)  
 
