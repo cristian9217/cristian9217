@@ -14,7 +14,7 @@ class IntArraySearching
          * @param key The value to be searched for
          * @return index of the key if found; otherwise, -1
          */
-        static int sequentialSearch(const int arr[], int size, int key) 
+        static int sequentialSearch(int arr[], int size, int key) 
         {
             for (int idx = 0; idx < size; idx++) 
             {
@@ -35,7 +35,7 @@ class IntArraySearching
          * @return index of the key if found.
          * Otherwise, the index will be (-(insertion point) - 1)
          */
-        static int binarySearch(const int arr[], int size, int key) {
+        static int binarySearch(int arr[], int size, int key) {
             int lo = 0;
             int hi = size - 1;
     
@@ -53,5 +53,3 @@ class IntArraySearching
             return -(lo + 1);  // Key not found
         }
 };
-
-#endif
