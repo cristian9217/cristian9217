@@ -11,6 +11,10 @@ Departamento de Ciencias de Cómputos de la Universidad Ana G. Méndez (UAGM).
 - Clases en C++
 - Herencia en C++
 - Punteros en C++
-- [Manejo de Excepciones en C++](05_Excepcion/)
+- [Manejo de Excepciones en C++](04_Excepcion/)
 - Conceptos de Sobrecarga en C++
-- Material Complementario en C++
+
+## Material Complementario 
+- [Busqueda y Ordenamiento en C++](06_Algorithms/)
+- [Recursion en C++](07_Recursion/)
+- [Linked List en C++](08_LinkedList/)
