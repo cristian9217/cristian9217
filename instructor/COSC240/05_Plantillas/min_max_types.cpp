@@ -1,5 +1,5 @@
 /**
- * File: larger_types.cpp
+ * File: min_max_types.cpp
  * Author: Prof. Cristian M. Pagán
  * Course: COSC 240 - Computer Science Programming II
  * Date: 11-octubre-2026
