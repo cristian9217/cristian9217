@@ -35,7 +35,8 @@ class IntArraySearching
          * @return index of the key if found.
          * Otherwise, the index will be (-(insertion point) - 1)
          */
-        static int binarySearch(int arr[], int size, int key) {
+        static int binarySearch(int arr[], int size, int key) 
+        {
             int lo = 0;
             int hi = size - 1;
     
