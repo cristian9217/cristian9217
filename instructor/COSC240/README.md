@@ -15,6 +15,6 @@ Departamento de Ciencias de Cómputos de la Universidad Ana G. Méndez (UAGM).
 - [Conceptos de Sobrecarga en C++](05_Plantillas/)
 
 ## Material Complementario 
-- [Busqueda y Ordenamiento en C++](06_Algorithms/)
+- [Busqueda y Ordenamiento en C++](06_Algoritmos/)
 - [Recursion en C++](07_Recursion/)
 - [Linked List en C++](08_LinkedList/)
