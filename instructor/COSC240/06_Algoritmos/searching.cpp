@@ -3,10 +3,7 @@ class IntArraySearching
 {
     private:
         // Prevents instantiation of this class.
-        IntArraySearching() 
-        {
-            
-        }
+        IntArraySearching() { }
 
     public:    
         /**
