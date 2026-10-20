@@ -6,6 +6,7 @@ Esta carpeta contiene ejercicios de **busqueda y ordenamiento en C++**.
 
 - `searching.cpp`
 - `searchingApp.cpp`
+- `sorting.cpp`
 
 ## Repositorio
 
