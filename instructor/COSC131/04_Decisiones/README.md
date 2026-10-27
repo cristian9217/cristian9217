@@ -12,4 +12,4 @@ Los ejercicios utilizan ciclos `if`, `else if`, `else` y `switch`.
 
 Puedes encontrar todos los ejercicios en el repositorio de GitHub:
 
-[GitHub - COSC 131](https://github.com/cristian9217/cristian9217/tree/default/instructor/COSC131/04_Decisiones) Cambia a Funciones En C++
+[GitHub - COSC 131](https://github.com/cristian9217/cristian9217/tree/default/instructor/COSC131/04_Decisiones)
