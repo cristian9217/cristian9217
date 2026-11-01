@@ -112,19 +112,19 @@ int main()
     cout << "Caracter en la posicion 5 ([]): ";
     getCharacter(nombre, 5);
 
-    // Obtener la longitud total del string.
+    // Obtiene la longitud total de la cadena.
     getLength(nombre);
 
-    // Obtener la cantidad de caracteres del string.
+    // Obtiene la cantidad de caracteres del string.
     getSize(nombre);
 
-    // Comprobar si el string esta vacia utilizando empty().
+    // Comprueba si el string está vacía utilizando empty().
     isEmpty(nombre);
 
-    // Guarda el segundo nombre que usaremos.
+    // Guarda el segundo nombre que se utilizará.
     string nombre2 = "Jay Wheeler";
 
-    // Comparar si el string utilizando compare().
+    // Compara ambas string utilizando compare().
     compareString(nombre, nombre2);
 
     // Finaliza la ejecucion del programa.
