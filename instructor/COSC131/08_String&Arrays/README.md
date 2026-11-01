@@ -1,4 +1,3 @@
-A
 # COSC 131 - Strings y Arreglos en C++
 
 Esta carpeta contiene ejercicios de **Arrays and String en C++**.
