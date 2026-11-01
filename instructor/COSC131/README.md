@@ -15,5 +15,5 @@ Computos de la Universidad Ana G. Méndez (UAGM).
 - [Estructuras de Repetición en C++](05_Repeticion/)
 - [Funciones en C++](06_Funcion/)
 - Tipo Enum y Namespaces en C++
-- [Arreglos y Strings en C++](08_Arrays&String)
+- [Arreglos y Strings en C++](08_String&Arrays)
 - Structs en C++
