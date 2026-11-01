@@ -1,5 +1,5 @@
 /**
- * File: InsertString.cpp
+ * File: ConsultaString.cpp
  * Author: Prof. Cristian M. Pagán
  * Course: COSC 131 - Programming Logic
  * Date: 31-octubre-2026
